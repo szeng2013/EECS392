@@ -1,0 +1,1 @@
+("CMOS:/\tCMOS Inverter layout" (("open" (nil hierarchy "/{Inverter CMOS layout }:a"))) (((-1.2405 -0.7145) (0.614 0.6785)) "a" "Layout" 4))("CMOS:/\tCMOS Inverter schematic" (("open" (nil hierarchy "/{Inverter CMOS schematic }:a"))) (((-1.71875 -0.95625) (2.03125 1.89375)) "a" "Schematics" 0))

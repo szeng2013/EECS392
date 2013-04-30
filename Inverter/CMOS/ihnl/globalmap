@@ -1,0 +1,10 @@
+CADENCE IHNL01070
+$model
+391_tutorial/CMOS/schematic CMOS
+$endmodel
+$net
+vdd! vdd!
+gnd! gnd!
+$endnet
+$param
+$endparam

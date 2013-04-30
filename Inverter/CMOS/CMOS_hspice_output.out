@@ -1,0 +1,755 @@
+Using: /usr/bin/time -p /vol/synopsys2010/hspice_vD-2010.03-SP2/hspice/linux/hspice CMOS_layout.sp
+ ****** HSPICE -- D-2010.03-SP2 32-BIT (Aug 26 2010) linux ******               
+  Copyright (C) 2010 Synopsys, Inc. All Rights Reserved.                        
+  Unpublished-rights reserved under US copyright laws.
+  This program is protected by law and is subject to the 
+  terms and conditions of the license agreement from Synopsys.
+  Use of this program is your acceptance to be bound by the 
+  license agreement. HSPICE is the trademark of Synopsys, Inc.
+  Input File: CMOS_layout.sp                                                    
+ lic:  
+ lic: FLEXlm: v10.8 
+ lic: USER:   sjz474               HOSTNAME: alfred.ece.northwestern.edu 
+ lic: HOSTID: 1803731fd009         PID:      23957 
+ lic: Using FLEXlm license file: 
+ lic: -1@cadfs.ece.northwestern.edu 
+ lic: Checkout 1 hspice 
+ lic: License/Maintenance for hspice will expire on 15-oct-2013/2012.06 
+ lic: 1(in_use)/50(total) FLOATING license(s) on SERVER cadfs.ece.northwestern.e
+ lic:   
+ Init: read install configuration file: /vol/synopsys2010/hspice_vD-2010.03-SP2/hspice/meta.cfg
+ **warning** Warning(s) associated with encrypted block(s) were suppressed due to encrypted content.
+1****** HSPICE -- D-2010.03-SP2 32-BIT (Aug 26 2010) linux ******               
+ ******  
+ .include
+
+  ******  circuit name directory
+ circuit number to circuit name directory
+   number circuitname                     definition         multiplier
+        0 main circuit
+        1 x1.                             cmos               1.00 
+        2 x1.x_pm_cmos%in.                pm_cmos%in         1.00 
+        3 x1.x_pm_cmos%gnd!.              pm_cmos%gnd!       1.00 
+        4 x1.x_pm_cmos%vdd!.              pm_cmos%vdd!       1.00 
+        5 x1.x_pm_cmos%out.               pm_cmos%out        1.00 
+1****** HSPICE -- D-2010.03-SP2 32-BIT (Aug 26 2010) linux ******               
+ ******  
+ .include
+
+  ******  mos   model parameters tnom=  25.000 temp=  25.000 *****
+ 
+Model Name: nmos_vtg  
+
+ BSIM4 Model (Level 54)
+
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.14e-09 
+    TOXE = 1.14e-09 
+    TOXP =  1e-09 
+    TOXM = 1.14e-09 
+    DTOX = 1.4e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =    2.1 
+    XJ = 1.98e-08 
+    VSAT = 1.23e+05 
+    A0 =      1 
+    AGS =      0 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA =   0.04 
+    NSUB =  6e+16 
+    NDEP = 3.4e+18 
+    NSD =  2e+20 
+    NGATE =  3e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =      0 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-10 
+    DVTP1 =    0.1 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 =      0 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =    0.5 
+    DSUB =    0.1 
+    VTH0 = 0.4106 
+    EU =   1.67 
+    UA =  6e-10 
+    UA1 = 4.31e-09 
+    UB = 1.2e-18 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =  0.045 
+    UTE =   -1.5 
+    VOFF =  -0.13 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     80 
+    RSW =     80 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 =  0.006 
+    ETAB =      0 
+    PCLM =   0.02 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = -0.005 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 =  1e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC =   0.02 
+    BIGC = 0.0027 
+    CIGC =  0.002 
+    AIGSD =   0.02 
+    BIGSD = 0.0027 
+    CIGSD =  0.002 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =  -0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.289e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.25e+41 
+    NOIB = 3.125e+26 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+ 
+
+ 
+Model Name: pmos_vtg  
+
+ BSIM4 Model (Level 54)
+
+    MOBMOD = 0
+    BINUNIT = 1
+    PARAMCHK = 1
+    CAPMOD = 2
+    DIOMOD = 1
+    RDSMOD = 0
+    TRNQSMOD = 0
+    ACNQSMOD = 0
+    RBODYMOD = 1
+    RGATEMOD = 1
+    PERMOD = 1
+    GEOMOD = 1
+    RGEOMOD = 0
+    FNOIMOD = 1
+    TNOIMOD = 0
+    IGCMOD = 1
+    IGBMOD = 1
+    STIMOD = 0
+    VERSION =      4 
+    TOXREF = 1.3e-09 
+    TOXE = 1.26e-09 
+    TOXP =  1e-09 
+    TOXM = 1.26e-09 
+    DTOX = 2.6e-10 
+    EPSROX =    3.9 
+    CDSC =      0 
+    CDSCB =      0 
+    CDSCD =      0 
+    CIT =      0 
+    NFACTOR =   2.22 
+    XJ = 1.98e-08 
+    VSAT = 6.2e+04 
+    A0 =      1 
+    AGS =  1e-20 
+    A1 =      0 
+    A2 =      1 
+    AT = 3.3e+04 
+    KETA = -0.047 
+    NSUB =  6e+16 
+    NDEP = 2.44e+18 
+    NSD =  2e+20 
+    NGATE =  2e+20 
+    GAMMA1 =      0 
+    GAMMA2 =      0 
+    VBX =      0 
+    VBM =     -3 
+    XT = 1.55e-07 
+    K1 =    0.4 
+    KT1 =  -0.11 
+    KT1L =      0 
+    KT2 =  0.022 
+    K2 =  -0.01 
+    K3 =      0 
+    K3B =      0 
+    LPE0 =      0 
+    LPEB =      0 
+    DVTP0 =  1e-11 
+    DVTP1 =   0.05 
+    W0 = 2.5e-06 
+    DVT0 =      1 
+    DVT1 =      2 
+    DVT2 = -0.032 
+    DVT0W =      0 
+    DVT1W =      0 
+    DVT2W =      0 
+    DROUT =   0.56 
+    DSUB =    0.1 
+    VTH0 = -0.3842 
+    EU =      1 
+    UA =  2e-09 
+    UA1 = 4.31e-09 
+    UB =  5e-19 
+    UB1 = 7.61e-18 
+    UC =      0 
+    UC1 = -5.6e-11 
+    U0 =   0.02 
+    UTE =   -1.5 
+    VOFF = -0.126 
+    VOFFL =      0 
+    MINV =   0.05 
+    FPROUT =    0.2 
+    PDITS =   0.08 
+    PDITSD =   0.23 
+    PDITSL = 2.3e+06 
+    DELTA =   0.01 
+    RDSW =    155 
+    RDSWMIN =      0 
+    RDWMIN =      0 
+    RSWMIN =      0 
+    RDW =     75 
+    RSW =     75 
+    PRWG =      0 
+    PRWB =      0 
+    PRT =      0 
+    ETA0 = 0.0055 
+    ETAB =      0 
+    PCLM =   0.12 
+    PDIBLC1 =  0.001 
+    PDIBLC2 =  0.001 
+    PDIBLCB = 3.4e-08 
+    PSCBE1 = 8.14e+08 
+    PSCBE2 = 9.58e-07 
+    PVAG =  1e-20 
+    WR =      1 
+    DWG =      0 
+    DWB =      0 
+    XW =      0 
+    XWREF =      0 
+    XL = -2e-08 
+    XLREF = -2e-08 
+    B0 =      0 
+    B1 =      0 
+    ALPHA0 =  0.074 
+    ALPHA1 =  0.005 
+    AGIDL = 0.0002 
+    BGIDL = 2.1e+09 
+    CGIDL = 0.0002 
+    PHIN =      0 
+    EGIDL =    0.8 
+    AIGC = 0.01069 
+    BIGC = 0.001261 
+    CIGC = 0.0008 
+    AIGSD = 0.01069 
+    BIGSD = 0.001261 
+    CIGSD = 0.0008 
+    AIGBACC =  0.012 
+    BIGBACC = 0.0028 
+    CIGBACC =  0.002 
+    AIGBINV =  0.014 
+    BIGBINV =  0.004 
+    CIGBINV =  0.004 
+    NIGC =      1 
+    NIGBINV =      3 
+    NIGBACC =      1 
+    NTOX =      1 
+    EIGBINV =    1.1 
+    PIGCD =      1 
+    POXEDGE =      1 
+    XRCRG1 =     12 
+    TNOIA =    1.5 
+    TNOIB =    3.5 
+    NTNOI =      1 
+    XRCRG2 =      5 
+    BETA0 =     30 
+    IJTHDFWD =   0.01 
+    IJTHSFWD =   0.01 
+    IJTHDREV =  0.001 
+    IJTHSREV =  0.001 
+    XJBVD =      1 
+    XJBVS =      1 
+    BVD =     10 
+    BVS =     10 
+    VFB =   0.55 
+    GBMIN =  1e-10 
+    RBDB =     15 
+    RBPB =      5 
+    RBSB =     15 
+    RBPS =     15 
+    RBPD =     15 
+    CGSL = 2.653e-10 
+    CGDL = 2.653e-10 
+    CKAPPAS =   0.03 
+    CKAPPAD =   0.03 
+    CF = 1.267e-10 
+    CLC =  1e-07 
+    CLE =    0.6 
+    DWC =  5e-09 
+    DLC = 3.75e-09 
+    DLCIG = 3.75e-09 
+    DWJ =      0 
+    VFBCV =     -1 
+    ACDE =      1 
+    MOIN =     15 
+    NOFF =    0.9 
+    VOFFCV =   0.02 
+    DMCG =      0 
+    DMCI =      0 
+    DMDG =      0 
+    DMCGT =      0 
+    XGW =      0 
+    XGL =      0 
+    RSHG =    0.4 
+    NGCON =      1 
+    TCJ =  0.001 
+    TPB =  0.005 
+    TCJSW =  0.001 
+    TPBSW =  0.005 
+    TCJSWG =  0.001 
+    TPBSWG =  0.005 
+    SK0 =      0 
+    SK1 =      0 
+    SK2 =      0 
+    SL =  2e-06 
+    SW =  2e-06 
+    K =      0 
+    TNOM =  300.1 
+    CGSO = 1.1e-10 
+    CGDO = 1.1e-10 
+    CGBO = 2.56e-11 
+    XPART =      0 
+    RSH =      5 
+    JSS = 0.0001 
+    JSWS =  1e-11 
+    JSWGS =  1e-10 
+    PBS =      1 
+    MJS =    0.5 
+    PBSWS =      1 
+    MJSWS =   0.33 
+    CJS = 0.0005 
+    CJSWS =  5e-10 
+    NJS =      1 
+    PBSWGS =      1 
+    MJSWGS =   0.33 
+    CJSWGS =  3e-10 
+    XTIS =      3 
+    JSD = 0.0001 
+    JSWD =  1e-11 
+    JSWGD =  1e-10 
+    PBD =      1 
+    MJD =    0.5 
+    PBSWD =      1 
+    MJSWD =   0.33 
+    CJD = 0.0005 
+    CJSWD =  5e-10 
+    NJD =      1 
+    PBSWGD =      1 
+    MJSWGD =   0.33 
+    CJSWGD =  5e-10 
+    XTID =      3 
+    LMLT =      1 
+    WMLT =      1 
+    LINT = 3.75e-09 
+    LL =      0 
+    LLC =      0 
+    LLN =      1 
+    LW =      0 
+    LWC =      0 
+    LWN =      1 
+    LWL =      0 
+    LWLC =      0 
+    LMIN =      0 
+    LMAX =      1 
+    WINT =  5e-09 
+    WL =      0 
+    WLC =      0 
+    WLN =      1 
+    WW =      0 
+    WWC =      0 
+    WWN =      1 
+    WWL =      0 
+    WWLC =      0 
+    WMIN =      0 
+    WMAX =      1 
+    NOIA = 6.188e+40 
+    NOIB = 1.5e+25 
+    NOIC = 8.75e+09 
+    EM = 4.1e+07 
+    EF =      1 
+    AF =      1 
+    KF =      0 
+    TRS =      0 
+    TRD =      0 
+ 
+
+  **warning** (CMOS.pex.netlist.pex:40) Both nodes of element x1.x_pm_cmos%vdd!.c8 are connected together; Line ignored.
+ Warning:  Acde = 1 may be too small in BSIM4 model nmos_vtg with w=9e-08 l=5e-08.
+
+ Warning: (B1 + Weff) may be too small in BSIM4 model nmos_vtg with w=9e-08 l=5e-08.
+
+ Warning:  Acde = 1 may be too small in BSIM4 model pmos_vtg with w=9e-08 l=5e-08.
+
+ Warning: (B1 + Weff) may be too small in BSIM4 model pmos_vtg with w=9e-08 l=5e-08.
+
+ 
+  **warning** (CMOS.pex.netlist.pex:54) Only 1 connection at node out called in element x1.x_pm_cmos%out.r11.
+      
+ *****************************************************************
+ ******  option summary
+ ******
+ runlvl  = 3         bypass  = 2         
+  Opening plot unit= 15
+ file=CMOS_layout.pa0                                                          
+
+1****** HSPICE -- D-2010.03-SP2 32-BIT (Aug 26 2010) linux ******               
+ ******  
+ .include
+
+  ******  operating point information tnom=  25.000 temp=  25.000 *****
+ ***** operating point status is all       simulation time is     0.     
+    node    =voltage      node    =voltage      node    =voltage
+
+ +0:in      =   0.      0:out     = 898.9908m 0:vdd!    =   1.8000 
+ +1:n_gnd!_m=   1.7999  1:n_gnd!_m=   1.7999  1:n_in_c_1=  43.9673u
+ +1:n_in_c_2=  43.9508u 1:n_in_c_3=   9.9807n 1:n_in_mm0=  43.9744u
+ +1:n_in_mm1=  67.8840u 1:n_out_c_= 898.9908m 1:n_out_mm= 891.4787m
+ +1:n_out_mm= 907.5258m 1:n_vdd!_m= 111.2254u 2:1       =  45.6973u
+ +2:5       =  43.9679u 2:13      =  33.9093u 3:5       =   1.7999 
+ +3:12      =   1.7999  3:13      =   1.7999  3:14      =   1.7999 
+ +4:5       =  31.5303u 4:11      =  77.3302u 4:15      =  40.3402u
+ +4:17      =  68.5204u 5:3       = 899.6305m 5:7       = 898.3510m
+ +5:11      = 898.9908m
+
+
+ ****  voltage sources
+
+ subckt                        
+ element  0:vin      0:vvdd!   
+  volts      0.         1.8000 
+  current  379.3834n   -3.5358m
+  power      0.         6.3644m
+
+     total voltage source power dissipation=    6.3644m       watts
+
+
+
+ **** resistors
+
+ subckt   x1.x_pm_cm x1.x_pm_cm x1.x_pm_cm x1.x_pm_cm x1.x_pm_cm x1.x_pm_cm
+ element  2:r18      2:r19      2:r20      2:r21      2:r22      2:r23     
+  r value   89.3538    26.3077m   26.4680    43.3680m    4.5615    53.0400 
+  v drop   -33.8993u    9.9807n   10.0415u  -16.4531n  562.9994p   -6.5464n
+  current -379.3834n  379.3834n  379.3834n -379.3834n  123.4239p -123.4239p
+  power     12.8608p    3.7865f    3.8096p    6.2420f  6.949e-20  8.080e-19
+
+ subckt   x1.x_pm_cm x1.x_pm_cm x1.x_pm_cm x1.x_pm_cm x1.x_pm_cm x1.x_pm_cm
+ element  2:r24      2:r25      3:r11      3:r12      3:r13      3:r14     
+  r value    4.5615    58.5000   543.6920m  224.9840m  484.5000m   40.9231m
+  v drop     1.7300u  -22.1867u    3.6714n    1.5193n   -3.2717n -144.6949u
+  current  379.2599n -379.2599n    6.7528n    6.7528n   -6.7528n   -3.5358m
+  power    656.1189f    8.4145p   24.7926a   10.2594a   22.0934a  511.6088n
+
+ subckt   x1.x_pm_cm x1.x_pm_cm x1.x_pm_cm x1.x_pm_cm x1.x_pm_cm x1.x_pm_cm
+ element  3:r15      3:r16      4:r9       4:r10      4:r11      4:r12     
+  r value  224.9840m  587.5380m  522.5000m  163.3460m  628.4620m  163.3460m
+  v drop     1.5193n   -3.9675n  -28.1803u    8.8098u  -33.8952u   -8.8098u
+  current    6.7528n   -6.7528n  -53.9335u   53.9335u  -53.9335u  -53.9335u
+  power     10.2594a   26.7919a    1.5199n  475.1445p    1.8281n  475.1445p
+
+ subckt   x1.x_pm_cm x1.x_pm_cm x1.x_pm_cm x1.x_pm_cm x1.x_pm_cm x1.x_pm_cm
+ element  4:r13      5:r10      5:r11      5:r12      5:r13      5:r14     
+  r value  584.6150m   25.9362m  291.3330m  180.9510m    1.9439   180.9510m
+  v drop    31.5303u  111.0223a    0.      -639.7335u    6.8723m  639.7335u
+  current   53.9335u    4.2806f    0.        -3.5354m    3.5354m    3.5354m
+  power      1.7005n    0.         0.         2.2617u   24.2962u    2.2617u
+
+ subckt   x1.x_pm_cm
+ element  5:r15     
+  r value    2.2332 
+  v drop    -7.8954m
+  current   -3.5354m
+  power     27.9132u
+
+
+
+ **** mosfets
+
+
+ subckt   x1         x1        
+ element  1:mm1      1:mm0     
+ model    0:nmos_vtg 0:pmos_vtg
+ region       Cutoff   Saturati
+  id        -6.5464a   53.9335u
+  ibs       -3.3162f    3.1537f
+  ibd        3.5354m   -3.4815m
+  vgs       -1.7998   -67.2510u
+  vds     -892.3294m  891.3675m
+  vbs       13.9493n -111.2254u
+  vth      219.7469m -188.8934m
+  vdsat     38.1089m -331.1829m
+  vod       -2.0195   188.8262m
+  beta       3.1033m  690.9686u
+  gam eff  400.0000m  400.0000m
+  gm       161.2670a   85.9195u
+  gds       13.3849a   14.0554u
+  gmb       38.0569a    6.6149u
+  cdtot    277.6682a  321.0471a
+  cgtot    105.2830a  122.2631a
+  cstot    201.7681a  212.5278a
+  cbtot    453.7986a  440.4534a
+  cgs       20.6052a   29.2841a
+  cgd       68.2236a   92.8418a
+
+
+
+
+          ***** job concluded
+1****** HSPICE -- D-2010.03-SP2 32-BIT (Aug 26 2010) linux ******               
+ ******  
+ .include
+
+  ******  job statistics summary tnom=  25.000 temp=  25.000 *****
+ 
+ 
+ ******  Machine Information  ******
+ CPU:
+ model name	: Intel(R) Xeon(R) CPU E5-1620 0 @ 3.60GHz
+ cpu MHz	: 1200.000
+ 
+ OS:
+ Linux version 2.6.32-279.19.1.el6.x86_64 (mockbuild@x86-001.build.bos.redhat.co
+ m) (gcc version 4.4.6 20120305 (Red Hat 4.4.6-4) (GCC) ) #1 SMP Sat Nov 24 14:3
+ 5:28 EST 2012
+
+
+  ******  HSPICE Threads Information  ******
+
+  Command Line Threads Count                  :     1
+  Available CPU Count                         :     8
+  Actual Model Evaluation(Load) Threads Count :     1
+  Actual Solver Threads Count                 :     1
+
+
+  ******  Circuit Statistics  ******
+  # nodes       =      37 # elements   =      60
+  # resistors   =      25 # capacitors =      31 # inductors   =       0
+  # mutual_inds =       0 # vccs       =       0 # vcvs        =       0
+  # cccs        =       0 # ccvs       =       0 # volt_srcs   =       2
+  # curr_srcs   =       0 # diodes     =       0 # bjts        =       0
+  # jfets       =       0 # mosfets    =       2 # U elements  =       0
+  # T elements  =       0 # W elements =       0 # B elements  =       0
+  # S elements  =       0 # P elements =       0 # va device   =       0
+
+
+  ******  Runtime Statistics (seconds)  ******
+
+  analysis           time    # points   tot. iter  conv.iter
+  op point           0.00           1          21
+  transient          0.01         101         425         148 rev=        27
+  readin             0.02
+  errchk             0.00
+  setup              0.00
+  output             0.00
+
+
+           total memory used          186  kbytes
+           total cpu time            0.04 seconds
+           total elapsed time        0.27 seconds
+           job started at     15:38:55 01/22/2013
+           job ended   at     15:38:55 01/22/2013
+
+
+ lic: Release hspice token(s) 

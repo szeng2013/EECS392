@@ -1,0 +1,41 @@
+* "simulator" "HSPICE" 
+* "version" "D-2010.03-SP2 32-BIT"
+* "format" "HSP"
+* "rundate" "15:38:55 01/22/2013 "
+* "netlist" "CMOS_layout.sp "
+* "runtitle" ".include"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ in =   0.            
++ out = 898.9908m       
++ vdd! =   1.8000        
++ x1.n_gnd!_mm1_b =   1.7999        
++ x1.n_gnd!_mm1_s =   1.7999        
++ x1.n_in_c_13_p =  43.9673u       
++ x1.n_in_c_2_p =  43.9508u       
++ x1.n_in_c_3_p =   9.9807n       
++ x1.n_in_mm0_g =  43.9744u       
++ x1.n_in_mm1_g =  67.8840u       
++ x1.n_out_c_30_n = 898.9908m       
++ x1.n_out_mm0_d = 891.4787m       
++ x1.n_out_mm1_d = 907.5258m       
++ x1.n_vdd!_mm0_s = 111.2254u       
++ x1.x_pm_cmos%in.1 =  45.6973u       
++ x1.x_pm_cmos%in.5 =  43.9679u       
++ x1.x_pm_cmos%in.13 =  33.9093u       
++ x1.x_pm_cmos%gnd!.5 =   1.7999        
++ x1.x_pm_cmos%gnd!.12 =   1.7999        
++ x1.x_pm_cmos%gnd!.13 =   1.7999        
++ x1.x_pm_cmos%gnd!.14 =   1.7999        
++ x1.x_pm_cmos%vdd!.5 =  31.5303u       
++ x1.x_pm_cmos%vdd!.11 =  77.3302u       
++ x1.x_pm_cmos%vdd!.15 =  40.3402u       
++ x1.x_pm_cmos%vdd!.17 =  68.5204u       
++ x1.x_pm_cmos%out.3 = 899.6305m       
++ x1.x_pm_cmos%out.7 = 898.3510m       
++ x1.x_pm_cmos%out.11 = 898.9908m       
+***   END: Saved Operating Point ***                     

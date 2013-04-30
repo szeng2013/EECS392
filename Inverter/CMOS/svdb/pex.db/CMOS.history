@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Mon Feb  4 22:17:24 2013 " "v2011.4_35.27" "-xrc -pdb -rcc -turbo 1 /home/sjz474/Inverter/CMOS/_calibrexRC.rul_"
+"Mon Feb  4 22:17:26 2013 " "v2011.4_35.27" "-xrc -fmt -all /home/sjz474/Inverter/CMOS/_calibrexRC.rul_"
