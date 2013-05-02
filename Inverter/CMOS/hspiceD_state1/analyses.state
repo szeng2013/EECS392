@@ -1,6 +1,0 @@
-analysis(tran fields uic) nil
-analysis(tran fields DELMAX) ""
-analysis(tran fields step) "10n"
-analysis(tran fields stop) "120n"
-analysis(tran fields start) "0"
-analysis(tran fields enable) (t)

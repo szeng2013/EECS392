@@ -1,9 +1,0 @@
-# Automagically generated file: Please do not edit!
-lvs_LvsOutFile RUNDIR /home/sjz474/Inverter/CMOS
-lvs_LvsfVersion 2
-lvs_LvsInputSummary {0 0 0}
-lvs_LvsComparisonSummary {3 0 0 0}
-lvs_LvsOutFile LVS_REPORT CMOS.lvs.report
-lvs_LvsOutFile SOURCE_NETLIST /home/sjz474/Inverter/CMOS/CMOS.src.net
-lvs_LvsOutFile RULES_FILE /home/sjz474/Inverter/CMOS/_calibrexRC.rul_
-lvs_LvsRunTimes 1360037843 1360037843

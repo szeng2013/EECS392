@@ -1,9 +1,0 @@
-# Automagically generated file: Please do not edit!
-lvs_ExtfVersion 2
-lvs_ExtRunTimes 1360037841 1360037842
-lvs_ExtOutFile RUNDIR /home/sjz474/Inverter/CMOS
-lvs_ExtOutFile RULES_FILE /home/sjz474/Inverter/CMOS/_calibrexRC.rul_
-lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
-lvs_ExtInfoDfmSummary {0}
-lvs_ExtOutFile LAYOUT_NETLIST /home/sjz474/Inverter/CMOS/svdb/CMOS.sp
-lvs_ExtOutFile EXTRACTION_REPORT CMOS.lvs.report.ext
