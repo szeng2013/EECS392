@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      gms130
+HostName                       riddler.ece.northwestern.edu
+ProcessIdentifier              22764
+ProcessCreationTime_UTC        1367982131
+ProcessCreationTime_Readable   Tue May  7 22:02:11 2013 CDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/gms130/EECS392/HALF_ADDER/schematic/sch.oa.cdslck
+TimeEditLocked                 Tue May  7 22:06:29 2013 CDT
