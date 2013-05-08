@@ -1,0 +1,17 @@
+\o Program:		@(#)$CDS: libManager version 32.10 11/11/2011 13:43 (cat91amd) $
+\o Sub version:		sub-version  s008 
+\o Arguments:		-mpssession virtuoso30446 -mpshost gordon.ece.northwestern.edu 
+\o Working Directory:	gordon.ece.northwestern.edu:/home/sjz474/EECS392
+\o changeWorkingDir("/home/sjz474/EECS392") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\o Qt version: 		4.5.3
+\o Log file is "/home/sjz474/EECS392/libManager.log".
+\o Opening libManager window.
+\a nrSetCurrentWindow(cdsLibManager)
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(0 25 1676 972))
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\o libManager is exiting.
+\a exit(0)
