@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      sjz474
+HostName                       clayface.ece.northwestern.edu
+ProcessIdentifier              24551
+ProcessCreationTime_UTC        1368116754
+ProcessCreationTime_Readable   Thu May  9 11:25:54 2013 CDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/sjz474/EECS392/AND/schematic/sch.oa.cdslck
+TimeEditLocked                 Thu May  9 11:29:02 2013 CDT
