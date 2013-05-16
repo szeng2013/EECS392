@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      jwe920
+HostName                       twoface.ece.northwestern.edu
+ProcessIdentifier              31803
+ProcessCreationTime_UTC        1368721123
+ProcessCreationTime_Readable   Thu May 16 11:18:43 2013 CDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/jwe920/EECS392/KoggeStone/schematic/sch.oa.cdslck
+TimeEditLocked                 Thu May 16 11:21:01 2013 CDT
