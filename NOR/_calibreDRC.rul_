@@ -1,0 +1,27 @@
+//
+//  Rule file generated on Tue May 21 12:09:02 CDT 2013
+//     by Calibre Interactive - DRC (v2011.4_35.27)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "NOR.calibre.db"
+LAYOUT PRIMARY "NOR"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "NOR.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME NO
+DRC SUMMARY REPORT "NOR.drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/vol/eecs391/FreePDK45/ncsu_basekit/techfile/calibre/calibreDRC.rul"
+

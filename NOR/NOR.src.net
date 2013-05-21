@@ -1,0 +1,34 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  EECS392
+* Top Cell Name: NOR
+* View Name:     schematic
+* Netlisted on:  May 21 12:09:16 2013
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vdd!
++        gnd!
+
+*.PIN vdd!
+*+    gnd!
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    NOR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NOR A B Output
+*.PININFO A:I B:I Output:O
+MM1 Output A gnd! gnd! NMOS_VTG W=720.0n L=50n m=1
+MM0 Output B gnd! gnd! NMOS_VTG W=720.0n L=50n m=1
+MM3 Output B net15 vdd! PMOS_VTG W=1.56u L=50n m=1
+MM2 net15 A vdd! vdd! PMOS_VTG W=1.56u L=50n m=1
+.ENDS
+

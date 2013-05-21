@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/sjz474/EECS392/Inverter
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT Inverter.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/sjz474/EECS392/Inverter/Inverter.src.net
+lvs_LvsOutFile RULES_FILE /home/sjz474/EECS392/Inverter/_calibreLVS.rul_
+lvs_LvsRunTimes 1369155074 1369155074

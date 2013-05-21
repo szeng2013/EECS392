@@ -1,0 +1,10 @@
+CADENCE IHNL01070
+$model
+EECS392/NOR/schematic NOR
+$endmodel
+$net
+vdd! vdd!
+gnd! gnd!
+$endnet
+$param
+$endparam

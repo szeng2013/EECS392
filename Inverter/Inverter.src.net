@@ -1,0 +1,32 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  EECS392
+* Top Cell Name: Inverter
+* View Name:     schematic
+* Netlisted on:  May 21 11:51:13 2013
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vdd!
++        gnd!
+
+*.PIN vdd!
+*+    gnd!
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    Inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT Inverter In Out
+*.PININFO In:I Out:O
+MM0 Out In vdd! vdd! PMOS_VTG W=1.96u L=50n m=1
+MM1 Out In gnd! gnd! NMOS_VTG W=1.44u L=50n m=1
+.ENDS
+
