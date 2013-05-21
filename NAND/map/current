@@ -1,0 +1,25 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "NAND"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/home/jwe920/EECS392/NAND"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "EECS392/NAND/schematic" "NAND" )
+ )
+( term
+ )
+( param
+ )
+( "NAND" "ihnl/cds0/map" )
+ )
