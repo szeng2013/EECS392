@@ -1,0 +1,37 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "ADD1"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/home/nro779/cadence/391_Project/ADD1"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "Niko_Symbols/NOR/schematic" "NOR" )
+( "Niko_Symbols/NAND/schematic" "NAND" )
+( "Niko_Symbols/FA/schematic" "FA" )
+( "Niko_Symbols/INVERTER/schematic" "INVERTER" )
+( "Niko_Symbols/MUX/schematic" "MUX" )
+( "Niko_Symbols/XOR/schematic" "XOR" )
+( "391_Project/ADD1/schematic" "ADD1" )
+ )
+( term
+ )
+( param
+ )
+( "XOR" "ihnl/cds4/map" )
+( "INVERTER" "ihnl/cds2/map" )
+( "MUX" "ihnl/cds3/map" )
+( "ADD1" "ihnl/cds6/map" )
+( "NAND" "ihnl/cds1/map" )
+( "FA" "ihnl/cds5/map" )
+( "NOR" "ihnl/cds0/map" )
+ )

@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1363046058 1363046059
+lvs_ExtOutFile RUNDIR /home/gms130/cadence/391_Project/CALC
+lvs_ExtOutFile RULES_FILE /home/gms130/cadence/391_Project/CALC/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/gms130/cadence/391_Project/CALC/CALC.sp
+lvs_ExtOutFile EXTRACTION_REPORT CALC.lvs.report.ext

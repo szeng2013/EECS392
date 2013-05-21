@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/ADDER.dv
+dv_start matched
+dv_cell {ADDER} {ADDER} matched
+dv_obj_count -transformed_nets {88 88} -transformed_inst {73 73} -transformed_port {19 19}
+dv_end

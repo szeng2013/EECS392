@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1362773620 1362773621
+lvs_ExtOutFile RUNDIR /home/gms130/cadence/391_Project/ADDER
+lvs_ExtOutFile RULES_FILE /home/gms130/cadence/391_Project/ADDER/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/gms130/cadence/391_Project/ADDER/ADDER.sp
+lvs_ExtOutFile EXTRACTION_REPORT ADDER.lvs.report.ext

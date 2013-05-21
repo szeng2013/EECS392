@@ -1,0 +1,43 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "ADDER"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/home/gms130/cadence/391_Project/ADDER"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "Niko_Symbols/ADD2/schematic" "ADD2" )
+( "Niko_Symbols/ADD3/schematic" "ADD3" )
+( "Niko_Symbols/NOR/schematic" "NOR" )
+( "Niko_Symbols/NAND/schematic" "NAND" )
+( "Niko_Symbols/ADD1/schematic" "ADD1" )
+( "Niko_Symbols/FA/schematic" "FA" )
+( "Niko_Symbols/INVERTER/schematic" "INVERTER" )
+( "Niko_Symbols/MUX/schematic" "MUX" )
+( "Niko_Symbols/XOR/schematic" "XOR" )
+( "391_Project/ADDER/schematic" "ADDER" )
+ )
+( term
+ )
+( param
+ )
+( "XOR" "ihnl/cds2/map" )
+( "INVERTER" "ihnl/cds1/map" )
+( "ADDER" "ihnl/cds9/map" )
+( "MUX" "ihnl/cds4/map" )
+( "ADD1" "ihnl/cds6/map" )
+( "ADD2" "ihnl/cds7/map" )
+( "NAND" "ihnl/cds0/map" )
+( "FA" "ihnl/cds5/map" )
+( "ADD3" "ihnl/cds8/map" )
+( "NOR" "ihnl/cds3/map" )
+ )

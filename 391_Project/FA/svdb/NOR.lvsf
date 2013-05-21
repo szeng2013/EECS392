@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/gms130/cadence/Grants_Calculator_Repository/FA
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {5 0 4 0}
+lvs_LvsOutFile LVS_REPORT NOR.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/gms130/cadence/Grants_Calculator_Repository/FA/NOR.src.net
+lvs_LvsOutFile RULES_FILE /home/gms130/cadence/Grants_Calculator_Repository/FA/_calibreLVS.rul_
+lvs_LvsRunTimes 1362530487 1362530488

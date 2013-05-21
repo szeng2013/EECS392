@@ -1,0 +1,34 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Grants_Calculator_Repository
+* Top Cell Name: NOR
+* View Name:     schematic
+* Netlisted on:  Mar  5 18:41:26 2013
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL gnd!
++        vdd!
+
+*.PIN gnd!
+*+    vdd!
+
+************************************************************************
+* Library Name: Grants_Calculator_Repository
+* Cell Name:    NOR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NOR A B Output
+*.PININFO A:I B:I Output:O
+MM3 Output B gnd! gnd! NMOS_VTG W=720.0n L=50n m=1
+MM0 Output A gnd! gnd! NMOS_VTG W=720.0n L=50n m=1
+MM2 net14 B vdd! vdd! PMOS_VTG W=1.56u L=50n m=1
+MM1 Output A net14 vdd! PMOS_VTG W=1.56u L=50n m=1
+.ENDS
+

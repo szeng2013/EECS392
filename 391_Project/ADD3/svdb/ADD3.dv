@@ -1,0 +1,39 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/ADD3.dv
+dv_start unmatched
+dv_cell {ADD3} {ADD3} unmatched
+dv_obj_count -transformed_nets {32 32} -transformed_inst {22 22} -transformed_port {0 11}
+dv_discrep 1 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {GND!} { on net: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {VDD!} { on net: } -snet {VDD!} {}
+dv_discrep_line {}
+dv_discrep 3 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {A3} { on net: } -snet {A3} {}
+dv_discrep_line {}
+dv_discrep 4 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B0} { on net: } -snet {B0} {}
+dv_discrep_line {}
+dv_discrep 5 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B1} { on net: } -snet {B1} {}
+dv_discrep_line {}
+dv_discrep 6 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B2} { on net: } -snet {B2} {}
+dv_discrep_line {}
+dv_discrep 7 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B3} { on net: } -snet {B3} {}
+dv_discrep_line {}
+dv_discrep 8 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B3N} { on net: } -snet {B3N} {}
+dv_discrep_line {}
+dv_discrep 9 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {C2} { on net: } -snet {C2} {}
+dv_discrep_line {}
+dv_discrep 10 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {S0} { on net: } -snet {S0} {}
+dv_discrep_line {}
+dv_discrep 11 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {X3} { on net: } -snet {X3} {}
+dv_discrep_line {}
+dv_end

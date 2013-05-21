@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/gms130/cadence/391_Project/CALC
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {5 1 4 0}
+lvs_LvsOutFile LVS_REPORT CALC.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/gms130/cadence/391_Project/CALC/CALC.src.net
+lvs_LvsOutFile RULES_FILE /home/gms130/cadence/391_Project/CALC/_calibreLVS.rul_
+lvs_LvsRunTimes 1362969706 1362969706

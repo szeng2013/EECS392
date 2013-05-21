@@ -1,0 +1,31 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "MULT"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/home/nro779/cadence/391_Project/MULT"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "391_Project/MULT/schematic" "MULT" )
+( "Niko_Symbols/NAND/schematic" "NAND" )
+( "Niko_Symbols/INVERTER/schematic" "INVERTER" )
+( "Niko_Symbols/MUX/schematic" "MUX" )
+ )
+( term
+ )
+( param
+ )
+( "INVERTER" "ihnl/cds1/map" )
+( "MUX" "ihnl/cds2/map" )
+( "MULT" "ihnl/cds3/map" )
+( "NAND" "ihnl/cds0/map" )
+ )

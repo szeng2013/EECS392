@@ -1,0 +1,16 @@
+CADENCE IHNL01070
+$model
+Niko_Symbols/MUX/schematic MUX
+Niko_Symbols/INVERTER/schematic INVERTER
+Niko_Symbols/NOR/schematic NOR
+Niko_Symbols/XOR/schematic XOR
+391_Project/ADD1/schematic ADD1
+Niko_Symbols/FA/schematic FA
+Niko_Symbols/NAND/schematic NAND
+$endmodel
+$net
+vdd! vdd!
+gnd! gnd!
+$endnet
+$param
+$endparam

@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/nro779/cadence/391_Project/DFF
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {5 0 1 0}
+lvs_LvsOutFile LVS_REPORT DFF.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/nro779/cadence/391_Project/DFF/DFF.src.net
+lvs_LvsOutFile RULES_FILE /home/nro779/cadence/391_Project/DFF/_calibreLVS.rul_
+lvs_LvsRunTimes 1362677548 1362677548

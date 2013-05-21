@@ -1,0 +1,17 @@
+CADENCE IHNL010715
+
+Niko_Symbols NAND schematic cds0
+Niko_Symbols INVERTER schematic cds1
+Niko_Symbols DFF schematic cds2
+Niko_Symbols MUX schematic cds3
+Niko_Symbols INPUT schematic cds4
+Niko_Symbols XOR schematic cds5
+Niko_Symbols NOR schematic cds6
+Niko_Symbols FA schematic cds7
+Niko_Symbols ADD1 schematic cds8
+Niko_Symbols ADD2 schematic cds9
+Niko_Symbols ADD3 schematic cds10
+Niko_Symbols ADDER schematic cds11
+Niko_Symbols MULT schematic cds12
+Niko_Symbols OUTPUT schematic cds13
+391_Project CALC schematic cds14

@@ -1,0 +1,76 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  Grants_Calculator_Repository
+* Top Cell Name: FA
+* View Name:     schematic
+* Netlisted on:  Mar  5 18:57:50 2013
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vdd!
++        gnd!
+
+*.PIN vdd!
+*+    gnd!
+
+************************************************************************
+* Library Name: Niko_Symbols
+* Cell Name:    NAND
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NAND A B GND Output VDD
+*.PININFO A:I B:I GND:I VDD:I Output:O
+MM2 Output B VDD VDD PMOS_VTG W=1.44u L=50n m=1
+MM0 Output A VDD VDD PMOS_VTG W=1.44u L=50n m=1
+MM3 net17 B GND GND NMOS_VTG W=1.63u L=50n m=1
+MM1 Output A net17 GND NMOS_VTG W=1.63u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: Niko_Symbols
+* Cell Name:    INVERTER
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INVERTER GND Input Output VDD
+*.PININFO GND:I Input:I VDD:I Output:O
+MM0 Output Input GND GND NMOS_VTG W=1.44u L=50n m=1
+MM1 Output Input VDD VDD PMOS_VTG W=1.96u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: Niko_Symbols
+* Cell Name:    XOR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR A B GND Output VDD
+*.PININFO A:I B:I GND:I VDD:I Output:O
+XI5 A net9 GND net7 VDD / NAND
+XI7 net7 net4 GND Output VDD / NAND
+XI6 B net015 GND net4 VDD / NAND
+XI17 GND A net015 VDD / INVERTER
+XI8 GND B net9 VDD / INVERTER
+.ENDS
+
+************************************************************************
+* Library Name: Grants_Calculator_Repository
+* Cell Name:    FA
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT FA A B Cin Cout S
+*.PININFO A:I B:I Cin:I Cout:O S:O
+XI3 net14 Cin gnd! S vdd! / XOR
+XI2 A B gnd! net14 vdd! / XOR
+XI6 net14 Cin gnd! net16 vdd! / NAND
+XI5 net16 net15 gnd! Cout vdd! / NAND
+XI4 A B gnd! net15 vdd! / NAND
+.ENDS
+

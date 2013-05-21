@@ -1,0 +1,75 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.5 01/16/2012 21:51 (sjfdl235) $
+          : sub-version  IC6.1.5.500.9 
+Started at: 07-Mar-2013  12:49:53
+User Name : nro779
+Host Name : ras.ece.northwestern.edu
+Directory : /home/nro779/cadence
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/nro779/cadence/391_Project/INPUT/INPUT.calibre.db' already exists. It will be overwritten.
+INFO (XSTRM-288): The automatic layer mapping is done by StreamOut and the xStrmOut_layerMap.txt file is generated. This is because either the layer mapping is not provided or the XST_AUTO_LM value is used with the -layerMap option.
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 391_Project
+strmFile                                /home/nro779/cadence/391_Project/INPUT/INPUT.calibre.db
+topCell                                 INPUT
+view                                    layout
+runDir                                  /home/nro779/cadence/391_Project/INPUT/
+logFile                                 PIPO.LOG.INPUT
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView NCSU_TechLib_FreePDK45/M2_M1_viaC/via as STRUCTURE M2_M1_viaC
+INFO (XSTRM-223): 2. Translating cellView NCSU_TechLib_FreePDK45/M3_M2_via/via as STRUCTURE M3_M2_via
+INFO (XSTRM-223): 3. Translating cellView NCSU_TechLib_FreePDK45/M3_M2_viaB/via as STRUCTURE M3_M2_viaB
+INFO (XSTRM-223): 4. Translating cellView NCSU_TechLib_FreePDK45/M3_M2_viaC/via as STRUCTURE M3_M2_viaC
+INFO (XSTRM-223): 5. Translating cellView NCSU_TechLib_FreePDK45/M4_M3_viaB/via as STRUCTURE M4_M3_viaB
+INFO (XSTRM-223): 6. Translating cellView NCSU_TechLib_FreePDK45/M2_M1_via/via as STRUCTURE M2_M1_via
+INFO (XSTRM-223): 7. Translating cellView NCSU_TechLib_FreePDK45/M2_M1_viaB/via as STRUCTURE M2_M1_viaB
+INFO (XSTRM-223): 8. Translating cellView NCSU_TechLib_FreePDK45/M1_POLY/layout as STRUCTURE M1_POLY_0
+INFO (XSTRM-223): 9. Translating cellView 391_Project/NAND/layout as STRUCTURE NAND
+INFO (XSTRM-223): 10. Translating cellView NCSU_TechLib_FreePDK45/M1_P/layout as STRUCTURE M1_P_1
+INFO (XSTRM-223): 11. Translating cellView NCSU_TechLib_FreePDK45/M1_N/layout as STRUCTURE M1_N_2
+INFO (XSTRM-223): 12. Translating cellView NCSU_TechLib_FreePDK45/NTAP/layout as STRUCTURE NTAP_3
+INFO (XSTRM-223): 13. Translating cellView NCSU_TechLib_FreePDK45/PTAP/layout as STRUCTURE PTAP_4
+INFO (XSTRM-223): 14. Translating cellView 391_Project/INVERTER/layout as STRUCTURE INVERTER
+INFO (XSTRM-223): 15. Translating cellView 391_Project/DFF/layout as STRUCTURE DFF
+WARNING (XSTRM-145): The structure name 'NAND' has been changed to 'NAND_0' by the translator. This is because of either the multiple cells with the same cell name are present in different libraries, a cell name mapping is done to the same cell names, or cell names greater than 32 characters are used when the Respect GDSII Name Limit option is selected.
+INFO (XSTRM-223): 16. Translating cellView 391_DFF/NAND/layout as STRUCTURE NAND_0
+INFO (XSTRM-223): 17. Translating cellView 391_Project/MUX/layout as STRUCTURE MUX
+INFO (XSTRM-223): 18. Translating cellView 391_Project/INPUT/layout as STRUCTURE INPUT
+INFO (XSTRM-223): 19. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_0
+INFO (XSTRM-223): 20. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_1
+INFO (XSTRM-223): 21. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_2
+INFO (XSTRM-223): 22. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_3
+
+Summary of Objects Translated:
+	Scalar Instances:                       32
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  92
+	Rectangles:                             415
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           24
+	Custom Vias:                            85
+	Pathsegs:                               0
+	Text:                                   12
+	Cells:                                  22
+
+Elapsed Time: 1.0s   User Time: 0.4s   CPU Time: 0.1s   Peak VM: 963KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '2' warning(s) found.

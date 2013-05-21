@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Mon Mar 11 17:19:39 2013 " "v2011.4_35.27" "-xrc -pdb -rcc -turbo 1 /home/gms130/cadence/391_Project/CALC/_calibrexRC.rul_"
+"Mon Mar 11 17:19:48 2013 " "v2011.4_35.27" "-xrc -fmt -all /home/gms130/cadence/391_Project/CALC/_calibrexRC.rul_"

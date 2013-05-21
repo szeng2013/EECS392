@@ -1,0 +1,70 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/ADD1.dv
+dv_start unmatched
+dv_cell {ADD1} {ADD1} unmatched
+dv_obj_count -transformed_nets {31 31} -transformed_inst {23 23} -transformed_port {0 10}
+dv_discrep 1 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {19} {                                                    } -snet {B1} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {in1} {}
+dv_discrep_line {                                                            } -sdev {XI1/XI5/MM0} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XI1/XI5/MM1} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {18} {                                                    } -snet {B0} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v):}  {in2} {                                             ** missing connection **}
+dv_discrep_line {  } -ldev {X23/X3/M0} {} -lloc {(18.973,-3.572)} {:}  {g} {}
+dv_discrep_line {  } -ldev {X23/X2/M0} {} -lloc {(18.973,-5.397)} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 3 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {VDD!} { on net: } -snet {VDD!} {}
+dv_discrep_line {}
+dv_discrep 4 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {GND!} { on net: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep 5 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {A0N} { on net: } -snet {A0N} {}
+dv_discrep_line {}
+dv_discrep 6 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {A1} { on net: } -snet {A1} {}
+dv_discrep_line {}
+dv_discrep 7 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B0} { on net: } -snet {B0} {}
+dv_discrep_line {}
+dv_discrep 8 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B0N} { on net: } -snet {B0N} {}
+dv_discrep_line {}
+dv_discrep 9 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B1} { on net: } -snet {B1} {}
+dv_discrep_line {}
+dv_discrep 10 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {C1} { on net: } -snet {C1} {}
+dv_discrep_line {}
+dv_discrep 11 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {S0} { on net: } -snet {S0} {}
+dv_discrep_line {}
+dv_discrep 12 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {X1} { on net: } -snet {X1} {}
+dv_discrep_line {}
+dv_discrep -1 {Detailed Instance Connections}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {4} {                                                    } -sport {in2} {: } -snet {XI1/net9} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {1} {                                                    } -sport {out} {: } -snet {XI1/net7} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {10} {                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {2} {                                                   } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {18} {                                                   ** } -snet {B0} { **}
+dv_discrep_line {  ** } -lnet {19} { **                                                  } -sport {in1} {: } -snet {B1} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X23/X2/M0} {} -lloc {(18.973,-5.397)} {  MN(NMOS_VTG)                    } -sdev {XI1/XI5/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X23/X2/M1} {} -lloc {(19.163,-5.397)} {  MN(NMOS_VTG)                    } -sdev {XI1/XI5/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X23/X3/M0} {} -lloc {(18.973,-3.572)} {  MP(PMOS_VTG)                    } -sdev {XI1/XI5/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X23/X3/M1} {} -lloc {(19.163,-3.572)} {  MP(PMOS_VTG)                    } -sdev {XI1/XI5/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_end

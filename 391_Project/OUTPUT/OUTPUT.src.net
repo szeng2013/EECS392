@@ -1,0 +1,74 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  391_Project
+* Top Cell Name: OUTPUT
+* View Name:     schematic
+* Netlisted on:  Mar  9 16:20:16 2013
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vdd!
++        gnd!
+
+*.PIN vdd!
+*+    gnd!
+
+************************************************************************
+* Library Name: Niko_Symbols
+* Cell Name:    NAND
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NAND A B GND Output VDD
+*.PININFO A:I B:I GND:I VDD:I Output:O
+MM2 Output B VDD VDD PMOS_VTG W=1.44u L=50n m=1
+MM0 Output A VDD VDD PMOS_VTG W=1.44u L=50n m=1
+MM3 net17 B GND GND NMOS_VTG W=1.63u L=50n m=1
+MM1 Output A net17 GND NMOS_VTG W=1.63u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: Niko_Symbols
+* Cell Name:    INVERTER
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INVERTER GND Input Output VDD
+*.PININFO GND:I Input:I VDD:I Output:O
+MM0 Output Input GND GND NMOS_VTG W=1.44u L=50n m=1
+MM1 Output Input VDD VDD PMOS_VTG W=1.96u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: Niko_Symbols
+* Cell Name:    MUX
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT MUX A B GND Output S VDD
+*.PININFO A:I B:I GND:I S:I VDD:I Output:O
+XI5 A net9 GND net7 VDD / NAND
+XI7 net7 net4 GND Output VDD / NAND
+XI6 S B GND net4 VDD / NAND
+XI8 GND S net9 VDD / INVERTER
+.ENDS
+
+************************************************************************
+* Library Name: 391_Project
+* Cell Name:    OUTPUT
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT OUTPUT O0 O1 O2 O3 S1 X0 X1 X2 X3 Y0 Y1 Y2 Y3
+*.PININFO S1:I X0:I X1:I X2:I X3:I Y0:I Y1:I Y2:I Y3:I O0:O O1:O O2:O O3:O
+XI3 X2 Y2 gnd! O2 S1 vdd! / MUX
+XI2 X3 Y3 gnd! O3 S1 vdd! / MUX
+XI1 X1 Y1 gnd! O1 S1 vdd! / MUX
+XI0 X0 Y0 gnd! O0 S1 vdd! / MUX
+.ENDS
+

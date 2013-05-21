@@ -1,0 +1,120 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/INPUT.dv
+dv_start unmatched
+dv_cell {INPUT} {INPUT} unmatched
+dv_obj_count -transformed_nets {114 114} -transformed_inst {96 96} -transformed_port {0 38}
+dv_discrep 1 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {GND!} { on net: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {VDD!} { on net: } -snet {VDD!} {}
+dv_discrep_line {}
+dv_discrep 3 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {A0} { on net: } -snet {A0} {}
+dv_discrep_line {}
+dv_discrep 4 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {A0N} { on net: } -snet {A0N} {}
+dv_discrep_line {}
+dv_discrep 5 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {A1} { on net: } -snet {A1} {}
+dv_discrep_line {}
+dv_discrep 6 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {A1N} { on net: } -snet {A1N} {}
+dv_discrep_line {}
+dv_discrep 7 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {A2} { on net: } -snet {A2} {}
+dv_discrep_line {}
+dv_discrep 8 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {A2N} { on net: } -snet {A2N} {}
+dv_discrep_line {}
+dv_discrep 9 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {A3} { on net: } -snet {A3} {}
+dv_discrep_line {}
+dv_discrep 10 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {A3N} { on net: } -snet {A3N} {}
+dv_discrep_line {}
+dv_discrep 11 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B0} { on net: } -snet {B0} {}
+dv_discrep_line {}
+dv_discrep 12 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B00} { on net: } -snet {B00} {}
+dv_discrep_line {}
+dv_discrep 13 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B0N} { on net: } -snet {B0N} {}
+dv_discrep_line {}
+dv_discrep 14 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B1} { on net: } -snet {B1} {}
+dv_discrep_line {}
+dv_discrep 15 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B1N} { on net: } -snet {B1N} {}
+dv_discrep_line {}
+dv_discrep 16 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B2} { on net: } -snet {B2} {}
+dv_discrep_line {}
+dv_discrep 17 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B2N} { on net: } -snet {B2N} {}
+dv_discrep_line {}
+dv_discrep 18 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B3} { on net: } -snet {B3} {}
+dv_discrep_line {}
+dv_discrep 19 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B3N} { on net: } -snet {B3N} {}
+dv_discrep_line {}
+dv_discrep 20 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B10} { on net: } -snet {B10} {}
+dv_discrep_line {}
+dv_discrep 21 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B20} { on net: } -snet {B20} {}
+dv_discrep_line {}
+dv_discrep 22 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B30} { on net: } -snet {B30} {}
+dv_discrep_line {}
+dv_discrep 23 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {CLK} { on net: } -snet {CLK} {}
+dv_discrep_line {}
+dv_discrep 24 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {I0} { on net: } -snet {I0} {}
+dv_discrep_line {}
+dv_discrep 25 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {I1} { on net: } -snet {I1} {}
+dv_discrep_line {}
+dv_discrep 26 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {I2} { on net: } -snet {I2} {}
+dv_discrep_line {}
+dv_discrep 27 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {I3} { on net: } -snet {I3} {}
+dv_discrep_line {}
+dv_discrep 28 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {O0} { on net: } -snet {O0} {}
+dv_discrep_line {}
+dv_discrep 29 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {O1} { on net: } -snet {O1} {}
+dv_discrep_line {}
+dv_discrep 30 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {O2} { on net: } -snet {O2} {}
+dv_discrep_line {}
+dv_discrep 31 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {O3} { on net: } -snet {O3} {}
+dv_discrep_line {}
+dv_discrep 32 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {S0} { on net: } -snet {S0} {}
+dv_discrep_line {}
+dv_discrep 33 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {S00} { on net: } -snet {S00} {}
+dv_discrep_line {}
+dv_discrep 34 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {S0N} { on net: } -snet {S0N} {}
+dv_discrep_line {}
+dv_discrep 35 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {S1} { on net: } -snet {S1} {}
+dv_discrep_line {}
+dv_discrep 36 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {S1N} { on net: } -snet {S1N} {}
+dv_discrep_line {}
+dv_discrep 37 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {S2} { on net: } -snet {S2} {}
+dv_discrep_line {}
+dv_discrep 38 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {S10} { on net: } -snet {S10} {}
+dv_discrep_line {}
+dv_end

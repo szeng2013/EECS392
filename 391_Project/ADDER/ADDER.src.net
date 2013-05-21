@@ -1,0 +1,164 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  391_Project
+* Top Cell Name: ADDER
+* View Name:     schematic
+* Netlisted on:  Mar  8 14:13:39 2013
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL gnd!
++        vdd!
+
+*.PIN gnd!
+*+    vdd!
+
+************************************************************************
+* Library Name: Niko_Symbols
+* Cell Name:    NAND
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NAND A B GND Output VDD
+*.PININFO A:I B:I GND:I VDD:I Output:O
+MM2 Output B VDD VDD PMOS_VTG W=1.44u L=50n m=1
+MM0 Output A VDD VDD PMOS_VTG W=1.44u L=50n m=1
+MM3 net17 B GND GND NMOS_VTG W=1.63u L=50n m=1
+MM1 Output A net17 GND NMOS_VTG W=1.63u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: Niko_Symbols
+* Cell Name:    INVERTER
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INVERTER GND Input Output VDD
+*.PININFO GND:I Input:I VDD:I Output:O
+MM0 Output Input GND GND NMOS_VTG W=1.44u L=50n m=1
+MM1 Output Input VDD VDD PMOS_VTG W=1.96u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: Niko_Symbols
+* Cell Name:    XOR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR A B GND Output VDD
+*.PININFO A:I B:I GND:I VDD:I Output:O
+XI5 A net9 GND net7 VDD / NAND
+XI7 net7 net4 GND Output VDD / NAND
+XI6 B net015 GND net4 VDD / NAND
+XI17 GND A net015 VDD / INVERTER
+XI8 GND B net9 VDD / INVERTER
+.ENDS
+
+************************************************************************
+* Library Name: Niko_Symbols
+* Cell Name:    NOR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NOR A B GND Output VDD
+*.PININFO A:I B:I GND:I VDD:I Output:O
+MM3 Output B GND GND NMOS_VTG W=720.0n L=50n m=1
+MM0 Output A GND GND NMOS_VTG W=720.0n L=50n m=1
+MM2 net14 B VDD VDD PMOS_VTG W=1.56u L=50n m=1
+MM1 Output A net14 VDD PMOS_VTG W=1.56u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: Niko_Symbols
+* Cell Name:    MUX
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT MUX A B GND Output S VDD
+*.PININFO A:I B:I GND:I S:I VDD:I Output:O
+XI5 A net9 GND net7 VDD / NAND
+XI7 net7 net4 GND Output VDD / NAND
+XI6 S B GND net4 VDD / NAND
+XI8 GND S net9 VDD / INVERTER
+.ENDS
+
+************************************************************************
+* Library Name: Niko_Symbols
+* Cell Name:    FA
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT FA A B Cin Cout GND S VDD
+*.PININFO A:I B:I Cin:I GND:I VDD:I Cout:O S:O
+XI3 net14 Cin GND S VDD / XOR
+XI2 A B GND net14 VDD / XOR
+XI6 net14 Cin GND net16 VDD / NAND
+XI5 net16 net15 GND Cout VDD / NAND
+XI4 A B GND net15 VDD / NAND
+.ENDS
+
+************************************************************************
+* Library Name: Niko_Symbols
+* Cell Name:    ADD1
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT ADD1 A0N A1 B0 B0N B1 C1 GND S0 VDD X1
+*.PININFO A0N:I A1:I B0:I B0N:I B1:I GND:I S0:I VDD:I C1:O X1:O
+XI0 A0N B0N GND net18 VDD / NOR
+XI1 B1 net15 GND net17 S0 VDD / MUX
+XI2 net17 A1 net18 C1 GND X1 VDD / FA
+XI3 B1 B0 GND net15 VDD / XOR
+.ENDS
+
+************************************************************************
+* Library Name: Niko_Symbols
+* Cell Name:    ADD2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT ADD2 A2 B0 B1 B2 B2N C1 C2 GND S0 VDD X2
+*.PININFO A2:I B0:I B1:I B2:I B2N:I C1:I GND:I S0:I VDD:I C2:O X2:O
+XI0 net24 A2 C1 C2 GND X2 VDD / FA
+XI1 B2 net22 GND net24 S0 VDD / MUX
+XI2 net21 B2N GND net22 VDD / XOR
+XI3 B0 B1 GND net21 VDD / NOR
+.ENDS
+
+************************************************************************
+* Library Name: Niko_Symbols
+* Cell Name:    ADD3
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT ADD3 A3 B0 B1 B2 B3 B3N C2 GND S0 VDD X3
+*.PININFO A3:I B0:I B1:I B2:I B3:I B3N:I C2:I GND:I S0:I VDD:I X3:O
+XI4 B3N net22 GND net30 VDD / XOR
+XI2 A3 net25 GND net28 VDD / XOR
+XI0 C2 net28 GND X3 VDD / XOR
+XI3 B3 net30 GND net25 S0 VDD / MUX
+XI7 B1 B0 GND net29 VDD / NOR
+XI5 B2 net20 GND net22 VDD / NOR
+XI6 GND net29 net20 VDD / INVERTER
+.ENDS
+
+************************************************************************
+* Library Name: 391_Project
+* Cell Name:    ADDER
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT ADDER A0 A0N A1 A2 A3 B0 B0N B1 B2 B2N B3 B3N S0 X0 X1 X2 X3
+*.PININFO A0:I A0N:I A1:I A2:I A3:I B0:I B0N:I B1:I B2:I B2N:I B3:I B3N:I S0:I 
+*.PININFO X0:O X1:O X2:O X3:O
+XI0 A0 B0 gnd! X0 vdd! / XOR
+XI1 A0N A1 B0 B0N B1 net40 gnd! S0 vdd! X1 / ADD1
+XI2 A2 B0 B1 B2 B2N net40 net41 gnd! S0 vdd! X2 / ADD2
+XI3 A3 B0 B1 B2 B3 B3N net41 gnd! S0 vdd! X3 / ADD3
+.ENDS
+

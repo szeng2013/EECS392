@@ -1,0 +1,335 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         NOR.lvs.report
+LAYOUT NAME:              /home/gms130/cadence/Grants_Calculator_Repository/FA/NOR.sp ('NOR')
+SOURCE NAME:              /home/gms130/cadence/Grants_Calculator_Repository/FA/NOR.src.net ('NOR')
+RULE FILE:                /home/gms130/cadence/Grants_Calculator_Repository/FA/_calibreLVS.rul_
+RULE FILE TITLE:          LVS Rule File for FreePDK45
+CREATION TIME:            Tue Mar  5 18:41:28 2013
+CURRENT DIRECTORY:        /home/gms130/cadence/Grants_Calculator_Repository/FA
+USER NAME:                gms130
+CALIBRE VERSION:          v2011.4_35.27    Tue Jan 10 16:18:55 PST 2012
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports.
+  Error:    Different numbers of nets.
+  Error:    Different numbers of instances.
+  Error:    Connectivity errors.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      NOR                           NOR
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            element
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS" "GROUND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  YES
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             YES
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(nmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  w w 4e-09 ABSOLUTE
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports (see below).
+  Error:    Different numbers of nets (see below).
+  Error:    Different numbers of instances (see below).
+  Error:    Connectivity errors.
+
+LAYOUT CELL NAME:         NOR
+SOURCE CELL NAME:         NOR
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              0         5    *
+
+ Nets:               8         6    *
+
+ Instances:          2         2         MN (4 pins)
+                     2         2         MP (4 pins)
+                ------    ------
+ Total Inst:         4         4
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              0         5    *
+
+ Nets:               6         5    *
+
+ Instances:          0         1    *    _nor2v (5 pins)
+                     1         0    *    _smn2b (5 pins)
+                     1         0    *    _smp2b (5 pins)
+                ------    ------
+ Total Inst:         2         1
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net 4                                                     ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net 3                                                     ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net 7                                                     ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    Net 5                                                     ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    Net 2                                                     ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    Net 8                                                     ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  7    ** no similar net **                                      A
+
+--------------------------------------------------------------------------------------------------------------
+
+  8    ** no similar net **                                      B
+
+--------------------------------------------------------------------------------------------------------------
+
+  9    ** no similar net **                                      OUTPUT
+
+--------------------------------------------------------------------------------------------------------------
+
+ 10    ** no similar net **                                      GND!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 11    ** no similar net **                                      VDD!
+
+
+**************************************************************************************************************
+                                   INCORRECT PORTS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+ 12    ** missing port **                                        VDD! on net: VDD!
+ 13    ** missing port **                                        GND! on net: GND!
+ 14    ** missing port **                                        A on net: A
+ 15    ** missing port **                                        B on net: B
+ 16    ** missing port **                                        OUTPUT on net: OUTPUT
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+ 17    (_smp2b)                                                  ** missing injected instance **
+
+       Devices: 
+         M2(1.853,1.173)  MP(PMOS_VTG)
+         M3(2.042,1.173)  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 18    (_smn2b)                                                  ** missing injected instance **
+
+       Devices: 
+         M0(1.853,0.273)  MN(NMOS_VTG)
+         M1(2.042,0.273)  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 19    ** missing injected instance **                           (_nor2v)
+
+                                                                 Devices: 
+                                                                   MM2  MP(PMOS_VTG)
+                                                                   MM1  MP(PMOS_VTG)
+                                                                   MM3  MN(NMOS_VTG)
+                                                                   MM0  MN(NMOS_VTG)
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               0          0            0            5
+
+   Nets:                0          0            6            5
+
+   Instances:           0          0            0            1    _nor2v
+                        0          0            1            0    _smn2b
+                        0          0            1            0    _smp2b
+                  -------    -------    ---------    ---------
+   Total Inst:          0          0            2            1
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

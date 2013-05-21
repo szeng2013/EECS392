@@ -1,0 +1,77 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/NOR.dv
+dv_start unmatched
+dv_cell {NOR} {NOR} unmatched
+dv_obj_count -transformed_nets {6 5} -transformed_inst {2 1} -transformed_port {0 5}
+dv_discrep 1 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {4} {                                                     ** no similar net **}
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {3} {                                                     ** no similar net **}
+dv_discrep_line {}
+dv_discrep 3 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {7} {                                                     ** no similar net **}
+dv_discrep_line {}
+dv_discrep 4 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {5} {                                                     ** no similar net **}
+dv_discrep_line {}
+dv_discrep 5 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {2} {                                                     ** no similar net **}
+dv_discrep_line {}
+dv_discrep 6 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {8} {                                                     ** no similar net **}
+dv_discrep_line {}
+dv_discrep 7 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {A} {}
+dv_discrep_line {}
+dv_discrep 8 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {B} {}
+dv_discrep_line {}
+dv_discrep 9 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {OUTPUT} {}
+dv_discrep_line {}
+dv_discrep 10 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep 11 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {VDD!} {}
+dv_discrep_line {}
+dv_discrep 12 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {VDD!} { on net: } -snet {VDD!} {}
+dv_discrep_line {}
+dv_discrep 13 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {GND!} { on net: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep 14 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {A} { on net: } -snet {A} {}
+dv_discrep_line {}
+dv_discrep 15 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B} { on net: } -snet {B} {}
+dv_discrep_line {}
+dv_discrep 16 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {OUTPUT} { on net: } -snet {OUTPUT} {}
+dv_discrep_line {}
+dv_discrep 17 {Incorrect Instances}
+dv_discrep_line {(_smp2b)                                                  ** missing injected instance **}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {M2} {} -lloc {(1.853,1.173)} {  MP(PMOS_VTG)}
+dv_discrep_line {  } -ldev {M3} {} -lloc {(2.042,1.173)} {  MP(PMOS_VTG)}
+dv_discrep_line {}
+dv_discrep 18 {Incorrect Instances}
+dv_discrep_line {(_smn2b)                                                  ** missing injected instance **}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {M0} {} -lloc {(1.853,0.273)} {  MN(NMOS_VTG)}
+dv_discrep_line {  } -ldev {M1} {} -lloc {(2.042,0.273)} {  MN(NMOS_VTG)}
+dv_discrep_line {}
+dv_discrep 19 {Incorrect Instances}
+dv_discrep_line {** missing injected instance **                           (_nor2v)}
+dv_discrep_line {}
+dv_discrep_line {                                                          Devices: }
+dv_discrep_line {                                                            } -sdev {MM2} {  MP(PMOS_VTG)}
+dv_discrep_line {                                                            } -sdev {MM1} {  MP(PMOS_VTG)}
+dv_discrep_line {                                                            } -sdev {MM3} {  MN(NMOS_VTG)}
+dv_discrep_line {                                                            } -sdev {MM0} {  MN(NMOS_VTG)}
+dv_discrep_line {}
+dv_end

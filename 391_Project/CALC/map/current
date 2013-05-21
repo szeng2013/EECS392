@@ -1,0 +1,53 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "CALC"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/home/gms130/cadence/391_Project/CALC"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "Niko_Symbols/ADD2/schematic" "ADD2" )
+( "391_Project/CALC/schematic" "CALC" )
+( "Niko_Symbols/ADD3/schematic" "ADD3" )
+( "Niko_Symbols/INPUT/schematic" "INPUT" )
+( "Niko_Symbols/MULT/schematic" "MULT" )
+( "Niko_Symbols/OUTPUT/schematic" "OUTPUT" )
+( "Niko_Symbols/NOR/schematic" "NOR" )
+( "Niko_Symbols/NAND/schematic" "NAND" )
+( "Niko_Symbols/ADD1/schematic" "ADD1" )
+( "Niko_Symbols/FA/schematic" "FA" )
+( "Niko_Symbols/INVERTER/schematic" "INVERTER" )
+( "Niko_Symbols/MUX/schematic" "MUX" )
+( "Niko_Symbols/XOR/schematic" "XOR" )
+( "Niko_Symbols/ADDER/schematic" "ADDER" )
+( "Niko_Symbols/DFF/schematic" "DFF" )
+ )
+( term
+ )
+( param
+ )
+( "XOR" "ihnl/cds5/map" )
+( "INVERTER" "ihnl/cds1/map" )
+( "ADDER" "ihnl/cds11/map" )
+( "DFF" "ihnl/cds2/map" )
+( "MUX" "ihnl/cds3/map" )
+( "ADD1" "ihnl/cds8/map" )
+( "MULT" "ihnl/cds12/map" )
+( "CALC" "ihnl/cds14/map" )
+( "ADD2" "ihnl/cds9/map" )
+( "NAND" "ihnl/cds0/map" )
+( "OUTPUT" "ihnl/cds13/map" )
+( "FA" "ihnl/cds7/map" )
+( "ADD3" "ihnl/cds10/map" )
+( "NOR" "ihnl/cds6/map" )
+( "INPUT" "ihnl/cds4/map" )
+ )

@@ -1,0 +1,310 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         INPUT.lvs.report
+LAYOUT NAME:              /home/nro779/cadence/391_Project/INPUT/INPUT.sp ('INPUT')
+SOURCE NAME:              /home/nro779/cadence/391_Project/INPUT/INPUT.src.net ('INPUT')
+RULE FILE:                /home/nro779/cadence/391_Project/INPUT/_calibreLVS.rul_
+RULE FILE TITLE:          LVS Rule File for FreePDK45
+CREATION TIME:            Thu Mar  7 12:49:57 2013
+CURRENT DIRECTORY:        /home/nro779/cadence/391_Project/INPUT
+USER NAME:                nro779
+CALIBRE VERSION:          v2011.4_35.27    Tue Jan 10 16:18:55 PST 2012
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports.
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      INPUT                         INPUT
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            element
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS" "GROUND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  YES
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             YES
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(nmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  w w 4e-09 ABSOLUTE
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports (see below).
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+LAYOUT CELL NAME:         INPUT
+SOURCE CELL NAME:         INPUT
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              0        38    *
+
+ Nets:             196       196
+
+ Instances:        178       178         MN (4 pins)
+                   178       178         MP (4 pins)
+                ------    ------
+ Total Inst:       356       356
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              0        38    *
+
+ Nets:             114       114
+
+ Instances:         14        14         _invv (4 pins)
+                    82        82         _nand2v (5 pins)
+                ------    ------
+ Total Inst:        96        96
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT PORTS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    ** missing port **                                        GND! on net: GND!
+  2    ** missing port **                                        VDD! on net: VDD!
+  3    ** missing port **                                        A0 on net: A0
+  4    ** missing port **                                        A0N on net: A0N
+  5    ** missing port **                                        A1 on net: A1
+  6    ** missing port **                                        A1N on net: A1N
+  7    ** missing port **                                        A2 on net: A2
+  8    ** missing port **                                        A2N on net: A2N
+  9    ** missing port **                                        A3 on net: A3
+ 10    ** missing port **                                        A3N on net: A3N
+ 11    ** missing port **                                        B0 on net: B0
+ 12    ** missing port **                                        B00 on net: B00
+ 13    ** missing port **                                        B0N on net: B0N
+ 14    ** missing port **                                        B1 on net: B1
+ 15    ** missing port **                                        B1N on net: B1N
+ 16    ** missing port **                                        B2 on net: B2
+ 17    ** missing port **                                        B2N on net: B2N
+ 18    ** missing port **                                        B3 on net: B3
+ 19    ** missing port **                                        B3N on net: B3N
+ 20    ** missing port **                                        B10 on net: B10
+ 21    ** missing port **                                        B20 on net: B20
+ 22    ** missing port **                                        B30 on net: B30
+ 23    ** missing port **                                        CLK on net: CLK
+ 24    ** missing port **                                        I0 on net: I0
+ 25    ** missing port **                                        I1 on net: I1
+ 26    ** missing port **                                        I2 on net: I2
+ 27    ** missing port **                                        I3 on net: I3
+ 28    ** missing port **                                        O0 on net: O0
+ 29    ** missing port **                                        O1 on net: O1
+ 30    ** missing port **                                        O2 on net: O2
+ 31    ** missing port **                                        O3 on net: O3
+ 32    ** missing port **                                        S0 on net: S0
+ 33    ** missing port **                                        S00 on net: S00
+ 34    ** missing port **                                        S0N on net: S0N
+ 35    ** missing port **                                        S1 on net: S1
+ 36    ** missing port **                                        S1N on net: S1N
+ 37    ** missing port **                                        S2 on net: S2
+ 38    ** missing port **                                        S10 on net: S10
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               0          0            0           38
+
+   Nets:              114        114            0            0
+
+   Instances:          14         14            0            0    _invv
+                       82         82            0            0    _nand2v
+                  -------    -------    ---------    ---------
+   Total Inst:         96         96            0            0
+
+
+o Statistics:
+
+   8 nets were matched arbitrarily.
+
+
+o Ambiguity Resolution Points:
+
+      (Each one of the following objects belongs to a group of indistinguishable objects.
+       The listed objects were matched arbitrarily by the Ambiguity Resolution feature of LVS.
+       Arbitrary matching may be prevented by assigning names to these objects or to adjacent nets).
+
+       Layout                                                    Source
+       ------                                                    ------
+
+                                     Nets
+                                     ----
+
+       X12/5                                                     XI24/net7
+       X11/5                                                     XI26/net7
+       X14/5                                                     XI25/net7
+       X10/X1/6                                                  XI15/net5
+       X9/X1/6                                                   XI14/net5
+       X9/X0/6                                                   XI13/net5
+       X8/X1/6                                                   XI17/net5
+       X10/X0/6                                                  XI16/net5
+
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

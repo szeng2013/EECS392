@@ -1,0 +1,13 @@
+CADENCE IHNL01070
+$model
+Grants_Calculator_Repository/FA/schematic FA
+Niko_Symbols/INVERTER/schematic INVERTER
+Niko_Symbols/XOR/schematic XOR
+Niko_Symbols/NAND/schematic NAND
+$endmodel
+$net
+vdd! vdd!
+gnd! gnd!
+$endnet
+$param
+$endparam

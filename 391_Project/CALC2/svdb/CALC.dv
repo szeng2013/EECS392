@@ -1,0 +1,1778 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/CALC.dv
+dv_start unmatched
+dv_cell {CALC} {CALC} unmatched
+dv_obj_count -transformed_nets {264 249} -transformed_inst {235 235} -transformed_port {0 18}
+dv_discrep 1 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {23} {                                                    } -snet {GND!} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_invv):}  {sup2} {                                              ** missing connection **}
+dv_discrep_line {  } -ldev {X47/X21/X1/X1/X0/M0} {} -lloc {(22.992,6.888)} {:}  {b} {}
+dv_discrep_line {  } -ldev {X47/X21/X1/X1/X0/M0} {} -lloc {(22.992,6.888)} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI13/XI14/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI13/XI14/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI13/XI14/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI16/XI14/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI16/XI14/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI16/XI14/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI14/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI14/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI14/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI18/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI18/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI18/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI13/XI18/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI13/XI18/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI13/XI18/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI6/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI6/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI6/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI7/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI7/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI7/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI14/XI14/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI14/XI14/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI14/XI14/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI7/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI7/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI7/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI7/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI7/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI7/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI7/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI7/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI7/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI18/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI18/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI18/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI14/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI14/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI14/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI5/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI5/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI5/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI6/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI6/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI6/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI6/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI6/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI6/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI5/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI5/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI5/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI6/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI6/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI6/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI17/XI18/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI17/XI18/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI17/XI18/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI5/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI5/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI5/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI6/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI6/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI6/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI5/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI5/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI5/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI18/XI14/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI18/XI14/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI18/XI14/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI18/XI18/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI18/XI18/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI18/XI18/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI12/XI14/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI12/XI14/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI12/XI14/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI16/XI18/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI16/XI18/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI16/XI18/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI14/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI14/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI14/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI18/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI18/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI18/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI12/XI18/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI12/XI18/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI12/XI18/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI7/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI7/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI7/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI7/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI7/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI7/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI14/XI18/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI14/XI18/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI14/XI18/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI13/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI13/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI13/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI18/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI18/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI18/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI13/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI13/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI13/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI5/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI5/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI5/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI6/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI6/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI6/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI13/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI13/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI13/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI5/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI5/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI5/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI6/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI6/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI6/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI13/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI13/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI13/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI5/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI5/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI5/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI6/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI6/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI6/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI14/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI14/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI14/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI5/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI5/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI5/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XMULT1/XI11/XI6/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XMULT1/XI11/XI6/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XMULT1/XI11/XI6/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI7/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI7/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI7/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI7/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI7/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI7/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup2} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI17/XI14/MM3} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI17/XI14/MM1} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI17/XI14/MM1} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {22} {                                                    } -snet {VDD!} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_invv):}  {sup1} {                                              ** missing connection **}
+dv_discrep_line {  } -ldev {X47/X21/X1/X1/X1/M1} {} -lloc {(23.183,8.713)} {:}  {b} {}
+dv_discrep_line {  } -ldev {X47/X21/X1/X1/X1/M1} {} -lloc {(23.183,8.713)} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI13/XI14/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI13/XI14/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI13/XI14/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI13/XI14/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI16/XI14/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI16/XI14/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI16/XI14/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI16/XI14/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI14/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI14/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI14/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI14/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI18/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI18/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI18/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI18/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI13/XI18/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI13/XI18/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI13/XI18/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI13/XI18/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI6/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI6/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI6/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI6/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI7/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI7/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI7/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI7/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI14/XI14/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI14/XI14/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI14/XI14/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI14/XI14/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI7/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI7/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI7/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI7/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI7/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI7/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI7/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI7/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI7/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI7/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI7/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI7/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI18/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI18/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI18/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI18/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI14/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI14/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI14/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI14/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI5/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI5/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI5/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI5/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI6/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI6/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI6/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI24/XI6/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI6/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI6/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI6/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI6/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI5/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI5/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI5/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI5/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI6/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI6/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI6/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI23/XI6/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI17/XI18/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI17/XI18/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI17/XI18/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI17/XI18/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI5/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI5/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI5/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI25/XI5/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI6/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI6/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI6/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI6/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI5/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI5/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI5/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI26/XI5/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI18/XI14/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI18/XI14/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI18/XI14/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI18/XI14/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI18/XI18/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI18/XI18/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI18/XI18/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI18/XI18/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI12/XI14/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI12/XI14/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI12/XI14/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI12/XI14/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI16/XI18/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI16/XI18/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI16/XI18/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI16/XI18/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI14/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI14/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI14/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI14/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI18/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI18/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI18/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI18/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI12/XI18/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI12/XI18/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI12/XI18/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI12/XI18/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI7/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI7/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI7/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI7/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI7/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI7/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI7/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI7/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI14/XI18/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI14/XI18/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI14/XI18/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI14/XI18/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI13/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI13/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI13/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI13/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI18/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI18/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI18/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI18/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI13/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI13/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI13/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI21/XI13/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI5/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI5/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI5/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI5/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI6/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI6/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI6/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI6/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI13/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI13/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI13/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI20/XI13/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI5/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI5/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI5/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI5/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI6/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI6/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI6/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI6/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI13/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI13/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI13/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI19/XI13/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI5/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI5/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI5/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI5/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI6/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI6/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI6/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI6/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI14/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI14/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI14/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI15/XI14/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI5/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI5/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI5/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI5/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XMULT1/XI11/XI6/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XMULT1/XI11/XI6/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XMULT1/XI11/XI6/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XMULT1/XI11/XI6/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI7/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI7/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI7/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI7/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI7/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI7/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI7/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI7/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {sup1} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI17/XI14/MM2} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI17/XI14/MM2} {:}  {d} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI17/XI14/MM0} {:}  {b} {}
+dv_discrep_line {                                                            } -sdev {XINPUT1/XI17/XI14/MM0} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 3 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {29} {                                                    } -snet {net034} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {out} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI7/MM2} {:}  {s} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI7/MM0} {:}  {s} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI7/MM3} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 4 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {16} {                                                    } -snet {net35} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v):}  {out} {                                             ** missing connection **}
+dv_discrep_line {  } -ldev {X39/X11/X0/X1/M0} {} -lloc {(8.602,4.803)} {:}  {s} {}
+dv_discrep_line {  } -ldev {X39/X11/X0/X1/M1} {} -lloc {(8.793,4.803)} {:}  {s} {}
+dv_discrep_line {  } -ldev {X39/X11/X0/X0/M0} {} -lloc {(8.602,2.978)} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v):}  {in2} {                                             ** missing connection **}
+dv_discrep_line {  } -ldev {X39/X11/X1/X1/M0} {} -lloc {(9.210,4.803)} {:}  {g} {}
+dv_discrep_line {  } -ldev {X39/X11/X1/X0/M0} {} -lloc {(9.210,2.978)} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v):}  {in2} {                                             ** missing connection **}
+dv_discrep_line {  } -ldev {X47/X20/X1/X2/X1/M0} {} -lloc {(18.343,8.713)} {:}  {g} {}
+dv_discrep_line {  } -ldev {X47/X20/X1/X2/X0/M0} {} -lloc {(18.343,6.888)} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v):}  {in2} {                                             ** missing connection **}
+dv_discrep_line {  } -ldev {X47/X17/X1/X2/X1/M0} {} -lloc {(1.460,8.713)} {:}  {g} {}
+dv_discrep_line {  } -ldev {X47/X17/X1/X2/X0/M0} {} -lloc {(1.460,6.888)} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v):}  {in1} {                                             ** missing connection **}
+dv_discrep_line {  } -ldev {X42/X0/X1/M1} {} -lloc {(35.745,8.713)} {:}  {g} {}
+dv_discrep_line {  } -ldev {X42/X0/X0/M1} {} -lloc {(35.745,6.888)} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v):}  {in2} {                                             ** missing connection **}
+dv_discrep_line {  } -ldev {X42/X3/X4/X1/M0} {} -lloc {(39.093,8.713)} {:}  {g} {}
+dv_discrep_line {  } -ldev {X42/X3/X4/X0/M0} {} -lloc {(39.093,6.888)} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {(_invv):}  {in} {                                                ** missing connection **}
+dv_discrep_line {  } -ldev {X47/X21/X1/X1/X0/M0} {} -lloc {(22.992,6.888)} {:}  {g} {}
+dv_discrep_line {  } -ldev {X47/X21/X1/X1/X1/M1} {} -lloc {(23.183,8.713)} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {(_invv):}  {in} {                                                ** missing connection **}
+dv_discrep_line {  } -ldev {X42/X3/X0/M0} {} -lloc {(37.395,6.888)} {:}  {g} {}
+dv_discrep_line {  } -ldev {X42/X3/X0/M1} {} -lloc {(37.398,8.502)} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {in1} {}
+dv_discrep_line {                                                            } -sdev {XMULT1/XI11/XI6/MM0} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XMULT1/XI11/XI6/MM1} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 5 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {52} {                                                    } -snet {net77} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {in1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI5/MM0} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI5/MM1} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 6 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {5} {                                                     } -snet {O3} {}
+dv_discrep_line {                                                          } -snet {net56} {}
+dv_discrep_line {}
+dv_discrep 7 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {53} {                                                    } -snet {net71} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {in1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI5/MM0} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI5/MM1} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 8 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {X11/7} {                                                 } -snet {XOUTPUT1/XI2/net4} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v):}  {out} {                                             ** missing connection **}
+dv_discrep_line {  } -ldev {X11/X2/X1/M0} {} -lloc {(65.332,4.803)} {:}  {s} {}
+dv_discrep_line {  } -ldev {X11/X2/X1/M1} {} -lloc {(65.522,4.803)} {:}  {s} {}
+dv_discrep_line {  } -ldev {X11/X2/X0/M0} {} -lloc {(65.332,2.978)} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {out} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI6/MM2} {:}  {s} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI6/MM0} {:}  {s} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI6/MM3} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 9 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {X11/9} {                                                 } -snet {XOUTPUT1/XI2/net7} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v):}  {out} {                                             ** missing connection **}
+dv_discrep_line {  } -ldev {X11/X1/X1/M0} {} -lloc {(64.725,4.803)} {:}  {s} {}
+dv_discrep_line {  } -ldev {X11/X1/X1/M1} {} -lloc {(64.915,4.803)} {:}  {s} {}
+dv_discrep_line {  } -ldev {X11/X1/X0/M0} {} -lloc {(64.725,2.978)} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {out} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI5/MM2} {:}  {s} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI5/MM0} {:}  {s} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI5/MM3} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 10 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {X42/10} {                                                } -snet {net75} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {in1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI5/MM0} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI5/MM1} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 11 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {X47/20} {                                                } -snet {net70} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {in2} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI6/MM2} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI6/MM3} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 12 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {X47/21} {                                                } -snet {net72} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {in2} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI6/MM2} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI6/MM3} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 13 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {X47/22} {                                                } -snet {net74} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {in2} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI6/MM2} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI6/MM3} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 14 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {X47/23} {                                                } -snet {net76} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {in2} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI6/MM2} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI6/MM3} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 15 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {X47/X21/X1/9} {                                          } -snet {XMULT1/XI11/net4} {}
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_invv):}  {out} {                                               ** missing connection **}
+dv_discrep_line {  } -ldev {X47/X21/X1/X1/X0/M0} {} -lloc {(22.992,6.888)} {:}  {s} {}
+dv_discrep_line {  } -ldev {X47/X21/X1/X1/X1/M1} {} -lloc {(23.183,8.713)} {:}  {s} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {out} {}
+dv_discrep_line {                                                            } -sdev {XMULT1/XI11/XI6/MM2} {:}  {s} {}
+dv_discrep_line {                                                            } -sdev {XMULT1/XI11/XI6/MM0} {:}  {s} {}
+dv_discrep_line {                                                            } -sdev {XMULT1/XI11/XI6/MM3} {:}  {d} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 16 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {69} {                                                    } -snet {net69} {}
+dv_discrep_line {    } -lnet {70} {                                                   }
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v):}  {in1} {                                             ** unmatched connection **}
+dv_discrep_line {  } -ldev {X10/X1/X1/M1} {} -lloc {(62.590,4.803)} {:}  {g} {}
+dv_discrep_line {  } -ldev {X10/X1/X0/M1} {} -lloc {(62.590,2.978)} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v):}  {in1} {                                             ** unmatched connection **}
+dv_discrep_line {  } -ldev {X11/X1/X1/M1} {} -lloc {(64.915,4.803)} {:}  {g} {}
+dv_discrep_line {  } -ldev {X11/X1/X0/M1} {} -lloc {(64.915,2.978)} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v):}  {in1} {                                             ** unmatched connection **}
+dv_discrep_line {  } -ldev {X12/X1/X1/M1} {} -lloc {(67.240,4.803)} {:}  {g} {}
+dv_discrep_line {  } -ldev {X12/X1/X0/M1} {} -lloc {(67.240,2.978)} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v):}  {in1} {                                             ** unmatched connection **}
+dv_discrep_line {  } -ldev {X8/X1/X1/M1} {} -lloc {(60.265,4.803)} {:}  {g} {}
+dv_discrep_line {  } -ldev {X8/X1/X0/M1} {} -lloc {(60.265,2.978)} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** unmatched connection **                                (_nand2v):}  {in1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI6/MM0} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI0/XI6/MM1} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** unmatched connection **                                (_nand2v):}  {in1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI6/MM0} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI6/MM1} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** unmatched connection **                                (_nand2v):}  {in1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI6/MM0} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI2/XI6/MM1} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** unmatched connection **                                (_nand2v):}  {in1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI6/MM0} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI1/XI6/MM1} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 17 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {40} {                                                    } -snet {net73} {}
+dv_discrep_line {    } -lnet {X43/10} {                                               }
+dv_discrep_line {--------------------------                                --------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v):}  {in2} {                                             ** missing connection **}
+dv_discrep_line {  } -ldev {X8/X1/X1/M0} {} -lloc {(60.075,4.803)} {:}  {g} {}
+dv_discrep_line {  } -ldev {X8/X1/X0/M0} {} -lloc {(60.075,2.978)} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep_line {** missing connection **                                  (_nand2v):}  {in1} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI5/MM0} {:}  {g} {}
+dv_discrep_line {                                                            } -sdev {XOUTPUT1/XI3/XI5/MM1} {:}  {g} {}
+dv_discrep_line {}
+dv_discrep_line {}
+dv_discrep 18 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {49} {                                                    } -snet {net036} {}
+dv_discrep_line {    } -lnet {31} {                                                   }
+dv_discrep_line {}
+dv_discrep 19 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {46} {                                                    } -snet {net039} {}
+dv_discrep_line {    } -lnet {35} {                                                   }
+dv_discrep_line {}
+dv_discrep 20 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {43} {                                                    } -snet {net038} {}
+dv_discrep_line {    } -lnet {33} {                                                   }
+dv_discrep_line {}
+dv_discrep 21 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {27} {                                                    ** no similar net **}
+dv_discrep_line {}
+dv_discrep 22 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {21} {                                                    ** no similar net **}
+dv_discrep_line {}
+dv_discrep 23 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {39} {                                                    ** no similar net **}
+dv_discrep_line {}
+dv_discrep 24 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {26} {                                                    ** no similar net **}
+dv_discrep_line {}
+dv_discrep 25 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {38} {                                                    ** no similar net **}
+dv_discrep_line {}
+dv_discrep 26 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {41} {                                                    ** no similar net **}
+dv_discrep_line {}
+dv_discrep 27 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {44} {                                                    ** no similar net **}
+dv_discrep_line {}
+dv_discrep 28 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {45} {                                                    ** no similar net **}
+dv_discrep_line {}
+dv_discrep 29 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {47} {                                                    ** no similar net **}
+dv_discrep_line {}
+dv_discrep 30 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {48} {                                                    ** no similar net **}
+dv_discrep_line {}
+dv_discrep 31 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {50} {                                                    ** no similar net **}
+dv_discrep_line {}
+dv_discrep 32 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {51} {                                                    ** no similar net **}
+dv_discrep_line {}
+dv_discrep 33 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {O1} {}
+dv_discrep_line {}
+dv_discrep 34 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {X8/7} {                                                  ** no similar net **}
+dv_discrep_line {}
+dv_discrep 35 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {X8/9} {                                                  ** no similar net **}
+dv_discrep_line {}
+dv_discrep 36 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {XOUTPUT1/XI0/net7} {}
+dv_discrep_line {}
+dv_discrep 37 {Incorrect Nets}
+dv_discrep_line {** no similar net **                                      } -snet {XOUTPUT1/XI0/net4} {}
+dv_discrep_line {}
+dv_discrep 38 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {VDD!} { on net: } -snet {VDD!} {}
+dv_discrep_line {}
+dv_discrep 39 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {GND!} { on net: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep 40 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B00} { on net: } -snet {B00} {}
+dv_discrep_line {}
+dv_discrep 41 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B10} { on net: } -snet {B10} {}
+dv_discrep_line {}
+dv_discrep 42 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B20} { on net: } -snet {B20} {}
+dv_discrep_line {}
+dv_discrep 43 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {B30} { on net: } -snet {B30} {}
+dv_discrep_line {}
+dv_discrep 44 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {CLK} { on net: } -snet {CLK} {}
+dv_discrep_line {}
+dv_discrep 45 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {I0} { on net: } -snet {I0} {}
+dv_discrep_line {}
+dv_discrep 46 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {I1} { on net: } -snet {I1} {}
+dv_discrep_line {}
+dv_discrep 47 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {I2} { on net: } -snet {I2} {}
+dv_discrep_line {}
+dv_discrep 48 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {I3} { on net: } -snet {I3} {}
+dv_discrep_line {}
+dv_discrep 49 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {O0} { on net: } -snet {O0} {}
+dv_discrep_line {}
+dv_discrep 50 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {O1} { on net: } -snet {O1} {}
+dv_discrep_line {}
+dv_discrep 51 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {O2} { on net: } -snet {O2} {}
+dv_discrep_line {}
+dv_discrep 52 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {O3} { on net: } -snet {O3} {}
+dv_discrep_line {}
+dv_discrep 53 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {S00} { on net: } -snet {S00} {}
+dv_discrep_line {}
+dv_discrep 54 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {S2} { on net: } -snet {S2} {}
+dv_discrep_line {}
+dv_discrep 55 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {S10} { on net: } -snet {S10} {}
+dv_discrep_line {}
+dv_discrep 56 {Incorrect Instances}
+dv_discrep_line {(_invv)                                                   ** missing injected instance **}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X47/X21/X1/X1/X1/M1} {} -lloc {(23.183,8.713)} {  MP(PMOS_VTG)}
+dv_discrep_line {  } -ldev {X47/X21/X1/X1/X0/M0} {} -lloc {(22.992,6.888)} {  MN(NMOS_VTG)}
+dv_discrep_line {}
+dv_discrep -1 {Detailed Instance Connections}
+dv_discrep_line {}
+dv_discrep_line {(_invv)                                                   (_invv)}
+dv_discrep_line {  } -lport {out} {: } -lnet {X42/X3/6} {                                             } -sport {out} {: } -snet {XADDER1/XI1/XI2/XI2/net9} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {22} {                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {23} {                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {  } -lport {in} {: } -lnet {16} {                                                    ** } -snet {net35} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {in} {: } -snet {O1} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X42/X3/X0/M1} {} -lloc {(37.398,8.502)} {  MP(PMOS_VTG)                  } -sdev {XADDER1/XI1/XI2/XI2/XI8/MM1} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X42/X3/X0/M0} {} -lloc {(37.395,6.888)} {  MN(NMOS_VTG)                  } -sdev {XADDER1/XI1/XI2/XI2/XI8/MM0} {  MN(NMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X42/X3/8} {                                             } -sport {in2} {: } -snet {XADDER1/XI1/XI2/XI2/net015} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X42/X3/9} {                                             } -sport {out} {: } -snet {XADDER1/XI1/XI2/XI2/net4} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {22} {                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {23} {                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {16} {                                                   ** } -snet {net35} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {in1} {: } -snet {O1} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X42/X3/X4/X0/M0} {} -lloc {(39.093,6.888)} {  MN(NMOS_VTG)               } -sdev {XADDER1/XI1/XI2/XI2/XI6/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X42/X3/X4/X0/M1} {} -lloc {(39.282,6.888)} {  MN(NMOS_VTG)               } -sdev {XADDER1/XI1/XI2/XI2/XI6/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X42/X3/X4/X1/M0} {} -lloc {(39.093,8.713)} {  MP(PMOS_VTG)               } -sdev {XADDER1/XI1/XI2/XI2/XI6/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X42/X3/X4/X1/M1} {} -lloc {(39.282,8.713)} {  MP(PMOS_VTG)               } -sdev {XADDER1/XI1/XI2/XI2/XI6/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in2} {: } -lnet {36} {                                                   } -sport {in1} {: } -snet {XADDER1/XI1/net17} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X42/7} {                                                } -sport {out} {: } -snet {XADDER1/XI1/XI2/net15} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {22} {                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {23} {                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {  } -lport {in1} {: } -lnet {16} {                                                   ** } -snet {net35} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {in2} {: } -snet {O1} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X42/X0/X0/M0} {} -lloc {(35.555,6.888)} {  MN(NMOS_VTG)                  } -sdev {XADDER1/XI1/XI2/XI4/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X42/X0/X0/M1} {} -lloc {(35.745,6.888)} {  MN(NMOS_VTG)                  } -sdev {XADDER1/XI1/XI2/XI4/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X42/X0/X1/M0} {} -lloc {(35.555,8.713)} {  MP(PMOS_VTG)                  } -sdev {XADDER1/XI1/XI2/XI4/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X42/X0/X1/M1} {} -lloc {(35.745,8.713)} {  MP(PMOS_VTG)                  } -sdev {XADDER1/XI1/XI2/XI4/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X47/X17/X1/8} {                                         } -sport {in2} {: } -snet {XMULT1/XI6/net9} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X47/X17/X1/7} {                                         } -sport {out} {: } -snet {XMULT1/XI6/net7} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {22} {                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {23} {                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {16} {                                                   ** } -snet {net35} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {in1} {: } -snet {O1} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X47/X17/X1/X2/X0/M0} {} -lloc {(1.460,6.888)} {  MN(NMOS_VTG)            } -sdev {XMULT1/XI6/XI5/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X47/X17/X1/X2/X0/M1} {} -lloc {(1.650,6.888)} {  MN(NMOS_VTG)            } -sdev {XMULT1/XI6/XI5/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X47/X17/X1/X2/X1/M0} {} -lloc {(1.460,8.713)} {  MP(PMOS_VTG)            } -sdev {XMULT1/XI6/XI5/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X47/X17/X1/X2/X1/M1} {} -lloc {(1.650,8.713)} {  MP(PMOS_VTG)            } -sdev {XMULT1/XI6/XI5/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X47/X20/X1/8} {                                         } -sport {in2} {: } -snet {XMULT1/XI2/net9} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X47/X20/X1/7} {                                         } -sport {out} {: } -snet {XMULT1/XI2/net7} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {22} {                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {23} {                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {16} {                                                   ** } -snet {net35} { **}
+dv_discrep_line {  ** no similar net **                                      } -sport {in1} {: } -snet {O1} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X47/X20/X1/X2/X0/M0} {} -lloc {(18.343,6.888)} {  MN(NMOS_VTG)           } -sdev {XMULT1/XI2/XI5/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X47/X20/X1/X2/X0/M1} {} -lloc {(18.532,6.888)} {  MN(NMOS_VTG)           } -sdev {XMULT1/XI2/XI5/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X47/X20/X1/X2/X1/M0} {} -lloc {(18.343,8.713)} {  MP(PMOS_VTG)           } -sdev {XMULT1/XI2/XI5/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X47/X20/X1/X2/X1/M1} {} -lloc {(18.532,8.713)} {  MP(PMOS_VTG)           } -sdev {XMULT1/XI2/XI5/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X44/X0/9} {                                             } -sport {in2} {: } -snet {XINPUT1/XI21/net9} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {5} {                                                    } -sport {in1} {: } -snet {O3} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {60} {                                                   } -sport {out} {: } -snet {net80} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X44/X0/X11/X1/X0/M0} {} -lloc {(23.500,2.978)} {  MN(NMOS_VTG)           } -sdev {XINPUT1/XI21/XI13/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X44/X0/X11/X1/X0/M1} {} -lloc {(23.690,2.978)} {  MN(NMOS_VTG)           } -sdev {XINPUT1/XI21/XI13/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X44/X0/X11/X1/X1/M0} {} -lloc {(23.500,4.803)} {  MP(PMOS_VTG)           } -sdev {XINPUT1/XI21/XI13/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X44/X0/X11/X1/X1/M1} {} -lloc {(23.690,4.803)} {  MP(PMOS_VTG)           } -sdev {XINPUT1/XI21/XI13/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X45/X0/9} {                                             } -sport {in2} {: } -snet {XINPUT1/XI15/net9} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {12} {                                                   } -sport {in1} {: } -snet {net36} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {62} {                                                   } -sport {out} {: } -snet {net81} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X45/X0/X11/X1/X0/M0} {} -lloc {(33.140,2.978)} {  MN(NMOS_VTG)           } -sdev {XINPUT1/XI15/XI13/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X45/X0/X11/X1/X0/M1} {} -lloc {(33.330,2.978)} {  MN(NMOS_VTG)           } -sdev {XINPUT1/XI15/XI13/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X45/X0/X11/X1/X1/M0} {} -lloc {(33.140,4.803)} {  MP(PMOS_VTG)           } -sdev {XINPUT1/XI15/XI13/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X45/X0/X11/X1/X1/M1} {} -lloc {(33.330,4.803)} {  MP(PMOS_VTG)           } -sdev {XINPUT1/XI15/XI13/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {29} {                                                   } -sport {in1} {: } -snet {net034} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X2/8} {                                                 } -sport {in2} {: } -snet {XINPUT1/XI23/net9} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X2/7} {                                                 } -sport {out} {: } -snet {XINPUT1/XI23/net7} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X2/X2/X0/M0} {} -lloc {(-1.438,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI23/XI5/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X2/X2/X0/M1} {} -lloc {(-1.627,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI23/XI5/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X2/X2/X1/M0} {} -lloc {(-1.438,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI23/XI5/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X2/X2/X1/M1} {} -lloc {(-1.627,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI23/XI5/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X45/X1/8} {                                             } -sport {in2} {: } -snet {XINPUT1/XI16/net5} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X45/X1/10} {                                            } -sport {in1} {: } -snet {XINPUT1/XI16/net25} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X45/X1/12} {                                            } -sport {out} {: } -snet {XINPUT1/XI16/net3} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X45/X1/X1/X0/M0} {} -lloc {(39.990,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI16/XI18/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X45/X1/X1/X0/M1} {} -lloc {(39.800,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI16/XI18/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X45/X1/X1/X1/M0} {} -lloc {(39.990,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI16/XI18/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X45/X1/X1/X1/M1} {} -lloc {(39.800,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI16/XI18/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {31} {                                                   } -sport {in1} {: } -snet {net036} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X3/8} {                                                 } -sport {in2} {: } -snet {XINPUT1/XI24/net9} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X3/7} {                                                 } -sport {out} {: } -snet {XINPUT1/XI24/net7} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X3/X2/X0/M0} {} -lloc {(5.707,2.978)} {  MN(NMOS_VTG)                    } -sdev {XINPUT1/XI24/XI5/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X3/X2/X0/M1} {} -lloc {(5.518,2.978)} {  MN(NMOS_VTG)                    } -sdev {XINPUT1/XI24/XI5/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X3/X2/X1/M0} {} -lloc {(5.707,4.803)} {  MP(PMOS_VTG)                    } -sdev {XINPUT1/XI24/XI5/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X3/X2/X1/M1} {} -lloc {(5.518,4.803)} {  MP(PMOS_VTG)                    } -sdev {XINPUT1/XI24/XI5/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {30} {                                                   } -sport {in2} {: } -snet {I1} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {64} {                                                   } -sport {in1} {: } -snet {S2} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X3/9} {                                                 } -sport {out} {: } -snet {XINPUT1/XI24/net4} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X3/X1/X0/M1} {} -lloc {(6.125,2.978)} {  MN(NMOS_VTG)                    } -sdev {XINPUT1/XI24/XI6/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X3/X1/X0/M0} {} -lloc {(6.315,2.978)} {  MN(NMOS_VTG)                    } -sdev {XINPUT1/XI24/XI6/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X3/X1/X1/M1} {} -lloc {(6.125,4.803)} {  MP(PMOS_VTG)                    } -sdev {XINPUT1/XI24/XI6/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X3/X1/X1/M0} {} -lloc {(6.315,4.803)} {  MP(PMOS_VTG)                    } -sdev {XINPUT1/XI24/XI6/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {33} {                                                   } -sport {in1} {: } -snet {net038} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X4/8} {                                                 } -sport {in2} {: } -snet {XINPUT1/XI25/net9} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X4/7} {                                                 } -sport {out} {: } -snet {XINPUT1/XI25/net7} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X4/X2/X0/M0} {} -lloc {(12.852,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI25/XI5/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X4/X2/X0/M1} {} -lloc {(12.662,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI25/XI5/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X4/X2/X1/M0} {} -lloc {(12.852,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI25/XI5/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X4/X2/X1/M1} {} -lloc {(12.662,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI25/XI5/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {32} {                                                   } -sport {in2} {: } -snet {I2} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {64} {                                                   } -sport {in1} {: } -snet {S2} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X4/9} {                                                 } -sport {out} {: } -snet {XINPUT1/XI25/net4} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X4/X1/X0/M1} {} -lloc {(13.270,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI25/XI6/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X4/X1/X0/M0} {} -lloc {(13.460,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI25/XI6/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X4/X1/X1/M1} {} -lloc {(13.270,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI25/XI6/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X4/X1/X1/M0} {} -lloc {(13.460,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI25/XI6/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {35} {                                                   } -sport {in1} {: } -snet {net039} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X5/8} {                                                 } -sport {in2} {: } -snet {XINPUT1/XI26/net9} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X5/7} {                                                 } -sport {out} {: } -snet {XINPUT1/XI26/net7} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X5/X2/X0/M0} {} -lloc {(19.997,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI26/XI5/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X5/X2/X0/M1} {} -lloc {(19.808,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI26/XI5/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X5/X2/X1/M0} {} -lloc {(19.997,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI26/XI5/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X5/X2/X1/M1} {} -lloc {(19.808,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI26/XI5/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {28} {                                                   } -sport {in2} {: } -snet {I0} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {64} {                                                   } -sport {in1} {: } -snet {S2} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X2/9} {                                                 } -sport {out} {: } -snet {XINPUT1/XI23/net4} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X2/X1/X0/M1} {} -lloc {(-1.020,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI23/XI6/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X2/X1/X0/M0} {} -lloc {(-0.830,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI23/XI6/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X2/X1/X1/M1} {} -lloc {(-1.020,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI23/XI6/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X2/X1/X1/M0} {} -lloc {(-0.830,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI23/XI6/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X40/9} {                                                } -sport {in2} {: } -snet {XINPUT1/XI20/net9} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {65} {                                                   } -sport {in1} {: } -snet {O2} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {57} {                                                   } -sport {out} {: } -snet {net79} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X40/X11/X1/X0/M0} {} -lloc {(16.355,2.978)} {  MN(NMOS_VTG)              } -sdev {XINPUT1/XI20/XI13/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X40/X11/X1/X0/M1} {} -lloc {(16.545,2.978)} {  MN(NMOS_VTG)              } -sdev {XINPUT1/XI20/XI13/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X40/X11/X1/X1/M0} {} -lloc {(16.355,4.803)} {  MP(PMOS_VTG)              } -sdev {XINPUT1/XI20/XI13/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X40/X11/X1/X1/M1} {} -lloc {(16.545,4.803)} {  MP(PMOS_VTG)              } -sdev {XINPUT1/XI20/XI13/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X39/9} {                                                } -sport {in2} {: } -snet {XINPUT1/XI19/net9} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {56} {                                                   } -sport {out} {: } -snet {net78} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {16} {                                                   ** } -snet {net35} { **}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {in1} {: } -snet {O1} {}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X39/X11/X1/X0/M0} {} -lloc {(9.210,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI19/XI13/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X39/X11/X1/X0/M1} {} -lloc {(9.400,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI19/XI13/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X39/X11/X1/X1/M0} {} -lloc {(9.210,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI19/XI13/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X39/X11/X1/X1/M1} {} -lloc {(9.400,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI19/XI13/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X44/X0/8} {                                             } -sport {in1} {: } -snet {XINPUT1/XI21/net5} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X44/X0/10} {                                            } -sport {in2} {: } -snet {XINPUT1/XI21/net25} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X44/X0/7} {                                             } -sport {out} {: } -snet {XINPUT1/XI21/net19} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X44/X0/X10/X0/X0/M1} {} -lloc {(21.867,2.978)} {  MN(NMOS_VTG)           } -sdev {XINPUT1/XI21/XI14/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X44/X0/X10/X0/X0/M0} {} -lloc {(21.677,2.978)} {  MN(NMOS_VTG)           } -sdev {XINPUT1/XI21/XI14/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X44/X0/X10/X0/X1/M1} {} -lloc {(21.867,4.803)} {  MP(PMOS_VTG)           } -sdev {XINPUT1/XI21/XI14/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X44/X0/X10/X0/X1/M0} {} -lloc {(21.677,4.803)} {  MP(PMOS_VTG)           } -sdev {XINPUT1/XI21/XI14/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X41/10} {                                               } -sport {in2} {: } -snet {XINPUT1/XI13/net25} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X41/8} {                                                } -sport {in1} {: } -snet {XINPUT1/XI13/net5} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X41/7} {                                                } -sport {out} {: } -snet {XINPUT1/XI13/net19} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X41/X10/X0/X0/M1} {} -lloc {(50.788,2.978)} {  MN(NMOS_VTG)              } -sdev {XINPUT1/XI13/XI14/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X41/X10/X0/X0/M0} {} -lloc {(50.597,2.978)} {  MN(NMOS_VTG)              } -sdev {XINPUT1/XI13/XI14/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X41/X10/X0/X1/M1} {} -lloc {(50.788,4.803)} {  MP(PMOS_VTG)              } -sdev {XINPUT1/XI13/XI14/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X41/X10/X0/X1/M0} {} -lloc {(50.597,4.803)} {  MP(PMOS_VTG)              } -sdev {XINPUT1/XI13/XI14/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X44/X0/8} {                                             } -sport {in2} {: } -snet {XINPUT1/XI21/net5} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X44/X0/10} {                                            } -sport {in1} {: } -snet {XINPUT1/XI21/net25} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X44/X0/12} {                                            } -sport {out} {: } -snet {XINPUT1/XI21/net3} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X44/X0/X1/X0/M0} {} -lloc {(25.530,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI21/XI18/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X44/X0/X1/X0/M1} {} -lloc {(25.340,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI21/XI18/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X44/X0/X1/X1/M0} {} -lloc {(25.530,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI21/XI18/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X44/X0/X1/X1/M1} {} -lloc {(25.340,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI21/XI18/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X5/7} {                                                 } -sport {in1} {: } -snet {XINPUT1/XI26/net7} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X5/9} {                                                 } -sport {in2} {: } -snet {XINPUT1/XI26/net4} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {6} {                                                    } -sport {out} {: } -snet {XINPUT1/net82} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X5/X0/X0/M0} {} -lloc {(21.212,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI26/XI7/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X5/X0/X0/M1} {} -lloc {(21.023,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI26/XI7/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X5/X0/X1/M0} {} -lloc {(21.212,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI26/XI7/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X5/X0/X1/M1} {} -lloc {(21.023,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI26/XI7/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X4/7} {                                                 } -sport {in1} {: } -snet {XINPUT1/XI25/net7} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X4/9} {                                                 } -sport {in2} {: } -snet {XINPUT1/XI25/net4} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {4} {                                                    } -sport {out} {: } -snet {XINPUT1/net80} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X4/X0/X0/M0} {} -lloc {(14.068,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI25/XI7/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X4/X0/X0/M1} {} -lloc {(13.877,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI25/XI7/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X4/X0/X1/M0} {} -lloc {(14.068,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI25/XI7/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X4/X0/X1/M1} {} -lloc {(13.877,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI25/XI7/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X3/7} {                                                 } -sport {in1} {: } -snet {XINPUT1/XI24/net7} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X3/9} {                                                 } -sport {in2} {: } -snet {XINPUT1/XI24/net4} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {3} {                                                    } -sport {out} {: } -snet {XINPUT1/net79} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X3/X0/X0/M0} {} -lloc {(6.923,2.978)} {  MN(NMOS_VTG)                    } -sdev {XINPUT1/XI24/XI7/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X3/X0/X0/M1} {} -lloc {(6.732,2.978)} {  MN(NMOS_VTG)                    } -sdev {XINPUT1/XI24/XI7/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X3/X0/X1/M0} {} -lloc {(6.923,4.803)} {  MP(PMOS_VTG)                    } -sdev {XINPUT1/XI24/XI7/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X3/X0/X1/M1} {} -lloc {(6.732,4.803)} {  MP(PMOS_VTG)                    } -sdev {XINPUT1/XI24/XI7/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X2/7} {                                                 } -sport {in1} {: } -snet {XINPUT1/XI23/net7} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X2/9} {                                                 } -sport {in2} {: } -snet {XINPUT1/XI23/net4} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {1} {                                                    } -sport {out} {: } -snet {XINPUT1/net81} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X2/X0/X0/M0} {} -lloc {(-0.223,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI23/XI7/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X2/X0/X0/M1} {} -lloc {(-0.412,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI23/XI7/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X2/X0/X1/M0} {} -lloc {(-0.223,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI23/XI7/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X2/X0/X1/M1} {} -lloc {(-0.412,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI23/XI7/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {34} {                                                   } -sport {in2} {: } -snet {I3} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {64} {                                                   } -sport {in1} {: } -snet {S2} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X5/9} {                                                 } -sport {out} {: } -snet {XINPUT1/XI26/net4} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X5/X1/X0/M1} {} -lloc {(20.415,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI26/XI6/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X5/X1/X0/M0} {} -lloc {(20.605,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI26/XI6/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X5/X1/X1/M1} {} -lloc {(20.415,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI26/XI6/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X5/X1/X1/M0} {} -lloc {(20.605,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI26/XI6/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X45/X0/8} {                                             } -sport {in2} {: } -snet {XINPUT1/XI15/net5} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X45/X0/10} {                                            } -sport {in1} {: } -snet {XINPUT1/XI15/net25} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X45/X0/12} {                                            } -sport {out} {: } -snet {XINPUT1/XI15/net3} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X45/X0/X1/X0/M0} {} -lloc {(35.170,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI15/XI18/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X45/X0/X1/X0/M1} {} -lloc {(34.980,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI15/XI18/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X45/X0/X1/X1/M0} {} -lloc {(35.170,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI15/XI18/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X45/X0/X1/X1/M1} {} -lloc {(34.980,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI15/XI18/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X39/10} {                                               } -sport {in2} {: } -snet {XINPUT1/XI19/net25} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X39/8} {                                                } -sport {in1} {: } -snet {XINPUT1/XI19/net5} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X39/7} {                                                } -sport {out} {: } -snet {XINPUT1/XI19/net19} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X39/X10/X0/X0/M1} {} -lloc {(7.577,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI19/XI14/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X39/X10/X0/X0/M0} {} -lloc {(7.388,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI19/XI14/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X39/X10/X0/X1/M1} {} -lloc {(7.577,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI19/XI14/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X39/X10/X0/X1/M0} {} -lloc {(7.388,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI19/XI14/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X41/8} {                                                } -sport {in2} {: } -snet {XINPUT1/XI13/net5} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X41/10} {                                               } -sport {in1} {: } -snet {XINPUT1/XI13/net25} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X41/12} {                                               } -sport {out} {: } -snet {XINPUT1/XI13/net3} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X41/X1/X0/M0} {} -lloc {(54.450,2.978)} {  MN(NMOS_VTG)                  } -sdev {XINPUT1/XI13/XI18/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X41/X1/X0/M1} {} -lloc {(54.260,2.978)} {  MN(NMOS_VTG)                  } -sdev {XINPUT1/XI13/XI18/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X41/X1/X1/M0} {} -lloc {(54.450,4.803)} {  MP(PMOS_VTG)                  } -sdev {XINPUT1/XI13/XI18/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X41/X1/X1/M1} {} -lloc {(54.260,4.803)} {  MP(PMOS_VTG)                  } -sdev {XINPUT1/XI13/XI18/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X46/X1/8} {                                             } -sport {in1} {: } -snet {XINPUT1/XI12/net5} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X46/X1/10} {                                            } -sport {in2} {: } -snet {XINPUT1/XI12/net25} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X46/X1/7} {                                             } -sport {out} {: } -snet {XINPUT1/XI12/net19} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X46/X1/X10/X0/X0/M1} {} -lloc {(45.968,2.978)} {  MN(NMOS_VTG)           } -sdev {XINPUT1/XI12/XI14/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X46/X1/X10/X0/X0/M0} {} -lloc {(45.778,2.978)} {  MN(NMOS_VTG)           } -sdev {XINPUT1/XI12/XI14/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X46/X1/X10/X0/X1/M1} {} -lloc {(45.968,4.803)} {  MP(PMOS_VTG)           } -sdev {XINPUT1/XI12/XI14/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X46/X1/X10/X0/X1/M0} {} -lloc {(45.778,4.803)} {  MP(PMOS_VTG)           } -sdev {XINPUT1/XI12/XI14/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X44/X1/8} {                                             } -sport {in1} {: } -snet {XINPUT1/XI14/net5} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X44/X1/10} {                                            } -sport {in2} {: } -snet {XINPUT1/XI14/net25} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X44/X1/7} {                                             } -sport {out} {: } -snet {XINPUT1/XI14/net19} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X44/X1/X10/X0/X0/M1} {} -lloc {(26.688,2.978)} {  MN(NMOS_VTG)           } -sdev {XINPUT1/XI14/XI14/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X44/X1/X10/X0/X0/M0} {} -lloc {(26.497,2.978)} {  MN(NMOS_VTG)           } -sdev {XINPUT1/XI14/XI14/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X44/X1/X10/X0/X1/M1} {} -lloc {(26.688,4.803)} {  MP(PMOS_VTG)           } -sdev {XINPUT1/XI14/XI14/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X44/X1/X10/X0/X1/M0} {} -lloc {(26.497,4.803)} {  MP(PMOS_VTG)           } -sdev {XINPUT1/XI14/XI14/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X39/8} {                                                } -sport {in2} {: } -snet {XINPUT1/XI19/net5} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X39/10} {                                               } -sport {in1} {: } -snet {XINPUT1/XI19/net25} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X39/12} {                                               } -sport {out} {: } -snet {XINPUT1/XI19/net3} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X39/X1/X0/M0} {} -lloc {(11.240,2.978)} {  MN(NMOS_VTG)                  } -sdev {XINPUT1/XI19/XI18/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X39/X1/X0/M1} {} -lloc {(11.050,2.978)} {  MN(NMOS_VTG)                  } -sdev {XINPUT1/XI19/XI18/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X39/X1/X1/M0} {} -lloc {(11.240,4.803)} {  MP(PMOS_VTG)                  } -sdev {XINPUT1/XI19/XI18/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X39/X1/X1/M1} {} -lloc {(11.050,4.803)} {  MP(PMOS_VTG)                  } -sdev {XINPUT1/XI19/XI18/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X44/X1/8} {                                             } -sport {in2} {: } -snet {XINPUT1/XI14/net5} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X44/X1/10} {                                            } -sport {in1} {: } -snet {XINPUT1/XI14/net25} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X44/X1/12} {                                            } -sport {out} {: } -snet {XINPUT1/XI14/net3} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X44/X1/X1/X0/M0} {} -lloc {(30.350,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI14/XI18/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X44/X1/X1/X0/M1} {} -lloc {(30.160,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI14/XI18/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X44/X1/X1/X1/M0} {} -lloc {(30.350,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI14/XI18/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X44/X1/X1/X1/M1} {} -lloc {(30.160,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI14/XI18/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X38/8} {                                                } -sport {in1} {: } -snet {XINPUT1/XI18/net5} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X38/10} {                                               } -sport {in2} {: } -snet {XINPUT1/XI18/net25} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X38/7} {                                                } -sport {out} {: } -snet {XINPUT1/XI18/net19} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X38/X10/X0/X0/M1} {} -lloc {(0.432,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI18/XI14/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X38/X10/X0/X0/M0} {} -lloc {(0.242,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI18/XI14/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X38/X10/X0/X1/M1} {} -lloc {(0.432,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI18/XI14/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X38/X10/X0/X1/M0} {} -lloc {(0.242,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI18/XI14/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X38/8} {                                                } -sport {in2} {: } -snet {XINPUT1/XI18/net5} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X38/10} {                                               } -sport {in1} {: } -snet {XINPUT1/XI18/net25} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X38/12} {                                               } -sport {out} {: } -snet {XINPUT1/XI18/net3} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X38/X1/X0/M0} {} -lloc {(4.095,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI18/XI18/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X38/X1/X0/M1} {} -lloc {(3.905,2.978)} {  MN(NMOS_VTG)                   } -sdev {XINPUT1/XI18/XI18/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X38/X1/X1/M0} {} -lloc {(4.095,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI18/XI18/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X38/X1/X1/M1} {} -lloc {(3.905,4.803)} {  MP(PMOS_VTG)                   } -sdev {XINPUT1/XI18/XI18/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X46/X0/8} {                                             } -sport {in1} {: } -snet {XINPUT1/XI17/net5} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X46/X0/10} {                                            } -sport {in2} {: } -snet {XINPUT1/XI17/net25} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X46/X0/7} {                                             } -sport {out} {: } -snet {XINPUT1/XI17/net19} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X46/X0/X10/X0/X0/M1} {} -lloc {(41.148,2.978)} {  MN(NMOS_VTG)           } -sdev {XINPUT1/XI17/XI14/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X46/X0/X10/X0/X0/M0} {} -lloc {(40.958,2.978)} {  MN(NMOS_VTG)           } -sdev {XINPUT1/XI17/XI14/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X46/X0/X10/X0/X1/M1} {} -lloc {(41.148,4.803)} {  MP(PMOS_VTG)           } -sdev {XINPUT1/XI17/XI14/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X46/X0/X10/X0/X1/M0} {} -lloc {(40.958,4.803)} {  MP(PMOS_VTG)           } -sdev {XINPUT1/XI17/XI14/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X40/8} {                                                } -sport {in2} {: } -snet {XINPUT1/XI20/net5} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X40/10} {                                               } -sport {in1} {: } -snet {XINPUT1/XI20/net25} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X40/12} {                                               } -sport {out} {: } -snet {XINPUT1/XI20/net3} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X40/X1/X0/M0} {} -lloc {(18.385,2.978)} {  MN(NMOS_VTG)                  } -sdev {XINPUT1/XI20/XI18/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X40/X1/X0/M1} {} -lloc {(18.195,2.978)} {  MN(NMOS_VTG)                  } -sdev {XINPUT1/XI20/XI18/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X40/X1/X1/M0} {} -lloc {(18.385,4.803)} {  MP(PMOS_VTG)                  } -sdev {XINPUT1/XI20/XI18/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X40/X1/X1/M1} {} -lloc {(18.195,4.803)} {  MP(PMOS_VTG)                  } -sdev {XINPUT1/XI20/XI18/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X46/X0/8} {                                             } -sport {in2} {: } -snet {XINPUT1/XI17/net5} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X46/X0/10} {                                            } -sport {in1} {: } -snet {XINPUT1/XI17/net25} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X46/X0/12} {                                            } -sport {out} {: } -snet {XINPUT1/XI17/net3} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X46/X0/X1/X0/M0} {} -lloc {(44.810,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI17/XI18/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X46/X0/X1/X0/M1} {} -lloc {(44.620,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI17/XI18/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X46/X0/X1/X1/M0} {} -lloc {(44.810,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI17/XI18/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X46/X0/X1/X1/M1} {} -lloc {(44.620,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI17/XI18/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X45/X0/8} {                                             } -sport {in1} {: } -snet {XINPUT1/XI15/net5} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X45/X0/10} {                                            } -sport {in2} {: } -snet {XINPUT1/XI15/net25} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X45/X0/7} {                                             } -sport {out} {: } -snet {XINPUT1/XI15/net19} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X45/X0/X10/X0/X0/M1} {} -lloc {(31.508,2.978)} {  MN(NMOS_VTG)           } -sdev {XINPUT1/XI15/XI14/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X45/X0/X10/X0/X0/M0} {} -lloc {(31.317,2.978)} {  MN(NMOS_VTG)           } -sdev {XINPUT1/XI15/XI14/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X45/X0/X10/X0/X1/M1} {} -lloc {(31.508,4.803)} {  MP(PMOS_VTG)           } -sdev {XINPUT1/XI15/XI14/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X45/X0/X10/X0/X1/M0} {} -lloc {(31.317,4.803)} {  MP(PMOS_VTG)           } -sdev {XINPUT1/XI15/XI14/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X45/X1/8} {                                             } -sport {in1} {: } -snet {XINPUT1/XI16/net5} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X45/X1/10} {                                            } -sport {in2} {: } -snet {XINPUT1/XI16/net25} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X45/X1/7} {                                             } -sport {out} {: } -snet {XINPUT1/XI16/net19} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X45/X1/X10/X0/X0/M1} {} -lloc {(36.328,2.978)} {  MN(NMOS_VTG)           } -sdev {XINPUT1/XI16/XI14/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X45/X1/X10/X0/X0/M0} {} -lloc {(36.138,2.978)} {  MN(NMOS_VTG)           } -sdev {XINPUT1/XI16/XI14/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X45/X1/X10/X0/X1/M1} {} -lloc {(36.328,4.803)} {  MP(PMOS_VTG)           } -sdev {XINPUT1/XI16/XI14/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X45/X1/X10/X0/X1/M0} {} -lloc {(36.138,4.803)} {  MP(PMOS_VTG)           } -sdev {XINPUT1/XI16/XI14/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X40/10} {                                               } -sport {in2} {: } -snet {XINPUT1/XI20/net25} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X40/8} {                                                } -sport {in1} {: } -snet {XINPUT1/XI20/net5} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X40/7} {                                                } -sport {out} {: } -snet {XINPUT1/XI20/net19} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X40/X10/X0/X0/M1} {} -lloc {(14.723,2.978)} {  MN(NMOS_VTG)              } -sdev {XINPUT1/XI20/XI14/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X40/X10/X0/X0/M0} {} -lloc {(14.533,2.978)} {  MN(NMOS_VTG)              } -sdev {XINPUT1/XI20/XI14/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X40/X10/X0/X1/M1} {} -lloc {(14.723,4.803)} {  MP(PMOS_VTG)              } -sdev {XINPUT1/XI20/XI14/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X40/X10/X0/X1/M0} {} -lloc {(14.533,4.803)} {  MP(PMOS_VTG)              } -sdev {XINPUT1/XI20/XI14/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X46/X1/8} {                                             } -sport {in2} {: } -snet {XINPUT1/XI12/net5} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X46/X1/10} {                                            } -sport {in1} {: } -snet {XINPUT1/XI12/net25} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {X46/X1/12} {                                            } -sport {out} {: } -snet {XINPUT1/XI12/net3} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X46/X1/X1/X0/M0} {} -lloc {(49.630,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI12/XI18/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X46/X1/X1/X0/M1} {} -lloc {(49.440,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI12/XI18/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X46/X1/X1/X1/M0} {} -lloc {(49.630,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI12/XI18/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X46/X1/X1/X1/M1} {} -lloc {(49.440,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI12/XI18/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X12/9} {                                                } -sport {in2} {: } -snet {XOUTPUT1/XI1/net4} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X12/7} {                                                } -sport {in1} {: } -snet {XOUTPUT1/XI1/net7} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {49} {                                                   } -sport {out} {: } -snet {net036} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {26} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {39} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X12/X0/X0/M0} {} -lloc {(66.442,2.978)} {  MN(NMOS_VTG)                  } -sdev {XOUTPUT1/XI1/XI7/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X12/X0/X0/M1} {} -lloc {(66.632,2.978)} {  MN(NMOS_VTG)                  } -sdev {XOUTPUT1/XI1/XI7/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X12/X0/X1/M0} {} -lloc {(66.442,4.803)} {  MP(PMOS_VTG)                  } -sdev {XOUTPUT1/XI1/XI7/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X12/X0/X1/M1} {} -lloc {(66.632,4.803)} {  MP(PMOS_VTG)                  } -sdev {XOUTPUT1/XI1/XI7/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X11/9} {                                                } -sport {in1} {: } -snet {XOUTPUT1/XI2/net7} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X11/7} {                                                } -sport {in2} {: } -snet {XOUTPUT1/XI2/net4} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {46} {                                                   } -sport {out} {: } -snet {net039} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {26} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {39} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X11/X0/X0/M1} {} -lloc {(64.308,2.978)} {  MN(NMOS_VTG)                  } -sdev {XOUTPUT1/XI2/XI7/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X11/X0/X0/M0} {} -lloc {(64.118,2.978)} {  MN(NMOS_VTG)                  } -sdev {XOUTPUT1/XI2/XI7/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X11/X0/X1/M1} {} -lloc {(64.308,4.803)} {  MP(PMOS_VTG)                  } -sdev {XOUTPUT1/XI2/XI7/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X11/X0/X1/M0} {} -lloc {(64.118,4.803)} {  MP(PMOS_VTG)                  } -sdev {XOUTPUT1/XI2/XI7/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {X10/9} {                                                } -sport {in2} {: } -snet {XOUTPUT1/XI3/net4} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X10/7} {                                                } -sport {in1} {: } -snet {XOUTPUT1/XI3/net7} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {43} {                                                   } -sport {out} {: } -snet {net038} {}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {26} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {39} {                                                  ** no similar net **}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X10/X0/X0/M0} {} -lloc {(61.792,2.978)} {  MN(NMOS_VTG)                  } -sdev {XOUTPUT1/XI3/XI7/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X10/X0/X0/M1} {} -lloc {(61.983,2.978)} {  MN(NMOS_VTG)                  } -sdev {XOUTPUT1/XI3/XI7/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X10/X0/X1/M0} {} -lloc {(61.792,4.803)} {  MP(PMOS_VTG)                  } -sdev {XOUTPUT1/XI3/XI7/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X10/X0/X1/M1} {} -lloc {(61.983,4.803)} {  MP(PMOS_VTG)                  } -sdev {XOUTPUT1/XI3/XI7/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_discrep_line {--------------------------------------------------------------------------------------------------------------}
+dv_discrep_line {}
+dv_discrep_line {(_nand2v)                                                 (_nand2v)}
+dv_discrep_line {  } -lport {in1} {: } -lnet {56} {                                                   } -sport {in2} {: } -snet {net78} {}
+dv_discrep_line {  } -lport {in2} {: } -lnet {X39/10} {                                               } -sport {in1} {: } -snet {XINPUT1/XI19/net25} {}
+dv_discrep_line {  } -lport {out} {: } -lnet {16} {                                                   ** } -snet {net35} { **}
+dv_discrep_line {  } -lport {sup1} {: } -lnet {21} {                                                  ** no similar net **}
+dv_discrep_line {  } -lport {sup2} {: } -lnet {27} {                                                  ** no similar net **}
+dv_discrep_line {  ** no similar net **                                      } -sport {out} {: } -snet {O1} {}
+dv_discrep_line {  ** } -lnet {22} { **                                                  } -sport {sup1} {: } -snet {VDD!} {}
+dv_discrep_line {  ** } -lnet {23} { **                                                  } -sport {sup2} {: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep_line {Devices: }
+dv_discrep_line {  } -ldev {X39/X11/X0/X0/M0} {} -lloc {(8.602,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI19/XI12/MM1} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X39/X11/X0/X0/M1} {} -lloc {(8.793,2.978)} {  MN(NMOS_VTG)               } -sdev {XINPUT1/XI19/XI12/MM3} {  MN(NMOS_VTG) }
+dv_discrep_line {  } -ldev {X39/X11/X0/X1/M0} {} -lloc {(8.602,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI19/XI12/MM0} {  MP(PMOS_VTG) }
+dv_discrep_line {  } -ldev {X39/X11/X0/X1/M1} {} -lloc {(8.793,4.803)} {  MP(PMOS_VTG)               } -sdev {XINPUT1/XI19/XI12/MM2} {  MP(PMOS_VTG) }
+dv_discrep_line {}
+dv_end

@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1362780896 1362780897
+lvs_ExtOutFile RUNDIR /home/nro779/cadence/391_Project/MULT
+lvs_ExtOutFile RULES_FILE /home/nro779/cadence/391_Project/MULT/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/nro779/cadence/391_Project/MULT/MULT.sp
+lvs_ExtOutFile EXTRACTION_REPORT MULT.lvs.report.ext

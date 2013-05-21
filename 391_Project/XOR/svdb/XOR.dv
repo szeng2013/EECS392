@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/XOR.dv
+dv_start matched
+dv_cell {XOR} {XOR} matched
+dv_obj_count -transformed_nets {9 9} -transformed_inst {5 5} -transformed_port {5 5}
+dv_end

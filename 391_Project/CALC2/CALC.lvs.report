@@ -1,0 +1,2276 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         CALC.lvs.report
+LAYOUT NAME:              /home/gms130/cadence/391_Project/CALC/CALC.sp ('CALC')
+SOURCE NAME:              /home/gms130/cadence/391_Project/CALC/CALC.src.net ('CALC')
+RULE FILE:                /home/gms130/cadence/391_Project/CALC/_calibreLVS.rul_
+RULE FILE TITLE:          LVS Rule File for FreePDK45
+CREATION TIME:            Sun Mar 10 21:41:46 2013
+CURRENT DIRECTORY:        /home/gms130/cadence/391_Project/CALC
+USER NAME:                gms130
+CALIBRE VERSION:          v2011.4_35.27    Tue Jan 10 16:18:55 PST 2012
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports.
+  Error:    Different numbers of nets.
+  Error:    Different numbers of instances.
+  Error:    Connectivity errors.
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      CALC                          CALC
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            element
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS" "GROUND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  YES
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             YES
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(nmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  w w 4e-09 ABSOLUTE
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports (see below).
+  Error:    Different numbers of nets (see below).
+  Error:    Different numbers of instances (see below).
+  Error:    Connectivity errors.
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+LAYOUT CELL NAME:         CALC
+SOURCE CELL NAME:         CALC
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              0        18    *
+
+ Nets:             445       430    *
+
+ Instances:        416       416         MN (4 pins)
+                   416       416         MP (4 pins)
+                ------    ------
+ Total Inst:       832       832
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              0        18    *
+
+ Nets:             264       249    *
+
+ Instances:         55        54    *    _invv (4 pins)
+                   176       177    *    _nand2v (5 pins)
+                     4         4         _nor2v (5 pins)
+                ------    ------
+ Total Inst:       235       235
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net 23                                                    GND!
+       --------------------------                                --------------------------
+       
+       (_invv):sup2                                              ** missing connection **
+         X47/X21/X1/X1/X0/M0(22.992,6.888):b
+         X47/X21/X1/X1/X0/M0(22.992,6.888):d
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI13/XI14/MM3:b
+                                                                   XINPUT1/XI13/XI14/MM1:b
+                                                                   XINPUT1/XI13/XI14/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI16/XI14/MM3:b
+                                                                   XINPUT1/XI16/XI14/MM1:b
+                                                                   XINPUT1/XI16/XI14/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI21/XI14/MM3:b
+                                                                   XINPUT1/XI21/XI14/MM1:b
+                                                                   XINPUT1/XI21/XI14/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI21/XI18/MM3:b
+                                                                   XINPUT1/XI21/XI18/MM1:b
+                                                                   XINPUT1/XI21/XI18/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI13/XI18/MM3:b
+                                                                   XINPUT1/XI13/XI18/MM1:b
+                                                                   XINPUT1/XI13/XI18/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XOUTPUT1/XI0/XI6/MM3:b
+                                                                   XOUTPUT1/XI0/XI6/MM1:b
+                                                                   XOUTPUT1/XI0/XI6/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI23/XI7/MM3:b
+                                                                   XINPUT1/XI23/XI7/MM1:b
+                                                                   XINPUT1/XI23/XI7/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI14/XI14/MM3:b
+                                                                   XINPUT1/XI14/XI14/MM1:b
+                                                                   XINPUT1/XI14/XI14/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI24/XI7/MM3:b
+                                                                   XINPUT1/XI24/XI7/MM1:b
+                                                                   XINPUT1/XI24/XI7/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI25/XI7/MM3:b
+                                                                   XINPUT1/XI25/XI7/MM1:b
+                                                                   XINPUT1/XI25/XI7/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI26/XI7/MM3:b
+                                                                   XINPUT1/XI26/XI7/MM1:b
+                                                                   XINPUT1/XI26/XI7/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI20/XI18/MM3:b
+                                                                   XINPUT1/XI20/XI18/MM1:b
+                                                                   XINPUT1/XI20/XI18/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI20/XI14/MM3:b
+                                                                   XINPUT1/XI20/XI14/MM1:b
+                                                                   XINPUT1/XI20/XI14/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI24/XI5/MM3:b
+                                                                   XINPUT1/XI24/XI5/MM1:b
+                                                                   XINPUT1/XI24/XI5/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI24/XI6/MM3:b
+                                                                   XINPUT1/XI24/XI6/MM1:b
+                                                                   XINPUT1/XI24/XI6/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI25/XI6/MM3:b
+                                                                   XINPUT1/XI25/XI6/MM1:b
+                                                                   XINPUT1/XI25/XI6/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI23/XI5/MM3:b
+                                                                   XINPUT1/XI23/XI5/MM1:b
+                                                                   XINPUT1/XI23/XI5/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI23/XI6/MM3:b
+                                                                   XINPUT1/XI23/XI6/MM1:b
+                                                                   XINPUT1/XI23/XI6/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI17/XI18/MM3:b
+                                                                   XINPUT1/XI17/XI18/MM1:b
+                                                                   XINPUT1/XI17/XI18/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI25/XI5/MM3:b
+                                                                   XINPUT1/XI25/XI5/MM1:b
+                                                                   XINPUT1/XI25/XI5/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI26/XI6/MM3:b
+                                                                   XINPUT1/XI26/XI6/MM1:b
+                                                                   XINPUT1/XI26/XI6/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI26/XI5/MM3:b
+                                                                   XINPUT1/XI26/XI5/MM1:b
+                                                                   XINPUT1/XI26/XI5/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI18/XI14/MM3:b
+                                                                   XINPUT1/XI18/XI14/MM1:b
+                                                                   XINPUT1/XI18/XI14/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI18/XI18/MM3:b
+                                                                   XINPUT1/XI18/XI18/MM1:b
+                                                                   XINPUT1/XI18/XI18/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI12/XI14/MM3:b
+                                                                   XINPUT1/XI12/XI14/MM1:b
+                                                                   XINPUT1/XI12/XI14/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI16/XI18/MM3:b
+                                                                   XINPUT1/XI16/XI18/MM1:b
+                                                                   XINPUT1/XI16/XI18/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI19/XI14/MM3:b
+                                                                   XINPUT1/XI19/XI14/MM1:b
+                                                                   XINPUT1/XI19/XI14/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI19/XI18/MM3:b
+                                                                   XINPUT1/XI19/XI18/MM1:b
+                                                                   XINPUT1/XI19/XI18/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI12/XI18/MM3:b
+                                                                   XINPUT1/XI12/XI18/MM1:b
+                                                                   XINPUT1/XI12/XI18/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XOUTPUT1/XI1/XI7/MM3:b
+                                                                   XOUTPUT1/XI1/XI7/MM1:b
+                                                                   XOUTPUT1/XI1/XI7/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XOUTPUT1/XI0/XI7/MM3:b
+                                                                   XOUTPUT1/XI0/XI7/MM1:b
+                                                                   XOUTPUT1/XI0/XI7/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI14/XI18/MM3:b
+                                                                   XINPUT1/XI14/XI18/MM1:b
+                                                                   XINPUT1/XI14/XI18/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI15/XI13/MM3:b
+                                                                   XINPUT1/XI15/XI13/MM1:b
+                                                                   XINPUT1/XI15/XI13/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI15/XI18/MM3:b
+                                                                   XINPUT1/XI15/XI18/MM1:b
+                                                                   XINPUT1/XI15/XI18/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI21/XI13/MM3:b
+                                                                   XINPUT1/XI21/XI13/MM1:b
+                                                                   XINPUT1/XI21/XI13/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XOUTPUT1/XI3/XI5/MM3:b
+                                                                   XOUTPUT1/XI3/XI5/MM1:b
+                                                                   XOUTPUT1/XI3/XI5/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XOUTPUT1/XI3/XI6/MM3:b
+                                                                   XOUTPUT1/XI3/XI6/MM1:b
+                                                                   XOUTPUT1/XI3/XI6/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI20/XI13/MM3:b
+                                                                   XINPUT1/XI20/XI13/MM1:b
+                                                                   XINPUT1/XI20/XI13/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XOUTPUT1/XI2/XI5/MM3:b
+                                                                   XOUTPUT1/XI2/XI5/MM1:b
+                                                                   XOUTPUT1/XI2/XI5/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XOUTPUT1/XI2/XI6/MM3:b
+                                                                   XOUTPUT1/XI2/XI6/MM1:b
+                                                                   XOUTPUT1/XI2/XI6/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI19/XI13/MM3:b
+                                                                   XINPUT1/XI19/XI13/MM1:b
+                                                                   XINPUT1/XI19/XI13/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XOUTPUT1/XI1/XI5/MM3:b
+                                                                   XOUTPUT1/XI1/XI5/MM1:b
+                                                                   XOUTPUT1/XI1/XI5/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XOUTPUT1/XI1/XI6/MM3:b
+                                                                   XOUTPUT1/XI1/XI6/MM1:b
+                                                                   XOUTPUT1/XI1/XI6/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI15/XI14/MM3:b
+                                                                   XINPUT1/XI15/XI14/MM1:b
+                                                                   XINPUT1/XI15/XI14/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XOUTPUT1/XI0/XI5/MM3:b
+                                                                   XOUTPUT1/XI0/XI5/MM1:b
+                                                                   XOUTPUT1/XI0/XI5/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XMULT1/XI11/XI6/MM3:b
+                                                                   XMULT1/XI11/XI6/MM1:b
+                                                                   XMULT1/XI11/XI6/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XOUTPUT1/XI3/XI7/MM3:b
+                                                                   XOUTPUT1/XI3/XI7/MM1:b
+                                                                   XOUTPUT1/XI3/XI7/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XOUTPUT1/XI2/XI7/MM3:b
+                                                                   XOUTPUT1/XI2/XI7/MM1:b
+                                                                   XOUTPUT1/XI2/XI7/MM1:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup2
+                                                                   XINPUT1/XI17/XI14/MM3:b
+                                                                   XINPUT1/XI17/XI14/MM1:b
+                                                                   XINPUT1/XI17/XI14/MM1:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net 22                                                    VDD!
+       --------------------------                                --------------------------
+       
+       (_invv):sup1                                              ** missing connection **
+         X47/X21/X1/X1/X1/M1(23.183,8.713):b
+         X47/X21/X1/X1/X1/M1(23.183,8.713):d
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI13/XI14/MM2:b
+                                                                   XINPUT1/XI13/XI14/MM2:s
+                                                                   XINPUT1/XI13/XI14/MM0:b
+                                                                   XINPUT1/XI13/XI14/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI16/XI14/MM2:b
+                                                                   XINPUT1/XI16/XI14/MM2:s
+                                                                   XINPUT1/XI16/XI14/MM0:b
+                                                                   XINPUT1/XI16/XI14/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI21/XI14/MM2:b
+                                                                   XINPUT1/XI21/XI14/MM2:s
+                                                                   XINPUT1/XI21/XI14/MM0:b
+                                                                   XINPUT1/XI21/XI14/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI21/XI18/MM2:b
+                                                                   XINPUT1/XI21/XI18/MM2:s
+                                                                   XINPUT1/XI21/XI18/MM0:b
+                                                                   XINPUT1/XI21/XI18/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI13/XI18/MM2:b
+                                                                   XINPUT1/XI13/XI18/MM2:s
+                                                                   XINPUT1/XI13/XI18/MM0:b
+                                                                   XINPUT1/XI13/XI18/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XOUTPUT1/XI0/XI6/MM2:b
+                                                                   XOUTPUT1/XI0/XI6/MM2:s
+                                                                   XOUTPUT1/XI0/XI6/MM0:b
+                                                                   XOUTPUT1/XI0/XI6/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI23/XI7/MM2:b
+                                                                   XINPUT1/XI23/XI7/MM2:s
+                                                                   XINPUT1/XI23/XI7/MM0:b
+                                                                   XINPUT1/XI23/XI7/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI14/XI14/MM2:b
+                                                                   XINPUT1/XI14/XI14/MM2:s
+                                                                   XINPUT1/XI14/XI14/MM0:b
+                                                                   XINPUT1/XI14/XI14/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI24/XI7/MM2:b
+                                                                   XINPUT1/XI24/XI7/MM2:s
+                                                                   XINPUT1/XI24/XI7/MM0:b
+                                                                   XINPUT1/XI24/XI7/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI25/XI7/MM2:b
+                                                                   XINPUT1/XI25/XI7/MM2:s
+                                                                   XINPUT1/XI25/XI7/MM0:b
+                                                                   XINPUT1/XI25/XI7/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI26/XI7/MM2:b
+                                                                   XINPUT1/XI26/XI7/MM2:s
+                                                                   XINPUT1/XI26/XI7/MM0:b
+                                                                   XINPUT1/XI26/XI7/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI20/XI18/MM2:b
+                                                                   XINPUT1/XI20/XI18/MM2:s
+                                                                   XINPUT1/XI20/XI18/MM0:b
+                                                                   XINPUT1/XI20/XI18/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI20/XI14/MM2:b
+                                                                   XINPUT1/XI20/XI14/MM2:s
+                                                                   XINPUT1/XI20/XI14/MM0:b
+                                                                   XINPUT1/XI20/XI14/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI24/XI5/MM2:b
+                                                                   XINPUT1/XI24/XI5/MM2:s
+                                                                   XINPUT1/XI24/XI5/MM0:b
+                                                                   XINPUT1/XI24/XI5/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI24/XI6/MM2:b
+                                                                   XINPUT1/XI24/XI6/MM2:s
+                                                                   XINPUT1/XI24/XI6/MM0:b
+                                                                   XINPUT1/XI24/XI6/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI25/XI6/MM2:b
+                                                                   XINPUT1/XI25/XI6/MM2:s
+                                                                   XINPUT1/XI25/XI6/MM0:b
+                                                                   XINPUT1/XI25/XI6/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI23/XI5/MM2:b
+                                                                   XINPUT1/XI23/XI5/MM2:s
+                                                                   XINPUT1/XI23/XI5/MM0:b
+                                                                   XINPUT1/XI23/XI5/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI23/XI6/MM2:b
+                                                                   XINPUT1/XI23/XI6/MM2:s
+                                                                   XINPUT1/XI23/XI6/MM0:b
+                                                                   XINPUT1/XI23/XI6/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI17/XI18/MM2:b
+                                                                   XINPUT1/XI17/XI18/MM2:s
+                                                                   XINPUT1/XI17/XI18/MM0:b
+                                                                   XINPUT1/XI17/XI18/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI25/XI5/MM2:b
+                                                                   XINPUT1/XI25/XI5/MM2:s
+                                                                   XINPUT1/XI25/XI5/MM0:b
+                                                                   XINPUT1/XI25/XI5/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI26/XI6/MM2:b
+                                                                   XINPUT1/XI26/XI6/MM2:s
+                                                                   XINPUT1/XI26/XI6/MM0:b
+                                                                   XINPUT1/XI26/XI6/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI26/XI5/MM2:b
+                                                                   XINPUT1/XI26/XI5/MM2:s
+                                                                   XINPUT1/XI26/XI5/MM0:b
+                                                                   XINPUT1/XI26/XI5/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI18/XI14/MM2:b
+                                                                   XINPUT1/XI18/XI14/MM2:s
+                                                                   XINPUT1/XI18/XI14/MM0:b
+                                                                   XINPUT1/XI18/XI14/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI18/XI18/MM2:b
+                                                                   XINPUT1/XI18/XI18/MM2:s
+                                                                   XINPUT1/XI18/XI18/MM0:b
+                                                                   XINPUT1/XI18/XI18/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI12/XI14/MM2:b
+                                                                   XINPUT1/XI12/XI14/MM2:s
+                                                                   XINPUT1/XI12/XI14/MM0:b
+                                                                   XINPUT1/XI12/XI14/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI16/XI18/MM2:b
+                                                                   XINPUT1/XI16/XI18/MM2:s
+                                                                   XINPUT1/XI16/XI18/MM0:b
+                                                                   XINPUT1/XI16/XI18/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI19/XI14/MM2:b
+                                                                   XINPUT1/XI19/XI14/MM2:s
+                                                                   XINPUT1/XI19/XI14/MM0:b
+                                                                   XINPUT1/XI19/XI14/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI19/XI18/MM2:b
+                                                                   XINPUT1/XI19/XI18/MM2:s
+                                                                   XINPUT1/XI19/XI18/MM0:b
+                                                                   XINPUT1/XI19/XI18/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI12/XI18/MM2:b
+                                                                   XINPUT1/XI12/XI18/MM2:s
+                                                                   XINPUT1/XI12/XI18/MM0:b
+                                                                   XINPUT1/XI12/XI18/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XOUTPUT1/XI1/XI7/MM2:b
+                                                                   XOUTPUT1/XI1/XI7/MM2:s
+                                                                   XOUTPUT1/XI1/XI7/MM0:b
+                                                                   XOUTPUT1/XI1/XI7/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XOUTPUT1/XI0/XI7/MM2:b
+                                                                   XOUTPUT1/XI0/XI7/MM2:s
+                                                                   XOUTPUT1/XI0/XI7/MM0:b
+                                                                   XOUTPUT1/XI0/XI7/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI14/XI18/MM2:b
+                                                                   XINPUT1/XI14/XI18/MM2:s
+                                                                   XINPUT1/XI14/XI18/MM0:b
+                                                                   XINPUT1/XI14/XI18/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI15/XI13/MM2:b
+                                                                   XINPUT1/XI15/XI13/MM2:s
+                                                                   XINPUT1/XI15/XI13/MM0:b
+                                                                   XINPUT1/XI15/XI13/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI15/XI18/MM2:b
+                                                                   XINPUT1/XI15/XI18/MM2:s
+                                                                   XINPUT1/XI15/XI18/MM0:b
+                                                                   XINPUT1/XI15/XI18/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI21/XI13/MM2:b
+                                                                   XINPUT1/XI21/XI13/MM2:s
+                                                                   XINPUT1/XI21/XI13/MM0:b
+                                                                   XINPUT1/XI21/XI13/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XOUTPUT1/XI3/XI5/MM2:b
+                                                                   XOUTPUT1/XI3/XI5/MM2:s
+                                                                   XOUTPUT1/XI3/XI5/MM0:b
+                                                                   XOUTPUT1/XI3/XI5/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XOUTPUT1/XI3/XI6/MM2:b
+                                                                   XOUTPUT1/XI3/XI6/MM2:s
+                                                                   XOUTPUT1/XI3/XI6/MM0:b
+                                                                   XOUTPUT1/XI3/XI6/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI20/XI13/MM2:b
+                                                                   XINPUT1/XI20/XI13/MM2:s
+                                                                   XINPUT1/XI20/XI13/MM0:b
+                                                                   XINPUT1/XI20/XI13/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XOUTPUT1/XI2/XI5/MM2:b
+                                                                   XOUTPUT1/XI2/XI5/MM2:s
+                                                                   XOUTPUT1/XI2/XI5/MM0:b
+                                                                   XOUTPUT1/XI2/XI5/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XOUTPUT1/XI2/XI6/MM2:b
+                                                                   XOUTPUT1/XI2/XI6/MM2:s
+                                                                   XOUTPUT1/XI2/XI6/MM0:b
+                                                                   XOUTPUT1/XI2/XI6/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI19/XI13/MM2:b
+                                                                   XINPUT1/XI19/XI13/MM2:s
+                                                                   XINPUT1/XI19/XI13/MM0:b
+                                                                   XINPUT1/XI19/XI13/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XOUTPUT1/XI1/XI5/MM2:b
+                                                                   XOUTPUT1/XI1/XI5/MM2:s
+                                                                   XOUTPUT1/XI1/XI5/MM0:b
+                                                                   XOUTPUT1/XI1/XI5/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XOUTPUT1/XI1/XI6/MM2:b
+                                                                   XOUTPUT1/XI1/XI6/MM2:s
+                                                                   XOUTPUT1/XI1/XI6/MM0:b
+                                                                   XOUTPUT1/XI1/XI6/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI15/XI14/MM2:b
+                                                                   XINPUT1/XI15/XI14/MM2:s
+                                                                   XINPUT1/XI15/XI14/MM0:b
+                                                                   XINPUT1/XI15/XI14/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XOUTPUT1/XI0/XI5/MM2:b
+                                                                   XOUTPUT1/XI0/XI5/MM2:s
+                                                                   XOUTPUT1/XI0/XI5/MM0:b
+                                                                   XOUTPUT1/XI0/XI5/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XMULT1/XI11/XI6/MM2:b
+                                                                   XMULT1/XI11/XI6/MM2:s
+                                                                   XMULT1/XI11/XI6/MM0:b
+                                                                   XMULT1/XI11/XI6/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XOUTPUT1/XI3/XI7/MM2:b
+                                                                   XOUTPUT1/XI3/XI7/MM2:s
+                                                                   XOUTPUT1/XI3/XI7/MM0:b
+                                                                   XOUTPUT1/XI3/XI7/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XOUTPUT1/XI2/XI7/MM2:b
+                                                                   XOUTPUT1/XI2/XI7/MM2:s
+                                                                   XOUTPUT1/XI2/XI7/MM0:b
+                                                                   XOUTPUT1/XI2/XI7/MM0:s
+       
+       
+       ** missing connection **                                  (_nand2v):sup1
+                                                                   XINPUT1/XI17/XI14/MM2:b
+                                                                   XINPUT1/XI17/XI14/MM2:s
+                                                                   XINPUT1/XI17/XI14/MM0:b
+                                                                   XINPUT1/XI17/XI14/MM0:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net 29                                                    net034
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (_nand2v):out
+                                                                   XOUTPUT1/XI0/XI7/MM2:d
+                                                                   XOUTPUT1/XI0/XI7/MM0:d
+                                                                   XOUTPUT1/XI0/XI7/MM3:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    Net 16                                                    net35
+       --------------------------                                --------------------------
+       
+       (_nand2v):out                                             ** missing connection **
+         X39/X11/X0/X1/M0(8.602,4.803):d
+         X39/X11/X0/X1/M1(8.793,4.803):s
+         X39/X11/X0/X0/M0(8.602,2.978):d
+       
+       
+       (_nand2v):in2                                             ** missing connection **
+         X39/X11/X1/X1/M0(9.210,4.803):g
+         X39/X11/X1/X0/M0(9.210,2.978):g
+       
+       
+       (_nand2v):in2                                             ** missing connection **
+         X47/X20/X1/X2/X1/M0(18.343,8.713):g
+         X47/X20/X1/X2/X0/M0(18.343,6.888):g
+       
+       
+       (_nand2v):in2                                             ** missing connection **
+         X47/X17/X1/X2/X1/M0(1.460,8.713):g
+         X47/X17/X1/X2/X0/M0(1.460,6.888):g
+       
+       
+       (_nand2v):in1                                             ** missing connection **
+         X42/X0/X1/M1(35.745,8.713):g
+         X42/X0/X0/M1(35.745,6.888):g
+       
+       
+       (_nand2v):in2                                             ** missing connection **
+         X42/X3/X4/X1/M0(39.093,8.713):g
+         X42/X3/X4/X0/M0(39.093,6.888):g
+       
+       
+       (_invv):in                                                ** missing connection **
+         X47/X21/X1/X1/X0/M0(22.992,6.888):g
+         X47/X21/X1/X1/X1/M1(23.183,8.713):g
+       
+       
+       (_invv):in                                                ** missing connection **
+         X42/X3/X0/M0(37.395,6.888):g
+         X42/X3/X0/M1(37.398,8.502):g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XMULT1/XI11/XI6/MM0:g
+                                                                   XMULT1/XI11/XI6/MM1:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    Net 52                                                    net77
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XOUTPUT1/XI0/XI5/MM0:g
+                                                                   XOUTPUT1/XI0/XI5/MM1:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    Net 5                                                     O3
+                                                                 net56
+
+--------------------------------------------------------------------------------------------------------------
+
+  7    Net 53                                                    net71
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XOUTPUT1/XI2/XI5/MM0:g
+                                                                   XOUTPUT1/XI2/XI5/MM1:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  8    Net X11/7                                                 XOUTPUT1/XI2/net4
+       --------------------------                                --------------------------
+       
+       (_nand2v):out                                             ** missing connection **
+         X11/X2/X1/M0(65.332,4.803):d
+         X11/X2/X1/M1(65.522,4.803):s
+         X11/X2/X0/M0(65.332,2.978):d
+       
+       
+       ** missing connection **                                  (_nand2v):out
+                                                                   XOUTPUT1/XI2/XI6/MM2:d
+                                                                   XOUTPUT1/XI2/XI6/MM0:d
+                                                                   XOUTPUT1/XI2/XI6/MM3:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  9    Net X11/9                                                 XOUTPUT1/XI2/net7
+       --------------------------                                --------------------------
+       
+       (_nand2v):out                                             ** missing connection **
+         X11/X1/X1/M0(64.725,4.803):d
+         X11/X1/X1/M1(64.915,4.803):s
+         X11/X1/X0/M0(64.725,2.978):d
+       
+       
+       ** missing connection **                                  (_nand2v):out
+                                                                   XOUTPUT1/XI2/XI5/MM2:d
+                                                                   XOUTPUT1/XI2/XI5/MM0:d
+                                                                   XOUTPUT1/XI2/XI5/MM3:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 10    Net X42/10                                                net75
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XOUTPUT1/XI1/XI5/MM0:g
+                                                                   XOUTPUT1/XI1/XI5/MM1:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 11    Net X47/20                                                net70
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XOUTPUT1/XI0/XI6/MM2:g
+                                                                   XOUTPUT1/XI0/XI6/MM3:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 12    Net X47/21                                                net72
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XOUTPUT1/XI1/XI6/MM2:g
+                                                                   XOUTPUT1/XI1/XI6/MM3:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 13    Net X47/22                                                net74
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XOUTPUT1/XI3/XI6/MM2:g
+                                                                   XOUTPUT1/XI3/XI6/MM3:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 14    Net X47/23                                                net76
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XOUTPUT1/XI2/XI6/MM2:g
+                                                                   XOUTPUT1/XI2/XI6/MM3:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 15    Net X47/X21/X1/9                                          XMULT1/XI11/net4
+       --------------------------                                --------------------------
+       
+       (_invv):out                                               ** missing connection **
+         X47/X21/X1/X1/X0/M0(22.992,6.888):s
+         X47/X21/X1/X1/X1/M1(23.183,8.713):s
+       
+       
+       ** missing connection **                                  (_nand2v):out
+                                                                   XMULT1/XI11/XI6/MM2:d
+                                                                   XMULT1/XI11/XI6/MM0:d
+                                                                   XMULT1/XI11/XI6/MM3:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 16    Net 69                                                    net69
+           70                                                   
+       --------------------------                                --------------------------
+       
+       (_nand2v):in1                                             ** unmatched connection **
+         X10/X1/X1/M1(62.590,4.803):g
+         X10/X1/X0/M1(62.590,2.978):g
+       
+       
+       (_nand2v):in1                                             ** unmatched connection **
+         X11/X1/X1/M1(64.915,4.803):g
+         X11/X1/X0/M1(64.915,2.978):g
+       
+       
+       (_nand2v):in1                                             ** unmatched connection **
+         X12/X1/X1/M1(67.240,4.803):g
+         X12/X1/X0/M1(67.240,2.978):g
+       
+       
+       (_nand2v):in1                                             ** unmatched connection **
+         X8/X1/X1/M1(60.265,4.803):g
+         X8/X1/X0/M1(60.265,2.978):g
+       
+       
+       ** unmatched connection **                                (_nand2v):in1
+                                                                   XOUTPUT1/XI0/XI6/MM0:g
+                                                                   XOUTPUT1/XI0/XI6/MM1:g
+       
+       
+       ** unmatched connection **                                (_nand2v):in1
+                                                                   XOUTPUT1/XI3/XI6/MM0:g
+                                                                   XOUTPUT1/XI3/XI6/MM1:g
+       
+       
+       ** unmatched connection **                                (_nand2v):in1
+                                                                   XOUTPUT1/XI2/XI6/MM0:g
+                                                                   XOUTPUT1/XI2/XI6/MM1:g
+       
+       
+       ** unmatched connection **                                (_nand2v):in1
+                                                                   XOUTPUT1/XI1/XI6/MM0:g
+                                                                   XOUTPUT1/XI1/XI6/MM1:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 17    Net 40                                                    net73
+           X43/10                                               
+       --------------------------                                --------------------------
+       
+       (_nand2v):in2                                             ** missing connection **
+         X8/X1/X1/M0(60.075,4.803):g
+         X8/X1/X0/M0(60.075,2.978):g
+       
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XOUTPUT1/XI3/XI5/MM0:g
+                                                                   XOUTPUT1/XI3/XI5/MM1:g
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+ 18    Net 49                                                    net036
+           31                                                   
+
+--------------------------------------------------------------------------------------------------------------
+
+ 19    Net 46                                                    net039
+           35                                                   
+
+--------------------------------------------------------------------------------------------------------------
+
+ 20    Net 43                                                    net038
+           33                                                   
+
+--------------------------------------------------------------------------------------------------------------
+
+ 21    Net 27                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 22    Net 21                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 23    Net 39                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 24    Net 26                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 25    Net 38                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 26    Net 41                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 27    Net 44                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 28    Net 45                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 29    Net 47                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 30    Net 48                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 31    Net 50                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 32    Net 51                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 33    ** no similar net **                                      O1
+
+--------------------------------------------------------------------------------------------------------------
+
+ 34    Net X8/7                                                  ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 35    Net X8/9                                                  ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+ 36    ** no similar net **                                      XOUTPUT1/XI0/net7
+
+--------------------------------------------------------------------------------------------------------------
+
+ 37    ** no similar net **                                      XOUTPUT1/XI0/net4
+
+
+**************************************************************************************************************
+                                   INCORRECT PORTS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+ 38    ** missing port **                                        VDD! on net: VDD!
+ 39    ** missing port **                                        GND! on net: GND!
+ 40    ** missing port **                                        B00 on net: B00
+ 41    ** missing port **                                        B10 on net: B10
+ 42    ** missing port **                                        B20 on net: B20
+ 43    ** missing port **                                        B30 on net: B30
+ 44    ** missing port **                                        CLK on net: CLK
+ 45    ** missing port **                                        I0 on net: I0
+ 46    ** missing port **                                        I1 on net: I1
+ 47    ** missing port **                                        I2 on net: I2
+ 48    ** missing port **                                        I3 on net: I3
+ 49    ** missing port **                                        O0 on net: O0
+ 50    ** missing port **                                        O1 on net: O1
+ 51    ** missing port **                                        O2 on net: O2
+ 52    ** missing port **                                        O3 on net: O3
+ 53    ** missing port **                                        S00 on net: S00
+ 54    ** missing port **                                        S2 on net: S2
+ 55    ** missing port **                                        S10 on net: S10
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+ 56    (_invv)                                                   ** missing injected instance **
+
+       Devices: 
+         X47/X21/X1/X1/X1/M1(23.183,8.713)  MP(PMOS_VTG)
+         X47/X21/X1/X1/X0/M0(22.992,6.888)  MN(NMOS_VTG)
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               0          0            0           18
+
+   Nets:              250        246           14            3
+
+   Instances:          54         54            1            0    _invv
+                      167        167            9           10    _nand2v
+                        4          4            0            0    _nor2v
+                  -------    -------    ---------    ---------
+   Total Inst:        225        225           10           10
+
+
+o Statistics:
+
+   4 layout mos transistors were reduced to 2.  1 connecting net was deleted.
+     1 mos transistor was deleted by parallel reduction.
+     1 mos transistor and 1 connecting net were deleted by series reduction.
+
+   1 net was matched arbitrarily.
+
+
+o Ambiguity Resolution Points:
+
+      (Each one of the following objects belongs to a group of indistinguishable objects.
+       The listed objects were matched arbitrarily by the Ambiguity Resolution feature of LVS.
+       Arbitrary matching may be prevented by assigning names to these objects or to adjacent nets).
+
+       Layout                                                    Source
+       ------                                                    ------
+
+                                     Nets
+                                     ----
+
+       X40/11                                                    XINPUT1/XI20/net14
+
+
+
+**************************************************************************************************************
+                             DETAILED INSTANCE CONNECTIONS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed information about connections of
+           matched instances that are involved in net discrepancies).
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   (_invv)
+         out: X42/X3/6                                             out: XADDER1/XI1/XI2/XI2/net9
+         sup1: 22                                                  sup1: VDD!
+         sup2: 23                                                  sup2: GND!
+         in: 16                                                    ** net35 **
+         ** no similar net **                                      in: O1
+
+       Devices: 
+         X42/X3/X0/M1(37.398,8.502)  MP(PMOS_VTG)                  XADDER1/XI1/XI2/XI2/XI8/MM1  MP(PMOS_VTG) 
+         X42/X3/X0/M0(37.395,6.888)  MN(NMOS_VTG)                  XADDER1/XI1/XI2/XI2/XI8/MM0  MN(NMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X42/X3/8                                             in2: XADDER1/XI1/XI2/XI2/net015
+         out: X42/X3/9                                             out: XADDER1/XI1/XI2/XI2/net4
+         sup1: 22                                                  sup1: VDD!
+         sup2: 23                                                  sup2: GND!
+         in2: 16                                                   ** net35 **
+         ** no similar net **                                      in1: O1
+
+       Devices: 
+         X42/X3/X4/X0/M0(39.093,6.888)  MN(NMOS_VTG)               XADDER1/XI1/XI2/XI2/XI6/MM1  MN(NMOS_VTG) 
+         X42/X3/X4/X0/M1(39.282,6.888)  MN(NMOS_VTG)               XADDER1/XI1/XI2/XI2/XI6/MM3  MN(NMOS_VTG) 
+         X42/X3/X4/X1/M0(39.093,8.713)  MP(PMOS_VTG)               XADDER1/XI1/XI2/XI2/XI6/MM0  MP(PMOS_VTG) 
+         X42/X3/X4/X1/M1(39.282,8.713)  MP(PMOS_VTG)               XADDER1/XI1/XI2/XI2/XI6/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in2: 36                                                   in1: XADDER1/XI1/net17
+         out: X42/7                                                out: XADDER1/XI1/XI2/net15
+         sup1: 22                                                  sup1: VDD!
+         sup2: 23                                                  sup2: GND!
+         in1: 16                                                   ** net35 **
+         ** no similar net **                                      in2: O1
+
+       Devices: 
+         X42/X0/X0/M0(35.555,6.888)  MN(NMOS_VTG)                  XADDER1/XI1/XI2/XI4/MM1  MN(NMOS_VTG) 
+         X42/X0/X0/M1(35.745,6.888)  MN(NMOS_VTG)                  XADDER1/XI1/XI2/XI4/MM3  MN(NMOS_VTG) 
+         X42/X0/X1/M0(35.555,8.713)  MP(PMOS_VTG)                  XADDER1/XI1/XI2/XI4/MM0  MP(PMOS_VTG) 
+         X42/X0/X1/M1(35.745,8.713)  MP(PMOS_VTG)                  XADDER1/XI1/XI2/XI4/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X47/X17/X1/8                                         in2: XMULT1/XI6/net9
+         out: X47/X17/X1/7                                         out: XMULT1/XI6/net7
+         sup1: 22                                                  sup1: VDD!
+         sup2: 23                                                  sup2: GND!
+         in2: 16                                                   ** net35 **
+         ** no similar net **                                      in1: O1
+
+       Devices: 
+         X47/X17/X1/X2/X0/M0(1.460,6.888)  MN(NMOS_VTG)            XMULT1/XI6/XI5/MM1  MN(NMOS_VTG) 
+         X47/X17/X1/X2/X0/M1(1.650,6.888)  MN(NMOS_VTG)            XMULT1/XI6/XI5/MM3  MN(NMOS_VTG) 
+         X47/X17/X1/X2/X1/M0(1.460,8.713)  MP(PMOS_VTG)            XMULT1/XI6/XI5/MM0  MP(PMOS_VTG) 
+         X47/X17/X1/X2/X1/M1(1.650,8.713)  MP(PMOS_VTG)            XMULT1/XI6/XI5/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X47/X20/X1/8                                         in2: XMULT1/XI2/net9
+         out: X47/X20/X1/7                                         out: XMULT1/XI2/net7
+         sup1: 22                                                  sup1: VDD!
+         sup2: 23                                                  sup2: GND!
+         in2: 16                                                   ** net35 **
+         ** no similar net **                                      in1: O1
+
+       Devices: 
+         X47/X20/X1/X2/X0/M0(18.343,6.888)  MN(NMOS_VTG)           XMULT1/XI2/XI5/MM1  MN(NMOS_VTG) 
+         X47/X20/X1/X2/X0/M1(18.532,6.888)  MN(NMOS_VTG)           XMULT1/XI2/XI5/MM3  MN(NMOS_VTG) 
+         X47/X20/X1/X2/X1/M0(18.343,8.713)  MP(PMOS_VTG)           XMULT1/XI2/XI5/MM0  MP(PMOS_VTG) 
+         X47/X20/X1/X2/X1/M1(18.532,8.713)  MP(PMOS_VTG)           XMULT1/XI2/XI5/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X44/X0/9                                             in2: XINPUT1/XI21/net9
+         in2: 5                                                    in1: O3
+         out: 60                                                   out: net80
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X44/X0/X11/X1/X0/M0(23.500,2.978)  MN(NMOS_VTG)           XINPUT1/XI21/XI13/MM1  MN(NMOS_VTG) 
+         X44/X0/X11/X1/X0/M1(23.690,2.978)  MN(NMOS_VTG)           XINPUT1/XI21/XI13/MM3  MN(NMOS_VTG) 
+         X44/X0/X11/X1/X1/M0(23.500,4.803)  MP(PMOS_VTG)           XINPUT1/XI21/XI13/MM0  MP(PMOS_VTG) 
+         X44/X0/X11/X1/X1/M1(23.690,4.803)  MP(PMOS_VTG)           XINPUT1/XI21/XI13/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X45/X0/9                                             in2: XINPUT1/XI15/net9
+         in2: 12                                                   in1: net36
+         out: 62                                                   out: net81
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X45/X0/X11/X1/X0/M0(33.140,2.978)  MN(NMOS_VTG)           XINPUT1/XI15/XI13/MM1  MN(NMOS_VTG) 
+         X45/X0/X11/X1/X0/M1(33.330,2.978)  MN(NMOS_VTG)           XINPUT1/XI15/XI13/MM3  MN(NMOS_VTG) 
+         X45/X0/X11/X1/X1/M0(33.140,4.803)  MP(PMOS_VTG)           XINPUT1/XI15/XI13/MM0  MP(PMOS_VTG) 
+         X45/X0/X11/X1/X1/M1(33.330,4.803)  MP(PMOS_VTG)           XINPUT1/XI15/XI13/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: 29                                                   in1: net034
+         in2: X2/8                                                 in2: XINPUT1/XI23/net9
+         out: X2/7                                                 out: XINPUT1/XI23/net7
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X2/X2/X0/M0(-1.438,2.978)  MN(NMOS_VTG)                   XINPUT1/XI23/XI5/MM1  MN(NMOS_VTG) 
+         X2/X2/X0/M1(-1.627,2.978)  MN(NMOS_VTG)                   XINPUT1/XI23/XI5/MM3  MN(NMOS_VTG) 
+         X2/X2/X1/M0(-1.438,4.803)  MP(PMOS_VTG)                   XINPUT1/XI23/XI5/MM0  MP(PMOS_VTG) 
+         X2/X2/X1/M1(-1.627,4.803)  MP(PMOS_VTG)                   XINPUT1/XI23/XI5/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X45/X1/8                                             in2: XINPUT1/XI16/net5
+         in2: X45/X1/10                                            in1: XINPUT1/XI16/net25
+         out: X45/X1/12                                            out: XINPUT1/XI16/net3
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X45/X1/X1/X0/M0(39.990,2.978)  MN(NMOS_VTG)               XINPUT1/XI16/XI18/MM1  MN(NMOS_VTG) 
+         X45/X1/X1/X0/M1(39.800,2.978)  MN(NMOS_VTG)               XINPUT1/XI16/XI18/MM3  MN(NMOS_VTG) 
+         X45/X1/X1/X1/M0(39.990,4.803)  MP(PMOS_VTG)               XINPUT1/XI16/XI18/MM0  MP(PMOS_VTG) 
+         X45/X1/X1/X1/M1(39.800,4.803)  MP(PMOS_VTG)               XINPUT1/XI16/XI18/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: 31                                                   in1: net036
+         in2: X3/8                                                 in2: XINPUT1/XI24/net9
+         out: X3/7                                                 out: XINPUT1/XI24/net7
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X3/X2/X0/M0(5.707,2.978)  MN(NMOS_VTG)                    XINPUT1/XI24/XI5/MM1  MN(NMOS_VTG) 
+         X3/X2/X0/M1(5.518,2.978)  MN(NMOS_VTG)                    XINPUT1/XI24/XI5/MM3  MN(NMOS_VTG) 
+         X3/X2/X1/M0(5.707,4.803)  MP(PMOS_VTG)                    XINPUT1/XI24/XI5/MM0  MP(PMOS_VTG) 
+         X3/X2/X1/M1(5.518,4.803)  MP(PMOS_VTG)                    XINPUT1/XI24/XI5/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: 30                                                   in2: I1
+         in2: 64                                                   in1: S2
+         out: X3/9                                                 out: XINPUT1/XI24/net4
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X3/X1/X0/M1(6.125,2.978)  MN(NMOS_VTG)                    XINPUT1/XI24/XI6/MM1  MN(NMOS_VTG) 
+         X3/X1/X0/M0(6.315,2.978)  MN(NMOS_VTG)                    XINPUT1/XI24/XI6/MM3  MN(NMOS_VTG) 
+         X3/X1/X1/M1(6.125,4.803)  MP(PMOS_VTG)                    XINPUT1/XI24/XI6/MM0  MP(PMOS_VTG) 
+         X3/X1/X1/M0(6.315,4.803)  MP(PMOS_VTG)                    XINPUT1/XI24/XI6/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: 33                                                   in1: net038
+         in2: X4/8                                                 in2: XINPUT1/XI25/net9
+         out: X4/7                                                 out: XINPUT1/XI25/net7
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X4/X2/X0/M0(12.852,2.978)  MN(NMOS_VTG)                   XINPUT1/XI25/XI5/MM1  MN(NMOS_VTG) 
+         X4/X2/X0/M1(12.662,2.978)  MN(NMOS_VTG)                   XINPUT1/XI25/XI5/MM3  MN(NMOS_VTG) 
+         X4/X2/X1/M0(12.852,4.803)  MP(PMOS_VTG)                   XINPUT1/XI25/XI5/MM0  MP(PMOS_VTG) 
+         X4/X2/X1/M1(12.662,4.803)  MP(PMOS_VTG)                   XINPUT1/XI25/XI5/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: 32                                                   in2: I2
+         in2: 64                                                   in1: S2
+         out: X4/9                                                 out: XINPUT1/XI25/net4
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X4/X1/X0/M1(13.270,2.978)  MN(NMOS_VTG)                   XINPUT1/XI25/XI6/MM1  MN(NMOS_VTG) 
+         X4/X1/X0/M0(13.460,2.978)  MN(NMOS_VTG)                   XINPUT1/XI25/XI6/MM3  MN(NMOS_VTG) 
+         X4/X1/X1/M1(13.270,4.803)  MP(PMOS_VTG)                   XINPUT1/XI25/XI6/MM0  MP(PMOS_VTG) 
+         X4/X1/X1/M0(13.460,4.803)  MP(PMOS_VTG)                   XINPUT1/XI25/XI6/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: 35                                                   in1: net039
+         in2: X5/8                                                 in2: XINPUT1/XI26/net9
+         out: X5/7                                                 out: XINPUT1/XI26/net7
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X5/X2/X0/M0(19.997,2.978)  MN(NMOS_VTG)                   XINPUT1/XI26/XI5/MM1  MN(NMOS_VTG) 
+         X5/X2/X0/M1(19.808,2.978)  MN(NMOS_VTG)                   XINPUT1/XI26/XI5/MM3  MN(NMOS_VTG) 
+         X5/X2/X1/M0(19.997,4.803)  MP(PMOS_VTG)                   XINPUT1/XI26/XI5/MM0  MP(PMOS_VTG) 
+         X5/X2/X1/M1(19.808,4.803)  MP(PMOS_VTG)                   XINPUT1/XI26/XI5/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: 28                                                   in2: I0
+         in2: 64                                                   in1: S2
+         out: X2/9                                                 out: XINPUT1/XI23/net4
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X2/X1/X0/M1(-1.020,2.978)  MN(NMOS_VTG)                   XINPUT1/XI23/XI6/MM1  MN(NMOS_VTG) 
+         X2/X1/X0/M0(-0.830,2.978)  MN(NMOS_VTG)                   XINPUT1/XI23/XI6/MM3  MN(NMOS_VTG) 
+         X2/X1/X1/M1(-1.020,4.803)  MP(PMOS_VTG)                   XINPUT1/XI23/XI6/MM0  MP(PMOS_VTG) 
+         X2/X1/X1/M0(-0.830,4.803)  MP(PMOS_VTG)                   XINPUT1/XI23/XI6/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X40/9                                                in2: XINPUT1/XI20/net9
+         in2: 65                                                   in1: O2
+         out: 57                                                   out: net79
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X40/X11/X1/X0/M0(16.355,2.978)  MN(NMOS_VTG)              XINPUT1/XI20/XI13/MM1  MN(NMOS_VTG) 
+         X40/X11/X1/X0/M1(16.545,2.978)  MN(NMOS_VTG)              XINPUT1/XI20/XI13/MM3  MN(NMOS_VTG) 
+         X40/X11/X1/X1/M0(16.355,4.803)  MP(PMOS_VTG)              XINPUT1/XI20/XI13/MM0  MP(PMOS_VTG) 
+         X40/X11/X1/X1/M1(16.545,4.803)  MP(PMOS_VTG)              XINPUT1/XI20/XI13/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X39/9                                                in2: XINPUT1/XI19/net9
+         out: 56                                                   out: net78
+         in2: 16                                                   ** net35 **
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** no similar net **                                      in1: O1
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X39/X11/X1/X0/M0(9.210,2.978)  MN(NMOS_VTG)               XINPUT1/XI19/XI13/MM1  MN(NMOS_VTG) 
+         X39/X11/X1/X0/M1(9.400,2.978)  MN(NMOS_VTG)               XINPUT1/XI19/XI13/MM3  MN(NMOS_VTG) 
+         X39/X11/X1/X1/M0(9.210,4.803)  MP(PMOS_VTG)               XINPUT1/XI19/XI13/MM0  MP(PMOS_VTG) 
+         X39/X11/X1/X1/M1(9.400,4.803)  MP(PMOS_VTG)               XINPUT1/XI19/XI13/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X44/X0/8                                             in1: XINPUT1/XI21/net5
+         in2: X44/X0/10                                            in2: XINPUT1/XI21/net25
+         out: X44/X0/7                                             out: XINPUT1/XI21/net19
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X44/X0/X10/X0/X0/M1(21.867,2.978)  MN(NMOS_VTG)           XINPUT1/XI21/XI14/MM1  MN(NMOS_VTG) 
+         X44/X0/X10/X0/X0/M0(21.677,2.978)  MN(NMOS_VTG)           XINPUT1/XI21/XI14/MM3  MN(NMOS_VTG) 
+         X44/X0/X10/X0/X1/M1(21.867,4.803)  MP(PMOS_VTG)           XINPUT1/XI21/XI14/MM0  MP(PMOS_VTG) 
+         X44/X0/X10/X0/X1/M0(21.677,4.803)  MP(PMOS_VTG)           XINPUT1/XI21/XI14/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X41/10                                               in2: XINPUT1/XI13/net25
+         in2: X41/8                                                in1: XINPUT1/XI13/net5
+         out: X41/7                                                out: XINPUT1/XI13/net19
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X41/X10/X0/X0/M1(50.788,2.978)  MN(NMOS_VTG)              XINPUT1/XI13/XI14/MM1  MN(NMOS_VTG) 
+         X41/X10/X0/X0/M0(50.597,2.978)  MN(NMOS_VTG)              XINPUT1/XI13/XI14/MM3  MN(NMOS_VTG) 
+         X41/X10/X0/X1/M1(50.788,4.803)  MP(PMOS_VTG)              XINPUT1/XI13/XI14/MM0  MP(PMOS_VTG) 
+         X41/X10/X0/X1/M0(50.597,4.803)  MP(PMOS_VTG)              XINPUT1/XI13/XI14/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X44/X0/8                                             in2: XINPUT1/XI21/net5
+         in2: X44/X0/10                                            in1: XINPUT1/XI21/net25
+         out: X44/X0/12                                            out: XINPUT1/XI21/net3
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X44/X0/X1/X0/M0(25.530,2.978)  MN(NMOS_VTG)               XINPUT1/XI21/XI18/MM1  MN(NMOS_VTG) 
+         X44/X0/X1/X0/M1(25.340,2.978)  MN(NMOS_VTG)               XINPUT1/XI21/XI18/MM3  MN(NMOS_VTG) 
+         X44/X0/X1/X1/M0(25.530,4.803)  MP(PMOS_VTG)               XINPUT1/XI21/XI18/MM0  MP(PMOS_VTG) 
+         X44/X0/X1/X1/M1(25.340,4.803)  MP(PMOS_VTG)               XINPUT1/XI21/XI18/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X5/7                                                 in1: XINPUT1/XI26/net7
+         in2: X5/9                                                 in2: XINPUT1/XI26/net4
+         out: 6                                                    out: XINPUT1/net82
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X5/X0/X0/M0(21.212,2.978)  MN(NMOS_VTG)                   XINPUT1/XI26/XI7/MM1  MN(NMOS_VTG) 
+         X5/X0/X0/M1(21.023,2.978)  MN(NMOS_VTG)                   XINPUT1/XI26/XI7/MM3  MN(NMOS_VTG) 
+         X5/X0/X1/M0(21.212,4.803)  MP(PMOS_VTG)                   XINPUT1/XI26/XI7/MM0  MP(PMOS_VTG) 
+         X5/X0/X1/M1(21.023,4.803)  MP(PMOS_VTG)                   XINPUT1/XI26/XI7/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X4/7                                                 in1: XINPUT1/XI25/net7
+         in2: X4/9                                                 in2: XINPUT1/XI25/net4
+         out: 4                                                    out: XINPUT1/net80
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X4/X0/X0/M0(14.068,2.978)  MN(NMOS_VTG)                   XINPUT1/XI25/XI7/MM1  MN(NMOS_VTG) 
+         X4/X0/X0/M1(13.877,2.978)  MN(NMOS_VTG)                   XINPUT1/XI25/XI7/MM3  MN(NMOS_VTG) 
+         X4/X0/X1/M0(14.068,4.803)  MP(PMOS_VTG)                   XINPUT1/XI25/XI7/MM0  MP(PMOS_VTG) 
+         X4/X0/X1/M1(13.877,4.803)  MP(PMOS_VTG)                   XINPUT1/XI25/XI7/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X3/7                                                 in1: XINPUT1/XI24/net7
+         in2: X3/9                                                 in2: XINPUT1/XI24/net4
+         out: 3                                                    out: XINPUT1/net79
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X3/X0/X0/M0(6.923,2.978)  MN(NMOS_VTG)                    XINPUT1/XI24/XI7/MM1  MN(NMOS_VTG) 
+         X3/X0/X0/M1(6.732,2.978)  MN(NMOS_VTG)                    XINPUT1/XI24/XI7/MM3  MN(NMOS_VTG) 
+         X3/X0/X1/M0(6.923,4.803)  MP(PMOS_VTG)                    XINPUT1/XI24/XI7/MM0  MP(PMOS_VTG) 
+         X3/X0/X1/M1(6.732,4.803)  MP(PMOS_VTG)                    XINPUT1/XI24/XI7/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X2/7                                                 in1: XINPUT1/XI23/net7
+         in2: X2/9                                                 in2: XINPUT1/XI23/net4
+         out: 1                                                    out: XINPUT1/net81
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X2/X0/X0/M0(-0.223,2.978)  MN(NMOS_VTG)                   XINPUT1/XI23/XI7/MM1  MN(NMOS_VTG) 
+         X2/X0/X0/M1(-0.412,2.978)  MN(NMOS_VTG)                   XINPUT1/XI23/XI7/MM3  MN(NMOS_VTG) 
+         X2/X0/X1/M0(-0.223,4.803)  MP(PMOS_VTG)                   XINPUT1/XI23/XI7/MM0  MP(PMOS_VTG) 
+         X2/X0/X1/M1(-0.412,4.803)  MP(PMOS_VTG)                   XINPUT1/XI23/XI7/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: 34                                                   in2: I3
+         in2: 64                                                   in1: S2
+         out: X5/9                                                 out: XINPUT1/XI26/net4
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X5/X1/X0/M1(20.415,2.978)  MN(NMOS_VTG)                   XINPUT1/XI26/XI6/MM1  MN(NMOS_VTG) 
+         X5/X1/X0/M0(20.605,2.978)  MN(NMOS_VTG)                   XINPUT1/XI26/XI6/MM3  MN(NMOS_VTG) 
+         X5/X1/X1/M1(20.415,4.803)  MP(PMOS_VTG)                   XINPUT1/XI26/XI6/MM0  MP(PMOS_VTG) 
+         X5/X1/X1/M0(20.605,4.803)  MP(PMOS_VTG)                   XINPUT1/XI26/XI6/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X45/X0/8                                             in2: XINPUT1/XI15/net5
+         in2: X45/X0/10                                            in1: XINPUT1/XI15/net25
+         out: X45/X0/12                                            out: XINPUT1/XI15/net3
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X45/X0/X1/X0/M0(35.170,2.978)  MN(NMOS_VTG)               XINPUT1/XI15/XI18/MM1  MN(NMOS_VTG) 
+         X45/X0/X1/X0/M1(34.980,2.978)  MN(NMOS_VTG)               XINPUT1/XI15/XI18/MM3  MN(NMOS_VTG) 
+         X45/X0/X1/X1/M0(35.170,4.803)  MP(PMOS_VTG)               XINPUT1/XI15/XI18/MM0  MP(PMOS_VTG) 
+         X45/X0/X1/X1/M1(34.980,4.803)  MP(PMOS_VTG)               XINPUT1/XI15/XI18/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X39/10                                               in2: XINPUT1/XI19/net25
+         in2: X39/8                                                in1: XINPUT1/XI19/net5
+         out: X39/7                                                out: XINPUT1/XI19/net19
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X39/X10/X0/X0/M1(7.577,2.978)  MN(NMOS_VTG)               XINPUT1/XI19/XI14/MM1  MN(NMOS_VTG) 
+         X39/X10/X0/X0/M0(7.388,2.978)  MN(NMOS_VTG)               XINPUT1/XI19/XI14/MM3  MN(NMOS_VTG) 
+         X39/X10/X0/X1/M1(7.577,4.803)  MP(PMOS_VTG)               XINPUT1/XI19/XI14/MM0  MP(PMOS_VTG) 
+         X39/X10/X0/X1/M0(7.388,4.803)  MP(PMOS_VTG)               XINPUT1/XI19/XI14/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X41/8                                                in2: XINPUT1/XI13/net5
+         in2: X41/10                                               in1: XINPUT1/XI13/net25
+         out: X41/12                                               out: XINPUT1/XI13/net3
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X41/X1/X0/M0(54.450,2.978)  MN(NMOS_VTG)                  XINPUT1/XI13/XI18/MM1  MN(NMOS_VTG) 
+         X41/X1/X0/M1(54.260,2.978)  MN(NMOS_VTG)                  XINPUT1/XI13/XI18/MM3  MN(NMOS_VTG) 
+         X41/X1/X1/M0(54.450,4.803)  MP(PMOS_VTG)                  XINPUT1/XI13/XI18/MM0  MP(PMOS_VTG) 
+         X41/X1/X1/M1(54.260,4.803)  MP(PMOS_VTG)                  XINPUT1/XI13/XI18/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X46/X1/8                                             in1: XINPUT1/XI12/net5
+         in2: X46/X1/10                                            in2: XINPUT1/XI12/net25
+         out: X46/X1/7                                             out: XINPUT1/XI12/net19
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X46/X1/X10/X0/X0/M1(45.968,2.978)  MN(NMOS_VTG)           XINPUT1/XI12/XI14/MM1  MN(NMOS_VTG) 
+         X46/X1/X10/X0/X0/M0(45.778,2.978)  MN(NMOS_VTG)           XINPUT1/XI12/XI14/MM3  MN(NMOS_VTG) 
+         X46/X1/X10/X0/X1/M1(45.968,4.803)  MP(PMOS_VTG)           XINPUT1/XI12/XI14/MM0  MP(PMOS_VTG) 
+         X46/X1/X10/X0/X1/M0(45.778,4.803)  MP(PMOS_VTG)           XINPUT1/XI12/XI14/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X44/X1/8                                             in1: XINPUT1/XI14/net5
+         in2: X44/X1/10                                            in2: XINPUT1/XI14/net25
+         out: X44/X1/7                                             out: XINPUT1/XI14/net19
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X44/X1/X10/X0/X0/M1(26.688,2.978)  MN(NMOS_VTG)           XINPUT1/XI14/XI14/MM1  MN(NMOS_VTG) 
+         X44/X1/X10/X0/X0/M0(26.497,2.978)  MN(NMOS_VTG)           XINPUT1/XI14/XI14/MM3  MN(NMOS_VTG) 
+         X44/X1/X10/X0/X1/M1(26.688,4.803)  MP(PMOS_VTG)           XINPUT1/XI14/XI14/MM0  MP(PMOS_VTG) 
+         X44/X1/X10/X0/X1/M0(26.497,4.803)  MP(PMOS_VTG)           XINPUT1/XI14/XI14/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X39/8                                                in2: XINPUT1/XI19/net5
+         in2: X39/10                                               in1: XINPUT1/XI19/net25
+         out: X39/12                                               out: XINPUT1/XI19/net3
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X39/X1/X0/M0(11.240,2.978)  MN(NMOS_VTG)                  XINPUT1/XI19/XI18/MM1  MN(NMOS_VTG) 
+         X39/X1/X0/M1(11.050,2.978)  MN(NMOS_VTG)                  XINPUT1/XI19/XI18/MM3  MN(NMOS_VTG) 
+         X39/X1/X1/M0(11.240,4.803)  MP(PMOS_VTG)                  XINPUT1/XI19/XI18/MM0  MP(PMOS_VTG) 
+         X39/X1/X1/M1(11.050,4.803)  MP(PMOS_VTG)                  XINPUT1/XI19/XI18/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X44/X1/8                                             in2: XINPUT1/XI14/net5
+         in2: X44/X1/10                                            in1: XINPUT1/XI14/net25
+         out: X44/X1/12                                            out: XINPUT1/XI14/net3
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X44/X1/X1/X0/M0(30.350,2.978)  MN(NMOS_VTG)               XINPUT1/XI14/XI18/MM1  MN(NMOS_VTG) 
+         X44/X1/X1/X0/M1(30.160,2.978)  MN(NMOS_VTG)               XINPUT1/XI14/XI18/MM3  MN(NMOS_VTG) 
+         X44/X1/X1/X1/M0(30.350,4.803)  MP(PMOS_VTG)               XINPUT1/XI14/XI18/MM0  MP(PMOS_VTG) 
+         X44/X1/X1/X1/M1(30.160,4.803)  MP(PMOS_VTG)               XINPUT1/XI14/XI18/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X38/8                                                in1: XINPUT1/XI18/net5
+         in2: X38/10                                               in2: XINPUT1/XI18/net25
+         out: X38/7                                                out: XINPUT1/XI18/net19
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X38/X10/X0/X0/M1(0.432,2.978)  MN(NMOS_VTG)               XINPUT1/XI18/XI14/MM1  MN(NMOS_VTG) 
+         X38/X10/X0/X0/M0(0.242,2.978)  MN(NMOS_VTG)               XINPUT1/XI18/XI14/MM3  MN(NMOS_VTG) 
+         X38/X10/X0/X1/M1(0.432,4.803)  MP(PMOS_VTG)               XINPUT1/XI18/XI14/MM0  MP(PMOS_VTG) 
+         X38/X10/X0/X1/M0(0.242,4.803)  MP(PMOS_VTG)               XINPUT1/XI18/XI14/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X38/8                                                in2: XINPUT1/XI18/net5
+         in2: X38/10                                               in1: XINPUT1/XI18/net25
+         out: X38/12                                               out: XINPUT1/XI18/net3
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X38/X1/X0/M0(4.095,2.978)  MN(NMOS_VTG)                   XINPUT1/XI18/XI18/MM1  MN(NMOS_VTG) 
+         X38/X1/X0/M1(3.905,2.978)  MN(NMOS_VTG)                   XINPUT1/XI18/XI18/MM3  MN(NMOS_VTG) 
+         X38/X1/X1/M0(4.095,4.803)  MP(PMOS_VTG)                   XINPUT1/XI18/XI18/MM0  MP(PMOS_VTG) 
+         X38/X1/X1/M1(3.905,4.803)  MP(PMOS_VTG)                   XINPUT1/XI18/XI18/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X46/X0/8                                             in1: XINPUT1/XI17/net5
+         in2: X46/X0/10                                            in2: XINPUT1/XI17/net25
+         out: X46/X0/7                                             out: XINPUT1/XI17/net19
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X46/X0/X10/X0/X0/M1(41.148,2.978)  MN(NMOS_VTG)           XINPUT1/XI17/XI14/MM1  MN(NMOS_VTG) 
+         X46/X0/X10/X0/X0/M0(40.958,2.978)  MN(NMOS_VTG)           XINPUT1/XI17/XI14/MM3  MN(NMOS_VTG) 
+         X46/X0/X10/X0/X1/M1(41.148,4.803)  MP(PMOS_VTG)           XINPUT1/XI17/XI14/MM0  MP(PMOS_VTG) 
+         X46/X0/X10/X0/X1/M0(40.958,4.803)  MP(PMOS_VTG)           XINPUT1/XI17/XI14/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X40/8                                                in2: XINPUT1/XI20/net5
+         in2: X40/10                                               in1: XINPUT1/XI20/net25
+         out: X40/12                                               out: XINPUT1/XI20/net3
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X40/X1/X0/M0(18.385,2.978)  MN(NMOS_VTG)                  XINPUT1/XI20/XI18/MM1  MN(NMOS_VTG) 
+         X40/X1/X0/M1(18.195,2.978)  MN(NMOS_VTG)                  XINPUT1/XI20/XI18/MM3  MN(NMOS_VTG) 
+         X40/X1/X1/M0(18.385,4.803)  MP(PMOS_VTG)                  XINPUT1/XI20/XI18/MM0  MP(PMOS_VTG) 
+         X40/X1/X1/M1(18.195,4.803)  MP(PMOS_VTG)                  XINPUT1/XI20/XI18/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X46/X0/8                                             in2: XINPUT1/XI17/net5
+         in2: X46/X0/10                                            in1: XINPUT1/XI17/net25
+         out: X46/X0/12                                            out: XINPUT1/XI17/net3
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X46/X0/X1/X0/M0(44.810,2.978)  MN(NMOS_VTG)               XINPUT1/XI17/XI18/MM1  MN(NMOS_VTG) 
+         X46/X0/X1/X0/M1(44.620,2.978)  MN(NMOS_VTG)               XINPUT1/XI17/XI18/MM3  MN(NMOS_VTG) 
+         X46/X0/X1/X1/M0(44.810,4.803)  MP(PMOS_VTG)               XINPUT1/XI17/XI18/MM0  MP(PMOS_VTG) 
+         X46/X0/X1/X1/M1(44.620,4.803)  MP(PMOS_VTG)               XINPUT1/XI17/XI18/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X45/X0/8                                             in1: XINPUT1/XI15/net5
+         in2: X45/X0/10                                            in2: XINPUT1/XI15/net25
+         out: X45/X0/7                                             out: XINPUT1/XI15/net19
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X45/X0/X10/X0/X0/M1(31.508,2.978)  MN(NMOS_VTG)           XINPUT1/XI15/XI14/MM1  MN(NMOS_VTG) 
+         X45/X0/X10/X0/X0/M0(31.317,2.978)  MN(NMOS_VTG)           XINPUT1/XI15/XI14/MM3  MN(NMOS_VTG) 
+         X45/X0/X10/X0/X1/M1(31.508,4.803)  MP(PMOS_VTG)           XINPUT1/XI15/XI14/MM0  MP(PMOS_VTG) 
+         X45/X0/X10/X0/X1/M0(31.317,4.803)  MP(PMOS_VTG)           XINPUT1/XI15/XI14/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X45/X1/8                                             in1: XINPUT1/XI16/net5
+         in2: X45/X1/10                                            in2: XINPUT1/XI16/net25
+         out: X45/X1/7                                             out: XINPUT1/XI16/net19
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X45/X1/X10/X0/X0/M1(36.328,2.978)  MN(NMOS_VTG)           XINPUT1/XI16/XI14/MM1  MN(NMOS_VTG) 
+         X45/X1/X10/X0/X0/M0(36.138,2.978)  MN(NMOS_VTG)           XINPUT1/XI16/XI14/MM3  MN(NMOS_VTG) 
+         X45/X1/X10/X0/X1/M1(36.328,4.803)  MP(PMOS_VTG)           XINPUT1/XI16/XI14/MM0  MP(PMOS_VTG) 
+         X45/X1/X10/X0/X1/M0(36.138,4.803)  MP(PMOS_VTG)           XINPUT1/XI16/XI14/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X40/10                                               in2: XINPUT1/XI20/net25
+         in2: X40/8                                                in1: XINPUT1/XI20/net5
+         out: X40/7                                                out: XINPUT1/XI20/net19
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X40/X10/X0/X0/M1(14.723,2.978)  MN(NMOS_VTG)              XINPUT1/XI20/XI14/MM1  MN(NMOS_VTG) 
+         X40/X10/X0/X0/M0(14.533,2.978)  MN(NMOS_VTG)              XINPUT1/XI20/XI14/MM3  MN(NMOS_VTG) 
+         X40/X10/X0/X1/M1(14.723,4.803)  MP(PMOS_VTG)              XINPUT1/XI20/XI14/MM0  MP(PMOS_VTG) 
+         X40/X10/X0/X1/M0(14.533,4.803)  MP(PMOS_VTG)              XINPUT1/XI20/XI14/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X46/X1/8                                             in2: XINPUT1/XI12/net5
+         in2: X46/X1/10                                            in1: XINPUT1/XI12/net25
+         out: X46/X1/12                                            out: XINPUT1/XI12/net3
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X46/X1/X1/X0/M0(49.630,2.978)  MN(NMOS_VTG)               XINPUT1/XI12/XI18/MM1  MN(NMOS_VTG) 
+         X46/X1/X1/X0/M1(49.440,2.978)  MN(NMOS_VTG)               XINPUT1/XI12/XI18/MM3  MN(NMOS_VTG) 
+         X46/X1/X1/X1/M0(49.630,4.803)  MP(PMOS_VTG)               XINPUT1/XI12/XI18/MM0  MP(PMOS_VTG) 
+         X46/X1/X1/X1/M1(49.440,4.803)  MP(PMOS_VTG)               XINPUT1/XI12/XI18/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X12/9                                                in2: XOUTPUT1/XI1/net4
+         in2: X12/7                                                in1: XOUTPUT1/XI1/net7
+         out: 49                                                   out: net036
+         sup1: 26                                                  ** no similar net **
+         sup2: 39                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X12/X0/X0/M0(66.442,2.978)  MN(NMOS_VTG)                  XOUTPUT1/XI1/XI7/MM1  MN(NMOS_VTG) 
+         X12/X0/X0/M1(66.632,2.978)  MN(NMOS_VTG)                  XOUTPUT1/XI1/XI7/MM3  MN(NMOS_VTG) 
+         X12/X0/X1/M0(66.442,4.803)  MP(PMOS_VTG)                  XOUTPUT1/XI1/XI7/MM0  MP(PMOS_VTG) 
+         X12/X0/X1/M1(66.632,4.803)  MP(PMOS_VTG)                  XOUTPUT1/XI1/XI7/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X11/9                                                in1: XOUTPUT1/XI2/net7
+         in2: X11/7                                                in2: XOUTPUT1/XI2/net4
+         out: 46                                                   out: net039
+         sup1: 26                                                  ** no similar net **
+         sup2: 39                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X11/X0/X0/M1(64.308,2.978)  MN(NMOS_VTG)                  XOUTPUT1/XI2/XI7/MM1  MN(NMOS_VTG) 
+         X11/X0/X0/M0(64.118,2.978)  MN(NMOS_VTG)                  XOUTPUT1/XI2/XI7/MM3  MN(NMOS_VTG) 
+         X11/X0/X1/M1(64.308,4.803)  MP(PMOS_VTG)                  XOUTPUT1/XI2/XI7/MM0  MP(PMOS_VTG) 
+         X11/X0/X1/M0(64.118,4.803)  MP(PMOS_VTG)                  XOUTPUT1/XI2/XI7/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: X10/9                                                in2: XOUTPUT1/XI3/net4
+         in2: X10/7                                                in1: XOUTPUT1/XI3/net7
+         out: 43                                                   out: net038
+         sup1: 26                                                  ** no similar net **
+         sup2: 39                                                  ** no similar net **
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X10/X0/X0/M0(61.792,2.978)  MN(NMOS_VTG)                  XOUTPUT1/XI3/XI7/MM1  MN(NMOS_VTG) 
+         X10/X0/X0/M1(61.983,2.978)  MN(NMOS_VTG)                  XOUTPUT1/XI3/XI7/MM3  MN(NMOS_VTG) 
+         X10/X0/X1/M0(61.792,4.803)  MP(PMOS_VTG)                  XOUTPUT1/XI3/XI7/MM0  MP(PMOS_VTG) 
+         X10/X0/X1/M1(61.983,4.803)  MP(PMOS_VTG)                  XOUTPUT1/XI3/XI7/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: 56                                                   in2: net78
+         in2: X39/10                                               in1: XINPUT1/XI19/net25
+         out: 16                                                   ** net35 **
+         sup1: 21                                                  ** no similar net **
+         sup2: 27                                                  ** no similar net **
+         ** no similar net **                                      out: O1
+         ** 22 **                                                  sup1: VDD!
+         ** 23 **                                                  sup2: GND!
+
+       Devices: 
+         X39/X11/X0/X0/M0(8.602,2.978)  MN(NMOS_VTG)               XINPUT1/XI19/XI12/MM1  MN(NMOS_VTG) 
+         X39/X11/X0/X0/M1(8.793,2.978)  MN(NMOS_VTG)               XINPUT1/XI19/XI12/MM3  MN(NMOS_VTG) 
+         X39/X11/X0/X1/M0(8.602,4.803)  MP(PMOS_VTG)               XINPUT1/XI19/XI12/MM0  MP(PMOS_VTG) 
+         X39/X11/X0/X1/M1(8.793,4.803)  MP(PMOS_VTG)               XINPUT1/XI19/XI12/MM2  MP(PMOS_VTG) 
+
+
+
+**************************************************************************************************************
+                                  UNMATCHED OBJECTS
+       LAYOUT                                                    SOURCE
+**************************************************************************************************************
+
+       X8/7                                                      ** unmatched net **
+       X8/9                                                      ** unmatched net **
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X8/X1/X0/M1(60.265,2.978)  MN(NMOS_VTG)
+         X8/X1/X0/M0(60.075,2.978)  MN(NMOS_VTG)
+         X8/X1/X1/M1(60.265,4.803)  MP(PMOS_VTG)
+         X8/X1/X1/M0(60.075,4.803)  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X12/X1/X0/M1(67.240,2.978)  MN(NMOS_VTG)
+         X12/X1/X0/M0(67.050,2.978)  MN(NMOS_VTG)
+         X12/X1/X1/M1(67.240,4.803)  MP(PMOS_VTG)
+         X12/X1/X1/M0(67.050,4.803)  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X12/X2/X0/M1(67.847,2.978)  MN(NMOS_VTG)
+         X12/X2/X0/M0(67.657,2.978)  MN(NMOS_VTG)
+         X12/X2/X1/M1(67.847,4.803)  MP(PMOS_VTG)
+         X12/X2/X1/M0(67.657,4.803)  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X11/X1/X0/M1(64.915,2.978)  MN(NMOS_VTG)
+         X11/X1/X0/M0(64.725,2.978)  MN(NMOS_VTG)
+         X11/X1/X1/M1(64.915,4.803)  MP(PMOS_VTG)
+         X11/X1/X1/M0(64.725,4.803)  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X8/X2/X0/M1(60.873,2.978)  MN(NMOS_VTG)
+         X8/X2/X0/M0(60.682,2.978)  MN(NMOS_VTG)
+         X8/X2/X1/M1(60.873,4.803)  MP(PMOS_VTG)
+         X8/X2/X1/M0(60.682,4.803)  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X10/X2/X0/M1(63.197,2.978)  MN(NMOS_VTG)
+         X10/X2/X0/M0(63.008,2.978)  MN(NMOS_VTG)
+         X10/X2/X1/M1(63.197,4.803)  MP(PMOS_VTG)
+         X10/X2/X1/M0(63.008,4.803)  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X11/X2/X0/M1(65.522,2.978)  MN(NMOS_VTG)
+         X11/X2/X0/M0(65.332,2.978)  MN(NMOS_VTG)
+         X11/X2/X1/M1(65.522,4.803)  MP(PMOS_VTG)
+         X11/X2/X1/M0(65.332,4.803)  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X10/X1/X0/M1(62.590,2.978)  MN(NMOS_VTG)
+         X10/X1/X0/M0(62.400,2.978)  MN(NMOS_VTG)
+         X10/X1/X1/M1(62.590,4.803)  MP(PMOS_VTG)
+         X10/X1/X1/M0(62.400,4.803)  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X8/X0/X0/M1(59.657,2.978)  MN(NMOS_VTG)
+         X8/X0/X0/M0(59.468,2.978)  MN(NMOS_VTG)
+         X8/X0/X1/M1(59.657,4.803)  MP(PMOS_VTG)
+         X8/X0/X1/M0(59.468,4.803)  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched net **                                       XOUTPUT1/XI0/net7
+       ** unmatched net **                                       XOUTPUT1/XI0/net4
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XMULT1/XI11/XI6/MM1  MN(NMOS_VTG)
+                                                                   XMULT1/XI11/XI6/MM3  MN(NMOS_VTG)
+                                                                   XMULT1/XI11/XI6/MM0  MP(PMOS_VTG)
+                                                                   XMULT1/XI11/XI6/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XOUTPUT1/XI0/XI5/MM1  MN(NMOS_VTG)
+                                                                   XOUTPUT1/XI0/XI5/MM3  MN(NMOS_VTG)
+                                                                   XOUTPUT1/XI0/XI5/MM0  MP(PMOS_VTG)
+                                                                   XOUTPUT1/XI0/XI5/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XOUTPUT1/XI1/XI6/MM1  MN(NMOS_VTG)
+                                                                   XOUTPUT1/XI1/XI6/MM3  MN(NMOS_VTG)
+                                                                   XOUTPUT1/XI1/XI6/MM0  MP(PMOS_VTG)
+                                                                   XOUTPUT1/XI1/XI6/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XOUTPUT1/XI1/XI5/MM1  MN(NMOS_VTG)
+                                                                   XOUTPUT1/XI1/XI5/MM3  MN(NMOS_VTG)
+                                                                   XOUTPUT1/XI1/XI5/MM0  MP(PMOS_VTG)
+                                                                   XOUTPUT1/XI1/XI5/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XOUTPUT1/XI2/XI6/MM1  MN(NMOS_VTG)
+                                                                   XOUTPUT1/XI2/XI6/MM3  MN(NMOS_VTG)
+                                                                   XOUTPUT1/XI2/XI6/MM0  MP(PMOS_VTG)
+                                                                   XOUTPUT1/XI2/XI6/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XOUTPUT1/XI2/XI5/MM1  MN(NMOS_VTG)
+                                                                   XOUTPUT1/XI2/XI5/MM3  MN(NMOS_VTG)
+                                                                   XOUTPUT1/XI2/XI5/MM0  MP(PMOS_VTG)
+                                                                   XOUTPUT1/XI2/XI5/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XOUTPUT1/XI3/XI6/MM1  MN(NMOS_VTG)
+                                                                   XOUTPUT1/XI3/XI6/MM3  MN(NMOS_VTG)
+                                                                   XOUTPUT1/XI3/XI6/MM0  MP(PMOS_VTG)
+                                                                   XOUTPUT1/XI3/XI6/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XOUTPUT1/XI3/XI5/MM1  MN(NMOS_VTG)
+                                                                   XOUTPUT1/XI3/XI5/MM3  MN(NMOS_VTG)
+                                                                   XOUTPUT1/XI3/XI5/MM0  MP(PMOS_VTG)
+                                                                   XOUTPUT1/XI3/XI5/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XOUTPUT1/XI0/XI7/MM1  MN(NMOS_VTG)
+                                                                   XOUTPUT1/XI0/XI7/MM3  MN(NMOS_VTG)
+                                                                   XOUTPUT1/XI0/XI7/MM0  MP(PMOS_VTG)
+                                                                   XOUTPUT1/XI0/XI7/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XOUTPUT1/XI0/XI6/MM1  MN(NMOS_VTG)
+                                                                   XOUTPUT1/XI0/XI6/MM3  MN(NMOS_VTG)
+                                                                   XOUTPUT1/XI0/XI6/MM0  MP(PMOS_VTG)
+                                                                   XOUTPUT1/XI0/XI6/MM2  MP(PMOS_VTG)
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec
