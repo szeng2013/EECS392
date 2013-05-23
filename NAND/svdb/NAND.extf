@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1369159153 1369159154
+lvs_ExtOutFile RUNDIR /home/jwe920/EECS392/NAND
+lvs_ExtOutFile RULES_FILE /home/jwe920/EECS392/NAND/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/jwe920/EECS392/NAND/NAND.sp
+lvs_ExtOutFile EXTRACTION_REPORT /home/jwe920/EECS392/NAND/NAND.lvs.report.ext

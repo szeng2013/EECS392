@@ -1,0 +1,58 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.5 01/16/2012 21:51 (sjfdl235) $
+          : sub-version  IC6.1.5.500.9 
+Started at: 21-May-2013  12:58:58
+User Name : jwe920
+Host Name : twoface.ece.northwestern.edu
+Directory : /home/jwe920
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/jwe920/EECS392/NAND/NAND.calibre.gds' already exists. It will be overwritten.
+INFO (XSTRM-288): The automatic layer mapping is done by StreamOut and the xStrmOut_layerMap.txt file is generated. This is because either the layer mapping is not provided or the XST_AUTO_LM value is used with the -layerMap option.
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 EECS392
+strmFile                                /home/jwe920/EECS392/NAND/NAND.calibre.gds
+topCell                                 NAND
+view                                    layout
+runDir                                  /home/jwe920/EECS392/NAND/
+logFile                                 PIPO.LOG.NAND
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView NCSU_TechLib_FreePDK45/NTAP/layout as STRUCTURE NTAP_0
+INFO (XSTRM-223): 2. Translating cellView NCSU_TechLib_FreePDK45/PTAP/layout as STRUCTURE PTAP_1
+INFO (XSTRM-223): 3. Translating cellView NCSU_TechLib_FreePDK45/M1_POLY/layout as STRUCTURE M1_POLY_2
+INFO (XSTRM-223): 4. Translating cellView EECS392/NAND/layout as STRUCTURE NAND
+INFO (XSTRM-223): 5. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_0
+INFO (XSTRM-223): 6. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_1
+
+Summary of Objects Translated:
+	Scalar Instances:                       2
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  12
+	Rectangles:                             185
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           4
+	Custom Vias:                            0
+	Pathsegs:                               0
+	Text:                                   13
+	Cells:                                  6
+
+Elapsed Time: 0.8s   User Time: 0.3s   CPU Time: 0.0s   Peak VM: 526KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/jwe920/EECS392/NAND
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT /home/jwe920/EECS392/NAND/NAND.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/jwe920/EECS392/NAND/NAND.src.net
+lvs_LvsOutFile RULES_FILE /home/jwe920/EECS392/NAND/_calibreLVS.rul_
+lvs_LvsRunTimes 1369159154 1369159154

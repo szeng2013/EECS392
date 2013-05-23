@@ -1,0 +1,10 @@
+CADENCE IHNL01070
+$model
+EECS392/NAND/schematic NAND
+$endmodel
+$net
+vdd! vdd!
+gnd! gnd!
+$endnet
+$param
+$endparam
