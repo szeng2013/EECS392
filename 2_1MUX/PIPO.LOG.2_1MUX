@@ -2,9 +2,9 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.5 01/16/2012 21:51 (sjfdl235) $
           : sub-version  IC6.1.5.500.9 
-Started at: 21-May-2013  13:44:27
+Started at: 26-May-2013  14:04:17
 User Name : sjz474
-Host Name : cobblepott.ece.northwestern.edu
+Host Name : madhatter.ece.northwestern.edu
 Directory : /home/sjz474
 CADENCE Design Systems, Inc.
 ********************************************************************************
@@ -24,22 +24,26 @@ logFile                                 PIPO.LOG.2_1MUX
 case                                    Preserve
 convertDot                              node
 
-INFO (XSTRM-223): 1. Translating cellView NCSU_TechLib_FreePDK45/M1_POLY/layout as STRUCTURE M1_POLY_0
-INFO (XSTRM-223): 2. Translating cellView NCSU_TechLib_FreePDK45/M1_P/layout as STRUCTURE M1_P_1
-INFO (XSTRM-223): 3. Translating cellView NCSU_TechLib_FreePDK45/M1_N/layout as STRUCTURE M1_N_2
-INFO (XSTRM-223): 4. Translating cellView NCSU_TechLib_FreePDK45/NTAP/layout as STRUCTURE NTAP_3
-INFO (XSTRM-223): 5. Translating cellView NCSU_TechLib_FreePDK45/PTAP/layout as STRUCTURE PTAP_4
-INFO (XSTRM-223): 6. Translating cellView EECS392/Inverter/layout as STRUCTURE Inverter
-INFO (XSTRM-223): 7. Translating cellView EECS392/2_1MUX/layout as STRUCTURE 2_1MUX
-INFO (XSTRM-223): 8. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_0
-INFO (XSTRM-223): 9. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_1
+INFO (XSTRM-223): 1. Translating cellView NCSU_TechLib_FreePDK45/M2_M1/layout as STRUCTURE M2_M1_0
+INFO (XSTRM-223): 2. Translating cellView NCSU_TechLib_FreePDK45/M1_POLY/layout as STRUCTURE M1_POLY_1
+INFO (XSTRM-223): 3. Translating cellView NCSU_TechLib_FreePDK45/M1_P/layout as STRUCTURE M1_P_2
+INFO (XSTRM-223): 4. Translating cellView NCSU_TechLib_FreePDK45/M1_N/layout as STRUCTURE M1_N_3
+INFO (XSTRM-223): 5. Translating cellView NCSU_TechLib_FreePDK45/NTAP/layout as STRUCTURE NTAP_4
+INFO (XSTRM-223): 6. Translating cellView NCSU_TechLib_FreePDK45/PTAP/layout as STRUCTURE PTAP_5
+INFO (XSTRM-223): 7. Translating cellView EECS392/Inverter/layout as STRUCTURE Inverter
+INFO (XSTRM-223): 8. Translating cellView EECS392/2_1MUX/layout as STRUCTURE 2_1MUX
+INFO (XSTRM-223): 9. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_0
+INFO (XSTRM-223): 10. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_1
+INFO (XSTRM-223): 11. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_2
+INFO (XSTRM-223): 12. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_3
+INFO (XSTRM-223): 13. Translating cellView NCSU_TechLib_FreePDK45/dcont/layout as STRUCTURE dcont_4
 
 Summary of Objects Translated:
-	Scalar Instances:                       7
+	Scalar Instances:                       11
 	Array Instances:                        0
 	Polygons:                               0
 	Paths:                                  12
-	Rectangles:                             53
+	Rectangles:                             106
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -51,11 +55,11 @@ Summary of Objects Translated:
 	Area Halos:                             0
 	Markers:                                0
 	Rows:                                   0
-	Standard Vias                           20
+	Standard Vias                           31
 	Custom Vias:                            0
 	Pathsegs:                               0
-	Text:                                   9
-	Cells:                                  9
+	Text:                                   18
+	Cells:                                  13
 
-Elapsed Time: 0.8s   User Time: 0.5s   CPU Time: 0.1s   Peak VM: 557KB
+Elapsed Time: 0.7s   User Time: 0.4s   CPU Time: 0.1s   Peak VM: 722KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

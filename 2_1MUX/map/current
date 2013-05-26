@@ -1,0 +1,27 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "2_1MUX"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/home/sjz474/EECS392/2_1MUX"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "EECS392/Inverter/schematic" "Inverter" )
+( "EECS392/2_1MUX/schematic" "2_1MUX" )
+ )
+( term
+ )
+( param
+ )
+( "2_1MUX" "ihnl/cds1/map" )
+( "Inverter" "ihnl/cds0/map" )
+ )

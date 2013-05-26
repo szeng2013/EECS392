@@ -1,0 +1,47 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  EECS392
+* Top Cell Name: 2_1MUX
+* View Name:     schematic
+* Netlisted on:  May 26 14:04:19 2013
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL gnd!
++        vdd!
+
+*.PIN gnd!
+*+    vdd!
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    Inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT Inverter In Out
+*.PININFO In:I Out:O
+MM0 Out In vdd! vdd! PMOS_VTG W=1.96u L=50n m=1
+MM1 Out In gnd! gnd! NMOS_VTG W=1.44u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    2_1MUX
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 2_1MUX IN0 IN1 Output S
+*.PININFO IN0:I IN1:I S:I Output:O
+MM1 IN1 S Output gnd! NMOS_VTG W=280.0n L=50n m=1
+MM0 IN0 net10 Output gnd! NMOS_VTG W=280.0n L=50n m=1
+MM3 IN1 net10 Output vdd! PMOS_VTG W=300n L=50n m=1
+MM2 IN0 S Output vdd! PMOS_VTG W=300n L=50n m=1
+XI0 S net10 / Inverter
+.ENDS
+

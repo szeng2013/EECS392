@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1369595060 1369595061
+lvs_ExtOutFile RUNDIR /home/sjz474/EECS392/2_1MUX
+lvs_ExtOutFile RULES_FILE /home/sjz474/EECS392/2_1MUX/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/sjz474/EECS392/2_1MUX/2_1MUX.sp
+lvs_ExtOutFile EXTRACTION_REPORT 2_1MUX.lvs.report.ext
