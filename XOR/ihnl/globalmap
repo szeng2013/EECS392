@@ -1,0 +1,10 @@
+CADENCE IHNL01070
+$model
+EECS392/XOR/schematic XOR
+$endmodel
+$net
+vdd! vdd!
+gnd! gnd!
+$endnet
+$param
+$endparam
