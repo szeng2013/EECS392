@@ -16,7 +16,7 @@ LAYOUT NAME:              /home/sjz474/EECS392/XOR/XOR.sp ('XOR')
 SOURCE NAME:              /home/sjz474/EECS392/XOR/XOR.src.net ('XOR')
 RULE FILE:                /home/sjz474/EECS392/XOR/_calibreLVS.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Sun May 26 21:56:40 2013
+CREATION TIME:            Tue May 28 11:22:19 2013
 CURRENT DIRECTORY:        /home/sjz474/EECS392/XOR
 USER NAME:                sjz474
 CALIBRE VERSION:          v2011.4_35.27    Tue Jan 10 16:18:55 PST 2012
@@ -222,4 +222,4 @@ o Initial Correspondence Points:
 **************************************************************************************************************
 
 Total CPU Time:      0 sec
-Total Elapsed Time:  0 sec
+Total Elapsed Time:  1 sec

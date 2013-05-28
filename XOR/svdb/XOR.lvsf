@@ -6,4 +6,4 @@ lvs_LvsComparisonSummary {3 0 0 0}
 lvs_LvsOutFile LVS_REPORT XOR.lvs.report
 lvs_LvsOutFile SOURCE_NETLIST /home/sjz474/EECS392/XOR/XOR.src.net
 lvs_LvsOutFile RULES_FILE /home/sjz474/EECS392/XOR/_calibreLVS.rul_
-lvs_LvsRunTimes 1369623400 1369623400
+lvs_LvsRunTimes 1369758139 1369758139
