@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/sjz474/EECS392/HALF_ADDER_noCOUT
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {5 0 3 0}
+lvs_LvsOutFile LVS_REPORT HALF_ADDER_noCOUT.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/sjz474/EECS392/HALF_ADDER_noCOUT/HALF_ADDER_noCOUT.src.net
+lvs_LvsOutFile RULES_FILE /home/sjz474/EECS392/HALF_ADDER_noCOUT/_calibreLVS.rul_
+lvs_LvsRunTimes 1369764614 1369764614

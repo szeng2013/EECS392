@@ -1,0 +1,86 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  EECS392
+* Top Cell Name: HALF_ADDER
+* View Name:     schematic
+* Netlisted on:  May 28 12:55:10 2013
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vdd!
++        gnd!
+
+*.PIN vdd!
+*+    gnd!
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    XOR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR A B Output
+*.PININFO A:I B:I Output:O
+MM2 Output A B vdd! PMOS_VTG W=300n L=50n m=1
+MM1 Output B A vdd! PMOS_VTG W=300n L=50n m=1
+MM0 net9 A vdd! vdd! PMOS_VTG W=300n L=50n m=1
+MM5 Output net9 B gnd! NMOS_VTG W=280.0n L=50n m=1
+MM4 Output B net9 gnd! NMOS_VTG W=280.0n L=50n m=1
+MM3 net9 A gnd! gnd! NMOS_VTG W=280.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    Inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT Inverter In Out
+*.PININFO In:I Out:O
+MM0 Out In vdd! vdd! PMOS_VTG W=1.96u L=50n m=1
+MM1 Out In gnd! gnd! NMOS_VTG W=1.44u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    NAND
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NAND A B Output
+*.PININFO A:I B:I Output:O
+MM2 Output B vdd! vdd! PMOS_VTG W=1.44u L=50n m=1
+MM0 Output A vdd! vdd! PMOS_VTG W=1.44u L=50n m=1
+MM3 net17 B gnd! gnd! NMOS_VTG W=1.63u L=50n m=1
+MM1 Output A net17 gnd! NMOS_VTG W=1.63u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    AND
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AND A B Output
+*.PININFO A:I B:I Output:O
+XI5 net8 Output / Inverter
+XI4 A B net8 / NAND
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    HALF_ADDER
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT HALF_ADDER A B Cout S
+*.PININFO A:I B:I Cout:O S:O
+XI0 A B S / XOR
+XI2 A B Cout / AND
+.ENDS
+
