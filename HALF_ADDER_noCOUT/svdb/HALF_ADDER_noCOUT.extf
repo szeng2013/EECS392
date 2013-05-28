@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1369764613 1369764614
+lvs_ExtOutFile RUNDIR /home/sjz474/EECS392/HALF_ADDER_noCOUT
+lvs_ExtOutFile RULES_FILE /home/sjz474/EECS392/HALF_ADDER_noCOUT/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/sjz474/EECS392/HALF_ADDER_noCOUT/HALF_ADDER_noCOUT.sp
+lvs_ExtOutFile EXTRACTION_REPORT HALF_ADDER_noCOUT.lvs.report.ext

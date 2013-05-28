@@ -1,0 +1,20 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/HALF_ADDER_noCOUT.dv
+dv_start unmatched
+dv_cell {HALF_ADDER_noCOUT} {HALF_ADDER_noCOUT} unmatched
+dv_obj_count -transformed_nets {8 6} -transformed_inst {4 4} -transformed_port {3 5}
+dv_discrep 1 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {8} {                                                     } -snet {VDD!} {}
+dv_discrep_line {    } -lnet {6} {                                                    }
+dv_discrep_line {}
+dv_discrep 2 {Incorrect Nets}
+dv_discrep_line {Net } -lnet {7} {                                                     } -snet {GND!} {}
+dv_discrep_line {    } -lnet {5} {                                                    }
+dv_discrep_line {}
+dv_discrep 3 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {GND!} { on net: } -snet {GND!} {}
+dv_discrep_line {}
+dv_discrep 4 {Incorrect Ports}
+dv_discrep_line {** missing port **                                        } -sport {VDD!} { on net: } -snet {VDD!} {}
+dv_discrep_line {}
+dv_end
