@@ -1,0 +1,11 @@
+CADENCE IHNL01070
+$model
+EECS392/XOR/schematic XOR
+EECS392/FULL_ADDER_noCOUT/schematic FULL_ADDER_noCOUT
+$endmodel
+$net
+vdd! vdd!
+gnd! gnd!
+$endnet
+$param
+$endparam

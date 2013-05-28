@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1369765581 1369765582
+lvs_ExtOutFile RUNDIR /home/gms130/EECS392/FULL_ADDER_noCOUT
+lvs_ExtOutFile RULES_FILE /home/gms130/EECS392/FULL_ADDER_noCOUT/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/gms130/EECS392/FULL_ADDER_noCOUT/FULL_ADDER_noCOUT.sp
+lvs_ExtOutFile EXTRACTION_REPORT FULL_ADDER_noCOUT.lvs.report.ext
