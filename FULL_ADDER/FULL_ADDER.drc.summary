@@ -3,7 +3,7 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Tue May 28 13:54:33 2013
+Execution Date/Time:       Thu May 30 12:10:24 2013
 Calibre Version:           v2011.4_35.27    Tue Jan 10 16:18:55 PST 2012
 Rule File Pathname:        /home/gms130/EECS392/FULL_ADDER/_calibreDRC.rul_
 Rule File Title:           
@@ -38,9 +38,9 @@ LAYER pimplant ... TOTAL Original Geometry Count = 51  (119)
 LAYER nimplant ... TOTAL Original Geometry Count = 32  (83)
 LAYER vth ........ TOTAL Original Geometry Count = 0   (0)
 LAYER vtg ........ TOTAL Original Geometry Count = 8   (24)
-LAYER metal1 ..... TOTAL Original Geometry Count = 79  (225)
+LAYER metal1 ..... TOTAL Original Geometry Count = 97  (254)
 LAYER contact .... TOTAL Original Geometry Count = 78  (243)
-LAYER metal2 ..... TOTAL Original Geometry Count = 3   (8)
+LAYER metal2 ..... TOTAL Original Geometry Count = 20  (36)
 LAYER metal3 ..... TOTAL Original Geometry Count = 0   (0)
 LAYER metal4 ..... TOTAL Original Geometry Count = 0   (0)
 LAYER metal5 ..... TOTAL Original Geometry Count = 0   (0)
@@ -49,7 +49,7 @@ LAYER metal7 ..... TOTAL Original Geometry Count = 0   (0)
 LAYER metal8 ..... TOTAL Original Geometry Count = 0   (0)
 LAYER metal9 ..... TOTAL Original Geometry Count = 0   (0)
 LAYER metal10 .... TOTAL Original Geometry Count = 0   (0)
-LAYER via1 ....... TOTAL Original Geometry Count = 1   (4)
+LAYER via1 ....... TOTAL Original Geometry Count = 3   (17)
 LAYER via2 ....... TOTAL Original Geometry Count = 0   (0)
 LAYER via3 ....... TOTAL Original Geometry Count = 0   (0)
 LAYER via4 ....... TOTAL Original Geometry Count = 0   (0)
@@ -236,6 +236,6 @@ RULECHECK Antenna.metal10 ... TOTAL Result Count = 0 (0)
 ---
 TOTAL CPU Time:                  0
 TOTAL REAL Time:                 0
-TOTAL Original Layer Geometries: 442 (1215)
+TOTAL Original Layer Geometries: 479 (1285)
 TOTAL DRC RuleChecks Executed:   167
 TOTAL DRC Results Generated:     0 (0)

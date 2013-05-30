@@ -1,0 +1,37 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "FULL_ADDER"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/home/gms130/EECS392/FULL_ADDER"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "EECS392/AND/schematic" "AND" )
+( "EECS392/OR/schematic" "OR" )
+( "EECS392/FULL_ADDER/schematic" "FULL_ADDER" )
+( "EECS392/NAND/schematic" "NAND" )
+( "EECS392/Inverter/schematic" "Inverter" )
+( "EECS392/NOR/schematic" "NOR" )
+( "EECS392/XOR/schematic" "XOR" )
+ )
+( term
+ )
+( param
+ )
+( "XOR" "ihnl/cds0/map" )
+( "FULL_ADDER" "ihnl/cds6/map" )
+( "AND" "ihnl/cds3/map" )
+( "OR" "ihnl/cds5/map" )
+( "Inverter" "ihnl/cds1/map" )
+( "NAND" "ihnl/cds2/map" )
+( "NOR" "ihnl/cds4/map" )
+ )

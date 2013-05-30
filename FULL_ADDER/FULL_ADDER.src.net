@@ -1,0 +1,115 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  EECS392
+* Top Cell Name: FULL_ADDER
+* View Name:     schematic
+* Netlisted on:  May 30 12:12:54 2013
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL gnd!
++        vdd!
+
+*.PIN gnd!
+*+    vdd!
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    XOR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR A B Output
+*.PININFO A:I B:I Output:O
+MM2 Output A B vdd! PMOS_VTG W=300n L=50n m=1
+MM1 Output B A vdd! PMOS_VTG W=300n L=50n m=1
+MM0 net9 A vdd! vdd! PMOS_VTG W=300n L=50n m=1
+MM5 Output net9 B gnd! NMOS_VTG W=280.0n L=50n m=1
+MM4 Output B net9 gnd! NMOS_VTG W=280.0n L=50n m=1
+MM3 net9 A gnd! gnd! NMOS_VTG W=280.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    Inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT Inverter In Out
+*.PININFO In:I Out:O
+MM0 Out In vdd! vdd! PMOS_VTG W=1.96u L=50n m=1
+MM1 Out In gnd! gnd! NMOS_VTG W=1.44u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    NAND
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NAND A B Output
+*.PININFO A:I B:I Output:O
+MM2 Output B vdd! vdd! PMOS_VTG W=1.44u L=50n m=1
+MM0 Output A vdd! vdd! PMOS_VTG W=1.44u L=50n m=1
+MM3 net17 B gnd! gnd! NMOS_VTG W=1.63u L=50n m=1
+MM1 Output A net17 gnd! NMOS_VTG W=1.63u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    AND
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AND A B Output
+*.PININFO A:I B:I Output:O
+XI5 net8 Output / Inverter
+XI4 A B net8 / NAND
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    NOR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NOR A B Output
+*.PININFO A:I B:I Output:O
+MM1 Output A gnd! gnd! NMOS_VTG W=720.0n L=50n m=1
+MM0 Output B gnd! gnd! NMOS_VTG W=720.0n L=50n m=1
+MM3 Output B net15 vdd! PMOS_VTG W=1.56u L=50n m=1
+MM2 net15 A vdd! vdd! PMOS_VTG W=1.56u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    OR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT OR A B Output
+*.PININFO A:I B:I Output:O
+XI0 A B net7 / NOR
+XI1 net7 Output / Inverter
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    FULL_ADDER
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT FULL_ADDER A B Cin Cout S
+*.PININFO A:I B:I Cin:I Cout:O S:O
+XI5 net11 Cin S / XOR
+XI0 A B net11 / XOR
+XI8 net11 Cin net14 / AND
+XI9 A B net7 / AND
+XI7 net14 net7 Cout / OR
+.ENDS
+
