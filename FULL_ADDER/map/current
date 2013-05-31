@@ -6,7 +6,7 @@
   stopList "auCdl"
   globalList "gnd! vdd!"
   hierDelim "."
-  netlistDir "/home/gms130/EECS392/FULL_ADDER"
+  netlistDir "/home/sjz474/EECS392/FULL_ADDER"
  )
 ( instViewTable
  )

@@ -1,10 +1,6 @@
 # CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
 # FILE: svdb/FULL_ADDER.dv
-dv_start unmatched
-dv_cell {FULL_ADDER} {FULL_ADDER} unmatched
-dv_obj_count -transformed_nets {16 15} -transformed_inst {14 14} -transformed_port {7 7}
-dv_discrep 1 {Incorrect Nets}
-dv_discrep_line {Net } -lnet {GND!} {                                                  } -snet {GND!} {}
-dv_discrep_line {    } -lnet {13} {                                                   }
-dv_discrep_line {}
+dv_start matched
+dv_cell {FULL_ADDER} {FULL_ADDER} matched
+dv_obj_count -transformed_nets {15 15} -transformed_inst {14 14} -transformed_port {7 7}
 dv_end

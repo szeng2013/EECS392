@@ -12,13 +12,13 @@
 
 
 REPORT FILE NAME:         FULL_ADDER.lvs.report
-LAYOUT NAME:              /home/gms130/EECS392/FULL_ADDER/FULL_ADDER.sp ('FULL_ADDER')
-SOURCE NAME:              /home/gms130/EECS392/FULL_ADDER/FULL_ADDER.src.net ('FULL_ADDER')
-RULE FILE:                /home/gms130/EECS392/FULL_ADDER/_calibreLVS.rul_
+LAYOUT NAME:              /home/sjz474/EECS392/FULL_ADDER/FULL_ADDER.sp ('FULL_ADDER')
+SOURCE NAME:              /home/sjz474/EECS392/FULL_ADDER/FULL_ADDER.src.net ('FULL_ADDER')
+RULE FILE:                /home/sjz474/EECS392/FULL_ADDER/_calibreLVS.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Thu May 30 12:12:56 2013
-CURRENT DIRECTORY:        /home/gms130/EECS392/FULL_ADDER
-USER NAME:                gms130
+CREATION TIME:            Fri May 31 11:48:34 2013
+CURRENT DIRECTORY:        /home/sjz474/EECS392/FULL_ADDER
+USER NAME:                sjz474
 CALIBRE VERSION:          v2011.4_35.27    Tue Jan 10 16:18:55 PST 2012
 
 
@@ -27,15 +27,13 @@ CALIBRE VERSION:          v2011.4_35.27    Tue Jan 10 16:18:55 PST 2012
 
 
 
-                  #   #         #####################  
-                   # #          #                   #  
-                    #           #     INCORRECT     #  
-                   # #          #                   #  
-                  #   #         #####################  
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
 
 
-  Error:    Different numbers of nets.
-  Error:    Connectivity errors.
 
 
 **************************************************************************************************************
@@ -44,7 +42,7 @@ CALIBRE VERSION:          v2011.4_35.27    Tue Jan 10 16:18:55 PST 2012
 
   Result         Layout                        Source
   -----------    -----------                   --------------
-  INCORRECT      FULL_ADDER                    FULL_ADDER
+  CORRECT        FULL_ADDER                    FULL_ADDER
 
 
 
@@ -148,15 +146,13 @@ o LVS Setup:
 
 
 
-                  #   #         #####################  
-                   # #          #                   #  
-                    #           #     INCORRECT     #  
-                   # #          #                   #  
-                  #   #         #####################  
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
 
 
-  Error:    Different numbers of nets (see below).
-  Error:    Connectivity errors.
 
 LAYOUT CELL NAME:         FULL_ADDER
 SOURCE CELL NAME:         FULL_ADDER
@@ -170,7 +166,7 @@ INITIAL NUMBERS OF OBJECTS
                 ------    ------         --------------
  Ports:              7         7
 
- Nets:              19        18    *
+ Nets:              18        18
 
  Instances:         15        15         MN (4 pins)
                     15        15         MP (4 pins)
@@ -185,7 +181,7 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
                 ------    ------         --------------
  Ports:              7         7
 
- Nets:              16        15    *
+ Nets:              15        15
 
  Instances:          2         2         MN (4 pins)
                      2         2         MP (4 pins)
@@ -195,32 +191,6 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
                      1         1         _nor2v (5 pins)
                 ------    ------
  Total Inst:        14        14
-
-
-       * = Number of objects in layout different from number in source.
-
-
-
-**************************************************************************************************************
-                                 INCORRECT OBJECTS
-**************************************************************************************************************
-
-
-LEGEND:
--------
-
-  ne  = Naming Error (same layout name found in source
-        circuit, but object was matched otherwise).
-
-
-**************************************************************************************************************
-                                   INCORRECT NETS
-
-DISC#  LAYOUT NAME                                               SOURCE NAME
-**************************************************************************************************************
-
-  1    Net GND!                                                  GND!
-           13                                                   
 
 
 
@@ -234,7 +204,7 @@ DISC#  LAYOUT NAME                                               SOURCE NAME
                   -------    -------    ---------    ---------    ---------
    Ports:               7          7            0            0
 
-   Nets:               16         15            0            0
+   Nets:               15         15            0            0
 
    Instances:           2          2            0            0    MN(NMOS_VTG)
                         2          2            0            0    MP(PMOS_VTG)
