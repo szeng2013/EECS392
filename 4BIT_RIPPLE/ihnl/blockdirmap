@@ -1,0 +1,11 @@
+CADENCE IHNL01079
+
+EECS392 XOR schematic cds0
+EECS392 Inverter schematic cds1
+EECS392 NAND schematic cds2
+EECS392 AND schematic cds3
+EECS392 HALF_ADDER schematic cds4
+EECS392 NOR schematic cds5
+EECS392 OR schematic cds6
+EECS392 FULL_ADDER schematic cds7
+EECS392 4BIT_RIPPLE schematic cds8

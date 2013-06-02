@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/4BIT_RIPPLE.dv
+dv_start matched
+dv_cell {4BIT_RIPPLE} {4BIT_RIPPLE} matched
+dv_obj_count -transformed_nets {44 44} -transformed_inst {48 48} -transformed_port {15 15}
+dv_end
