@@ -1,0 +1,1154 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         RIPPLE.lvs.report
+LAYOUT NAME:              /home/sjz474/EECS392/RIPPLE/RIPPLE.sp ('RIPPLE')
+SOURCE NAME:              /home/sjz474/EECS392/RIPPLE/RIPPLE.src.net ('RIPPLE')
+RULE FILE:                /home/sjz474/EECS392/RIPPLE/_calibreLVS.rul_
+RULE FILE TITLE:          LVS Rule File for FreePDK45
+CREATION TIME:            Sun Jun  2 11:16:25 2013
+CURRENT DIRECTORY:        /home/sjz474/EECS392/RIPPLE
+USER NAME:                sjz474
+CALIBRE VERSION:          v2011.4_35.27    Tue Jan 10 16:18:55 PST 2012
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports.
+  Error:    Different numbers of nets.
+  Error:    Different numbers of instances.
+  Error:    Connectivity errors.
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      RIPPLE                        RIPPLE
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            element
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS" "GROUND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  YES
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             YES
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(nmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  w w 4e-09 ABSOLUTE
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports (see below).
+  Error:    Different numbers of nets (see below).
+  Error:    Different numbers of instances (see below).
+  Error:    Connectivity errors.
+  Warning:  Ambiguity points were found and resolved arbitrarily.
+
+LAYOUT CELL NAME:         RIPPLE
+SOURCE CELL NAME:         RIPPLE
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              0        27    *
+
+ Nets:              25       114    *
+
+ Instances:         21       111    *    MN (4 pins)
+                    21       111    *    MP (4 pins)
+                ------    ------
+ Total Inst:        42       222
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              0        27    *
+
+ Nets:              21        92    *
+
+ Instances:          4        15    *    MN (4 pins)
+                     4        15    *    MP (4 pins)
+                     3        15    *    _invb (6 pins)
+                     6        37    *    _invv (4 pins)
+                     3        15    *    _nand2v (5 pins)
+                     1         7    *    _nor2v (5 pins)
+                ------    ------
+ Total Inst:        21       104
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net 13                                                    XI9/net11
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (_nand2v):in1
+                                                                   XI9/XI8/XI4/MM0:g
+                                                                   XI9/XI8/XI4/MM1:g
+       
+       
+       ** missing connection **                                  (_invv):in
+                                                                   XI9/XI5/MM3:g
+                                                                   XI9/XI5/MM0:g
+       
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   XI9/XI5/MM1:s
+       
+       
+       ** missing connection **                                  XI9/XI5/MM2:g
+       
+       X6/X5/M0(-1.395,0.102):s                                  ** unmatched connection **
+       
+       ** unmatched connection **                                XI9/XI0/MM2:d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net 15                                                    net29
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (_nand2v):in2
+                                                                   XI9/XI8/XI4/MM2:g
+                                                                   XI9/XI8/XI4/MM3:g
+       
+       
+       ** missing connection **                                  (_invb):in
+                                                                   XI9/XI5/MM4:g
+                                                                   XI9/XI5/MM1:g
+       
+       
+       ** missing connection **                                  XI9/XI5/MM5:s
+       ** missing connection **                                  XI9/XI5/MM2:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net 2                                                     ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    Net 11                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    Net 9                                                     ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  6    Net X12/6                                                 ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  7    ** no similar net **                                      A<7>
+
+--------------------------------------------------------------------------------------------------------------
+
+  8    ** no similar net **                                      A<6>
+
+--------------------------------------------------------------------------------------------------------------
+
+  9    ** no similar net **                                      A<5>
+
+--------------------------------------------------------------------------------------------------------------
+
+ 10    ** no similar net **                                      A<4>
+
+--------------------------------------------------------------------------------------------------------------
+
+ 11    ** no similar net **                                      A<3>
+
+--------------------------------------------------------------------------------------------------------------
+
+ 12    ** no similar net **                                      A<0>
+
+--------------------------------------------------------------------------------------------------------------
+
+ 13    ** no similar net **                                      B<7>
+
+--------------------------------------------------------------------------------------------------------------
+
+ 14    ** no similar net **                                      B<6>
+
+--------------------------------------------------------------------------------------------------------------
+
+ 15    ** no similar net **                                      B<5>
+
+--------------------------------------------------------------------------------------------------------------
+
+ 16    ** no similar net **                                      B<4>
+
+--------------------------------------------------------------------------------------------------------------
+
+ 17    ** no similar net **                                      B<3>
+
+--------------------------------------------------------------------------------------------------------------
+
+ 18    ** no similar net **                                      B<0>
+
+--------------------------------------------------------------------------------------------------------------
+
+ 19    ** no similar net **                                      COUT
+
+--------------------------------------------------------------------------------------------------------------
+
+ 20    ** no similar net **                                      S<7>
+
+--------------------------------------------------------------------------------------------------------------
+
+ 21    ** no similar net **                                      S<6>
+
+--------------------------------------------------------------------------------------------------------------
+
+ 22    ** no similar net **                                      S<5>
+
+--------------------------------------------------------------------------------------------------------------
+
+ 23    ** no similar net **                                      S<4>
+
+--------------------------------------------------------------------------------------------------------------
+
+ 24    ** no similar net **                                      S<3>
+
+--------------------------------------------------------------------------------------------------------------
+
+ 25    ** no similar net **                                      S<2>
+
+--------------------------------------------------------------------------------------------------------------
+
+ 26    ** no similar net **                                      S<0>
+
+--------------------------------------------------------------------------------------------------------------
+
+ 27    ** no similar net **                                      net33
+
+--------------------------------------------------------------------------------------------------------------
+
+ 28    ** no similar net **                                      net32
+
+--------------------------------------------------------------------------------------------------------------
+
+ 29    ** no similar net **                                      net31
+
+--------------------------------------------------------------------------------------------------------------
+
+ 30    ** no similar net **                                      net04
+
+--------------------------------------------------------------------------------------------------------------
+
+ 31    ** no similar net **                                      net30
+
+--------------------------------------------------------------------------------------------------------------
+
+ 32    ** no similar net **                                      GND!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 33    ** no similar net **                                      VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 34    ** no similar net **                                      XI7/XI0/net9
+
+--------------------------------------------------------------------------------------------------------------
+
+ 35    ** no similar net **                                      XI7/XI2/net8
+
+--------------------------------------------------------------------------------------------------------------
+
+ 36    ** no similar net **                                      XI14/net11
+
+--------------------------------------------------------------------------------------------------------------
+
+ 37    ** no similar net **                                      XI14/net14
+
+--------------------------------------------------------------------------------------------------------------
+
+ 38    ** no similar net **                                      XI14/net7
+
+--------------------------------------------------------------------------------------------------------------
+
+ 39    ** no similar net **                                      XI14/XI5/net9
+
+--------------------------------------------------------------------------------------------------------------
+
+ 40    ** no similar net **                                      XI14/XI0/net9
+
+--------------------------------------------------------------------------------------------------------------
+
+ 41    ** no similar net **                                      XI14/XI8/net8
+
+--------------------------------------------------------------------------------------------------------------
+
+ 42    ** no similar net **                                      XI14/XI9/net8
+
+--------------------------------------------------------------------------------------------------------------
+
+ 43    ** no similar net **                                      XI14/XI7/net7
+
+--------------------------------------------------------------------------------------------------------------
+
+ 44    ** no similar net **                                      XI13/net11
+
+--------------------------------------------------------------------------------------------------------------
+
+ 45    ** no similar net **                                      XI13/net14
+
+--------------------------------------------------------------------------------------------------------------
+
+ 46    ** no similar net **                                      XI13/net7
+
+--------------------------------------------------------------------------------------------------------------
+
+ 47    ** no similar net **                                      XI13/XI5/net9
+
+--------------------------------------------------------------------------------------------------------------
+
+ 48    ** no similar net **                                      XI13/XI0/net9
+
+--------------------------------------------------------------------------------------------------------------
+
+ 49    ** no similar net **                                      XI13/XI8/net8
+
+--------------------------------------------------------------------------------------------------------------
+
+ 50    ** no similar net **                                      XI13/XI9/net8
+
+
+**************************************************************************************************************
+                                   INCORRECT PORTS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+ 51    ** missing port **                                        GND! on net: GND!
+ 52    ** missing port **                                        VDD! on net: VDD!
+ 53    ** missing port **                                        A<7> on net: A<7>
+ 54    ** missing port **                                        A<6> on net: A<6>
+ 55    ** missing port **                                        A<5> on net: A<5>
+ 56    ** missing port **                                        A<4> on net: A<4>
+ 57    ** missing port **                                        A<3> on net: A<3>
+ 58    ** missing port **                                        A<2> on net: A<2>
+ 59    ** missing port **                                        A<1> on net: A<1>
+ 60    ** missing port **                                        A<0> on net: A<0>
+ 61    ** missing port **                                        B<7> on net: B<7>
+ 62    ** missing port **                                        B<6> on net: B<6>
+ 63    ** missing port **                                        B<5> on net: B<5>
+ 64    ** missing port **                                        B<4> on net: B<4>
+ 65    ** missing port **                                        B<3> on net: B<3>
+ 66    ** missing port **                                        B<2> on net: B<2>
+ 67    ** missing port **                                        B<1> on net: B<1>
+ 68    ** missing port **                                        B<0> on net: B<0>
+ 69    ** missing port **                                        COUT on net: COUT
+ 70    ** missing port **                                        S<7> on net: S<7>
+ 71    ** missing port **                                        S<6> on net: S<6>
+ 72    ** missing port **                                        S<5> on net: S<5>
+ 73    ** missing port **                                        S<4> on net: S<4>
+ 74    ** missing port **                                        S<3> on net: S<3>
+ 75    ** missing port **                                        S<2> on net: S<2>
+ 76    ** missing port **                                        S<1> on net: S<1>
+ 77    ** missing port **                                        S<0> on net: S<0>
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+ 78    X7/X4/M0(0.670,-0.292)  MP(PMOS_VTG)                      XI8/XI5/MM1  MP(PMOS_VTG)
+         g: 5                                                      g: net28
+         s: 14                                                     s: S<1>
+         d: 3                                                      d: XI8/net11
+         b: 11                                                     ** no similar net **
+         ** no similar net **                                      b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 79    X7/X1/M0(0.670,-0.787)  MN(NMOS_VTG)                      XI8/XI5/MM4  MN(NMOS_VTG)
+         g: 5                                                      g: net28
+         s: 14                                                     s: S<1>
+         d: X7/6                                                   d: XI8/XI5/net9
+         b: 2                                                      ** no similar net **
+         ** no similar net **                                      b: GND!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 80    X6/X4/M0(-1.765,0.102)  MP(PMOS_VTG)                      XI9/XI0/MM1  MP(PMOS_VTG)
+         g: 1                                                      g: B<2>
+         s: 13                                                     s: XI9/net11
+         d: 10                                                     d: A<2>
+         b: 9                                                      ** no similar net **
+         ** no similar net **                                      b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 81    X6/X1/M0(-1.765,-0.393)  MN(NMOS_VTG)                     XI9/XI0/MM4  MN(NMOS_VTG)
+         g: 1                                                      g: B<2>
+         s: 13                                                     s: XI9/net11
+         d: X6/6                                                   d: XI9/XI0/net9
+         b: 2                                                      ** no similar net **
+         ** no similar net **                                      b: GND!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 82    X8/X4/M0(0.670,1.018)  MP(PMOS_VTG)                       XI8/XI0/MM1  MP(PMOS_VTG)
+         g: 7                                                      g: B<1>
+         s: 3                                                      s: XI8/net11
+         d: 4                                                      d: A<1>
+         b: 11                                                     ** no similar net **
+         ** no similar net **                                      b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 83    X8/X1/M0(0.670,0.522)  MN(NMOS_VTG)                       XI8/XI0/MM4  MN(NMOS_VTG)
+         g: 7                                                      g: B<1>
+         s: 3                                                      s: XI8/net11
+         d: X8/6                                                   d: XI8/XI0/net9
+         b: 2                                                      ** no similar net **
+         ** no similar net **                                      b: GND!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 84    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI11/XI7/XI1/MM0  MP(PMOS_VTG)
+                                                                   XI11/XI7/XI1/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 85    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI9/XI7/XI1/MM0  MP(PMOS_VTG)
+                                                                   XI9/XI7/XI1/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 86    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI16/XI7/XI1/MM0  MP(PMOS_VTG)
+                                                                   XI16/XI7/XI1/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 87    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI7/XI2/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI7/XI2/XI5/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 88    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI12/XI7/XI1/MM0  MP(PMOS_VTG)
+                                                                   XI12/XI7/XI1/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 89    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI13/XI7/XI1/MM0  MP(PMOS_VTG)
+                                                                   XI13/XI7/XI1/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 90    ** missing injected instance **                           (_invb)
+
+                                                                 Devices: 
+                                                                   XI13/XI5/MM1  MP(PMOS_VTG)
+                                                                   XI13/XI5/MM4  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 91    ** missing injected instance **                           (_invb)
+
+                                                                 Devices: 
+                                                                   XI14/XI5/MM1  MP(PMOS_VTG)
+                                                                   XI14/XI5/MM4  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 92    ** missing injected instance **                           (_invb)
+
+                                                                 Devices: 
+                                                                   XI16/XI5/MM1  MP(PMOS_VTG)
+                                                                   XI16/XI5/MM4  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 93    ** missing injected instance **                           (_invb)
+
+                                                                 Devices: 
+                                                                   XI9/XI5/MM1  MP(PMOS_VTG)
+                                                                   XI9/XI5/MM4  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 94    ** missing injected instance **                           (_invb)
+
+                                                                 Devices: 
+                                                                   XI12/XI5/MM1  MP(PMOS_VTG)
+                                                                   XI12/XI5/MM4  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 95    ** missing injected instance **                           (_invb)
+
+                                                                 Devices: 
+                                                                   XI11/XI5/MM1  MP(PMOS_VTG)
+                                                                   XI11/XI5/MM4  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 96    ** missing injected instance **                           (_invb)
+
+                                                                 Devices: 
+                                                                   XI7/XI0/MM1  MP(PMOS_VTG)
+                                                                   XI7/XI0/MM4  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 97    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI11/XI8/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI11/XI8/XI5/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 98    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI12/XI9/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI12/XI9/XI5/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+ 99    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI12/XI8/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI12/XI8/XI5/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+100    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI13/XI9/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI13/XI9/XI5/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+101    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI14/XI8/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI14/XI8/XI5/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+102    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI13/XI8/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI13/XI8/XI5/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+103    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI9/XI9/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI9/XI9/XI5/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+104    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI9/XI8/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI9/XI8/XI5/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+105    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI16/XI9/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI16/XI9/XI5/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+106    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI16/XI8/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI16/XI8/XI5/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+107    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI11/XI9/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI11/XI9/XI5/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+108    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI14/XI9/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI14/XI9/XI5/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+109    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI14/XI7/XI1/MM0  MP(PMOS_VTG)
+                                                                   XI14/XI7/XI1/MM1  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+110    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI12/XI0/MM0  MP(PMOS_VTG)
+                                                                   XI12/XI0/MM3  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+111    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI16/XI0/MM0  MP(PMOS_VTG)
+                                                                   XI16/XI0/MM3  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+112    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI11/XI0/MM0  MP(PMOS_VTG)
+                                                                   XI11/XI0/MM3  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+113    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI13/XI0/MM0  MP(PMOS_VTG)
+                                                                   XI13/XI0/MM3  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+114    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI14/XI0/MM0  MP(PMOS_VTG)
+                                                                   XI14/XI0/MM3  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+115    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI9/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI9/XI5/MM3  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+116    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI13/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI13/XI5/MM3  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+117    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI7/XI0/MM0  MP(PMOS_VTG)
+                                                                   XI7/XI0/MM3  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+118    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI12/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI12/XI5/MM3  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+119    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI16/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI16/XI5/MM3  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+120    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI11/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI11/XI5/MM3  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+121    ** missing injected instance **                           (_invv)
+
+                                                                 Devices: 
+                                                                   XI14/XI5/MM0  MP(PMOS_VTG)
+                                                                   XI14/XI5/MM3  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+122    ** missing injected instance **                           (_nor2v)
+
+                                                                 Devices: 
+                                                                   XI16/XI7/XI0/MM2  MP(PMOS_VTG)
+                                                                   XI16/XI7/XI0/MM3  MP(PMOS_VTG)
+                                                                   XI16/XI7/XI0/MM1  MN(NMOS_VTG)
+                                                                   XI16/XI7/XI0/MM0  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+123    ** missing injected instance **                           (_nor2v)
+
+                                                                 Devices: 
+                                                                   XI9/XI7/XI0/MM2  MP(PMOS_VTG)
+                                                                   XI9/XI7/XI0/MM3  MP(PMOS_VTG)
+                                                                   XI9/XI7/XI0/MM1  MN(NMOS_VTG)
+                                                                   XI9/XI7/XI0/MM0  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+124    ** missing injected instance **                           (_nor2v)
+
+                                                                 Devices: 
+                                                                   XI11/XI7/XI0/MM2  MP(PMOS_VTG)
+                                                                   XI11/XI7/XI0/MM3  MP(PMOS_VTG)
+                                                                   XI11/XI7/XI0/MM1  MN(NMOS_VTG)
+                                                                   XI11/XI7/XI0/MM0  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+125    ** missing injected instance **                           (_nor2v)
+
+                                                                 Devices: 
+                                                                   XI12/XI7/XI0/MM2  MP(PMOS_VTG)
+                                                                   XI12/XI7/XI0/MM3  MP(PMOS_VTG)
+                                                                   XI12/XI7/XI0/MM1  MN(NMOS_VTG)
+                                                                   XI12/XI7/XI0/MM0  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+126    ** missing injected instance **                           (_nor2v)
+
+                                                                 Devices: 
+                                                                   XI14/XI7/XI0/MM2  MP(PMOS_VTG)
+                                                                   XI14/XI7/XI0/MM3  MP(PMOS_VTG)
+                                                                   XI14/XI7/XI0/MM1  MN(NMOS_VTG)
+                                                                   XI14/XI7/XI0/MM0  MN(NMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+127    ** missing injected instance **                           (_nor2v)
+
+                                                                 Devices: 
+                                                                   XI13/XI7/XI0/MM2  MP(PMOS_VTG)
+                                                                   XI13/XI7/XI0/MM3  MP(PMOS_VTG)
+                                                                   XI13/XI7/XI0/MM1  MN(NMOS_VTG)
+                                                                   XI13/XI7/XI0/MM0  MN(NMOS_VTG)
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               0          0            0           27
+
+   Nets:               17         17            4           75
+
+   Instances:           3          3            1           12    MN(NMOS_VTG)
+                        2          2            2           13    MP(PMOS_VTG)
+                        3          3            0           12    _invb
+                        6          6            0           31    _invv
+                        2          2            1           13    _nand2v
+                        1          1            0            6    _nor2v
+                  -------    -------    ---------    ---------
+   Total Inst:         17         17            4           87
+
+
+o Statistics:
+
+   5 nets were matched arbitrarily.
+
+
+o Ambiguity Resolution Points:
+
+      (Each one of the following objects belongs to a group of indistinguishable objects.
+       The listed objects were matched arbitrarily by the Ambiguity Resolution feature of LVS.
+       Arbitrary matching may be prevented by assigning names to these objects or to adjacent nets).
+
+       Layout                                                    Source
+       ------                                                    ------
+
+                                     Nets
+                                     ----
+
+       12                                                        XI8/XI7/net7
+       3                                                         XI8/net11
+       8                                                         XI8/net7
+       X8/6                                                      XI8/XI0/net9
+       X14/6                                                     XI8/XI9/net8
+
+
+
+
+**************************************************************************************************************
+                                  UNMATCHED OBJECTS
+       LAYOUT                                                    SOURCE
+**************************************************************************************************************
+
+       X6/X5/M0(-1.395,0.102)  MP(PMOS_VTG)                      ** unmatched instance **
+       X12/X6/M0(-0.217,-2.022)  MN(NMOS_VTG)                    ** unmatched instance **
+       X12/X6/M1(-0.220,-0.407)  MP(PMOS_VTG)                    ** unmatched instance **
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 ** unmatched injected instance **
+
+       Devices: 
+         X12/M0(-0.948,-1.750)  MN(NMOS_VTG)
+         X12/M1(-0.757,-1.750)  MN(NMOS_VTG)
+         X12/M2(-0.948,0.075)  MP(PMOS_VTG)
+         X12/M3(-0.757,0.075)  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched instance **                                  XI7/XI0/MM2  MP(PMOS_VTG)
+       ** unmatched instance **                                  XI7/XI0/MM5  MN(NMOS_VTG)
+       ** unmatched instance **                                  XI14/XI5/MM2  MP(PMOS_VTG)
+       ** unmatched instance **                                  XI14/XI5/MM5  MN(NMOS_VTG)
+       ** unmatched instance **                                  XI14/XI0/MM2  MP(PMOS_VTG)
+       ** unmatched instance **                                  XI14/XI0/MM5  MN(NMOS_VTG)
+       ** unmatched instance **                                  XI13/XI5/MM2  MP(PMOS_VTG)
+       ** unmatched instance **                                  XI13/XI5/MM5  MN(NMOS_VTG)
+       ** unmatched instance **                                  XI13/XI0/MM2  MP(PMOS_VTG)
+       ** unmatched instance **                                  XI13/XI0/MM5  MN(NMOS_VTG)
+       ** unmatched instance **                                  XI12/XI5/MM2  MP(PMOS_VTG)
+       ** unmatched instance **                                  XI12/XI5/MM5  MN(NMOS_VTG)
+       ** unmatched instance **                                  XI12/XI0/MM2  MP(PMOS_VTG)
+       ** unmatched instance **                                  XI12/XI0/MM5  MN(NMOS_VTG)
+       ** unmatched instance **                                  XI11/XI5/MM2  MP(PMOS_VTG)
+       ** unmatched instance **                                  XI11/XI5/MM5  MN(NMOS_VTG)
+       ** unmatched instance **                                  XI11/XI0/MM2  MP(PMOS_VTG)
+       ** unmatched instance **                                  XI11/XI0/MM5  MN(NMOS_VTG)
+       ** unmatched instance **                                  XI16/XI5/MM2  MP(PMOS_VTG)
+       ** unmatched instance **                                  XI16/XI5/MM5  MN(NMOS_VTG)
+       ** unmatched instance **                                  XI16/XI0/MM2  MP(PMOS_VTG)
+       ** unmatched instance **                                  XI16/XI0/MM5  MN(NMOS_VTG)
+       ** unmatched instance **                                  XI9/XI5/MM2  MP(PMOS_VTG)
+       ** unmatched instance **                                  XI9/XI5/MM5  MN(NMOS_VTG)
+       ** unmatched instance **                                  XI9/XI0/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XI11/XI8/XI4/MM1  MN(NMOS_VTG)
+                                                                   XI11/XI8/XI4/MM3  MN(NMOS_VTG)
+                                                                   XI11/XI8/XI4/MM0  MP(PMOS_VTG)
+                                                                   XI11/XI8/XI4/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XI14/XI8/XI4/MM1  MN(NMOS_VTG)
+                                                                   XI14/XI8/XI4/MM3  MN(NMOS_VTG)
+                                                                   XI14/XI8/XI4/MM0  MP(PMOS_VTG)
+                                                                   XI14/XI8/XI4/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XI14/XI9/XI4/MM1  MN(NMOS_VTG)
+                                                                   XI14/XI9/XI4/MM3  MN(NMOS_VTG)
+                                                                   XI14/XI9/XI4/MM0  MP(PMOS_VTG)
+                                                                   XI14/XI9/XI4/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XI9/XI9/XI4/MM1  MN(NMOS_VTG)
+                                                                   XI9/XI9/XI4/MM3  MN(NMOS_VTG)
+                                                                   XI9/XI9/XI4/MM0  MP(PMOS_VTG)
+                                                                   XI9/XI9/XI4/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XI9/XI8/XI4/MM1  MN(NMOS_VTG)
+                                                                   XI9/XI8/XI4/MM3  MN(NMOS_VTG)
+                                                                   XI9/XI8/XI4/MM0  MP(PMOS_VTG)
+                                                                   XI9/XI8/XI4/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XI7/XI2/XI4/MM1  MN(NMOS_VTG)
+                                                                   XI7/XI2/XI4/MM3  MN(NMOS_VTG)
+                                                                   XI7/XI2/XI4/MM0  MP(PMOS_VTG)
+                                                                   XI7/XI2/XI4/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XI13/XI8/XI4/MM1  MN(NMOS_VTG)
+                                                                   XI13/XI8/XI4/MM3  MN(NMOS_VTG)
+                                                                   XI13/XI8/XI4/MM0  MP(PMOS_VTG)
+                                                                   XI13/XI8/XI4/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XI13/XI9/XI4/MM1  MN(NMOS_VTG)
+                                                                   XI13/XI9/XI4/MM3  MN(NMOS_VTG)
+                                                                   XI13/XI9/XI4/MM0  MP(PMOS_VTG)
+                                                                   XI13/XI9/XI4/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XI16/XI9/XI4/MM1  MN(NMOS_VTG)
+                                                                   XI16/XI9/XI4/MM3  MN(NMOS_VTG)
+                                                                   XI16/XI9/XI4/MM0  MP(PMOS_VTG)
+                                                                   XI16/XI9/XI4/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XI16/XI8/XI4/MM1  MN(NMOS_VTG)
+                                                                   XI16/XI8/XI4/MM3  MN(NMOS_VTG)
+                                                                   XI16/XI8/XI4/MM0  MP(PMOS_VTG)
+                                                                   XI16/XI8/XI4/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XI12/XI8/XI4/MM1  MN(NMOS_VTG)
+                                                                   XI12/XI8/XI4/MM3  MN(NMOS_VTG)
+                                                                   XI12/XI8/XI4/MM0  MP(PMOS_VTG)
+                                                                   XI12/XI8/XI4/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XI12/XI9/XI4/MM1  MN(NMOS_VTG)
+                                                                   XI12/XI9/XI4/MM3  MN(NMOS_VTG)
+                                                                   XI12/XI9/XI4/MM0  MP(PMOS_VTG)
+                                                                   XI12/XI9/XI4/MM2  MP(PMOS_VTG)
+
+--------------------------------------------------------------------------------------------------------------
+
+       ** unmatched injected instance **                         (_nand2v)
+
+                                                                 Devices: 
+                                                                   XI11/XI9/XI4/MM1  MN(NMOS_VTG)
+                                                                   XI11/XI9/XI4/MM3  MN(NMOS_VTG)
+                                                                   XI11/XI9/XI4/MM0  MP(PMOS_VTG)
+                                                                   XI11/XI9/XI4/MM2  MP(PMOS_VTG)
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

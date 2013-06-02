@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      sjz474
+HostName                       freeze.ece.northwestern.edu
+ProcessIdentifier              12226
+ProcessCreationTime_UTC        1370188746
+ProcessCreationTime_Readable   Sun Jun  2 10:59:06 2013 CDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/sjz474/EECS392/RIPPLE/schematic/sch.oa.cdslck
+TimeEditLocked                 Sun Jun  2 11:03:27 2013 CDT

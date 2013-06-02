@@ -1,0 +1,79 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.5 01/16/2012 21:51 (sjfdl235) $
+          : sub-version  IC6.1.5.500.9 
+Started at: 02-Jun-2013  11:38:05
+User Name : sjz474
+Host Name : freeze.ece.northwestern.edu
+Directory : /home/sjz474
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/sjz474/EECS392/RIPPLE/RIPPLE.calibre.db' already exists. It will be overwritten.
+INFO (XSTRM-288): The automatic layer mapping is done by StreamOut and the xStrmOut_layerMap.txt file is generated. This is because either the layer mapping is not provided or the XST_AUTO_LM value is used with the -layerMap option.
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 EECS392
+strmFile                                /home/sjz474/EECS392/RIPPLE/RIPPLE.calibre.db
+topCell                                 RIPPLE
+view                                    layout
+runDir                                  /home/sjz474/EECS392/RIPPLE/
+logFile                                 PIPO.LOG.RIPPLE
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView NCSU_TechLib_FreePDK45/M2_M1/layout as STRUCTURE M2_M1_0
+INFO (XSTRM-223): 2. Translating cellView NCSU_TechLib_FreePDK45/M1_POLY/layout as STRUCTURE M1_POLY_1
+INFO (XSTRM-223): 3. Translating cellView EECS392/XOR/layout as STRUCTURE XOR
+INFO (XSTRM-223): 4. Translating cellView EECS392/NAND/layout as STRUCTURE NAND
+INFO (XSTRM-223): 5. Translating cellView NCSU_TechLib_FreePDK45/M1_P/layout as STRUCTURE M1_P_2
+INFO (XSTRM-223): 6. Translating cellView NCSU_TechLib_FreePDK45/M1_N/layout as STRUCTURE M1_N_3
+INFO (XSTRM-223): 7. Translating cellView NCSU_TechLib_FreePDK45/NTAP/layout as STRUCTURE NTAP_4
+INFO (XSTRM-223): 8. Translating cellView NCSU_TechLib_FreePDK45/PTAP/layout as STRUCTURE PTAP_5
+INFO (XSTRM-223): 9. Translating cellView EECS392/Inverter/layout as STRUCTURE Inverter
+INFO (XSTRM-223): 10. Translating cellView EECS392/AND/layout as STRUCTURE AND
+INFO (XSTRM-223): 11. Translating cellView EECS392/HALF_ADDER/layout as STRUCTURE HALF_ADDER
+INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+INFO (XSTRM-223): 12. Translating cellView NCSU_TechLib_FreePDK45/M2_M1_viaB/via as STRUCTURE M2_M1_viaB
+INFO (XSTRM-223): 13. Translating cellView NCSU_TechLib_FreePDK45/M2_M1_viaC/via as STRUCTURE M2_M1_viaC
+INFO (XSTRM-223): 14. Translating cellView EECS392/NOR/layout as STRUCTURE NOR
+INFO (XSTRM-223): 15. Translating cellView EECS392/OR/layout as STRUCTURE OR
+INFO (XSTRM-223): 16. Translating cellView EECS392/FULL_ADDER/layout as STRUCTURE FULL_ADDER
+INFO (XSTRM-223): 17. Translating cellView EECS392/RIPPLE/layout as STRUCTURE RIPPLE
+INFO (XSTRM-223): 18. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_0
+INFO (XSTRM-223): 19. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_1
+INFO (XSTRM-223): 20. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_2
+INFO (XSTRM-223): 21. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_3
+INFO (XSTRM-223): 22. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_4
+INFO (XSTRM-223): 23. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_5
+INFO (XSTRM-223): 24. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_6
+INFO (XSTRM-223): 25. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_7
+INFO (XSTRM-223): 26. Translating cellView NCSU_TechLib_FreePDK45/dcont/layout as STRUCTURE dcont_8
+
+Summary of Objects Translated:
+	Scalar Instances:                       35
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  66
+	Rectangles:                             459
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           42
+	Custom Vias:                            11
+	Pathsegs:                               0
+	Text:                                   64
+	Cells:                                  26
+
+Elapsed Time: 0.9s   User Time: 0.5s   CPU Time: 0.1s   Peak VM: 1124KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

@@ -1,0 +1,18 @@
+CADENCE IHNL01070
+$model
+EECS392/Inverter/schematic Inverter
+EECS392/AND/schematic AND
+EECS392/HALF_ADDER/schematic HALF_ADDER
+EECS392/OR/schematic OR
+EECS392/XOR/schematic XOR
+EECS392/RIPPLE/schematic RIPPLE
+EECS392/FULL_ADDER/schematic FULL_ADDER
+EECS392/NAND/schematic NAND
+EECS392/NOR/schematic NOR
+$endmodel
+$net
+vdd! vdd!
+gnd! gnd!
+$endnet
+$param
+$endparam
