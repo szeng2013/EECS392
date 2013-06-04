@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1370369975 1370369976
+lvs_ExtOutFile RUNDIR /home/sjz474/EECS392/8BIT_SELECT
+lvs_ExtOutFile RULES_FILE /home/sjz474/EECS392/8BIT_SELECT/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/sjz474/EECS392/8BIT_SELECT/8BIT_SELECT.sp
+lvs_ExtOutFile EXTRACTION_REPORT 8BIT_SELECT.lvs.report.ext
