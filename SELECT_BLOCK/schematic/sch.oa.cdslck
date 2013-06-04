@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      sjz474
+HostName                       batgirl.ece.northwestern.edu
+ProcessIdentifier              32024
+ProcessCreationTime_UTC        1370359609
+ProcessCreationTime_Readable   Tue Jun  4 10:26:49 2013 CDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/sjz474/EECS392/SELECT_BLOCK/schematic/sch.oa.cdslck
+TimeEditLocked                 Tue Jun  4 10:27:00 2013 CDT
