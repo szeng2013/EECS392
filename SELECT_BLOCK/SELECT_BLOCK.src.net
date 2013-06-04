@@ -1,0 +1,155 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  EECS392
+* Top Cell Name: SELECT_BLOCK
+* View Name:     schematic
+* Netlisted on:  Jun  4 12:33:56 2013
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL gnd!
++        vdd!
+
+*.PIN gnd!
+*+    vdd!
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    XOR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR A B Output
+*.PININFO A:I B:I Output:O
+MM2 Output A B vdd! PMOS_VTG W=300n L=50n m=1
+MM1 Output B A vdd! PMOS_VTG W=300n L=50n m=1
+MM0 net9 A vdd! vdd! PMOS_VTG W=300n L=50n m=1
+MM5 Output net9 B gnd! NMOS_VTG W=280.0n L=50n m=1
+MM4 Output B net9 gnd! NMOS_VTG W=280.0n L=50n m=1
+MM3 net9 A gnd! gnd! NMOS_VTG W=280.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    Inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT Inverter In Out
+*.PININFO In:I Out:O
+MM0 Out In vdd! vdd! PMOS_VTG W=1.96u L=50n m=1
+MM1 Out In gnd! gnd! NMOS_VTG W=1.44u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    NAND
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NAND A B Output
+*.PININFO A:I B:I Output:O
+MM2 Output B vdd! vdd! PMOS_VTG W=1.44u L=50n m=1
+MM0 Output A vdd! vdd! PMOS_VTG W=1.44u L=50n m=1
+MM3 net17 B gnd! gnd! NMOS_VTG W=1.63u L=50n m=1
+MM1 Output A net17 gnd! NMOS_VTG W=1.63u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    AND
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AND A B Output
+*.PININFO A:I B:I Output:O
+XI5 net8 Output / Inverter
+XI4 A B net8 / NAND
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    NOR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NOR A B Output
+*.PININFO A:I B:I Output:O
+MM1 Output A gnd! gnd! NMOS_VTG W=720.0n L=50n m=1
+MM0 Output B gnd! gnd! NMOS_VTG W=720.0n L=50n m=1
+MM3 Output B net15 vdd! PMOS_VTG W=1.56u L=50n m=1
+MM2 net15 A vdd! vdd! PMOS_VTG W=1.56u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    OR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT OR A B Output
+*.PININFO A:I B:I Output:O
+XI0 A B net7 / NOR
+XI1 net7 Output / Inverter
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    FULL_ADDER
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT FULL_ADDER A B Cin Cout S
+*.PININFO A:I B:I Cin:I Cout:O S:O
+XI5 net11 Cin S / XOR
+XI0 A B net11 / XOR
+XI8 net11 Cin net14 / AND
+XI9 A B net7 / AND
+XI7 net14 net7 Cout / OR
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    2_1MUX
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 2_1MUX IN0 IN1 Output S
+*.PININFO IN0:I IN1:I S:I Output:O
+MM1 IN1 S Output gnd! NMOS_VTG W=280.0n L=50n m=1
+MM0 IN0 net10 Output gnd! NMOS_VTG W=280.0n L=50n m=1
+MM3 IN1 net10 Output vdd! PMOS_VTG W=300n L=50n m=1
+MM2 IN0 S Output vdd! PMOS_VTG W=300n L=50n m=1
+XI0 S net10 / Inverter
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    SELECT_BLOCK
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT SELECT_BLOCK A<3> A<2> A<1> A<0> B<3> B<2> B<1> B<0> Cin Cout S<3> 
++ S<2> S<1> S<0>
+*.PININFO A<3>:I A<2>:I A<1>:I A<0>:I B<3>:I B<2>:I B<1>:I B<0>:I Cin:I Cout:O 
+*.PININFO S<3>:O S<2>:O S<1>:O S<0>:O
+XI7 A<3> B<3> net14 net9 net025 / FULL_ADDER
+XI6 A<2> B<2> net19 net14 net026 / FULL_ADDER
+XI5 A<1> B<1> net24 net19 net027 / FULL_ADDER
+XI4 A<0> B<0> vdd! net24 net028 / FULL_ADDER
+XI3 A<3> B<3> net34 net29 net30 / FULL_ADDER
+XI2 A<2> B<2> net018 net34 net35 / FULL_ADDER
+XI1 A<1> B<1> net44 net018 net40 / FULL_ADDER
+XI0 A<0> B<0> gnd! net44 net45 / FULL_ADDER
+XI14 net30 net025 S<3> Cin / 2_1MUX
+XI13 net35 net026 S<2> Cin / 2_1MUX
+XI12 net40 net027 S<1> Cin / 2_1MUX
+XI11 net45 net028 S<0> Cin / 2_1MUX
+XI10 net29 net9 Cout Cin / 2_1MUX
+.ENDS
+

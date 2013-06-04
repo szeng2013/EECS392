@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/SELECT_BLOCK.dv
+dv_start matched
+dv_cell {SELECT_BLOCK} {SELECT_BLOCK} matched
+dv_obj_count -transformed_nets {96 96} -transformed_inst {117 117} -transformed_port {16 16}
+dv_end

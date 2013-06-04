@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1370367237 1370367238
+lvs_ExtOutFile RUNDIR /home/sjz474/EECS392/SELECT_BLOCK
+lvs_ExtOutFile RULES_FILE /home/sjz474/EECS392/SELECT_BLOCK/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/sjz474/EECS392/SELECT_BLOCK/SELECT_BLOCK.sp
+lvs_ExtOutFile EXTRACTION_REPORT SELECT_BLOCK.lvs.report.ext

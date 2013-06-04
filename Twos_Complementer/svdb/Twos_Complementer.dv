@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/Twos_Complementer.dv
+dv_start matched
+dv_cell {Twos_Complementer} {Twos_Complementer} matched
+dv_obj_count -transformed_nets {97 97} -transformed_inst {121 121} -transformed_port {18 18}
+dv_end
