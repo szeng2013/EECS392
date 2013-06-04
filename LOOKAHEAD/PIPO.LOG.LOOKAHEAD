@@ -2,9 +2,9 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.5 01/16/2012 21:51 (sjfdl235) $
           : sub-version  IC6.1.5.500.9 
-Started at: 03-Jun-2013  23:44:08
+Started at: 04-Jun-2013  14:17:14
 User Name : gms130
-Host Name : robin.ece.northwestern.edu
+Host Name : joker.ece.northwestern.edu
 Directory : /home/gms130
 CADENCE Design Systems, Inc.
 ********************************************************************************
@@ -58,7 +58,7 @@ Summary of Objects Translated:
 	Scalar Instances:                       107
 	Array Instances:                        0
 	Polygons:                               0
-	Paths:                                  180
+	Paths:                                  287
 	Rectangles:                             519
 	Lines:                                  0
 	Arcs:                                   0
@@ -72,10 +72,10 @@ Summary of Objects Translated:
 	Markers:                                0
 	Rows:                                   0
 	Standard Vias                           38
-	Custom Vias:                            84
+	Custom Vias:                            181
 	Pathsegs:                               0
 	Text:                                   155
 	Cells:                                  28
 
-Elapsed Time: 1.6s   User Time: 0.5s   CPU Time: 0.1s   Peak VM: 1268KB
+Elapsed Time: 0.9s   User Time: 0.5s   CPU Time: 0.1s   Peak VM: 1275KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
