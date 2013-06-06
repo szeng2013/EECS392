@@ -2,9 +2,9 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.5 01/16/2012 21:51 (sjfdl235) $
           : sub-version  IC6.1.5.500.9 
-Started at: 05-Jun-2013  19:20:28
+Started at: 06-Jun-2013  10:40:51
 User Name : gms130
-Host Name : gordon.ece.northwestern.edu
+Host Name : joker.ece.northwestern.edu
 Directory : /home/gms130
 CADENCE Design Systems, Inc.
 ********************************************************************************
@@ -28,16 +28,16 @@ INFO (XSTRM-223): 1. Translating cellView NCSU_TechLib_FreePDK45/M2_M1_viaB/via 
 INFO (XSTRM-223): 2. Translating cellView NCSU_TechLib_FreePDK45/M3_M2_viaC/via as STRUCTURE M3_M2_viaC
 INFO (XSTRM-223): 3. Translating cellView NCSU_TechLib_FreePDK45/M3_M2_viaB/via as STRUCTURE M3_M2_viaB
 INFO (XSTRM-223): 4. Translating cellView NCSU_TechLib_FreePDK45/M2_M1_viaC/via as STRUCTURE M2_M1_viaC
-INFO (XSTRM-223): 5. Translating cellView NCSU_TechLib_FreePDK45/M1_POLY/layout as STRUCTURE M1_POLY_0
-INFO (XSTRM-223): 6. Translating cellView NCSU_TechLib_FreePDK45/M2_M1/layout as STRUCTURE M2_M1_1
-INFO (XSTRM-223): 7. Translating cellView EECS392/HALF_ADDER_noCOUT/layout as STRUCTURE HALF_ADDER_noCOUT
-INFO (XSTRM-223): 8. Translating cellView EECS392/XOR/layout as STRUCTURE XOR
-INFO (XSTRM-223): 9. Translating cellView EECS392/FULL_ADDER_noCOUT/layout as STRUCTURE FULL_ADDER_noCOUT
-INFO (XSTRM-223): 10. Translating cellView EECS392/NAND/layout as STRUCTURE NAND
-INFO (XSTRM-223): 11. Translating cellView NCSU_TechLib_FreePDK45/M1_P/layout as STRUCTURE M1_P_2
-INFO (XSTRM-223): 12. Translating cellView NCSU_TechLib_FreePDK45/M1_N/layout as STRUCTURE M1_N_3
-INFO (XSTRM-223): 13. Translating cellView NCSU_TechLib_FreePDK45/NTAP/layout as STRUCTURE NTAP_4
-INFO (XSTRM-223): 14. Translating cellView NCSU_TechLib_FreePDK45/PTAP/layout as STRUCTURE PTAP_5
+INFO (XSTRM-223): 5. Translating cellView NCSU_TechLib_FreePDK45/PTAP/layout as STRUCTURE PTAP_0
+INFO (XSTRM-223): 6. Translating cellView NCSU_TechLib_FreePDK45/NTAP/layout as STRUCTURE NTAP_1
+INFO (XSTRM-223): 7. Translating cellView NCSU_TechLib_FreePDK45/M1_POLY/layout as STRUCTURE M1_POLY_2
+INFO (XSTRM-223): 8. Translating cellView NCSU_TechLib_FreePDK45/M2_M1/layout as STRUCTURE M2_M1_3
+INFO (XSTRM-223): 9. Translating cellView EECS392/HALF_ADDER_noCOUT/layout as STRUCTURE HALF_ADDER_noCOUT
+INFO (XSTRM-223): 10. Translating cellView EECS392/XOR/layout as STRUCTURE XOR
+INFO (XSTRM-223): 11. Translating cellView EECS392/FULL_ADDER_noCOUT/layout as STRUCTURE FULL_ADDER_noCOUT
+INFO (XSTRM-223): 12. Translating cellView EECS392/NAND/layout as STRUCTURE NAND
+INFO (XSTRM-223): 13. Translating cellView NCSU_TechLib_FreePDK45/M1_P/layout as STRUCTURE M1_P_4
+INFO (XSTRM-223): 14. Translating cellView NCSU_TechLib_FreePDK45/M1_N/layout as STRUCTURE M1_N_5
 INFO (XSTRM-223): 15. Translating cellView EECS392/Inverter/layout as STRUCTURE Inverter
 INFO (XSTRM-223): 16. Translating cellView EECS392/AND/layout as STRUCTURE AND
 INFO (XSTRM-223): 17. Translating cellView EECS392/NOR/layout as STRUCTURE NOR
@@ -57,7 +57,7 @@ Summary of Objects Translated:
 	Scalar Instances:                       107
 	Array Instances:                        0
 	Polygons:                               0
-	Paths:                                  482
+	Paths:                                  484
 	Rectangles:                             519
 	Lines:                                  0
 	Arcs:                                   0
@@ -70,11 +70,11 @@ Summary of Objects Translated:
 	Area Halos:                             0
 	Markers:                                0
 	Rows:                                   0
-	Standard Vias                           38
-	Custom Vias:                            425
+	Standard Vias                           40
+	Custom Vias:                            429
 	Pathsegs:                               0
 	Text:                                   166
 	Cells:                                  28
 
-Elapsed Time: 1.0s   User Time: 0.5s   CPU Time: 0.1s   Peak VM: 1288KB
+Elapsed Time: 0.6s   User Time: 0.4s   CPU Time: 0.1s   Peak VM: 1313KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
