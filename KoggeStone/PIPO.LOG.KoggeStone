@@ -2,7 +2,7 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.5 01/16/2012 21:51 (sjfdl235) $
           : sub-version  IC6.1.5.500.9 
-Started at: 06-Jun-2013  12:16:33
+Started at: 06-Jun-2013  12:51:14
 User Name : jwe920
 Host Name : cobblepott.ece.northwestern.edu
 Directory : /home/jwe920
@@ -55,7 +55,7 @@ Summary of Objects Translated:
 	Scalar Instances:                       99
 	Array Instances:                        0
 	Polygons:                               0
-	Paths:                                  542
+	Paths:                                  543
 	Rectangles:                             456
 	Lines:                                  0
 	Arcs:                                   0
@@ -68,11 +68,11 @@ Summary of Objects Translated:
 	Area Halos:                             0
 	Markers:                                0
 	Rows:                                   0
-	Standard Vias                           510
+	Standard Vias                           511
 	Custom Vias:                            241
 	Pathsegs:                               0
-	Text:                                   156
+	Text:                                   158
 	Cells:                                  26
 
-Elapsed Time: 3.1s   User Time: 0.5s   CPU Time: 0.2s   Peak VM: 1221KB
+Elapsed Time: 0.9s   User Time: 0.5s   CPU Time: 0.1s   Peak VM: 1227KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
