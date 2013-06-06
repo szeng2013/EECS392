@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1370478034 1370478034
+lvs_ExtOutFile RUNDIR /home/gms130/EECS392/LOOKAHEAD
+lvs_ExtOutFile RULES_FILE /home/gms130/EECS392/LOOKAHEAD/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {1 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/gms130/EECS392/LOOKAHEAD/LOOKAHEAD.sp
+lvs_ExtOutFile EXTRACTION_REPORT LOOKAHEAD.lvs.report.ext

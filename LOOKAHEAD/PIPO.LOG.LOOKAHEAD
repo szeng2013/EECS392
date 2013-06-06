@@ -2,9 +2,9 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.5 01/16/2012 21:51 (sjfdl235) $
           : sub-version  IC6.1.5.500.9 
-Started at: 05-Jun-2013  12:24:41
+Started at: 05-Jun-2013  19:20:28
 User Name : gms130
-Host Name : joker.ece.northwestern.edu
+Host Name : gordon.ece.northwestern.edu
 Directory : /home/gms130
 CADENCE Design Systems, Inc.
 ********************************************************************************
@@ -43,7 +43,6 @@ INFO (XSTRM-223): 16. Translating cellView EECS392/AND/layout as STRUCTURE AND
 INFO (XSTRM-223): 17. Translating cellView EECS392/NOR/layout as STRUCTURE NOR
 INFO (XSTRM-223): 18. Translating cellView EECS392/OR/layout as STRUCTURE OR
 INFO (XSTRM-223): 19. Translating cellView EECS392/LOOKAHEAD/layout as STRUCTURE LOOKAHEAD
-INFO (XSTRM-180): You have not used the objectMap option. The design has instance(s) of at least one of following OpenAccess objects: oaBlockage, oaBoundary, oaRow, and oaMarker. Any information about these objects will not be translated into the generated stream file. Use the objectMap option to translate/preserve these objects using XStream. For details on the objectMap option, refer to the "Design Data Translator's Reference" guide for XStream.
 INFO (XSTRM-223): 20. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_0
 INFO (XSTRM-223): 21. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_1
 INFO (XSTRM-223): 22. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_2
@@ -58,7 +57,7 @@ Summary of Objects Translated:
 	Scalar Instances:                       107
 	Array Instances:                        0
 	Polygons:                               0
-	Paths:                                  362
+	Paths:                                  482
 	Rectangles:                             519
 	Lines:                                  0
 	Arcs:                                   0
@@ -72,10 +71,10 @@ Summary of Objects Translated:
 	Markers:                                0
 	Rows:                                   0
 	Standard Vias                           38
-	Custom Vias:                            275
+	Custom Vias:                            425
 	Pathsegs:                               0
-	Text:                                   155
+	Text:                                   166
 	Cells:                                  28
 
-Elapsed Time: 1.1s   User Time: 0.5s   CPU Time: 0.1s   Peak VM: 1279KB
+Elapsed Time: 1.0s   User Time: 0.5s   CPU Time: 0.1s   Peak VM: 1288KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
