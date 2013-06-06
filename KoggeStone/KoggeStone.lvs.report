@@ -1,0 +1,360 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         KoggeStone.lvs.report
+LAYOUT NAME:              /home/jwe920/EECS392/KoggeStone/KoggeStone.sp ('KoggeStone')
+SOURCE NAME:              /home/jwe920/EECS392/KoggeStone/KoggeStone.src.net ('KoggeStone')
+RULE FILE:                /home/jwe920/EECS392/KoggeStone/_calibreLVS.rul_
+RULE FILE TITLE:          LVS Rule File for FreePDK45
+CREATION TIME:            Thu Jun  6 12:16:48 2013
+CURRENT DIRECTORY:        /home/jwe920/EECS392/KoggeStone
+USER NAME:                jwe920
+CALIBRE VERSION:          v2011.4_35.27    Tue Jan 10 16:18:55 PST 2012
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports.
+  Error:    Different numbers of nets.
+  Error:    Connectivity errors.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      KoggeStone                    KoggeStone
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            element
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS" "GROUND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  YES
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             YES
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(nmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  w w 4e-09 ABSOLUTE
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports (see below).
+  Error:    Different numbers of nets (see below).
+  Error:    Connectivity errors.
+
+LAYOUT CELL NAME:         KoggeStone
+SOURCE CELL NAME:         KoggeStone
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             26        28    *
+
+ Nets:             241       240    *
+
+ Instances:        237       237         MN (4 pins)
+                   237       237         MP (4 pins)
+                ------    ------
+ Total Inst:       474       474
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             26        28    *
+
+ Nets:             178       177    *
+
+ Instances:         16        16         MN (4 pins)
+                    16        16         MP (4 pins)
+                    16        16         _invb (6 pins)
+                    79        79         _invv (4 pins)
+                    42        42         _nand2v (5 pins)
+                    21        21         _nor2v (5 pins)
+                ------    ------
+ Total Inst:       190       190
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net 82                                                    net20
+           37                                                   
+       --------------------------                                --------------------------
+       
+       ** missing connection **                                  (_invb):sup1
+                                                                   XI10/MM1:s
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net 54                                                    net0121
+       --------------------------                                --------------------------
+       
+       (_nand2v):in2                                             ** missing connection **
+         X232/X1/M3(2.627,0.085):g
+         X232/X1/M1(2.627,-1.740):g
+       
+       
+       (_nand2v):in2                                             ** missing connection **
+         X234/X0/M2(3.553,0.085):g
+         X234/X0/M0(3.553,-1.740):g
+       
+       
+       (_invv):out                                               ** missing connection **
+         X237/X0/X0/X6/M0(-0.177,-2.013):d
+         X237/X0/X0/X6/M1(-0.180,-0.398):d
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net 73                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    ** no similar net **                                      net086
+
+
+**************************************************************************************************************
+                                   INCORRECT PORTS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  5    ** missing port **                                        GND! on net: GND!
+  6    ** missing port **                                        VDD! on net: VDD!
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:              26         26            0            2
+
+   Nets:              177        176            1            1
+
+   Instances:          16         16            0            0    MN(NMOS_VTG)
+                       16         16            0            0    MP(PMOS_VTG)
+                       16         16            0            0    _invb
+                       79         79            0            0    _invv
+                       42         42            0            0    _nand2v
+                       21         21            0            0    _nor2v
+                  -------    -------    ---------    ---------
+   Total Inst:        190        190            0            0
+
+
+o Initial Correspondence Points:
+
+   Ports:        CIN S7 S3 S6 S2 S5 S1 S4 S0 B7 A7 B6 A6 B5 A5 B4 A4 B3 A3 B2 A2 B1 A1 B0 A0
+                 COUT
+
+
+**************************************************************************************************************
+                             DETAILED INSTANCE CONNECTIONS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed information about connections of
+           matched instances that are involved in net discrepancies).
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   (_invv)
+         in: X237/X0/X0/6                                          in: XI93/net8
+         sup1: 2                                                   sup1: VDD!
+         sup2: 1                                                   sup2: GND!
+         out: 54                                                   ** net0121 **
+         ** no similar net **                                      out: net086
+
+       Devices: 
+         X237/X0/X0/X6/M1(-0.180,-0.398)  MP(PMOS_VTG)             XI93/XI5/MM0  MP(PMOS_VTG) 
+         X237/X0/X0/X6/M0(-0.177,-2.013)  MN(NMOS_VTG)             XI93/XI5/MM1  MN(NMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: 43                                                   in1: net095
+         out: X234/X0/6                                            out: XI95/net8
+         sup1: 2                                                   sup1: VDD!
+         sup2: 1                                                   sup2: GND!
+         in2: 54                                                   ** net0121 **
+         ** no similar net **                                      in2: net086
+
+       Devices: 
+         X234/X0/M1(3.743,-1.740)  MN(NMOS_VTG)                    XI95/XI4/MM1  MN(NMOS_VTG) 
+         X234/X0/M0(3.553,-1.740)  MN(NMOS_VTG)                    XI95/XI4/MM3  MN(NMOS_VTG) 
+         X234/X0/M3(3.743,0.085)  MP(PMOS_VTG)                     XI95/XI4/MM0  MP(PMOS_VTG) 
+         X234/X0/M2(3.553,0.085)  MP(PMOS_VTG)                     XI95/XI4/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: 16                                                   in2: net0232
+         out: X232/X1/6                                            out: XI94/net8
+         sup1: 2                                                   sup1: VDD!
+         sup2: 1                                                   sup2: GND!
+         in2: 54                                                   ** net0121 **
+         ** no similar net **                                      in1: net086
+
+       Devices: 
+         X232/X1/M1(2.627,-1.740)  MN(NMOS_VTG)                    XI94/XI4/MM1  MN(NMOS_VTG) 
+         X232/X1/M0(2.438,-1.740)  MN(NMOS_VTG)                    XI94/XI4/MM3  MN(NMOS_VTG) 
+         X232/X1/M3(2.627,0.085)  MP(PMOS_VTG)                     XI94/XI4/MM0  MP(PMOS_VTG) 
+         X232/X1/M2(2.438,0.085)  MP(PMOS_VTG)                     XI94/XI4/MM2  MP(PMOS_VTG) 
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

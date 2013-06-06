@@ -1,0 +1,191 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  EECS392
+* Top Cell Name: KoggeStone
+* View Name:     schematic
+* Netlisted on:  Jun  6 12:16:39 2013
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+*.GLOBAL vdd!
++        gnd!
+
+*.PIN vdd!
+*+    gnd!
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    XOR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT XOR A B Output
+*.PININFO A:I B:I Output:O
+MM2 Output A B vdd! PMOS_VTG W=300n L=50n m=1
+MM1 Output B A vdd! PMOS_VTG W=300n L=50n m=1
+MM0 net9 A vdd! vdd! PMOS_VTG W=300n L=50n m=1
+MM5 Output net9 B gnd! NMOS_VTG W=280.0n L=50n m=1
+MM4 Output B net9 gnd! NMOS_VTG W=280.0n L=50n m=1
+MM3 net9 A gnd! gnd! NMOS_VTG W=280.0n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    Inverter
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT Inverter In Out
+*.PININFO In:I Out:O
+MM0 Out In vdd! vdd! PMOS_VTG W=1.96u L=50n m=1
+MM1 Out In gnd! gnd! NMOS_VTG W=1.44u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    NAND
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NAND A B Output
+*.PININFO A:I B:I Output:O
+MM2 Output B vdd! vdd! PMOS_VTG W=1.44u L=50n m=1
+MM0 Output A vdd! vdd! PMOS_VTG W=1.44u L=50n m=1
+MM3 net17 B gnd! gnd! NMOS_VTG W=1.63u L=50n m=1
+MM1 Output A net17 gnd! NMOS_VTG W=1.63u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    AND
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AND A B Output
+*.PININFO A:I B:I Output:O
+XI5 net8 Output / Inverter
+XI4 A B net8 / NAND
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    NOR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT NOR A B Output
+*.PININFO A:I B:I Output:O
+MM1 Output A gnd! gnd! NMOS_VTG W=720.0n L=50n m=1
+MM0 Output B gnd! gnd! NMOS_VTG W=720.0n L=50n m=1
+MM3 Output B net15 vdd! PMOS_VTG W=1.56u L=50n m=1
+MM2 net15 A vdd! vdd! PMOS_VTG W=1.56u L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    OR
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT OR A B Output
+*.PININFO A:I B:I Output:O
+XI0 A B net7 / NOR
+XI1 net7 Output / Inverter
+.ENDS
+
+************************************************************************
+* Library Name: EECS392
+* Cell Name:    KoggeStone
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT KoggeStone A0 A1 A2 A3 A4 A5 A6 A7 B0 B1 B2 B3 B4 B5 B6 B7 Cin Cout S0 
++ S1 S2 S3 S4 S5 S6 S7
+*.PININFO A0:I A1:I A2:I A3:I A4:I A5:I A6:I A7:I B0:I B1:I B2:I B3:I B4:I 
+*.PININFO B5:I B6:I B7:I Cin:I Cout:O S0:O S1:O S2:O S3:O S4:O S5:O S6:O S7:O
+XI16 net0211 net0132 S2 / XOR
+XI15 net5 net25 S1 / XOR
+XI14 Cin net0158 S0 / XOR
+XI13 net11 net0137 S7 / XOR
+XI12 net14 net0116 S6 / XOR
+XI11 net17 net0123 S5 / XOR
+XI10 net20 net0122 S4 / XOR
+XI9 net0208 net0149 S3 / XOR
+XI7 A1 B1 net25 / XOR
+XI6 A0 B0 net0158 / XOR
+XI5 A7 B7 net0137 / XOR
+XI4 A6 B6 net0116 / XOR
+XI3 A5 B5 net0123 / XOR
+XI2 A4 B4 net0122 / XOR
+XI1 A3 B3 net0149 / XOR
+XI0 A2 B2 net0132 / XOR
+XI81 A0 B0 net0167 / AND
+XI122 net061 Cin net0176 / AND
+XI121 net079 net091 net061 / AND
+XI96 net079 Cin net064 / AND
+XI102 net068 net5 net0182 / AND
+XI108 net085 net0211 net0185 / AND
+XI114 net088 net0208 net0188 / AND
+XI120 net091 net0205 net076 / AND
+XI95 net095 net086 net079 / AND
+XI101 net0130 net089 net068 / AND
+XI107 net086 net0121 net085 / AND
+XI113 net089 net090 net088 / AND
+XI119 net0121 net098 net091 / AND
+XI86 net095 Cin net094 / AND
+XI118 net098 net0220 net097 / AND
+XI112 net090 net0204 net0100 / AND
+XI106 net0121 net0105 net0200 / AND
+XI100 net089 net0108 net0106 / AND
+XI94 net086 net0232 net0109 / AND
+XI90 net0130 net5 net0112 / AND
+XI117 net0116 net0137 net098 / AND
+XI111 net0123 net0116 net090 / AND
+XI105 net0122 net0123 net0121 / AND
+XI99 net0149 net0122 net089 / AND
+XI93 net0132 net0149 net086 / AND
+XI89 net25 net0132 net0130 / AND
+XI85 net0158 net25 net095 / AND
+XI116 net0137 net0138 net0215 / AND
+XI110 net0116 net0141 net0139 / AND
+XI104 net0123 net0225 net0221 / AND
+XI98 net0122 net0228 net0145 / AND
+XI92 net0149 net0150 net0227 / AND
+XI88 net0132 net0153 net0151 / AND
+XI84 net25 net0167 net0154 / AND
+XI82 net0158 Cin net0236 / AND
+XI115 A7 B7 net0160 / AND
+XI109 A6 B6 net0138 / AND
+XI103 A5 B5 net0141 / AND
+XI97 A4 B4 net0225 / AND
+XI91 A3 B3 net0228 / AND
+XI87 A2 B2 net0150 / AND
+XI83 A1 B1 net0153 / AND
+XI80 net0176 net0190 Cout / OR
+XI79 net064 net0205 net20 / OR
+XI78 net0182 net0202 net17 / OR
+XI77 net0185 net0199 net14 / OR
+XI76 net0188 net0196 net11 / OR
+XI75 net076 net0193 net0190 / OR
+XI74 net097 net0195 net0193 / OR
+XI73 net0100 net0217 net0196 / OR
+XI72 net0200 net0220 net0199 / OR
+XI71 net0106 net0204 net0202 / OR
+XI70 net0109 net0105 net0205 / OR
+XI69 net0112 net0108 net0208 / OR
+XI68 net094 net0232 net0211 / OR
+XI67 net0215 net0160 net0195 / OR
+XI66 net0139 net0138 net0217 / OR
+XI65 net0221 net0141 net0220 / OR
+XI64 net0145 net0225 net0204 / OR
+XI63 net0227 net0228 net0105 / OR
+XI62 net0151 net0150 net0108 / OR
+XI61 net0154 net0153 net0232 / OR
+XI60 net0236 net0167 net5 / OR
+.ENDS
+

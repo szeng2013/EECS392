@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1370539006 1370539007
+lvs_ExtOutFile RUNDIR /home/jwe920/EECS392/KoggeStone
+lvs_ExtOutFile RULES_FILE /home/jwe920/EECS392/KoggeStone/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/jwe920/EECS392/KoggeStone/KoggeStone.sp
+lvs_ExtOutFile EXTRACTION_REPORT KoggeStone.lvs.report.ext
