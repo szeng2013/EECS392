@@ -1,0 +1,45 @@
+ScopeSigMgr:loadpffile /home/sjz474/EECS392/LOOKAHEAD/LOOKAHEAD_layout.tr0 1 openonly
+# PF:1
+pf:read PF:1 v(s<7>)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Mdi:ArrangeIcons
+wm geometry . 1680x947+0+25
+Mdi:Resize 1652 372
+Mdi:Move 5 5
+Mdi:Resize 1652 815
+Mdi:Move 5 5
+wm geometry .sigmgr 376x204+2+24
+wm geometry .sigmgr._PF:1 231x339+840+527
+wm geometry .sigmgr._PF:1 231x300+840+566
+wm geometry .sigmgr._PF:1 231x257+840+609
+wm geometry .sigmgr._PF:1 231x235+840+631
+GrMeas:Threshold Graph0 Signal0 .9 either xyrangeAll
+# M:0
+GrMeas:Threshold Graph0 Signal0 0.068 rising xyrangeAll
+# M:1
+Graph:DSel
+GrMeas:Select Graph0 M:0 1
+GrMeas:ShowResult Graph0 M:0 2
+GrMeas:ShowResult Graph0 M:0 4
+GrMeas:ShowResult Graph0 M:0 3
+GrMeas:ShowResult Graph0 M:0 5
+GrMeas:ShowResult Graph0 M:0 6
+GrMeas:ShowResult Graph0 M:0 7
+GrMeas:ShowResult Graph0 M:0 8
+GrMeas:ShowResult Graph0 M:0 9
+GrMeas:ShowResult Graph0 M:0 10
+GrMeas:Threshold Graph0 Signal0 0.078 rising xyrangeAll
+# M:2
+GrMeas:Threshold Graph0 Signal0 0.08 rising xyrangeAll
+# M:3
+GrMeas:Threshold Graph0 Signal0 0.1 rising xyrangeAll
+# M:4
+Graph:DSel
+GrMeas:Select Graph0 M:4 0
+Graph:DSel
+Mdi:ArrangeIcons
+wm geometry . 900x785+2+24
+Mdi:ArrangeIcons
+wm geometry . 900x785+2+109

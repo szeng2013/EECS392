@@ -6,7 +6,7 @@
   stopList "auCdl"
   globalList "vdd! gnd!"
   hierDelim "."
-  netlistDir "/home/gms130/EECS392/LOOKAHEAD"
+  netlistDir "/home/sjz474/EECS392/LOOKAHEAD"
  )
 ( instViewTable
  )

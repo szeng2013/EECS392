@@ -1,9 +1,9 @@
 # Automagically generated file: Please do not edit!
 lvs_ExtfVersion 2
-lvs_ExtRunTimes 1370533255 1370533256
-lvs_ExtOutFile RUNDIR /home/gms130/EECS392/LOOKAHEAD
-lvs_ExtOutFile RULES_FILE /home/gms130/EECS392/LOOKAHEAD/_calibreLVS.rul_
+lvs_ExtRunTimes 1370539755 1370539757
+lvs_ExtOutFile RUNDIR /home/sjz474/EECS392/LOOKAHEAD
+lvs_ExtOutFile RULES_FILE /home/sjz474/EECS392/LOOKAHEAD/_calibrexRC.rul_
 lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
 lvs_ExtInfoDfmSummary {0}
-lvs_ExtOutFile LAYOUT_NETLIST /home/gms130/EECS392/LOOKAHEAD/LOOKAHEAD.sp
+lvs_ExtOutFile LAYOUT_NETLIST /home/sjz474/EECS392/LOOKAHEAD/svdb/LOOKAHEAD.sp
 lvs_ExtOutFile EXTRACTION_REPORT LOOKAHEAD.lvs.report.ext

@@ -2,5 +2,5 @@
 # FILE: svdb/LOOKAHEAD.dv
 dv_start matched
 dv_cell {LOOKAHEAD} {LOOKAHEAD} matched
-dv_obj_count -transformed_nets {190 190} -transformed_inst {202 202} -transformed_port {27 27}
+dv_obj_count -transformed_nets {190 190} -transformed_inst {445 445} -transformed_port {27 27}
 dv_end

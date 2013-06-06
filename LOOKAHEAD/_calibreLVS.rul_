@@ -1,5 +1,5 @@
 //
-//  Rule file generated on Thu Jun 06 10:40:54 CDT 2013
+//  Rule file generated on Thu Jun 06 12:28:51 CDT 2013
 //     by Calibre Interactive - LVS (v2011.4_35.27)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
@@ -10,7 +10,7 @@ LAYOUT PATH  "LOOKAHEAD.calibre.db"
 LAYOUT PRIMARY "LOOKAHEAD"
 LAYOUT SYSTEM GDSII
 
-SOURCE PATH "/home/gms130/EECS392/LOOKAHEAD/LOOKAHEAD.src.net"
+SOURCE PATH "/home/sjz474/EECS392/LOOKAHEAD/LOOKAHEAD.src.net"
 SOURCE PRIMARY "LOOKAHEAD"
 SOURCE SYSTEM SPICE
 
