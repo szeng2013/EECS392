@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Thu Jun  6 14:04:47 2013 " "v2011.4_35.27" "-xrc -pdb -rcc -turbo 1 /home/jwe920/EECS392/KoggeStone/_calibrexRC.rul_"
+"Thu Jun  6 14:04:55 2013 " "v2011.4_35.27" "-xrc -fmt -all /home/jwe920/EECS392/KoggeStone/_calibrexRC.rul_"

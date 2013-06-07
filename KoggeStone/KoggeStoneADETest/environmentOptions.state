@@ -1,0 +1,4 @@
+(envOpts autoDisplay) t
+(envOpts switchViewList) ("hspiceD" "spice" "cmos_sch" "cmos.sch" "schematic")
+(envOpts printComments) nil
+(envOpts stopViewList) ("hspiceD" "spice")

@@ -2,5 +2,5 @@
 # FILE: svdb/KoggeStone.dv
 dv_start matched
 dv_cell {KoggeStone} {KoggeStone} matched
-dv_obj_count -transformed_nets {177 177} -transformed_inst {190 190} -transformed_port {28 28}
+dv_obj_count -transformed_nets {177 177} -transformed_inst {411 411} -transformed_port {28 28}
 dv_end

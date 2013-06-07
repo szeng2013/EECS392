@@ -1,0 +1,19 @@
+\o Program:		@(#)$CDS: libManager version 32.10 11/11/2011 13:43 (cat91amd) $
+\o Sub version:		sub-version  s008 
+\o Arguments:		-mpssession virtuoso28021 -mpshost joker.ece.northwestern.edu 
+\o Working Directory:	joker.ece.northwestern.edu:/home/jwe920/EECS392/KoggeStone
+\o Qt version: 		4.5.3
+\o Log file is "/home/jwe920/EECS392/KoggeStone/libManager.log".
+\o Opening libManager window.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(83 118 1356 742))
+\o changeWorkingDir("/home/jwe920/EECS392/KoggeStone") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "NCSU_Devices_FreePDK45"
+\a cdsLibManager->libLineEdit->value = "NCSU_Devices_FreePDK45"
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\o libManager is exiting.
+\a exit(0)

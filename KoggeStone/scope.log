@@ -1,0 +1,191 @@
+Graph:Select Graph0
+Graph:DSel
+ScopeSigMgr:loadpffile /home/jwe920/EECS392/KoggeStone/KoggeStone_layout.tr0 1 openonly
+# PF:1
+pf:read PF:1 v(s7)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Mdi:FullSize
+Mdi:ArrangeIcons
+wm geometry . 1680x947+0+25
+wm geometry .sigmgr._PF:1 231x341+842+525
+wm geometry .sigmgr._PF:1 231x341+844+524
+wm geometry .sigmgr._PF:1 231x341+848+524
+wm geometry .sigmgr._PF:1 231x341+854+523
+wm geometry .sigmgr._PF:1 231x341+863+521
+wm geometry .sigmgr._PF:1 231x341+873+519
+wm geometry .sigmgr._PF:1 231x341+886+516
+wm geometry .sigmgr._PF:1 231x341+902+514
+wm geometry .sigmgr._PF:1 231x341+919+511
+wm geometry .sigmgr._PF:1 231x341+940+508
+wm geometry .sigmgr._PF:1 231x341+961+503
+wm geometry .sigmgr._PF:1 231x341+984+498
+wm geometry .sigmgr._PF:1 231x341+1005+493
+wm geometry .sigmgr._PF:1 231x341+1026+488
+wm geometry .sigmgr._PF:1 231x341+1047+483
+wm geometry .sigmgr._PF:1 231x341+1064+478
+wm geometry .sigmgr._PF:1 231x341+1077+473
+wm geometry .sigmgr._PF:1 231x341+1090+468
+wm geometry .sigmgr._PF:1 231x341+1103+463
+wm geometry .sigmgr._PF:1 231x341+1114+458
+wm geometry .sigmgr._PF:1 231x341+1125+453
+wm geometry .sigmgr._PF:1 231x341+1134+448
+wm geometry .sigmgr._PF:1 231x341+1141+443
+wm geometry .sigmgr._PF:1 231x341+1147+438
+wm geometry .sigmgr._PF:1 231x341+1154+433
+wm geometry .sigmgr._PF:1 231x341+1161+428
+wm geometry .sigmgr._PF:1 231x341+1168+424
+wm geometry .sigmgr._PF:1 231x341+1175+419
+wm geometry .sigmgr._PF:1 231x341+1182+414
+wm geometry .sigmgr._PF:1 231x341+1188+412
+wm geometry .sigmgr._PF:1 231x341+1195+410
+wm geometry .sigmgr._PF:1 231x341+1199+408
+wm geometry .sigmgr._PF:1 231x341+1201+408
+wm geometry .sigmgr._PF:1 231x341+1202+408
+wm geometry .sigmgr._PF:1 231x341+1203+407
+wm geometry .sigmgr._PF:1 231x341+1203+406
+wm geometry .sigmgr 376x204+517+189
+wm geometry .sigmgr 376x204+519+190
+wm geometry .sigmgr 376x204+521+191
+wm geometry .sigmgr 376x204+523+191
+wm geometry .sigmgr 376x204+527+192
+wm geometry .sigmgr 376x204+532+194
+wm geometry .sigmgr 376x204+539+195
+wm geometry .sigmgr 376x204+548+199
+wm geometry .sigmgr 376x204+557+205
+wm geometry .sigmgr 376x204+573+214
+wm geometry .sigmgr 376x204+592+225
+wm geometry .sigmgr 376x204+611+236
+wm geometry .sigmgr 376x204+632+249
+wm geometry .sigmgr 376x204+653+262
+wm geometry .sigmgr 376x204+674+275
+wm geometry .sigmgr 376x204+695+288
+wm geometry .sigmgr 376x204+716+301
+wm geometry .sigmgr 376x204+735+314
+wm geometry .sigmgr 376x204+754+327
+wm geometry .sigmgr 376x204+773+342
+wm geometry .sigmgr 376x204+794+359
+wm geometry .sigmgr 376x204+815+376
+wm geometry .sigmgr 376x204+823+393
+wm geometry .sigmgr 376x204+857+406
+wm geometry .sigmgr 376x204+878+427
+wm geometry .sigmgr 376x204+899+442
+wm geometry .sigmgr 376x204+922+457
+wm geometry .sigmgr 376x204+943+468
+wm geometry .sigmgr 376x204+964+479
+wm geometry .sigmgr 376x204+985+490
+wm geometry .sigmgr 376x204+1004+499
+wm geometry .sigmgr 376x204+1023+508
+wm geometry .sigmgr 376x204+1040+517
+wm geometry .sigmgr 376x204+1055+524
+wm geometry .sigmgr 376x204+1070+531
+wm geometry .sigmgr 376x204+1083+533
+wm geometry .sigmgr 376x204+1092+535
+wm geometry .sigmgr 376x204+1099+537
+wm geometry .sigmgr 376x204+1105+538
+wm geometry .sigmgr 376x204+1111+540
+wm geometry .sigmgr 376x204+1113+540
+wm geometry .sigmgr 376x204+1115+542
+wm geometry .sigmgr 376x204+1117+542
+wm geometry .sigmgr 376x204+1119+543
+wm geometry .sigmgr 376x204+1121+544
+wm geometry .sigmgr 376x204+1123+545
+wm geometry .sigmgr 376x204+1126+547
+wm geometry .sigmgr 376x204+1129+549
+wm geometry .sigmgr 376x204+1132+551
+wm geometry .sigmgr 376x204+1135+554
+wm geometry .sigmgr 376x204+1141+558
+wm geometry .sigmgr 376x204+1146+563
+wm geometry .sigmgr 376x204+1152+569
+wm geometry .sigmgr 376x204+1158+575
+wm geometry .sigmgr 376x204+1163+580
+wm geometry .sigmgr 376x204+1169+586
+wm geometry .sigmgr 376x204+1175+592
+wm geometry .sigmgr 376x204+1181+598
+wm geometry .sigmgr 376x204+1187+606
+wm geometry .sigmgr 376x204+1193+616
+wm geometry .sigmgr 376x204+1198+624
+wm geometry .sigmgr 376x204+1203+632
+wm geometry .sigmgr 376x204+1203+640
+wm geometry .sigmgr 376x204+1203+648
+wm geometry .sigmgr 376x204+1203+655
+wm geometry .sigmgr 376x204+1203+661
+wm geometry .sigmgr 376x204+1220+666
+wm geometry .sigmgr 376x204+1222+670
+wm geometry .sigmgr 376x204+1225+674
+wm geometry .sigmgr 376x204+1227+680
+wm geometry .sigmgr 376x204+1231+687
+wm geometry .sigmgr 376x204+1236+694
+wm geometry .sigmgr 376x204+1237+702
+wm geometry .sigmgr 376x204+1240+708
+wm geometry .sigmgr 376x204+1242+714
+wm geometry .sigmgr 376x204+1245+720
+wm geometry .sigmgr 376x204+1247+726
+wm geometry .sigmgr 376x204+1250+731
+wm geometry .sigmgr 376x204+1252+737
+wm geometry .sigmgr 376x204+1255+743
+wm geometry .sigmgr 376x204+1257+748
+wm geometry .sigmgr 376x204+1259+752
+wm geometry .sigmgr 376x204+1261+757
+wm geometry .sigmgr 376x204+1263+761
+wm geometry .sigmgr 376x204+1264+764
+wm geometry .sigmgr 376x204+1265+764
+wm geometry .sigmgr 376x204+1266+765
+wm geometry .sigmgr 376x204+1266+766
+wm geometry .sigmgr 376x204+1267+767
+wm geometry .sigmgr 376x204+1268+767
+wm geometry .sigmgr 376x204+1268+768
+wm geometry .sigmgr 376x204+1268+769
+wm geometry .sigmgr 376x204+1269+770
+wm geometry .sigmgr 376x204+1270+771
+wm geometry .sigmgr 376x204+1270+772
+wm geometry .sigmgr 376x204+1270+773
+wm geometry .sigmgr 376x204+1272+773
+wm geometry .sigmgr 376x204+1272+774
+wm geometry .sigmgr 376x204+1273+776
+wm geometry .sigmgr 376x204+1274+778
+wm geometry .sigmgr 376x204+1275+780
+wm geometry .sigmgr 376x204+1277+782
+wm geometry .sigmgr 376x204+1278+784
+wm geometry .sigmgr 376x204+1279+786
+wm geometry .sigmgr 376x204+1280+787
+wm geometry .sigmgr 376x204+1280+788
+wm geometry .sigmgr 376x204+1281+788
+wm geometry .sigmgr 376x204+1281+789
+wm geometry .sigmgr 376x204+1282+789
+wm geometry .sigmgr 376x204+1283+790
+wm geometry .sigmgr 376x204+1284+790
+wm geometry .sigmgr 376x204+1284+791
+wm geometry .sigmgr 376x204+1285+791
+wm geometry .sigmgr 376x204+1285+792
+wm geometry .sigmgr 376x204+1286+792
+GrMeas:Threshold Graph0 Signal0 .9 either xyrangeAll
+# M:0
+GrMeas:Threshold Graph0 Signal0 1.6 falling xyrangeAll
+# M:1
+Graph:DSel
+GrMeas:Select Graph0 M:0 1
+GrMeas:ShowResult Graph0 M:0 2
+GrMeas:ShowResult Graph0 M:0 3
+GrMeas:ShowResult Graph0 M:0 4
+GrMeas:ShowResult Graph0 M:0 5
+GrMeas:ShowResult Graph0 M:0 6
+GrMeas:ShowResult Graph0 M:0 7
+GrMeas:ShowResult Graph0 M:0 9
+GrMeas:ShowResult Graph0 M:0 8
+GrMeas:ShowResult Graph0 M:0 10
+GrMeas:ShowResult Graph0 M:1 2
+GrMeas:ShowResult Graph0 M:1 3
+GrMeas:ShowResult Graph0 M:1 4
+GrMeas:ShowResult Graph0 M:1 5
+GrMeas:Threshold Graph0 Signal0 .2 rising xyrangeAll
+# M:2
+GrMeas:ShowResult Graph0 M:2 2
+GrMeas:ShowResult Graph0 M:2 3
+GrMeas:ShowResult Graph0 M:2 4
+GrMeas:ShowResult Graph0 M:2 5
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+.frame1.mdi.mdi1.work.graph0 save -file /home/jwe920/KoggeStoneCSCOPE.png -format png  -x 0 -y 0 -w 1668 -h 823 -colormode color

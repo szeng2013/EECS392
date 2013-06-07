@@ -5,5 +5,5 @@ lvs_LvsInputSummary {0 0 0}
 lvs_LvsComparisonSummary {3 0 0 0}
 lvs_LvsOutFile LVS_REPORT KoggeStone.lvs.report
 lvs_LvsOutFile SOURCE_NETLIST /home/jwe920/EECS392/KoggeStone/KoggeStone.src.net
-lvs_LvsOutFile RULES_FILE /home/jwe920/EECS392/KoggeStone/_calibreLVS.rul_
-lvs_LvsRunTimes 1370541079 1370541079
+lvs_LvsOutFile RULES_FILE /home/jwe920/EECS392/KoggeStone/_calibrexRC.rul_
+lvs_LvsRunTimes 1370545486 1370545487

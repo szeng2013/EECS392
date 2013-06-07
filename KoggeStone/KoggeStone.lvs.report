@@ -12,11 +12,11 @@
 
 
 REPORT FILE NAME:         KoggeStone.lvs.report
-LAYOUT NAME:              /home/jwe920/EECS392/KoggeStone/KoggeStone.sp ('KoggeStone')
+LAYOUT NAME:              /home/jwe920/EECS392/KoggeStone/svdb/KoggeStone.sp ('KoggeStone')
 SOURCE NAME:              /home/jwe920/EECS392/KoggeStone/KoggeStone.src.net ('KoggeStone')
-RULE FILE:                /home/jwe920/EECS392/KoggeStone/_calibreLVS.rul_
+RULE FILE:                /home/jwe920/EECS392/KoggeStone/_calibrexRC.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Thu Jun  6 12:51:19 2013
+CREATION TIME:            Thu Jun  6 14:04:46 2013
 CURRENT DIRECTORY:        /home/jwe920/EECS392/KoggeStone
 USER NAME:                jwe920
 CALIBRE VERSION:          v2011.4_35.27    Tue Jan 10 16:18:55 PST 2012
@@ -67,7 +67,7 @@ o LVS Setup:
    LVS ALL CAPACITOR PINS SWAPPABLE       NO
    LVS DISCARD PINS BY DEVICE             NO
    LVS SOFT SUBSTRATE PINS                NO
-   LVS INJECT LOGIC                       YES
+   LVS INJECT LOGIC                       NO
    LVS EXPAND UNBALANCED CELLS            YES
    LVS FLATTEN INSIDE CELL                NO
    LVS EXPAND SEED PROMOTIONS             NO
@@ -183,14 +183,12 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
  Nets:             177       177
 
- Instances:         16        16         MN (4 pins)
-                    16        16         MP (4 pins)
-                    16        16         _invb (6 pins)
-                    79        79         _invv (4 pins)
-                    42        42         _nand2v (5 pins)
-                    21        21         _nor2v (5 pins)
+ Instances:        153       153         MN (4 pins)
+                   195       195         MP (4 pins)
+                    42        42         SMN2 (4 pins)
+                    21        21         SMP2 (4 pins)
                 ------    ------
- Total Inst:       190       190
+ Total Inst:       411       411
 
 
 
@@ -206,14 +204,12 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
    Nets:              177        177            0            0
 
-   Instances:          16         16            0            0    MN(NMOS_VTG)
-                       16         16            0            0    MP(PMOS_VTG)
-                       16         16            0            0    _invb
-                       79         79            0            0    _invv
-                       42         42            0            0    _nand2v
-                       21         21            0            0    _nor2v
+   Instances:         153        153            0            0    MN(NMOS_VTG)
+                      195        195            0            0    MP(PMOS_VTG)
+                       42         42            0            0    SMN2
+                       21         21            0            0    SMP2
                   -------    -------    ---------    ---------
-   Total Inst:        190        190            0            0
+   Total Inst:        411        411            0            0
 
 
 o Initial Correspondence Points:
