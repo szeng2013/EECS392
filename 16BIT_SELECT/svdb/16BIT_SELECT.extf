@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1370640340 1370640340
+lvs_ExtOutFile RUNDIR /home/gms130/EECS392/16BIT_SELECT
+lvs_ExtOutFile RULES_FILE /home/gms130/EECS392/16BIT_SELECT/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/gms130/EECS392/16BIT_SELECT/16BIT_SELECT.sp
+lvs_ExtOutFile EXTRACTION_REPORT 16BIT_SELECT.lvs.report.ext
