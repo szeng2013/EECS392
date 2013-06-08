@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/BIT_SELECT.dv
+dv_start matched
+dv_cell {BIT_SELECT} {BIT_SELECT} matched
+dv_obj_count -transformed_nets {137 137} -transformed_inst {165 165} -transformed_port {27 27}
+dv_end

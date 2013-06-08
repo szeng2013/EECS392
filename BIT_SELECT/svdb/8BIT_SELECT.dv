@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/8BIT_SELECT.dv
+dv_start matched
+dv_cell {8BIT_SELECT} {8BIT_SELECT} matched
+dv_obj_count -transformed_nets {142 142} -transformed_inst {338 338} -transformed_port {27 27}
+dv_end

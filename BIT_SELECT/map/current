@@ -1,0 +1,47 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "BIT_SELECT"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/home/sjz474/EECS392/BIT_SELECT"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "EECS392/AND/schematic" "AND" )
+( "EECS392/OR/schematic" "OR" )
+( "EECS392/FULL_ADDER/schematic" "FULL_ADDER" )
+( "EECS392/NAND/schematic" "NAND" )
+( "EECS392/Inverter/schematic" "Inverter" )
+( "EECS392/NOR/schematic" "NOR" )
+( "EECS392/XOR/schematic" "XOR" )
+( "EECS392/BIT_SELECT/schematic" "BIT_SELECT" )
+( "EECS392/2_1MUX/schematic" "2_1MUX" )
+( "EECS392/SELECT_BLOCK/schematic" "SELECT_BLOCK" )
+( "EECS392/4BIT_RIPPLE/schematic" "4BIT_RIPPLE" )
+( "EECS392/HALF_ADDER/schematic" "HALF_ADDER" )
+ )
+( term
+ )
+( param
+ )
+( "4BIT_RIPPLE" "ihnl/cds8/map" )
+( "XOR" "ihnl/cds0/map" )
+( "FULL_ADDER" "ihnl/cds7/map" )
+( "2_1MUX" "ihnl/cds9/map" )
+( "AND" "ihnl/cds3/map" )
+( "OR" "ihnl/cds6/map" )
+( "Inverter" "ihnl/cds1/map" )
+( "HALF_ADDER" "ihnl/cds4/map" )
+( "NAND" "ihnl/cds2/map" )
+( "SELECT_BLOCK" "ihnl/cds10/map" )
+( "NOR" "ihnl/cds5/map" )
+( "BIT_SELECT" "ihnl/cds11/map" )
+ )

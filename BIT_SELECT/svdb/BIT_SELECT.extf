@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1370637272 1370637273
+lvs_ExtOutFile RUNDIR /home/sjz474/EECS392/BIT_SELECT
+lvs_ExtOutFile RULES_FILE /home/sjz474/EECS392/BIT_SELECT/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/sjz474/EECS392/BIT_SELECT/BIT_SELECT.sp
+lvs_ExtOutFile EXTRACTION_REPORT BIT_SELECT.lvs.report.ext
