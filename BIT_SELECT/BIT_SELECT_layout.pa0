@@ -99,7 +99,7 @@
       99 x1.x_pm_bit_select%xi3/net6.
      100 x1.x_pm_bit_select%xi3/net7.
      101 x1.x_pm_bit_select%vdd!.
-     102 x1.x_pm_bit_select%net9.
+     102 x1.x_pm_bit_select%init.
      103 x1.x_pm_bit_select%gnd!.
      104 x1.x_pm_bit_select%xi1/net028.
      105 x1.x_pm_bit_select%xi1/net45.

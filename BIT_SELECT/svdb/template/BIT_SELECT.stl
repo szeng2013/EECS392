@@ -1,6 +1,7 @@
 %	BIT_SELECT	BIT_SELECT
 B<0>	B<0>	0	x 0 0
 VDD!	VDD!	0	x 0 0
+INIT	INIT	0	x 0 0
 GND!	GND!	0	x 0 0
 A<0>	A<0>	0	x 0 0
 S<4>	S<4>	0	x 0 0

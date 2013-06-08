@@ -1,0 +1,71 @@
+ScopeSigMgr:loadpffile /home/sjz474/EECS392/BIT_SELECT/BIT_SELECT_layout.tr0 1 openonly
+# PF:1
+pf:read PF:1 v(s<7>)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Mdi:ArrangeIcons
+wm geometry . 1920x976+-9+-9
+Mdi:ArrangeIcons
+Mdi:FullSize
+wm geometry .sigmgr 376x206+1128+338
+GrMeas:Threshold Graph0 Signal0 .9 either xyrangeAll
+# M:0
+GrMeas:Threshold Graph0 Signal0 0 rising xyrangeAll
+# M:1
+Graph:DSel
+GrMeas:Select Graph0 M:0 1
+GrMeas:ShowResult Graph0 M:0 2
+GrMeas:ShowResult Graph0 M:0 3
+GrMeas:ShowResult Graph0 M:0 4
+GrMeas:ShowResult Graph0 M:0 5
+GrMeas:ShowResult Graph0 M:0 7
+GrMeas:ShowResult Graph0 M:0 6
+GrMeas:ShowResult Graph0 M:0 8
+GrMeas:ShowResult Graph0 M:0 9
+GrMeas:ShowResult Graph0 M:0 10
+GrMeas:ShowResult Graph0 M:1 2
+GrMeas:ShowResult Graph0 M:1 3
+GrMeas:ShowResult Graph0 M:1 4
+GrMeas:ShowResult Graph0 M:1 5
+wm geometry .sigmgr._PF:1 231x343+1665+922
+wm geometry .sigmgr 376x206+1569+997
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+GrMeas:ShowResult Graph0 M:1 6
+GrMeas:ShowResult Graph0 M:1 7
+GrMeas:ShowResult Graph0 M:1 8
+GrMeas:ShowResult Graph0 M:1 9
+GrMeas:ShowResult Graph0 M:1 10
+GrMeas:HideResult Graph0 M:1 3
+GrMeas:HideResult Graph0 M:1 5
+GrMeas:HideResult Graph0 M:1 7
+GrMeas:HideResult Graph0 M:1 8
+GrMeas:ShowResult Graph0 M:1 8
+GrMeas:HideResult Graph0 M:1 10
+GrMeas:ShowResult Graph0 M:1 10
+GrMeas:HideResult Graph0 M:1 10
+GrMeas:ShowResult Graph0 M:1 10
+GrMeas:HideResult Graph0 M:1 9
+GrMeas:Threshold Graph0 Signal0 1.8 falling xyrangeAll
+# M:2
+GrMeas:Threshold Graph0 Signal0 1.712 falling xyrangeAll
+# M:3
+GrMeas:Threshold Graph0 Signal0 1.712 falling xyrangeAll
+# M:4
+GrMeas:Delete Graph0 M:4
+GrMeas:Delete Graph0 M:2
+GrMeas:Delete Graph0 M:3
+GrMeas:Threshold Graph0 Signal0 1.700 falling xyrangeAll
+# M:5
+GrMeas:ShowResult Graph0 M:5 2
+GrMeas:ShowResult Graph0 M:5 3
+wm geometry .sigmgr._PF:1 231x343+1659+985
