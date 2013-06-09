@@ -5,5 +5,5 @@ lvs_LvsInputSummary {0 0 0}
 lvs_LvsComparisonSummary {3 0 0 0}
 lvs_LvsOutFile LVS_REPORT BIT_SELECT.lvs.report
 lvs_LvsOutFile SOURCE_NETLIST /home/sjz474/EECS392/BIT_SELECT/BIT_SELECT.src.net
-lvs_LvsOutFile RULES_FILE /home/sjz474/EECS392/BIT_SELECT/_calibreLVS.rul_
-lvs_LvsRunTimes 1370637273 1370637274
+lvs_LvsOutFile RULES_FILE /home/sjz474/EECS392/BIT_SELECT/_calibrexRC.rul_
+lvs_LvsRunTimes 1370718247 1370718247

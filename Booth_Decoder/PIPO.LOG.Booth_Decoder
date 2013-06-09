@@ -2,24 +2,24 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.5 01/16/2012 21:51 (sjfdl235) $
           : sub-version  IC6.1.5.500.9 
-Started at: 08-Jun-2013  22:16:22
-User Name : jwe920
-Host Name : clayface.ece.northwestern.edu
-Directory : /home/jwe920
+Started at: 08-Jun-2013  23:10:18
+User Name : sjz474
+Host Name : twoface.ece.northwestern.edu
+Directory : /home/sjz474
 CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
-WARNING (XSTRM-20): Output Stream file '/home/jwe920/EECS392/Booth_Decoder/Booth_Decoder.calibre.gds' already exists. It will be overwritten.
+WARNING (XSTRM-20): Output Stream file '/home/sjz474/EECS392/Booth_Decoder/Booth_Decoder.calibre.db' already exists. It will be overwritten.
 INFO (XSTRM-288): The automatic layer mapping is done by StreamOut and the xStrmOut_layerMap.txt file is generated. This is because either the layer mapping is not provided or the XST_AUTO_LM value is used with the -layerMap option.
 INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
 
 Summary of Options :
 library                                 EECS392
-strmFile                                /home/jwe920/EECS392/Booth_Decoder/Booth_Decoder.calibre.gds
+strmFile                                /home/sjz474/EECS392/Booth_Decoder/Booth_Decoder.calibre.db
 topCell                                 Booth_Decoder
 view                                    layout
-runDir                                  /home/jwe920/EECS392/Booth_Decoder/
+runDir                                  /home/sjz474/EECS392/Booth_Decoder/
 logFile                                 PIPO.LOG.Booth_Decoder
 case                                    Preserve
 convertDot                              node
@@ -50,8 +50,8 @@ Summary of Objects Translated:
 	Scalar Instances:                       32
 	Array Instances:                        0
 	Polygons:                               0
-	Paths:                                  84
-	Rectangles:                             345
+	Paths:                                  83
+	Rectangles:                             348
 	Lines:                                  0
 	Arcs:                                   0
 	Donuts:                                 0
@@ -66,8 +66,8 @@ Summary of Objects Translated:
 	Standard Vias                           53
 	Custom Vias:                            50
 	Pathsegs:                               0
-	Text:                                   80
+	Text:                                   81
 	Cells:                                  21
 
-Elapsed Time: 0.9s   User Time: 0.5s   CPU Time: 0.1s   Peak VM: 971KB
+Elapsed Time: 0.9s   User Time: 0.4s   CPU Time: 0.1s   Peak VM: 974KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

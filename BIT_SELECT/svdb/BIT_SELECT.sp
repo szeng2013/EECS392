@@ -84,17 +84,17 @@ X0 2 9 7 8 1 4 3 FULL_ADDER $T=0 0 0 0 $X=1825 $Y=1000
 X1 2 11 4 10 1 6 5 FULL_ADDER $T=9270 0 0 0 $X=11095 $Y=1000
 .ENDS
 ***************************************
-.SUBCKT BIT_SELECT B<0> vdd! gnd! A<0> S<4> S<5> S<6> S<7> Cout S<0> S<3> S<1> S<2> B<4> A<4> B<5> A<5> B<6> A<6> B<7>
-+ A<7> B<3> A<3> B<1> A<1> B<2> A<2>
-** N=47 EP=27 IP=102 FDC=372
-X0 8 9 6 S<4> gnd! vdd! 2_1MUX $T=9230 4145 0 90 $X=1860 $Y=3275
-X1 12 13 6 S<5> gnd! vdd! 2_1MUX $T=18500 4145 0 90 $X=11130 $Y=3275
-X2 16 17 6 S<6> gnd! vdd! 2_1MUX $T=27775 4145 0 90 $X=20405 $Y=3275
-X3 20 21 6 S<7> gnd! vdd! 2_1MUX $T=37040 4145 0 90 $X=29670 $Y=3275
-X4 22 23 6 Cout gnd! vdd! 2_1MUX $T=38045 1595 0 0 $X=37175 $Y=1595
+.SUBCKT BIT_SELECT B<0> vdd! init gnd! A<0> S<4> S<5> S<6> S<7> Cout S<0> S<3> S<1> S<2> B<4> A<4> B<5> A<5> B<6> A<6>
++ B<7> A<7> B<3> A<3> B<1> A<1> B<2> A<2>
+** N=47 EP=28 IP=102 FDC=372
+X0 8 9 init S<4> gnd! vdd! 2_1MUX $T=9230 4145 0 90 $X=1860 $Y=3275
+X1 12 13 init S<5> gnd! vdd! 2_1MUX $T=18500 4145 0 90 $X=11130 $Y=3275
+X2 16 17 init S<6> gnd! vdd! 2_1MUX $T=27775 4145 0 90 $X=20405 $Y=3275
+X3 20 21 init S<7> gnd! vdd! 2_1MUX $T=37040 4145 0 90 $X=29670 $Y=3275
+X4 22 23 init Cout gnd! vdd! 2_1MUX $T=38045 1595 0 0 $X=37175 $Y=1595
 X5 B<0> S<0> A<0> gnd! vdd! XOR $T=-34655 1145 0 0 $X=-32575 $Y=3040
 X6 gnd! vdd! A<0> B<0> 2 AND $T=-28855 4155 0 0 $X=-30215 $Y=0
-X7 gnd! A<3> 4 B<3> vdd! 6 S<3> FULL_ADDER $T=-11270 -1000 0 0 $X=-9445 $Y=0
+X7 gnd! A<3> 4 B<3> vdd! init S<3> FULL_ADDER $T=-11270 -1000 0 0 $X=-9445 $Y=0
 X8 vdd! gnd! S<1> 3 S<2> 4 2 B<1> A<1> B<2> A<2> ICV_2 $T=-29810 -1000 0 0 $X=-27985 $Y=0
 X9 vdd! gnd! 8 10 12 14 vdd! B<4> A<4> B<5> A<5> ICV_2 $T=-1865 -5545 0 0 $X=-40 $Y=-4545
 X10 vdd! gnd! 9 11 13 15 gnd! B<4> A<4> B<5> A<5> ICV_2 $T=-1865 14460 1 0 $X=-40 $Y=5830

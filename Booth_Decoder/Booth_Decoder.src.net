@@ -4,7 +4,7 @@
 * Library Name:  EECS392
 * Top Cell Name: Booth_Decoder
 * View Name:     schematic
-* Netlisted on:  Jun  8 22:16:25 2013
+* Netlisted on:  Jun  8 23:10:20 2013
 ************************************************************************
 
 *.EQUATION
@@ -12,11 +12,11 @@
 *.MEGA
 .PARAM
 
-*.GLOBAL vdd!
-+        gnd!
+*.GLOBAL gnd!
++        vdd!
 
-*.PIN vdd!
-*+    gnd!
+*.PIN gnd!
+*+    vdd!
 
 ************************************************************************
 * Library Name: EECS392
@@ -78,12 +78,12 @@ XI0 S net10 / Inverter
 ************************************************************************
 
 .SUBCKT Booth_Decoder BD<7> BD<6> BD<5> BD<4> BD<3> BD<2> BD<1> BD<0> MD<7> 
-+ MD<6> MD<5> MD<4> MD<3> MD<2> MD<1> MD<0> OutA OutB invMD<7> invMD<6> 
++ MD<6> MD<5> MD<4> MD<3> MD<2> MD<1> MD<0> OutA OutB init invMD<7> invMD<6> 
 + invMD<5> invMD<4> invMD<3> invMD<2> invMD<1> invMD<0>
 *.PININFO MD<7>:I MD<6>:I MD<5>:I MD<4>:I MD<3>:I MD<2>:I MD<1>:I MD<0>:I 
 *.PININFO OutA:I OutB:I invMD<7>:I invMD<6>:I invMD<5>:I invMD<4>:I invMD<3>:I 
 *.PININFO invMD<2>:I invMD<1>:I invMD<0>:I BD<7>:O BD<6>:O BD<5>:O BD<4>:O 
-*.PININFO BD<3>:O BD<2>:O BD<1>:O BD<0>:O
+*.PININFO BD<3>:O BD<2>:O BD<1>:O BD<0>:O init:O
 XI20 OutA MD<3> net14 / AND
 XI16 OutA MD<0> net22 / AND
 XI15 OutA MD<1> net16 / AND
@@ -92,14 +92,14 @@ XI3 OutA MD<4> net23 / AND
 XI2 OutA MD<5> net19 / AND
 XI1 OutA MD<6> net20 / AND
 XI0 OutA MD<7> net21 / AND
-XI8 OutA OutB net12 / NAND
-XI21 invMD<3> net14 BD<3> net12 / 2_1MUX
-XI19 invMD<0> net22 BD<0> net12 / 2_1MUX
-XI18 invMD<1> net16 BD<1> net12 / 2_1MUX
-XI13 invMD<4> net23 BD<4> net12 / 2_1MUX
-XI12 invMD<5> net19 BD<5> net12 / 2_1MUX
-XI11 invMD<6> net20 BD<6> net12 / 2_1MUX
-XI10 invMD<7> net21 BD<7> net12 / 2_1MUX
-XI17 invMD<2> net17 BD<2> net12 / 2_1MUX
+XI8 OutA OutB init / NAND
+XI21 invMD<3> net14 BD<3> init / 2_1MUX
+XI19 invMD<0> net22 BD<0> init / 2_1MUX
+XI18 invMD<1> net16 BD<1> init / 2_1MUX
+XI13 invMD<4> net23 BD<4> init / 2_1MUX
+XI12 invMD<5> net19 BD<5> init / 2_1MUX
+XI11 invMD<6> net20 BD<6> init / 2_1MUX
+XI10 invMD<7> net21 BD<7> init / 2_1MUX
+XI17 invMD<2> net17 BD<2> init / 2_1MUX
 .ENDS
 

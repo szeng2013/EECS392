@@ -4,7 +4,7 @@
 * Library Name:  EECS392
 * Top Cell Name: BIT_SELECT
 * View Name:     schematic
-* Netlisted on:  Jun  7 15:34:16 2013
+* Netlisted on:  Jun  8 14:04:03 2013
 ************************************************************************
 
 *.EQUATION
@@ -188,13 +188,13 @@ XI10 net29 net9 Cout Cin / 2_1MUX
 ************************************************************************
 
 .SUBCKT BIT_SELECT A<7> A<6> A<5> A<4> A<3> A<2> A<1> A<0> B<7> B<6> B<5> B<4> 
-+ B<3> B<2> B<1> B<0> Cout S<7> S<6> S<5> S<4> S<3> S<2> S<1> S<0>
++ B<3> B<2> B<1> B<0> Cout S<7> S<6> S<5> S<4> S<3> S<2> S<1> S<0> init
 *.PININFO A<7>:I A<6>:I A<5>:I A<4>:I A<3>:I A<2>:I A<1>:I A<0>:I B<7>:I 
-*.PININFO B<6>:I B<5>:I B<4>:I B<3>:I B<2>:I B<1>:I B<0>:I Cout:O S<7>:O 
-*.PININFO S<6>:O S<5>:O S<4>:O S<3>:O S<2>:O S<1>:O S<0>:O
-XI3 A<3> A<2> A<1> A<0> B<3> B<2> B<1> B<0> net9 S<3> S<2> S<1> S<0> / 
+*.PININFO B<6>:I B<5>:I B<4>:I B<3>:I B<2>:I B<1>:I B<0>:I init:I Cout:O 
+*.PININFO S<7>:O S<6>:O S<5>:O S<4>:O S<3>:O S<2>:O S<1>:O S<0>:O
+XI3 A<3> A<2> A<1> A<0> B<3> B<2> B<1> B<0> init S<3> S<2> S<1> S<0> / 
 + 4BIT_RIPPLE
-XI1 A<7> A<6> A<5> A<4> B<7> B<6> B<5> B<4> net9 Cout S<7> S<6> S<5> S<4> / 
+XI1 A<7> A<6> A<5> A<4> B<7> B<6> B<5> B<4> init Cout S<7> S<6> S<5> S<4> / 
 + SELECT_BLOCK
 .ENDS
 

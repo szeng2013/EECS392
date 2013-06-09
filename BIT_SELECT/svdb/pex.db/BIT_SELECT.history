@@ -4,5 +4,5 @@
 //TOKEN_DELIMITER: "
 //TOKEN_SEPARATOR: " "
 //FORMAT: "time" "calibre version" "command line"
-"Thu Jun  6 15:07:37 2013 " "v2011.4_35.27" "-xrc -pdb -rcc -turbo 1 /home/sjz474/EECS392/BIT_SELECT/_calibrexRC.rul_"
-"Thu Jun  6 15:07:43 2013 " "v2011.4_35.27" "-xrc -fmt -all /home/sjz474/EECS392/BIT_SELECT/_calibrexRC.rul_"
+"Sat Jun  8 14:04:08 2013 " "v2011.4_35.27" "-xrc -pdb -rcc -turbo 1 /home/sjz474/EECS392/BIT_SELECT/_calibrexRC.rul_"
+"Sat Jun  8 14:04:13 2013 " "v2011.4_35.27" "-xrc -fmt -all /home/sjz474/EECS392/BIT_SELECT/_calibrexRC.rul_"
