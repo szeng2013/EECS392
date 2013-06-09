@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/gms130/EECS392/Booth_Encoder
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT Booth_Encoder.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/gms130/EECS392/Booth_Encoder/Booth_Encoder.src.net
+lvs_LvsOutFile RULES_FILE /home/gms130/EECS392/Booth_Encoder/_calibreLVS.rul_
+lvs_LvsRunTimes 1370756350 1370756350

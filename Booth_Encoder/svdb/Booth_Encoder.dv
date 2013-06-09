@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/Booth_Encoder.dv
+dv_start matched
+dv_cell {Booth_Encoder} {Booth_Encoder} matched
+dv_obj_count -transformed_nets {49 49} -transformed_inst {55 55} -transformed_port {26 26}
+dv_end

@@ -1,0 +1,27 @@
+//
+//  Rule file generated on Sun Jun 09 00:36:11 CDT 2013
+//     by Calibre Interactive - DRC (v2011.4_35.27)
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH  "Booth_Encoder.calibre.db"
+LAYOUT PRIMARY "Booth_Encoder"
+LAYOUT SYSTEM GDSII
+
+DRC RESULTS DATABASE "Booth_Encoder.drc.results" ASCII 
+DRC MAXIMUM RESULTS 1000
+DRC MAXIMUM VERTEX 4096
+
+DRC CELL NAME NO
+DRC SUMMARY REPORT "Booth_Encoder.drc.summary" REPLACE HIER
+
+VIRTUAL CONNECT COLON NO
+VIRTUAL CONNECT REPORT NO
+
+DRC ICSTATION YES
+
+
+INCLUDE "/vol/eecs391/FreePDK45/ncsu_basekit/techfile/calibre/calibreDRC.rul"
+
