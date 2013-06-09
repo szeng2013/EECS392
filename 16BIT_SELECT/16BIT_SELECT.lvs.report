@@ -12,13 +12,13 @@
 
 
 REPORT FILE NAME:         16BIT_SELECT.lvs.report
-LAYOUT NAME:              /home/gms130/EECS392/16BIT_SELECT/16BIT_SELECT.sp ('16BIT_SELECT')
-SOURCE NAME:              /home/gms130/EECS392/16BIT_SELECT/16BIT_SELECT.src.net ('16BIT_SELECT')
-RULE FILE:                /home/gms130/EECS392/16BIT_SELECT/_calibreLVS.rul_
+LAYOUT NAME:              /home/sjz474/EECS392/16BIT_SELECT/16BIT_SELECT.sp ('16BIT_SELECT')
+SOURCE NAME:              /home/sjz474/EECS392/16BIT_SELECT/16BIT_SELECT.src.net ('16BIT_SELECT')
+RULE FILE:                /home/sjz474/EECS392/16BIT_SELECT/_calibreLVS.rul_
 RULE FILE TITLE:          LVS Rule File for FreePDK45
-CREATION TIME:            Fri Jun  7 16:25:41 2013
-CURRENT DIRECTORY:        /home/gms130/EECS392/16BIT_SELECT
-USER NAME:                gms130
+CREATION TIME:            Sun Jun  9 16:40:01 2013
+CURRENT DIRECTORY:        /home/sjz474/EECS392/16BIT_SELECT
+USER NAME:                sjz474
 CALIBRE VERSION:          v2011.4_35.27    Tue Jan 10 16:18:55 PST 2012
 
 
@@ -164,7 +164,7 @@ INITIAL NUMBERS OF OBJECTS
 
                 Layout    Source         Component Type
                 ------    ------         --------------
- Ports:             52        52
+ Ports:             55        55
 
  Nets:             491       491
 
@@ -179,7 +179,7 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
                 Layout    Source         Component Type
                 ------    ------         --------------
- Ports:             52        52
+ Ports:             55        55
 
  Nets:             375       375
 
@@ -203,7 +203,7 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
                   Matched    Matched    Unmatched    Unmatched    Component
                    Layout     Source       Layout       Source    Type
                   -------    -------    ---------    ---------    ---------
-   Ports:              52         52            0            0
+   Ports:              55         55            0            0
 
    Nets:              375        375            0            0
 
@@ -220,10 +220,10 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
 o Initial Correspondence Points:
 
-   Ports:        VDD! GND! S<12> S<13> S<14> S<15> COUT S<8> S<9> S<10> S<11> S<4> S<5> S<6>
-                 S<7> S<0> S<1> S<2> S<3> B<12> A<12> B<13> A<13> B<14> A<14> B<15> A<15> B<8>
-                 A<8> B<9> A<9> B<10> A<10> B<11> A<11> B<4> A<4> B<5> A<5> B<6> A<6> B<7> A<7>
-                 B<0> A<0> B<1> A<1> B<2> A<2> B<3>
+   Ports:        VDD! GND! INIT2 INIT1 INIT0 S<12> S<13> S<14> S<15> COUT S<8> S<9> S<10> S<11>
+                 S<4> S<5> S<6> S<7> S<0> S<1> S<2> S<3> B<12> A<12> B<13> A<13> B<14> A<14>
+                 B<15> A<15> B<8> A<8> B<9> A<9> B<10> A<10> B<11> A<11> B<4> A<4> B<5> A<5>
+                 B<6> A<6> B<7> A<7> B<0> A<0> B<1> A<1>
 
 
 **************************************************************************************************************

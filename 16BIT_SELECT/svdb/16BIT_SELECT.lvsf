@@ -1,9 +1,9 @@
 # Automagically generated file: Please do not edit!
-lvs_LvsOutFile RUNDIR /home/gms130/EECS392/16BIT_SELECT
+lvs_LvsOutFile RUNDIR /home/sjz474/EECS392/16BIT_SELECT
 lvs_LvsfVersion 2
 lvs_LvsInputSummary {0 0 0}
 lvs_LvsComparisonSummary {3 0 0 0}
 lvs_LvsOutFile LVS_REPORT 16BIT_SELECT.lvs.report
-lvs_LvsOutFile SOURCE_NETLIST /home/gms130/EECS392/16BIT_SELECT/16BIT_SELECT.src.net
-lvs_LvsOutFile RULES_FILE /home/gms130/EECS392/16BIT_SELECT/_calibreLVS.rul_
-lvs_LvsRunTimes 1370640341 1370640341
+lvs_LvsOutFile SOURCE_NETLIST /home/sjz474/EECS392/16BIT_SELECT/16BIT_SELECT.src.net
+lvs_LvsOutFile RULES_FILE /home/sjz474/EECS392/16BIT_SELECT/_calibreLVS.rul_
+lvs_LvsRunTimes 1370814001 1370814001

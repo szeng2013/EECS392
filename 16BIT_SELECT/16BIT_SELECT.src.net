@@ -4,7 +4,7 @@
 * Library Name:  EECS392
 * Top Cell Name: 16BIT_SELECT
 * View Name:     schematic
-* Netlisted on:  Jun  7 16:25:38 2013
+* Netlisted on:  Jun  9 16:39:59 2013
 ************************************************************************
 
 *.EQUATION
@@ -162,20 +162,21 @@ XI10 net29 net9 Cout Cin / 2_1MUX
 .SUBCKT 16BIT_SELECT A<15> A<14> A<13> A<12> A<11> A<10> A<9> A<8> A<7> A<6> 
 + A<5> A<4> A<3> A<2> A<1> A<0> B<15> B<14> B<13> B<12> B<11> B<10> B<9> B<8> 
 + B<7> B<6> B<5> B<4> B<3> B<2> B<1> B<0> Cin Cout S<15> S<14> S<13> S<12> 
-+ S<11> S<10> S<9> S<8> S<7> S<6> S<5> S<4> S<3> S<2> S<1> S<0>
++ S<11> S<10> S<9> S<8> S<7> S<6> S<5> S<4> S<3> S<2> S<1> S<0> init0 init1 
++ init2
 *.PININFO A<15>:I A<14>:I A<13>:I A<12>:I A<11>:I A<10>:I A<9>:I A<8>:I A<7>:I 
 *.PININFO A<6>:I A<5>:I A<4>:I A<3>:I A<2>:I A<1>:I A<0>:I B<15>:I B<14>:I 
 *.PININFO B<13>:I B<12>:I B<11>:I B<10>:I B<9>:I B<8>:I B<7>:I B<6>:I B<5>:I 
 *.PININFO B<4>:I B<3>:I B<2>:I B<1>:I B<0>:I Cin:I Cout:O S<15>:O S<14>:O 
 *.PININFO S<13>:O S<12>:O S<11>:O S<10>:O S<9>:O S<8>:O S<7>:O S<6>:O S<5>:O 
-*.PININFO S<4>:O S<3>:O S<2>:O S<1>:O S<0>:O
-XI3 A<15> A<14> A<13> A<12> B<15> B<14> B<13> B<12> net3 Cout S<15> S<14> 
+*.PININFO S<4>:O S<3>:O S<2>:O S<1>:O S<0>:O init0:O init1:O init2:O
+XI3 A<15> A<14> A<13> A<12> B<15> B<14> B<13> B<12> init2 Cout S<15> S<14> 
 + S<13> S<12> / SELECT_BLOCK
-XI2 A<11> A<10> A<9> A<8> B<11> B<10> B<9> B<8> net2 net3 S<11> S<10> S<9> 
+XI2 A<11> A<10> A<9> A<8> B<11> B<10> B<9> B<8> init1 init2 S<11> S<10> S<9> 
 + S<8> / SELECT_BLOCK
-XI1 A<7> A<6> A<5> A<4> B<7> B<6> B<5> B<4> net14 net2 S<7> S<6> S<5> S<4> / 
+XI1 A<7> A<6> A<5> A<4> B<7> B<6> B<5> B<4> init0 init1 S<7> S<6> S<5> S<4> / 
 + SELECT_BLOCK
-XI0 A<3> A<2> A<1> A<0> B<3> B<2> B<1> B<0> Cin net14 S<3> S<2> S<1> S<0> / 
+XI0 A<3> A<2> A<1> A<0> B<3> B<2> B<1> B<0> Cin init0 S<3> S<2> S<1> S<0> / 
 + SELECT_BLOCK
 .ENDS
 

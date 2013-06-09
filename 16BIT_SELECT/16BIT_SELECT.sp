@@ -95,13 +95,13 @@ X11 15 16 Cin S<3> gnd! vdd! 2_1MUX $T=27635 4535 0 90 $X=20265 $Y=3665
 X12 17 18 Cin Cout gnd! vdd! 2_1MUX $T=28640 1985 0 0 $X=27770 $Y=1985
 .ENDS
 ***************************************
-.SUBCKT 16BIT_SELECT vdd! gnd! S<12> S<13> S<14> S<15> Cout S<8> S<9> S<10> S<11> S<4> S<5> S<6> S<7> S<0> S<1> S<2> S<3> B<12>
-+ A<12> B<13> A<13> B<14> A<14> B<15> A<15> B<8> A<8> B<9> A<9> B<10> A<10> B<11> A<11> B<4> A<4> B<5> A<5> B<6>
-+ A<6> B<7> A<7> B<0> A<0> B<1> A<1> B<2> A<2> B<3> A<3> Cin
-** N=55 EP=52 IP=64 FDC=1080
-X0 vdd! gnd! S<12> S<13> S<14> S<15> Cout B<12> A<12> 3 B<13> A<13> B<14> A<14> B<15> A<15> SELECT_BLOCK $T=15345 -12195 0 0 $X=5900 $Y=-16355
-X1 vdd! gnd! S<8> S<9> S<10> S<11> 3 B<8> A<8> 4 B<9> A<9> B<10> A<10> B<11> A<11> SELECT_BLOCK $T=15345 5960 0 0 $X=5900 $Y=1800
-X2 vdd! gnd! S<4> S<5> S<6> S<7> 4 B<4> A<4> 5 B<5> A<5> B<6> A<6> B<7> A<7> SELECT_BLOCK $T=15345 24115 0 0 $X=5900 $Y=19955
-X3 vdd! gnd! S<0> S<1> S<2> S<3> 5 B<0> A<0> Cin B<1> A<1> B<2> A<2> B<3> A<3> SELECT_BLOCK $T=15345 42270 0 0 $X=5900 $Y=38110
+.SUBCKT 16BIT_SELECT vdd! gnd! init2 init1 init0 S<12> S<13> S<14> S<15> Cout S<8> S<9> S<10> S<11> S<4> S<5> S<6> S<7> S<0> S<1>
++ S<2> S<3> B<12> A<12> B<13> A<13> B<14> A<14> B<15> A<15> B<8> A<8> B<9> A<9> B<10> A<10> B<11> A<11> B<4> A<4>
++ B<5> A<5> B<6> A<6> B<7> A<7> B<0> A<0> B<1> A<1> B<2> A<2> B<3> A<3> Cin
+** N=55 EP=55 IP=64 FDC=1080
+X0 vdd! gnd! S<12> S<13> S<14> S<15> Cout B<12> A<12> init2 B<13> A<13> B<14> A<14> B<15> A<15> SELECT_BLOCK $T=15345 -12195 0 0 $X=5900 $Y=-16355
+X1 vdd! gnd! S<8> S<9> S<10> S<11> init2 B<8> A<8> init1 B<9> A<9> B<10> A<10> B<11> A<11> SELECT_BLOCK $T=15345 5960 0 0 $X=5900 $Y=1800
+X2 vdd! gnd! S<4> S<5> S<6> S<7> init1 B<4> A<4> init0 B<5> A<5> B<6> A<6> B<7> A<7> SELECT_BLOCK $T=15345 24115 0 0 $X=5900 $Y=19955
+X3 vdd! gnd! S<0> S<1> S<2> S<3> init0 B<0> A<0> Cin B<1> A<1> B<2> A<2> B<3> A<3> SELECT_BLOCK $T=15345 42270 0 0 $X=5900 $Y=38110
 .ENDS
 ***************************************

@@ -2,5 +2,5 @@
 # FILE: svdb/16BIT_SELECT.dv
 dv_start matched
 dv_cell {16BIT_SELECT} {16BIT_SELECT} matched
-dv_obj_count -transformed_nets {375 375} -transformed_inst {476 476} -transformed_port {52 52}
+dv_obj_count -transformed_nets {375 375} -transformed_inst {476 476} -transformed_port {55 55}
 dv_end

@@ -2,24 +2,24 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.5 01/16/2012 21:51 (sjfdl235) $
           : sub-version  IC6.1.5.500.9 
-Started at: 07-Jun-2013  16:25:34
-User Name : gms130
-Host Name : batgirl.ece.northwestern.edu
-Directory : /home/gms130
+Started at: 09-Jun-2013  16:39:57
+User Name : sjz474
+Host Name : cobblepott.ece.northwestern.edu
+Directory : /home/sjz474
 CADENCE Design Systems, Inc.
 ********************************************************************************
 Info: Cellview Rev Num:99,  Tech Rev Num:59
 
-WARNING (XSTRM-20): Output Stream file '/home/gms130/EECS392/16BIT_SELECT/16BIT_SELECT.calibre.db' already exists. It will be overwritten.
+WARNING (XSTRM-20): Output Stream file '/home/sjz474/EECS392/16BIT_SELECT/16BIT_SELECT.calibre.db' already exists. It will be overwritten.
 INFO (XSTRM-288): The automatic layer mapping is done by StreamOut and the xStrmOut_layerMap.txt file is generated. This is because either the layer mapping is not provided or the XST_AUTO_LM value is used with the -layerMap option.
 INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
 
 Summary of Options :
 library                                 EECS392
-strmFile                                /home/gms130/EECS392/16BIT_SELECT/16BIT_SELECT.calibre.db
+strmFile                                /home/sjz474/EECS392/16BIT_SELECT/16BIT_SELECT.calibre.db
 topCell                                 16BIT_SELECT
 view                                    layout
-runDir                                  /home/gms130/EECS392/16BIT_SELECT/
+runDir                                  /home/sjz474/EECS392/16BIT_SELECT/
 logFile                                 PIPO.LOG.16BIT_SELECT
 case                                    Preserve
 convertDot                              node
@@ -74,8 +74,8 @@ Summary of Objects Translated:
 	Standard Vias                           100
 	Custom Vias:                            24
 	Pathsegs:                               0
-	Text:                                   150
+	Text:                                   153
 	Cells:                                  28
 
-Elapsed Time: 0.6s   User Time: 0.5s   CPU Time: 0.1s   Peak VM: 1270KB
+Elapsed Time: 1.0s   User Time: 0.5s   CPU Time: 0.1s   Peak VM: 1273KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.
