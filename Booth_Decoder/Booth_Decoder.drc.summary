@@ -3,15 +3,15 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Sat Jun  8 22:14:21 2013
+Execution Date/Time:       Sat Jun  8 22:34:04 2013
 Calibre Version:           v2011.4_35.27    Tue Jan 10 16:18:55 PST 2012
-Rule File Pathname:        /home/jwe920/EECS392/Booth_Decoder/_calibreDRC.rul_
+Rule File Pathname:        /home/sjz474/EECS392/Booth_Decoder/_calibreDRC.rul_
 Rule File Title:           
 Layout System:             GDS
-Layout Path(s):            Booth_Decoder.calibre.gds
+Layout Path(s):            Booth_Decoder.calibre.db
 Layout Primary Cell:       Booth_Decoder
-Current Directory:         /home/jwe920/EECS392/Booth_Decoder
-User Name:                 jwe920
+Current Directory:         /home/sjz474/EECS392/Booth_Decoder
+User Name:                 sjz474
 Maximum Results/RuleCheck: 1000
 Maximum Result Vertices:   4096
 DRC Results Database:      Booth_Decoder.drc.results (ASCII)

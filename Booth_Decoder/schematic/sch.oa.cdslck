@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Sat Jun  8 22:22:48 2013 CDT
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /home/sjz474/EECS392/Booth_Decoder/layout/layout.oa.cdslck
-TimeEditLocked                 Sat Jun  8 22:33:35 2013 CDT
+FilePathUsedToEditLock         /home/sjz474/EECS392/Booth_Decoder/schematic/sch.oa.cdslck
+TimeEditLocked                 Sat Jun  8 22:35:27 2013 CDT

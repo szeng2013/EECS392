@@ -10,21 +10,11 @@
 
 
 REPORT FILE NAME:         Booth_Decoder.lvs.report.ext
-LAYOUT NAME:              Booth_Decoder.calibre.gds ('Booth_Decoder')
-CREATION TIME:            Sat Jun  8 22:16:26 2013
-CURRENT DIRECTORY:        /home/jwe920/EECS392/Booth_Decoder
-USER NAME:                jwe920
+LAYOUT NAME:              Booth_Decoder.calibre.db ('Booth_Decoder')
+CREATION TIME:            Sat Jun  8 23:10:21 2013
+CURRENT DIRECTORY:        /home/sjz474/EECS392/Booth_Decoder
+USER NAME:                sjz474
 CALIBRE VERSION:          v2011.4_35.27    Tue Jan 10 16:18:55 PST 2012
 
-
-
-Extraction Errors and Warnings for cell "Booth_Decoder"
--------------------------------------------------------
-
-WARNING:  Short circuit - Different names on one net:
-          Net Id:  1
-          (1)  name  "gnd!"  at location  (-1.4275,3.5625)  on layer  11 "metal1"
-          (2)  name  "vdd!"  at location  (1.6375,3.5625)  on layer  11 "metal1"
-          The name "gnd!" was assigned to the net.
 
 

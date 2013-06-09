@@ -4,9 +4,9 @@
   blockName "Booth_Decoder"
   repList "auCdl schematic"
   stopList "auCdl"
-  globalList "vdd! gnd!"
+  globalList "gnd! vdd!"
   hierDelim "."
-  netlistDir "/home/jwe920/EECS392/Booth_Decoder"
+  netlistDir "/home/sjz474/EECS392/Booth_Decoder"
  )
 ( instViewTable
  )

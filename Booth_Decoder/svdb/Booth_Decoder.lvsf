@@ -1,9 +1,9 @@
 # Automagically generated file: Please do not edit!
-lvs_LvsOutFile RUNDIR /home/jwe920/EECS392/Booth_Decoder
+lvs_LvsOutFile RUNDIR /home/sjz474/EECS392/Booth_Decoder
 lvs_LvsfVersion 2
 lvs_LvsInputSummary {0 0 0}
-lvs_LvsComparisonSummary {5 0 3 0}
+lvs_LvsComparisonSummary {3 0 0 0}
 lvs_LvsOutFile LVS_REPORT Booth_Decoder.lvs.report
-lvs_LvsOutFile SOURCE_NETLIST /home/jwe920/EECS392/Booth_Decoder/Booth_Decoder.src.net
-lvs_LvsOutFile RULES_FILE /home/jwe920/EECS392/Booth_Decoder/_calibreLVS.rul_
-lvs_LvsRunTimes 1370747787 1370747787
+lvs_LvsOutFile SOURCE_NETLIST /home/sjz474/EECS392/Booth_Decoder/Booth_Decoder.src.net
+lvs_LvsOutFile RULES_FILE /home/sjz474/EECS392/Booth_Decoder/_calibreLVS.rul_
+lvs_LvsRunTimes 1370751022 1370751022

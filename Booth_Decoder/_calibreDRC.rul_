@@ -1,12 +1,12 @@
 //
-//  Rule file generated on Sat Jun 08 22:14:21 CDT 2013
+//  Rule file generated on Sat Jun 08 22:34:04 CDT 2013
 //     by Calibre Interactive - DRC (v2011.4_35.27)
 //
 //      *** PLEASE DO NOT MODIFY THIS FILE ***
 //
 //
 
-LAYOUT PATH  "Booth_Decoder.calibre.gds"
+LAYOUT PATH  "Booth_Decoder.calibre.db"
 LAYOUT PRIMARY "Booth_Decoder"
 LAYOUT SYSTEM GDSII
 
