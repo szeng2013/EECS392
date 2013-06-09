@@ -1,0 +1,73 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version 6.1.5 01/16/2012 21:51 (sjfdl235) $
+          : sub-version  IC6.1.5.500.9 
+Started at: 08-Jun-2013  22:16:22
+User Name : jwe920
+Host Name : clayface.ece.northwestern.edu
+Directory : /home/jwe920
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/home/jwe920/EECS392/Booth_Decoder/Booth_Decoder.calibre.gds' already exists. It will be overwritten.
+INFO (XSTRM-288): The automatic layer mapping is done by StreamOut and the xStrmOut_layerMap.txt file is generated. This is because either the layer mapping is not provided or the XST_AUTO_LM value is used with the -layerMap option.
+INFO (XSTRM-162): You have not used the viaMap option. If the OpenAccess design has native oaVia instances, use the -viaMap option for preserving oaVia instances in a Stream Out - Stream In round trip. Using the -viaMap option improves performance and VM usage of applications using the Streamed-In design.  For details on the viaMap option, refer to the "Design Data Translator's Reference" guide for XStream.
+
+Summary of Options :
+library                                 EECS392
+strmFile                                /home/jwe920/EECS392/Booth_Decoder/Booth_Decoder.calibre.gds
+topCell                                 Booth_Decoder
+view                                    layout
+runDir                                  /home/jwe920/EECS392/Booth_Decoder/
+logFile                                 PIPO.LOG.Booth_Decoder
+case                                    Preserve
+convertDot                              node
+
+INFO (XSTRM-223): 1. Translating cellView NCSU_TechLib_FreePDK45/M2_M1_via/via as STRUCTURE M2_M1_via
+INFO (XSTRM-223): 2. Translating cellView NCSU_TechLib_FreePDK45/M3_M2_via/via as STRUCTURE M3_M2_via
+INFO (XSTRM-223): 3. Translating cellView NCSU_TechLib_FreePDK45/M2_M1/layout as STRUCTURE M2_M1_0
+INFO (XSTRM-223): 4. Translating cellView NCSU_TechLib_FreePDK45/M3_M2/layout as STRUCTURE M3_M2_1
+INFO (XSTRM-223): 5. Translating cellView NCSU_TechLib_FreePDK45/M1_POLY/layout as STRUCTURE M1_POLY_2
+INFO (XSTRM-223): 6. Translating cellView EECS392/NAND/layout as STRUCTURE NAND
+INFO (XSTRM-223): 7. Translating cellView NCSU_TechLib_FreePDK45/M1_P/layout as STRUCTURE M1_P_3
+INFO (XSTRM-223): 8. Translating cellView NCSU_TechLib_FreePDK45/M1_N/layout as STRUCTURE M1_N_4
+INFO (XSTRM-223): 9. Translating cellView NCSU_TechLib_FreePDK45/NTAP/layout as STRUCTURE NTAP_5
+INFO (XSTRM-223): 10. Translating cellView NCSU_TechLib_FreePDK45/PTAP/layout as STRUCTURE PTAP_6
+INFO (XSTRM-223): 11. Translating cellView EECS392/Inverter/layout as STRUCTURE Inverter
+INFO (XSTRM-223): 12. Translating cellView EECS392/AND/layout as STRUCTURE AND
+INFO (XSTRM-223): 13. Translating cellView EECS392/2_1MUX/layout as STRUCTURE 2_1MUX
+INFO (XSTRM-223): 14. Translating cellView EECS392/Booth_Decoder/layout as STRUCTURE Booth_Decoder
+INFO (XSTRM-223): 15. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_0
+INFO (XSTRM-223): 16. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_1
+INFO (XSTRM-223): 17. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_2
+INFO (XSTRM-223): 18. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_3
+INFO (XSTRM-223): 19. Translating cellView NCSU_TechLib_FreePDK45/nmos_vtg/layout as STRUCTURE nmos_vtg_4
+INFO (XSTRM-223): 20. Translating cellView NCSU_TechLib_FreePDK45/pmos_vtg/layout as STRUCTURE pmos_vtg_5
+INFO (XSTRM-223): 21. Translating cellView NCSU_TechLib_FreePDK45/dcont/layout as STRUCTURE dcont_6
+
+Summary of Objects Translated:
+	Scalar Instances:                       32
+	Array Instances:                        0
+	Polygons:                               0
+	Paths:                                  84
+	Rectangles:                             345
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Standard Vias                           53
+	Custom Vias:                            50
+	Pathsegs:                               0
+	Text:                                   80
+	Cells:                                  21
+
+Elapsed Time: 0.9s   User Time: 0.5s   CPU Time: 0.1s   Peak VM: 971KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

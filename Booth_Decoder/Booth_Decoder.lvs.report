@@ -1,0 +1,900 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         Booth_Decoder.lvs.report
+LAYOUT NAME:              /home/jwe920/EECS392/Booth_Decoder/Booth_Decoder.sp ('Booth_Decoder')
+SOURCE NAME:              /home/jwe920/EECS392/Booth_Decoder/Booth_Decoder.src.net ('Booth_Decoder')
+RULE FILE:                /home/jwe920/EECS392/Booth_Decoder/_calibreLVS.rul_
+RULE FILE TITLE:          LVS Rule File for FreePDK45
+CREATION TIME:            Sat Jun  8 22:16:27 2013
+CURRENT DIRECTORY:        /home/jwe920/EECS392/Booth_Decoder
+USER NAME:                jwe920
+CALIBRE VERSION:          v2011.4_35.27    Tue Jan 10 16:18:55 PST 2012
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports.
+  Error:    Different numbers of nets.
+  Error:    Connectivity errors.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      Booth_Decoder                 Booth_Decoder
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            element
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS" "GROUND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  YES
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             YES
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(nmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtl)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vth)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_vtg)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mn(nmos_thkox)  w w 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  l l 4e-09 ABSOLUTE
+   TRACE PROPERTY  mp(pmos_thkox)  w w 4e-09 ABSOLUTE
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of ports (see below).
+  Error:    Different numbers of nets (see below).
+  Error:    Connectivity errors.
+
+LAYOUT CELL NAME:         Booth_Decoder
+SOURCE CELL NAME:         Booth_Decoder
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             27        28    *
+
+ Nets:              64        62    *
+
+ Instances:         50        50         MN (4 pins)
+                    50        50         MP (4 pins)
+                ------    ------
+ Total Inst:       100       100
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:             27        28    *
+
+ Nets:              47        45    *
+
+ Instances:          8         8         _invv (4 pins)
+                     8         8         _mx2v (6 pins)
+                     9         9         _nand2v (5 pins)
+                ------    ------
+ Total Inst:        25        25
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                   INCORRECT NETS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    Net GND!                                                  GND!
+       --------------------------                                --------------------------
+       
+       (_nand2v):sup1                                            ** missing connection **
+         X58/X1/M2(-2.860,3.067):b
+         X58/X1/M2(-2.860,3.067):s
+         X58/X1/M3(-2.860,3.257):b
+         X58/X1/M3(-2.860,3.257):d
+       
+       
+       (_nand2v):sup1                                            ** missing connection **
+         X51/X1/M2(-2.860,-4.737):b
+         X51/X1/M2(-2.860,-4.737):s
+         X51/X1/M3(-2.860,-4.548):b
+         X51/X1/M3(-2.860,-4.548):d
+       
+       
+       (_nand2v):sup1                                            ** missing connection **
+         X52/X1/M2(-2.860,-3.623):b
+         X52/X1/M2(-2.860,-3.623):s
+         X52/X1/M3(-2.860,-3.433):b
+         X52/X1/M3(-2.860,-3.433):d
+       
+       
+       (_nand2v):sup1                                            ** missing connection **
+         X53/X1/M2(-2.860,-2.507):b
+         X53/X1/M2(-2.860,-2.507):s
+         X53/X1/M3(-2.860,-2.317):b
+         X53/X1/M3(-2.860,-2.317):d
+       
+       
+       (_nand2v):sup1                                            ** missing connection **
+         X54/X1/M2(-2.860,-1.393):b
+         X54/X1/M2(-2.860,-1.393):s
+         X54/X1/M3(-2.860,-1.202):b
+         X54/X1/M3(-2.860,-1.202):d
+       
+       
+       (_nand2v):sup1                                            ** missing connection **
+         X55/X1/M2(-2.860,-0.278):b
+         X55/X1/M2(-2.860,-0.278):s
+         X55/X1/M3(-2.860,-0.087):b
+         X55/X1/M3(-2.860,-0.087):d
+       
+       
+       (_nand2v):sup1                                            ** missing connection **
+         X56/X1/M2(-2.860,0.838):b
+         X56/X1/M2(-2.860,0.838):s
+         X56/X1/M3(-2.860,1.028):b
+         X56/X1/M3(-2.860,1.028):d
+       
+       
+       (_nand2v):sup1                                            ** missing connection **
+         X57/X1/M2(-2.860,1.952):b
+         X57/X1/M2(-2.860,1.952):s
+         X57/X1/M3(-2.860,2.143):b
+         X57/X1/M3(-2.860,2.143):d
+       
+       
+       (_nand2b):sup1                                            ** missing connection **
+         X42/M3(0.645,3.675):d
+         X42/M2(0.645,3.865):s
+       
+       
+       (_invv):sup1                                              ** missing connection **
+         X55/X0/M1(-3.342,-0.765):b
+         X55/X0/M1(-3.342,-0.765):s
+       
+       
+       (_invv):sup1                                              ** missing connection **
+         X58/X0/M1(-3.342,2.580):b
+         X58/X0/M1(-3.342,2.580):s
+       
+       
+       (_invv):sup1                                              ** missing connection **
+         X57/X0/M1(-3.342,1.465):b
+         X57/X0/M1(-3.342,1.465):s
+       
+       
+       (_invv):sup1                                              ** missing connection **
+         X51/X0/M1(-3.342,-5.225):b
+         X51/X0/M1(-3.342,-5.225):s
+       
+       
+       (_invv):sup1                                              ** missing connection **
+         X53/X0/M1(-3.342,-2.995):b
+         X53/X0/M1(-3.342,-2.995):s
+       
+       
+       (_invv):sup1                                              ** missing connection **
+         X52/X0/M1(-3.342,-4.110):b
+         X52/X0/M1(-3.342,-4.110):s
+       
+       
+       (_invv):sup1                                              ** missing connection **
+         X54/X0/M1(-3.342,-1.880):b
+         X54/X0/M1(-3.342,-1.880):s
+       
+       
+       (_invv):sup1                                              ** missing connection **
+         X56/X0/M1(-3.342,0.350):b
+         X56/X0/M1(-3.342,0.350):s
+       
+       
+       (_mx2v):sup1                                              ** missing connection **
+         X40/X4/M1(1.962,1.442):b
+         X40/X4/M1(1.962,1.442):s
+         X40/X8/M0(1.205,1.442):b
+         X40/X7/M0(1.575,1.442):b
+       
+       
+       (_mx2v):sup1                                              ** missing connection **
+         X39/X4/M1(1.962,-2.328):b
+         X39/X4/M1(1.962,-2.328):s
+         X39/X8/M0(1.205,-2.328):b
+         X39/X7/M0(1.575,-2.328):b
+       
+       
+       (_mx2v):sup1                                              ** missing connection **
+         X38/X4/M1(0.708,-0.180):b
+         X38/X4/M1(0.708,-0.180):s
+         X38/X8/M0(1.465,-0.180):b
+         X38/X7/M0(1.095,-0.180):b
+       
+       
+       (_mx2v):sup1                                              ** missing connection **
+         X37/X4/M1(0.708,-3.950):b
+         X37/X4/M1(0.708,-3.950):s
+         X37/X8/M0(1.465,-3.950):b
+         X37/X7/M0(1.095,-3.950):b
+       
+       
+       (_mx2v):sup1                                              ** missing connection **
+         X36/X4/M1(0.207,-0.180):b
+         X36/X4/M1(0.207,-0.180):s
+         X36/X8/M0(-0.550,-0.180):b
+         X36/X7/M0(-0.180,-0.180):b
+       
+       
+       (_mx2v):sup1                                              ** missing connection **
+         X35/X4/M1(0.207,-3.950):b
+         X35/X4/M1(0.207,-3.950):s
+         X35/X8/M0(-0.550,-3.950):b
+         X35/X7/M0(-0.180,-3.950):b
+       
+       
+       (_mx2v):sup1                                              ** missing connection **
+         X34/X4/M1(-1.048,1.442):b
+         X34/X4/M1(-1.048,1.442):s
+         X34/X8/M0(-0.290,1.442):b
+         X34/X7/M0(-0.660,1.442):b
+       
+       
+       (_mx2v):sup1                                              ** missing connection **
+         X33/X4/M1(-1.048,-2.328):b
+         X33/X4/M1(-1.048,-2.328):s
+         X33/X8/M0(-0.290,-2.328):b
+         X33/X7/M0(-0.660,-2.328):b
+       
+       
+       ** missing connection **                                  (_mx2v):sup2
+                                                                   XI11/XI0/MM1:b
+                                                                   XI11/XI0/MM1:s
+                                                                   XI11/MM0:b
+                                                                   XI11/MM1:b
+       
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    Net 6                                                     net14
+           38                                                   
+
+--------------------------------------------------------------------------------------------------------------
+
+  3    Net 23                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  4    Net 39                                                    ** no similar net **
+
+--------------------------------------------------------------------------------------------------------------
+
+  5    ** no similar net **                                      VDD!
+
+
+**************************************************************************************************************
+                                   INCORRECT PORTS
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  6    ** missing port **                                        VDD! on net: VDD!
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  7    X42/M1(-1.180,3.675)  MN(NMOS_VTG)                        XI8/MM3  MN(NMOS_VTG)
+         g: OUTB                                                   g: OUTB
+         d: 10                                                     ** net12 **
+         b: 39                                                     ** no similar net **
+         ** GND! **                                                d: GND!
+         ** GND! **                                                b: GND!
+
+--------------------------------------------------------------------------------------------------------------
+
+  8    X42/M0(-1.180,3.865)  MN(NMOS_VTG)                        XI8/MM1  MN(NMOS_VTG)
+         g: OUTA                                                   g: OUTA
+         d: GND!                                                   b: GND!
+         b: 39                                                     ** no similar net **
+         ** 10 **                                                  d: net12
+
+--------------------------------------------------------------------------------------------------------------
+
+  9    X42/M3(0.645,3.675)  MP(PMOS_VTG)                         XI8/MM2  MP(PMOS_VTG)
+         g: OUTB                                                   g: OUTB
+         s: 10                                                     s: net12
+         d: GND!                                                   ** GND! **
+         b: GND!                                                   ** GND! **
+         ** no similar net **                                      d: VDD!
+         ** no similar net **                                      b: VDD!
+
+--------------------------------------------------------------------------------------------------------------
+
+ 10    X42/M2(0.645,3.865)  MP(PMOS_VTG)                         XI8/MM0  MP(PMOS_VTG)
+         g: OUTA                                                   g: OUTA
+         s: 10                                                     s: net12
+         d: GND!                                                   ** GND! **
+         b: GND!                                                   ** GND! **
+         ** no similar net **                                      d: VDD!
+         ** no similar net **                                      b: VDD!
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:              27         27            0            1
+
+   Nets:               45         44            2            1
+
+   Instances:           8          8            0            0    _invv
+                        8          8            0            0    _mx2v
+                        9          9            0            0    _nand2v
+                  -------    -------    ---------    ---------
+   Total Inst:         25         25            0            0
+
+
+o Initial Correspondence Points:
+
+   Ports:        GND! INVMD<2> BD<2> INVMD<0> BD<0> INVMD<3> BD<3> INVMD<1> BD<1> INVMD<7> BD<7>
+                 INVMD<5> BD<5> INVMD<6> BD<6> INVMD<4> BD<4> OUTA OUTB MD<7> MD<6> MD<5> MD<4>
+                 MD<3> MD<2> MD<1> MD<0>
+
+
+**************************************************************************************************************
+                             DETAILED INSTANCE CONNECTIONS
+
+       LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+          (This section contains detailed information about connections of
+           matched instances that are involved in net discrepancies).
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_mx2v)                                                   (_mx2v)
+         in1: INVMD<2>                                             in1: INVMD<2>
+         in2: 7                                                    in2: net17
+         sel: 10                                                   sel: net12
+         out: BD<2>                                                out: BD<2>
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X33/X7/M0(-0.660,-2.328)  MP(PMOS_VTG)                    XI17/MM2  MP(PMOS_VTG) 
+         X33/X8/M0(-0.290,-2.328)  MP(PMOS_VTG)                    XI17/MM3  MP(PMOS_VTG) 
+         X33/X6/M0(-0.290,-2.792)  MN(NMOS_VTG)                    XI17/MM1  MN(NMOS_VTG) 
+         X33/X5/M0(-0.660,-2.792)  MN(NMOS_VTG)                    XI17/MM0  MN(NMOS_VTG) 
+         X33/X4/M1(-1.048,-2.328)  MP(PMOS_VTG)                    XI17/XI0/MM0  MP(PMOS_VTG) 
+         X33/X4/M0(-1.045,-3.942)  MN(NMOS_VTG)                    XI17/XI0/MM1  MN(NMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_mx2v)                                                   (_mx2v)
+         in1: INVMD<0>                                             in1: INVMD<0>
+         in2: 9                                                    in2: net22
+         sel: 10                                                   sel: net12
+         out: BD<0>                                                out: BD<0>
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X34/X7/M0(-0.660,1.442)  MP(PMOS_VTG)                     XI19/MM2  MP(PMOS_VTG) 
+         X34/X8/M0(-0.290,1.442)  MP(PMOS_VTG)                     XI19/MM3  MP(PMOS_VTG) 
+         X34/X6/M0(-0.290,0.978)  MN(NMOS_VTG)                     XI19/MM1  MN(NMOS_VTG) 
+         X34/X5/M0(-0.660,0.978)  MN(NMOS_VTG)                     XI19/MM0  MN(NMOS_VTG) 
+         X34/X4/M1(-1.048,1.442)  MP(PMOS_VTG)                     XI19/XI0/MM0  MP(PMOS_VTG) 
+         X34/X4/M0(-1.045,-0.172)  MN(NMOS_VTG)                    XI19/XI0/MM1  MN(NMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_mx2v)                                                   (_mx2v)
+         in1: INVMD<3>                                             in1: INVMD<3>
+         in2: 38                                                   in2: net14
+         sel: 10                                                   sel: net12
+         out: BD<3>                                                out: BD<3>
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X35/X7/M0(-0.180,-3.950)  MP(PMOS_VTG)                    XI21/MM2  MP(PMOS_VTG) 
+         X35/X8/M0(-0.550,-3.950)  MP(PMOS_VTG)                    XI21/MM3  MP(PMOS_VTG) 
+         X35/X6/M0(-0.550,-4.415)  MN(NMOS_VTG)                    XI21/MM1  MN(NMOS_VTG) 
+         X35/X5/M0(-0.180,-4.415)  MN(NMOS_VTG)                    XI21/MM0  MN(NMOS_VTG) 
+         X35/X4/M1(0.207,-3.950)  MP(PMOS_VTG)                     XI21/XI0/MM0  MP(PMOS_VTG) 
+         X35/X4/M0(0.205,-5.565)  MN(NMOS_VTG)                     XI21/XI0/MM1  MN(NMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_mx2v)                                                   (_mx2v)
+         in1: INVMD<1>                                             in1: INVMD<1>
+         in2: 8                                                    in2: net16
+         sel: 10                                                   sel: net12
+         out: BD<1>                                                out: BD<1>
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X36/X7/M0(-0.180,-0.180)  MP(PMOS_VTG)                    XI18/MM2  MP(PMOS_VTG) 
+         X36/X8/M0(-0.550,-0.180)  MP(PMOS_VTG)                    XI18/MM3  MP(PMOS_VTG) 
+         X36/X6/M0(-0.550,-0.645)  MN(NMOS_VTG)                    XI18/MM1  MN(NMOS_VTG) 
+         X36/X5/M0(-0.180,-0.645)  MN(NMOS_VTG)                    XI18/MM0  MN(NMOS_VTG) 
+         X36/X4/M1(0.207,-0.180)  MP(PMOS_VTG)                     XI18/XI0/MM0  MP(PMOS_VTG) 
+         X36/X4/M0(0.205,-1.795)  MN(NMOS_VTG)                     XI18/XI0/MM1  MN(NMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_mx2v)                                                   (_mx2v)
+         in1: INVMD<7>                                             in1: INVMD<7>
+         in2: 2                                                    in2: net21
+         sel: 10                                                   sel: net12
+         out: BD<7>                                                out: BD<7>
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X37/X7/M0(1.095,-3.950)  MP(PMOS_VTG)                     XI10/MM2  MP(PMOS_VTG) 
+         X37/X8/M0(1.465,-3.950)  MP(PMOS_VTG)                     XI10/MM3  MP(PMOS_VTG) 
+         X37/X6/M0(1.465,-4.415)  MN(NMOS_VTG)                     XI10/MM1  MN(NMOS_VTG) 
+         X37/X5/M0(1.095,-4.415)  MN(NMOS_VTG)                     XI10/MM0  MN(NMOS_VTG) 
+         X37/X4/M1(0.708,-3.950)  MP(PMOS_VTG)                     XI10/XI0/MM0  MP(PMOS_VTG) 
+         X37/X4/M0(0.710,-5.565)  MN(NMOS_VTG)                     XI10/XI0/MM1  MN(NMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_mx2v)                                                   (_mx2v)
+         in1: INVMD<5>                                             in1: INVMD<5>
+         in2: 4                                                    in2: net19
+         sel: 10                                                   sel: net12
+         out: BD<5>                                                out: BD<5>
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X38/X7/M0(1.095,-0.180)  MP(PMOS_VTG)                     XI12/MM2  MP(PMOS_VTG) 
+         X38/X8/M0(1.465,-0.180)  MP(PMOS_VTG)                     XI12/MM3  MP(PMOS_VTG) 
+         X38/X6/M0(1.465,-0.645)  MN(NMOS_VTG)                     XI12/MM1  MN(NMOS_VTG) 
+         X38/X5/M0(1.095,-0.645)  MN(NMOS_VTG)                     XI12/MM0  MN(NMOS_VTG) 
+         X38/X4/M1(0.708,-0.180)  MP(PMOS_VTG)                     XI12/XI0/MM0  MP(PMOS_VTG) 
+         X38/X4/M0(0.710,-1.795)  MN(NMOS_VTG)                     XI12/XI0/MM1  MN(NMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_mx2v)                                                   (_mx2v)
+         in1: INVMD<6>                                             in1: INVMD<6>
+         in2: 3                                                    in2: net20
+         sel: 10                                                   sel: net12
+         out: BD<6>                                                out: BD<6>
+         sup1: GND!                                                ** GND! **
+         sup2: 23                                                  ** no similar net **
+         ** no similar net **                                      sup1: VDD!
+         ** GND! **                                                sup2: GND!
+
+       Devices: 
+         X39/X7/M0(1.575,-2.328)  MP(PMOS_VTG)                     XI11/MM2  MP(PMOS_VTG) 
+         X39/X8/M0(1.205,-2.328)  MP(PMOS_VTG)                     XI11/MM3  MP(PMOS_VTG) 
+         X39/X6/M0(1.205,-2.792)  MN(NMOS_VTG)                     XI11/MM1  MN(NMOS_VTG) 
+         X39/X5/M0(1.575,-2.792)  MN(NMOS_VTG)                     XI11/MM0  MN(NMOS_VTG) 
+         X39/X4/M1(1.962,-2.328)  MP(PMOS_VTG)                     XI11/XI0/MM0  MP(PMOS_VTG) 
+         X39/X4/M0(1.960,-3.942)  MN(NMOS_VTG)                     XI11/XI0/MM1  MN(NMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_mx2v)                                                   (_mx2v)
+         in1: INVMD<4>                                             in1: INVMD<4>
+         in2: 5                                                    in2: net23
+         sel: 10                                                   sel: net12
+         out: BD<4>                                                out: BD<4>
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X40/X7/M0(1.575,1.442)  MP(PMOS_VTG)                      XI13/MM2  MP(PMOS_VTG) 
+         X40/X8/M0(1.205,1.442)  MP(PMOS_VTG)                      XI13/MM3  MP(PMOS_VTG) 
+         X40/X6/M0(1.205,0.978)  MN(NMOS_VTG)                      XI13/MM1  MN(NMOS_VTG) 
+         X40/X5/M0(1.575,0.978)  MN(NMOS_VTG)                      XI13/MM0  MN(NMOS_VTG) 
+         X40/X4/M1(1.962,1.442)  MP(PMOS_VTG)                      XI13/XI0/MM0  MP(PMOS_VTG) 
+         X40/X4/M0(1.960,-0.172)  MN(NMOS_VTG)                     XI13/XI0/MM1  MN(NMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   (_invv)
+         in: X56/6                                                 in: XI14/net8
+         out: 7                                                    out: net17
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X56/X0/M1(-3.342,0.350)  MP(PMOS_VTG)                     XI14/XI5/MM0  MP(PMOS_VTG) 
+         X56/X0/M0(-4.957,0.347)  MN(NMOS_VTG)                     XI14/XI5/MM1  MN(NMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   (_invv)
+         in: X54/6                                                 in: XI3/net8
+         out: 5                                                    out: net23
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X54/X0/M1(-3.342,-1.880)  MP(PMOS_VTG)                    XI3/XI5/MM0  MP(PMOS_VTG) 
+         X54/X0/M0(-4.957,-1.883)  MN(NMOS_VTG)                    XI3/XI5/MM1  MN(NMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   (_invv)
+         in: X52/6                                                 in: XI1/net8
+         out: 3                                                    out: net20
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X52/X0/M1(-3.342,-4.110)  MP(PMOS_VTG)                    XI1/XI5/MM0  MP(PMOS_VTG) 
+         X52/X0/M0(-4.957,-4.112)  MN(NMOS_VTG)                    XI1/XI5/MM1  MN(NMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   (_invv)
+         in: X53/6                                                 in: XI2/net8
+         out: 4                                                    out: net19
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X53/X0/M1(-3.342,-2.995)  MP(PMOS_VTG)                    XI2/XI5/MM0  MP(PMOS_VTG) 
+         X53/X0/M0(-4.957,-2.998)  MN(NMOS_VTG)                    XI2/XI5/MM1  MN(NMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   (_invv)
+         in: X51/6                                                 in: XI0/net8
+         out: 2                                                    out: net21
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X51/X0/M1(-3.342,-5.225)  MP(PMOS_VTG)                    XI0/XI5/MM0  MP(PMOS_VTG) 
+         X51/X0/M0(-4.957,-5.228)  MN(NMOS_VTG)                    XI0/XI5/MM1  MN(NMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   (_invv)
+         in: X57/6                                                 in: XI15/net8
+         out: 8                                                    out: net16
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X57/X0/M1(-3.342,1.465)  MP(PMOS_VTG)                     XI15/XI5/MM0  MP(PMOS_VTG) 
+         X57/X0/M0(-4.957,1.462)  MN(NMOS_VTG)                     XI15/XI5/MM1  MN(NMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   (_invv)
+         in: X58/6                                                 in: XI16/net8
+         out: 9                                                    out: net22
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X58/X0/M1(-3.342,2.580)  MP(PMOS_VTG)                     XI16/XI5/MM0  MP(PMOS_VTG) 
+         X58/X0/M0(-4.957,2.578)  MN(NMOS_VTG)                     XI16/XI5/MM1  MN(NMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_invv)                                                   (_invv)
+         in: X55/6                                                 in: XI20/net8
+         out: 6                                                    out: net14
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X55/X0/M1(-3.342,-0.765)  MP(PMOS_VTG)                    XI20/XI5/MM0  MP(PMOS_VTG) 
+         X55/X0/M0(-4.957,-0.767)  MN(NMOS_VTG)                    XI20/XI5/MM1  MN(NMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2b)                                                 (_nand2v)
+         in1: OUTA                                                 in2: OUTA
+         in2: OUTB                                                 in1: OUTB
+         out: 10                                                   out: net12
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X42/M1(-1.180,3.675)  MN(NMOS_VTG)                        XI8/MM3  MN(NMOS_VTG) 
+         X42/M0(-1.180,3.865)  MN(NMOS_VTG)                        XI8/MM1  MN(NMOS_VTG) 
+         X42/M3(0.645,3.675)  MP(PMOS_VTG)                         XI8/MM2  MP(PMOS_VTG) 
+         X42/M2(0.645,3.865)  MP(PMOS_VTG)                         XI8/MM0  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: MD<1>                                                in2: MD<1>
+         in2: OUTA                                                 in1: OUTA
+         out: X57/6                                                out: XI15/net8
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X57/X1/M0(-4.685,1.952)  MN(NMOS_VTG)                     XI15/XI4/MM1  MN(NMOS_VTG) 
+         X57/X1/M1(-4.685,2.143)  MN(NMOS_VTG)                     XI15/XI4/MM3  MN(NMOS_VTG) 
+         X57/X1/M2(-2.860,1.952)  MP(PMOS_VTG)                     XI15/XI4/MM0  MP(PMOS_VTG) 
+         X57/X1/M3(-2.860,2.143)  MP(PMOS_VTG)                     XI15/XI4/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: MD<2>                                                in2: MD<2>
+         in2: OUTA                                                 in1: OUTA
+         out: X56/6                                                out: XI14/net8
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X56/X1/M0(-4.685,0.838)  MN(NMOS_VTG)                     XI14/XI4/MM1  MN(NMOS_VTG) 
+         X56/X1/M1(-4.685,1.028)  MN(NMOS_VTG)                     XI14/XI4/MM3  MN(NMOS_VTG) 
+         X56/X1/M2(-2.860,0.838)  MP(PMOS_VTG)                     XI14/XI4/MM0  MP(PMOS_VTG) 
+         X56/X1/M3(-2.860,1.028)  MP(PMOS_VTG)                     XI14/XI4/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: MD<3>                                                in2: MD<3>
+         in2: OUTA                                                 in1: OUTA
+         out: X55/6                                                out: XI20/net8
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X55/X1/M0(-4.685,-0.278)  MN(NMOS_VTG)                    XI20/XI4/MM1  MN(NMOS_VTG) 
+         X55/X1/M1(-4.685,-0.087)  MN(NMOS_VTG)                    XI20/XI4/MM3  MN(NMOS_VTG) 
+         X55/X1/M2(-2.860,-0.278)  MP(PMOS_VTG)                    XI20/XI4/MM0  MP(PMOS_VTG) 
+         X55/X1/M3(-2.860,-0.087)  MP(PMOS_VTG)                    XI20/XI4/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: MD<4>                                                in2: MD<4>
+         in2: OUTA                                                 in1: OUTA
+         out: X54/6                                                out: XI3/net8
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X54/X1/M0(-4.685,-1.393)  MN(NMOS_VTG)                    XI3/XI4/MM1  MN(NMOS_VTG) 
+         X54/X1/M1(-4.685,-1.202)  MN(NMOS_VTG)                    XI3/XI4/MM3  MN(NMOS_VTG) 
+         X54/X1/M2(-2.860,-1.393)  MP(PMOS_VTG)                    XI3/XI4/MM0  MP(PMOS_VTG) 
+         X54/X1/M3(-2.860,-1.202)  MP(PMOS_VTG)                    XI3/XI4/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: MD<5>                                                in2: MD<5>
+         in2: OUTA                                                 in1: OUTA
+         out: X53/6                                                out: XI2/net8
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X53/X1/M0(-4.685,-2.507)  MN(NMOS_VTG)                    XI2/XI4/MM1  MN(NMOS_VTG) 
+         X53/X1/M1(-4.685,-2.317)  MN(NMOS_VTG)                    XI2/XI4/MM3  MN(NMOS_VTG) 
+         X53/X1/M2(-2.860,-2.507)  MP(PMOS_VTG)                    XI2/XI4/MM0  MP(PMOS_VTG) 
+         X53/X1/M3(-2.860,-2.317)  MP(PMOS_VTG)                    XI2/XI4/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: MD<6>                                                in2: MD<6>
+         in2: OUTA                                                 in1: OUTA
+         out: X52/6                                                out: XI1/net8
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X52/X1/M0(-4.685,-3.623)  MN(NMOS_VTG)                    XI1/XI4/MM1  MN(NMOS_VTG) 
+         X52/X1/M1(-4.685,-3.433)  MN(NMOS_VTG)                    XI1/XI4/MM3  MN(NMOS_VTG) 
+         X52/X1/M2(-2.860,-3.623)  MP(PMOS_VTG)                    XI1/XI4/MM0  MP(PMOS_VTG) 
+         X52/X1/M3(-2.860,-3.433)  MP(PMOS_VTG)                    XI1/XI4/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: MD<7>                                                in2: MD<7>
+         in2: OUTA                                                 in1: OUTA
+         out: X51/6                                                out: XI0/net8
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X51/X1/M0(-4.685,-4.737)  MN(NMOS_VTG)                    XI0/XI4/MM1  MN(NMOS_VTG) 
+         X51/X1/M1(-4.685,-4.548)  MN(NMOS_VTG)                    XI0/XI4/MM3  MN(NMOS_VTG) 
+         X51/X1/M2(-2.860,-4.737)  MP(PMOS_VTG)                    XI0/XI4/MM0  MP(PMOS_VTG) 
+         X51/X1/M3(-2.860,-4.548)  MP(PMOS_VTG)                    XI0/XI4/MM2  MP(PMOS_VTG) 
+
+--------------------------------------------------------------------------------------------------------------
+
+       (_nand2v)                                                 (_nand2v)
+         in1: MD<0>                                                in2: MD<0>
+         in2: OUTA                                                 in1: OUTA
+         out: X58/6                                                out: XI16/net8
+         sup2: GND!                                                sup2: GND!
+         sup1: GND!                                                ** GND! **
+         ** no similar net **                                      sup1: VDD!
+
+       Devices: 
+         X58/X1/M0(-4.685,3.067)  MN(NMOS_VTG)                     XI16/XI4/MM1  MN(NMOS_VTG) 
+         X58/X1/M1(-4.685,3.257)  MN(NMOS_VTG)                     XI16/XI4/MM3  MN(NMOS_VTG) 
+         X58/X1/M2(-2.860,3.067)  MP(PMOS_VTG)                     XI16/XI4/MM0  MP(PMOS_VTG) 
+         X58/X1/M3(-2.860,3.257)  MP(PMOS_VTG)                     XI16/XI4/MM2  MP(PMOS_VTG) 
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

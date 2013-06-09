@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1370747786 1370747787
+lvs_ExtOutFile RUNDIR /home/jwe920/EECS392/Booth_Decoder
+lvs_ExtOutFile RULES_FILE /home/jwe920/EECS392/Booth_Decoder/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {1 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/jwe920/EECS392/Booth_Decoder/Booth_Decoder.sp
+lvs_ExtOutFile EXTRACTION_REPORT Booth_Decoder.lvs.report.ext
