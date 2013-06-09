@@ -1,0 +1,161 @@
+ScopeSigMgr:loadpffile /home/sjz474/EECS392/RIPPLE/RIPPLE_layout.tr0 1 openonly
+# PF:1
+pf:read PF:1 v(s<7>)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Mdi:ArrangeIcons
+wm geometry . 1680x947+0+25
+Mdi:FullSize
+wm geometry .sigmgr._PF:1 231x341+841+527
+wm geometry .sigmgr._PF:1 231x341+843+530
+wm geometry .sigmgr._PF:1 231x341+845+533
+wm geometry .sigmgr._PF:1 231x341+849+536
+wm geometry .sigmgr._PF:1 231x341+856+542
+wm geometry .sigmgr._PF:1 231x341+866+548
+wm geometry .sigmgr._PF:1 231x341+879+555
+wm geometry .sigmgr._PF:1 231x341+900+568
+wm geometry .sigmgr._PF:1 231x341+921+581
+wm geometry .sigmgr._PF:1 231x341+942+594
+wm geometry .sigmgr._PF:1 231x341+967+607
+wm geometry .sigmgr._PF:1 231x341+992+622
+wm geometry .sigmgr._PF:1 231x341+1017+637
+wm geometry .sigmgr._PF:1 231x341+1042+652
+wm geometry .sigmgr._PF:1 231x341+1067+656
+wm geometry .sigmgr._PF:1 231x341+1086+656
+wm geometry .sigmgr._PF:1 231x341+1105+701
+wm geometry .sigmgr._PF:1 231x341+1122+718
+wm geometry .sigmgr._PF:1 231x341+1137+735
+wm geometry .sigmgr._PF:1 231x341+1148+750
+wm geometry .sigmgr._PF:1 231x341+1159+765
+wm geometry .sigmgr._PF:1 231x341+1170+780
+wm geometry .sigmgr._PF:1 231x341+1181+795
+wm geometry .sigmgr._PF:1 231x341+1192+810
+wm geometry .sigmgr._PF:1 231x341+1203+825
+wm geometry .sigmgr._PF:1 231x341+1214+842
+wm geometry .sigmgr._PF:1 231x341+1225+859
+wm geometry .sigmgr._PF:1 231x341+1234+874
+wm geometry .sigmgr._PF:1 231x341+1243+889
+wm geometry .sigmgr._PF:1 231x341+1252+904
+wm geometry .sigmgr._PF:1 231x341+1257+917
+wm geometry .sigmgr._PF:1 231x341+1262+928
+wm geometry .sigmgr._PF:1 231x341+1267+939
+wm geometry .sigmgr._PF:1 231x341+1272+948
+wm geometry .sigmgr._PF:1 231x341+1277+957
+wm geometry .sigmgr._PF:1 231x341+1278+962
+wm geometry .sigmgr._PF:1 231x341+1278+963
+wm geometry .sigmgr._PF:1 231x341+1280+963
+wm geometry .sigmgr._PF:1 231x341+1281+962
+wm geometry .sigmgr._PF:1 231x341+1282+962
+wm geometry .sigmgr._PF:1 231x341+1283+961
+wm geometry .sigmgr._PF:1 231x341+1284+961
+wm geometry .sigmgr._PF:1 231x341+1286+960
+wm geometry .sigmgr._PF:1 231x341+1287+959
+wm geometry .sigmgr._PF:1 231x341+1287+957
+wm geometry .sigmgr._PF:1 231x341+1287+953
+wm geometry .sigmgr._PF:1 231x341+1285+944
+wm geometry .sigmgr._PF:1 231x341+1279+931
+GrMeas:Threshold Graph0 Signal0 .9 either xyrangeAll
+# M:0
+GrMeas:Threshold Graph0 Signal0 .068 rising xyrangeAll
+# M:1
+GrMeas:Threshold Graph0 Signal0 1.8 falling xyrangeAll
+# M:2
+GrMeas:Threshold Graph0 Signal0 1.79 falling xyrangeAll
+# M:3
+GrMeas:Threshold Graph0 Signal0 1.79 falling xyrangeAll
+# M:4
+GrMeas:Threshold Graph0 Signal0 1.77 falling xyrangeAll
+# M:5
+GrMeas:Threshold Graph0 Signal0 1.77 falling xyrangeAll
+# M:6
+GrMeas:Threshold Graph0 Signal0 1.77 falling xyrangeAll
+# M:7
+GrMeas:Threshold Graph0 Signal0 1.77 falling xyrangeAll
+# M:8
+GrMeas:Threshold Graph0 Signal0 1.77 falling xyrangeAll
+# M:9
+GrMeas:Threshold Graph0 Signal0 1.73 falling xyrangeAll
+# M:10
+GrMeas:Threshold Graph0 Signal0 1.72 falling xyrangeAll
+# M:11
+Graph:DSel
+GrMeas:Select Graph0 M:1 1
+GrMeas:Delete Graph0 M:2
+GrMeas:Delete Graph0 M:3
+GrMeas:Delete Graph0 M:4
+GrMeas:Delete Graph0 M:5
+GrMeas:Delete Graph0 M:6
+GrMeas:Delete Graph0 M:7
+GrMeas:Delete Graph0 M:8
+GrMeas:Delete Graph0 M:9
+GrMeas:Delete Graph0 M:10
+GrMeas:ShowResult Graph0 M:11 2
+GrMeas:ShowResult Graph0 M:11 3
+GrMeas:ShowResult Graph0 M:11 4
+GrMeas:ShowResult Graph0 M:11 5
+GrMeas:ShowResult Graph0 M:0 2
+GrMeas:ShowResult Graph0 M:0 3
+GrMeas:ShowResult Graph0 M:0 4
+GrMeas:ShowResult Graph0 M:0 5
+GrMeas:ShowResult Graph0 M:0 6
+GrMeas:HideResult Graph0 M:0 6
+GrMeas:ShowResult Graph0 M:0 6
+GrMeas:ShowResult Graph0 M:0 7
+GrMeas:ShowResult Graph0 M:0 8
+GrMeas:ShowResult Graph0 M:0 9
+GrMeas:ShowResult Graph0 M:0 10
+GrMeas:ShowResult Graph0 M:1 2
+GrMeas:ShowResult Graph0 M:1 3
+GrMeas:ShowResult Graph0 M:1 4
+GrMeas:ShowResult Graph0 M:1 5
+GrMeas:ShowResult Graph0 M:1 6
+GrMeas:ShowResult Graph0 M:1 7
+GrMeas:ShowResult Graph0 M:1 8
+GrMeas:ShowResult Graph0 M:1 9
+GrMeas:ShowResult Graph0 M:1 10
+GrMeas:ShowResult Graph0 M:1 11
+GrMeas:ShowResult Graph0 M:1 12
+GrMeas:ShowResult Graph0 M:1 14
+GrMeas:ShowResult Graph0 M:1 13
+GrMeas:ShowResult Graph0 M:1 15
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph0 M:1 3
+GrMeas:HideResult Graph0 M:1 3
+GrMeas:ShowResult Graph0 M:1 2
+GrMeas:Select Graph0 M:1 2 1
+Graph:DSel
+GrMeas:Select Graph0 M:0 2
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph0 M:1 2
+Graph:DSel
+GrMeas:Select Graph0 M:0 4
+Graph:DSel
+GrMeas:Select Graph0 M:1 6
+Graph:DSel
+GrMeas:Select Graph0 M:0 4
+Graph:DSel
+GrMeas:Select Graph0 M:0 0
+GrMeas:MoveYLevel Graph0 M:0 0 0.9098135693345
+# M:12
+Graph:DSel
+GrMeas:Select Graph0 M:12 0
+GrMeas:MoveYLevel Graph0 M:12 0 0.91260361659899
+# M:13
+GrMeas:MoveYLevel Graph0 M:13 0 0.91260361659899
+# M:14
+Graph:DSel
+GrMeas:Select Graph0 M:14 0
+GrMeas:MoveYLevel Graph0 M:14 0 0.91260361659899
+# M:15
+GrMeas:ShowResult Graph0 M:15 2
+GrMeas:ShowResult Graph0 M:15 3
+GrMeas:ShowResult Graph0 M:15 4
+GrMeas:ShowResult Graph0 M:15 6
+GrMeas:ShowResult Graph0 M:15 5
+GrMeas:ShowResult Graph0 M:15 7
+GrMeas:ShowResult Graph0 M:15 8
+GrMeas:ShowResult Graph0 M:15 9
+GrMeas:ShowResult Graph0 M:15 10

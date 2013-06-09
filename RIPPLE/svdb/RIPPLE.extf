@@ -1,9 +1,9 @@
 # Automagically generated file: Please do not edit!
 lvs_ExtfVersion 2
-lvs_ExtRunTimes 1370189784 1370189785
+lvs_ExtRunTimes 1370550391 1370550392
 lvs_ExtOutFile RUNDIR /home/sjz474/EECS392/RIPPLE
-lvs_ExtOutFile RULES_FILE /home/sjz474/EECS392/RIPPLE/_calibreLVS.rul_
+lvs_ExtOutFile RULES_FILE /home/sjz474/EECS392/RIPPLE/_calibrexRC.rul_
 lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
 lvs_ExtInfoDfmSummary {0}
-lvs_ExtOutFile LAYOUT_NETLIST /home/sjz474/EECS392/RIPPLE/RIPPLE.sp
+lvs_ExtOutFile LAYOUT_NETLIST /home/sjz474/EECS392/RIPPLE/svdb/RIPPLE.sp
 lvs_ExtOutFile EXTRACTION_REPORT RIPPLE.lvs.report.ext

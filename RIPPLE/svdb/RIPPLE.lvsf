@@ -2,8 +2,8 @@
 lvs_LvsOutFile RUNDIR /home/sjz474/EECS392/RIPPLE
 lvs_LvsfVersion 2
 lvs_LvsInputSummary {0 0 0}
-lvs_LvsComparisonSummary {5 1 4 0}
+lvs_LvsComparisonSummary {3 0 0 0}
 lvs_LvsOutFile LVS_REPORT RIPPLE.lvs.report
 lvs_LvsOutFile SOURCE_NETLIST /home/sjz474/EECS392/RIPPLE/RIPPLE.src.net
-lvs_LvsOutFile RULES_FILE /home/sjz474/EECS392/RIPPLE/_calibreLVS.rul_
-lvs_LvsRunTimes 1370189785 1370189785
+lvs_LvsOutFile RULES_FILE /home/sjz474/EECS392/RIPPLE/_calibrexRC.rul_
+lvs_LvsRunTimes 1370550393 1370550393

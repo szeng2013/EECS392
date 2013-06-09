@@ -2,9 +2,9 @@
 Product   : Virtuoso(R) XStream Out
 Program   : @(#)$CDS: strmout version 6.1.5 01/16/2012 21:51 (sjfdl235) $
           : sub-version  IC6.1.5.500.9 
-Started at: 02-Jun-2013  11:38:05
+Started at: 06-Jun-2013  15:26:27
 User Name : sjz474
-Host Name : freeze.ece.northwestern.edu
+Host Name : batgirl.ece.northwestern.edu
 Directory : /home/sjz474
 CADENCE Design Systems, Inc.
 ********************************************************************************
@@ -72,8 +72,8 @@ Summary of Objects Translated:
 	Standard Vias                           42
 	Custom Vias:                            11
 	Pathsegs:                               0
-	Text:                                   64
+	Text:                                   104
 	Cells:                                  26
 
-Elapsed Time: 0.9s   User Time: 0.5s   CPU Time: 0.1s   Peak VM: 1124KB
+Elapsed Time: 0.9s   User Time: 0.5s   CPU Time: 0.1s   Peak VM: 1127KB
 INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

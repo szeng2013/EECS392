@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1370718036 1370718038
+lvs_ExtOutFile RUNDIR /home/sjz474/EECS392/RIPPLE
+lvs_ExtOutFile RULES_FILE /home/sjz474/EECS392/RIPPLE/_calibrexRC.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/sjz474/EECS392/RIPPLE/svdb/BIT_SELECT.sp
+lvs_ExtOutFile EXTRACTION_REPORT BIT_SELECT.lvs.report.ext
