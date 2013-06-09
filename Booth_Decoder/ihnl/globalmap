@@ -1,0 +1,14 @@
+CADENCE IHNL01070
+$model
+EECS392/Inverter/schematic Inverter
+EECS392/AND/schematic AND
+EECS392/Booth_Decoder/schematic Booth_Decoder
+EECS392/NAND/schematic NAND
+EECS392/2_1MUX/schematic 2_1MUX
+$endmodel
+$net
+vdd! vdd!
+gnd! gnd!
+$endnet
+$param
+$endparam
